@@ -1,0 +1,29 @@
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 机器人数据文件不入库（笔记仓库只放文档与片段）
+*.bag
+*.mcap
+*.db3
+*.hdf5
+*.h5
+*.parquet
+*.mp4
+
+# 临时
+*.tmp
+*.log
