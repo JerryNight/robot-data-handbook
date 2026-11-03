@@ -37,6 +37,17 @@ python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 | `02_sensor_data/05_force_torque.py` | [力/力矩与触觉](../02-sensor-data/force-torque-tactile.md) | 重力补偿、三种错误读法、零点漂移、触觉带宽 |
 | `02_sensor_data/06_pointcloud.py` | [点云](../02-sensor-data/lidar-pointcloud.md) | 各向异性网格、空洞率、存储格式、量化压缩 |
 
+### 阶段 3 · 数据流水线
+
+| 脚本 | 对应文章 | 演示什么 |
+|---|---|---|
+| `03_data_pipeline/01_rosbag2_layout.py` | [录制格式](../03-data-pipeline/recording.md) | 生成真实结构的 bag、metadata 对账、丢帧与时钟跳变检测 |
+| `03_data_pipeline/02_clock_and_trigger.py` | [时钟与触发链](../03-data-pipeline/clock-and-trigger.md) | ppm 漂移、软件/硬件打戳、PTP 不对称、触发链预算 |
+| `03_data_pipeline/03_calibration.py` | [标定](../03-data-pipeline/calibration.md) | 焦距-距离退化、残差指纹、多视角重影、借重力查漂移 |
+| `03_data_pipeline/04_formats.py` | [格式](../03-data-pipeline/formats.md) | 五种布局的 I/O 放大、编码取舍、LeRobotDataset、转换成本 |
+| `03_data_pipeline/05_storage_versioning.py` | [存储与版本](../03-data-pipeline/storage-and-versioning.md) | 按块去重、血缘哈希、子集引用、manifest 校验 |
+| `03_data_pipeline/06_annotation.py` | [标注](../03-data-pipeline/annotation.md) | kappa 悖论、阈值敏感性、人工切分精度、语言熵 |
+
 ## 环境要求
 
 - Python 3.9+

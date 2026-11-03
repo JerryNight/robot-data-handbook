@@ -30,12 +30,12 @@
 - [x] `02-sensor-data/action-and-state.md` —— ★ 动作空间与状态向量（最容易被忽视）
 
 ### 阶段 3 · 数据流水线（核心章节）
-- [ ] `03-data-pipeline/recording.md` —— rosbag2 / MCAP 的容器结构与回放语义
-- [ ] `03-data-pipeline/clock-and-trigger.md` —— 时钟域、硬件触发链、PTP 部署（对齐的工程实现）
-- [ ] `03-data-pipeline/calibration.md` —— 内参/外参/手眼标定，标定误差如何污染数据
-- [ ] `03-data-pipeline/formats.md` —— HDF5 / LeRobotDataset / RLDS / Parquet / 视频编码
-- [ ] `03-data-pipeline/storage-and-versioning.md` —— 大数据量存储、切片、版本与血缘
-- [ ] `03-data-pipeline/annotation.md` —— 语言指令、成功/失败、阶段切分标注
+- [x] `03-data-pipeline/recording.md` —— rosbag2 的容器结构，metadata 对账，两种静默缺陷
+- [x] `03-data-pipeline/clock-and-trigger.md` —— 漂移/抖动/PTP 天花板/触发链预算
+- [x] `03-data-pipeline/calibration.md` —— 焦距-距离退化、残差指纹、借重力检测漂移
+- [x] `03-data-pipeline/formats.md` —— I/O 放大 100 倍、编码取舍、LeRobotDataset 结构
+- [x] `03-data-pipeline/storage-and-versioning.md` —— 去重实测、血缘哈希、manifest 的边界
+- [x] `03-data-pipeline/annotation.md` —— kappa 悖论、阈值敏感性、人工精度上限
 
 ### 阶段 4 · 公开数据集
 - [ ] `04-datasets/open-x-embodiment.md` —— 多本体聚合的范式与代价
@@ -62,15 +62,15 @@
 | 0 心智模型 | ✅ 3/3 |
 | 1 机器人最小集 | ✅ 4/4（每篇配可运行实验） |
 | 2 传感器数据 | ✅ 6/6（每篇配可运行实验） |
-| 3 数据流水线 | ⬜ 0/6 |
+| 3 数据流水线 | ✅ 6/6（每篇配可运行实验） |
 | 4 公开数据集 | ⬜ 0/3 |
 | 5 从数据学策略 | ⬜ 0/3 |
 | 6 VLA | ⬜ 0/3 |
 | 7 开放问题 | ⬜ 0/1 |
 
-共 **29 篇**，已完成 **13 篇**，可运行实验 **10 个**（`examples/`），CI 覆盖示例运行与链接检查。
+共 **29 篇**，已完成 **19 篇**，可运行实验 **16 个**（`examples/`），CI 覆盖示例运行与链接检查。
 
-下一步：阶段 3 数据流水线。从 `recording.md`（rosbag2 / MCAP 的容器结构）开始 —— 这是"把传感器拼成一条时间线"的第一步。
+下一步：阶段 4 公开数据集。先写 `open-x-embodiment.md` —— 多本体聚合是当前最大的数据问题，也是 VLA 泛化能力的来源。
 
 ## 写作原则
 
