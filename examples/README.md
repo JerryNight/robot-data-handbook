@@ -64,6 +64,14 @@ python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 | `05_learning_from_data/02_action_representation.py` | [动作表示](../05-learning-from-data/action-representation.md) | 量化误差 Δ/√12、全局 vs 逐维归一化、token 吞吐预算、量化与安全余量 |
 | `05_learning_from_data/03_evaluation_power.py` | [评测](../05-learning-from-data/evaluation.md) | Wilson 区间、两比例功效分析、测试分布对结论的影响、评测集泄漏 |
 
+### 阶段 6 · VLA
+
+| 脚本 | 对应文章 | 演示什么 |
+|---|---|---|
+| `06_vla/01_what_language_carries.py` | [VLA 到底是什么](../06-vla/what-is-vla.md) | 指令指代力（候选数与剩余比特）、可行接近方向的几何收缩、文字接口的带宽上限 |
+| `06_vla/02_wiring_cost.py` | [架构](../06-vla/architecture.md) | 带宽下限 vs 实测延迟、30 Hz 预算反推、按方差 vs 按任务选特征的 R²、prefill 算力墙 / decode 带宽墙 |
+| `06_vla/03_data_ledger.py` | [四个模型的账本](../06-vla/models.md) | 图像/动作字节比、帧率与帧间冗余、采集 vs 训练的算力成本 |
+
 ## 环境要求
 
 - Python 3.9+

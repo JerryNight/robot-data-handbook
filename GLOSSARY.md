@@ -93,7 +93,6 @@
 | Data Lineage | 数据血缘 | 一条样本从哪来、经过哪些处理 |
 | Annotation | 标注 | 给数据打标签：语言指令、成功失败、阶段切分 |
 | Action Space | 动作空间 | 动作向量的定义（维度、范围、含义）。**不统一，跨本体数据就没法合并** |
-| Action Chunking | 动作分块 | 一次预测未来 K 步动作，降低推理频率、提升平滑度 |
 | Observation / `obs` | 观测 | 策略在某一时刻看到的全部输入（图像 + 本体状态） |
 
 ## 6. 学习方法
@@ -133,6 +132,23 @@
 | Open X-Embodiment | 开放跨本体数据集 | 聚合 20+ 种机器人、百万级 episode 的联合数据集 |
 | DROID | 大规模真实操作数据集 | 多机构分布式采集，主打场景多样性 |
 | Cross-Embodiment | 跨本体 | 一个模型吃多种机器人的数据，泛化的核心命题 |
+| Action Expert | 动作专家 | π0 里那 300M 参数的小网络，专门负责去噪出动作，与 VLM 共享注意力 |
+| Dual-System | 双系统 | GR00T N1 的做法：慢的视觉语言系统（10 Hz）+ 快的动作系统（120 Hz） |
+| FAST | 频域动作 tokenizer | DCT + BPE 压缩动作序列，约 10 倍压缩，让自回归 VLA 能处理高频动作 |
+| Referential Ambiguity | 指代歧义 | 「拿红色的」在 20 个物体里还剩 5.41 个候选，缺的 2.44 bit 只能从图像补 |
+| Approach Direction | 接近方向 | 夹爪/小臂接近目标的方位；拥挤桌面上可行方向可能只剩三成 |
+
+## 7.5 推理成本（做部署/选型时会用到）
+
+| English | 中文 | 一句话 |
+|---|---|---|
+| Prefill | 预填充 | 把全部输入 token（含图像）跑一遍；算力受限，图像 token 全在这里 |
+| Decode | 解码 | 逐 token 生成；带宽受限，每个 token 都要把权重读一遍 |
+| Prefix Caching | 前缀缓存 | 缓存不变的图像/指令 KV，避免每步重算 prefill |
+| Roofline / Bandwidth Bound | 带宽墙 | batch=1 推理时算力利用率常低于 1%，延迟由显存流量决定 |
+| Effective Bandwidth | 有效带宽 | 实测能拿到的带宽，通常是峰值的 30%~90%，取决于 kernel 大小 |
+| Parallel Decoding | 并行解码 | 一次前向出整块动作，把 N 次权重读取压成 1 次 |
+| Real-time Margin | 实时余量 | 一次决策买到的时长 ÷ 决策耗时；小于 1 就是物理上跑不到这个频率 |
 
 ## 8. 评测
 
