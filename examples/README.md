@@ -72,6 +72,12 @@ python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 | `06_vla/02_wiring_cost.py` | [架构](../06-vla/architecture.md) | 带宽下限 vs 实测延迟、30 Hz 预算反推、按方差 vs 按任务选特征的 R²、prefill 算力墙 / decode 带宽墙 |
 | `06_vla/03_data_ledger.py` | [四个模型的账本](../06-vla/models.md) | 图像/动作字节比、帧率与帧间冗余、采集 vs 训练的算力成本 |
 
+### 阶段 7 · 开放问题
+
+| 脚本 | 对应文章 | 演示什么 |
+|---|---|---|
+| `07_open_problems/01_platform_ledger.py` | [数据平台](../07-open-problems/data-platform.md) | 工位时间账与 Amdahl（布景摊销 1.41×）、采集到进梯度的漏斗、三连杆臂的自运动流形与力矩歧义、合并语料的分辨率损失、kappa 与阈值分歧率、标注吞吐 |
+
 ## 环境要求
 
 - Python 3.9+
