@@ -49,7 +49,7 @@ graph LR
 |---|---|---|---|
 | [00](00-mental-model/) | 心智模型 | 机器人数据到底分几类？和互联网数据差在哪？ | ✅ 完成 |
 | [01](01-robotics-primer/) | 机器人最小集 | 什么是自由度、坐标系、正逆运动学？ | ✅ 完成 |
-| [02](02-sensor-data/) | 传感器数据 | 每种传感器输出的数据结构、频率、噪声特性 | 📝 计划 |
+| [02](02-sensor-data/) | 传感器数据 | 每种传感器输出的数据结构、频率、噪声特性 | ✅ 完成 |
 | [03](03-data-pipeline/) | 数据流水线 | 录制、时间同步、标定、格式、版本化、标注 | 📝 计划 |
 | [04](04-datasets/) | 公开数据集 | 业界在用什么数据，规模和坑 | 📝 计划 |
 | [05](05-learning-from-data/) | 从数据学策略 | 模仿学习怎么把数据变成策略 | 📝 计划 |
@@ -87,6 +87,8 @@ python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 ```bash
 python scripts/run_all_examples.py
 ```
+
+仓库挂了 GitHub Actions，每次 push 会在 Python 3.9 和 3.12 上跑全部示例，并检查所有 Markdown 相对链接。所以这些代码不会悄悄坏掉。
 
 ## 写作约定
 

@@ -22,15 +22,16 @@
 ### 阶段 2 · 传感器数据
 每种传感器：输出什么张量、多高频率、噪声特性、数据量级。
 
-- [ ] `02-sensor-data/camera-rgbd.md` —— RGB / 深度 / 内外参、曝光、卷帘快门
-- [ ] `02-sensor-data/imu-and-proprioception.md` —— IMU、关节编码器、本体感受
-- [ ] `02-sensor-data/force-torque-tactile.md` —— 力/力矩传感器、触觉阵列
-- [ ] `02-sensor-data/lidar-pointcloud.md` —— 点云格式与稀疏性
-- [ ] `02-sensor-data/action-and-state.md` —— ★ 动作空间与状态向量（最容易被忽视）
+- [x] `02-sensor-data/camera-rgbd.md` —— RGB / 深度 / 内参外参、GSD、深度量化、卷帘快门
+- [x] `02-sensor-data/imu-and-proprioception.md` —— IMU 漂移、重力泄漏、ZUPT、编码器 vs 机械回差
+- [x] `02-sensor-data/force-torque-tactile.md` —— 六维力、重力补偿、零点漂移、触觉碎片化
+- [x] `02-sensor-data/lidar-pointcloud.md` —— 各向异性网格、空洞率、存储与量化
+- [x] `02-sensor-data/time-sync.md` —— 对齐误差的上限、插值方向、时间戳来源、晶振漂移
+- [x] `02-sensor-data/action-and-state.md` —— ★ 动作空间与状态向量（最容易被忽视）
 
 ### 阶段 3 · 数据流水线（核心章节）
 - [ ] `03-data-pipeline/recording.md` —— rosbag2 / MCAP 的容器结构与回放语义
-- [ ] `03-data-pipeline/time-and-sync.md` —— 时钟域、时间戳来源、多传感器对齐
+- [ ] `03-data-pipeline/clock-and-trigger.md` —— 时钟域、硬件触发链、PTP 部署（对齐的工程实现）
 - [ ] `03-data-pipeline/calibration.md` —— 内参/外参/手眼标定，标定误差如何污染数据
 - [ ] `03-data-pipeline/formats.md` —— HDF5 / LeRobotDataset / RLDS / Parquet / 视频编码
 - [ ] `03-data-pipeline/storage-and-versioning.md` —— 大数据量存储、切片、版本与血缘
@@ -60,16 +61,16 @@
 |---|---|
 | 0 心智模型 | ✅ 3/3 |
 | 1 机器人最小集 | ✅ 4/4（每篇配可运行实验） |
-| 2 传感器数据 | ⬜ 0/5 |
+| 2 传感器数据 | ✅ 6/6（每篇配可运行实验） |
 | 3 数据流水线 | ⬜ 0/6 |
 | 4 公开数据集 | ⬜ 0/3 |
 | 5 从数据学策略 | ⬜ 0/3 |
 | 6 VLA | ⬜ 0/3 |
 | 7 开放问题 | ⬜ 0/1 |
 
-共 **28 篇**，已完成 **7 篇**，可运行实验 **4 个**（`examples/`）。
+共 **29 篇**，已完成 **13 篇**，可运行实验 **10 个**（`examples/`），CI 覆盖示例运行与链接检查。
 
-下一步：阶段 2 传感器数据，从 `camera-rgbd.md` 和 `action-and-state.md` 开始。
+下一步：阶段 3 数据流水线。从 `recording.md`（rosbag2 / MCAP 的容器结构）开始 —— 这是"把传感器拼成一条时间线"的第一步。
 
 ## 写作原则
 

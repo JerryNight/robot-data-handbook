@@ -7,11 +7,13 @@
 | 文章 | 要回答的问题 |
 |---|---|
 | `recording.md` | rosbag2 / MCAP 的容器结构，回放语义，为什么不能直接当数据集用 |
-| `time-and-sync.md` | 时钟域有几种？时间戳从哪来？多传感器对齐的三种策略与取舍 |
+| `clock-and-trigger.md` | 时钟域有几种？硬件触发链怎么搭？PTP 值不值得上 |
 | `calibration.md` | 内参、外参、手眼标定；标定误差如何悄悄毁掉整批数据 |
 | `formats.md` | HDF5 / LeRobotDataset / RLDS / Parquet / 视频编码的选择依据 |
 | `storage-and-versioning.md` | 大数据量怎么存、怎么切片、怎么像代码一样做版本与血缘 |
 | `annotation.md` | 语言指令标注、成功/失败判定、阶段切分；自动化标注的现状 |
+
+> 对齐误差有多大、为什么只能在采集端解决，已经在 [02/time-sync.md](../02-sensor-data/time-sync.md) 量化过。这一章的 `clock-and-trigger.md` 讲**怎么把它做对**：触发链、时钟域、校验手段。
 
 ## 一条流水线的标准形态
 

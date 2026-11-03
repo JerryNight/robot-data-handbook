@@ -11,11 +11,13 @@ python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 两个考虑：
 
 1. **降低门槛**。读者 clone 下来就能跑，不用配环境、不用纠结 numpy 版本。
-2. **保证代码不会烂**。没有依赖就没有版本冲突，三年后还能跑。
+2. **保证代码不会烂**。没有依赖就没有版本冲突，而且 CI 能在两个 Python 版本上验证。
 
 代价是没有 matplotlib，图表用 ASCII 字符画。对理解原理够用，而且逼着你看数值而不是看漂亮的曲线。
 
 ## 目录
+
+### 阶段 1 · 机器人最小集
 
 | 脚本 | 对应文章 | 演示什么 |
 |---|---|---|
@@ -24,9 +26,20 @@ python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 | `01_robotics_primer/03_ik_and_singularity.py` | [运动学](../01-robotics-primer/kinematics.md) | 数值 IK、冗余、奇异、关节限位 |
 | `01_robotics_primer/04_pid_and_impedance.py` | [控制入门](../01-robotics-primer/control-101.md) | PID、静摩擦、阻抗控制、数据特征对照 |
 
+### 阶段 2 · 传感器数据
+
+| 脚本 | 对应文章 | 演示什么 |
+|---|---|---|
+| `02_sensor_data/01_action_space.py` | [动作与状态](../02-sensor-data/action-and-state.md) | 三种动作表示、归一化的三个坑、开环误差累积 |
+| `02_sensor_data/02_camera_model.py` | [RGB 与深度](../02-sensor-data/camera-rgbd.md) | 针孔模型、GSD、外参误差、深度量化、卷帘快门 |
+| `02_sensor_data/03_imu_drift.py` | [IMU 与本体感知](../02-sensor-data/imu-and-proprioception.md) | 零偏双积分、重力泄漏、ZUPT、编码器 vs 回差 |
+| `02_sensor_data/04_time_sync.py` | [时间同步](../02-sensor-data/time-sync.md) | 最近邻两个方向、插值、时间戳来源、晶振漂移 |
+| `02_sensor_data/05_force_torque.py` | [力/力矩与触觉](../02-sensor-data/force-torque-tactile.md) | 重力补偿、三种错误读法、零点漂移、触觉带宽 |
+| `02_sensor_data/06_pointcloud.py` | [点云](../02-sensor-data/lidar-pointcloud.md) | 各向异性网格、空洞率、存储格式、量化压缩 |
+
 ## 环境要求
 
-- Python 3.8+
+- Python 3.9+
 - 无第三方依赖
 
 Windows 下如果中文输出乱码，加环境变量：
@@ -43,7 +56,7 @@ PYTHONUTF8=1 python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 
 建议的玩法：
 
-- 改参数，看结论是否还成立（比如把连杆长度比例改极端）
+- 改参数，看结论是否还成立（比如把连杆长度比例改极端、把 IMU 零偏调大一个数量级）
 - 把输出表格和文章里的数字对比，确认自己跑出的结果一致
 - 把某个函数抽出来，用到自己的项目里（都是 MIT 许可）
 
@@ -52,13 +65,26 @@ PYTHONUTF8=1 python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 如果改动了多个脚本，跑这个确认都没坏：
 
 ```bash
-python scripts/run_all_examples.py
+python scripts/run_all_examples.py          # 静默
+python scripts/run_all_examples.py -v       # 显示每个脚本的完整输出
 ```
 
 它会依次执行所有示例，任何一个报错就退出并打印错误。
 
-## 关于 CI
+## CI
 
-仓库暂时没挂 GitHub Actions —— 添加 workflow 文件需要 GitHub token 带 `workflow` 权限，当前授权的 scope 不含它。等文章稳定后再补。
+仓库挂了 GitHub Actions（`.github/workflows/ci.yml`），每次 push 和 PR 会跑两件事：
 
-在那之前，`run_all_examples.py` 就是手动的检查闸门。
+| Job | 内容 |
+|---|---|
+| `examples` | 在 Python 3.9 和 3.12 上跑全部示例 |
+| `links` | 检查所有 Markdown 里的相对链接是否有效 |
+
+第一个 job 同时也是一道**依赖闸门**：因为 CI 里不执行 `pip install`，一旦有人给示例引入了第三方库，构建会立刻红。
+
+本地想复现这两个检查：
+
+```bash
+python scripts/run_all_examples.py
+python scripts/check_links.py
+```
