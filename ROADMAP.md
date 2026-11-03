@@ -14,10 +14,10 @@
 ### 阶段 1 · 机器人最小集
 只为读懂数据服务，不做完整机器人学。
 
-- [ ] `01-robotics-primer/dof-and-joints.md` —— 自由度、关节空间 vs 笛卡尔空间、关节类型
-- [ ] `01-robotics-primer/coordinate-frames.md` —— 坐标系、TF2、URDF（数据对齐的地基）
-- [ ] `01-robotics-primer/kinematics.md` —— 正运动学、逆运动学、雅可比、奇异性
-- [ ] `01-robotics-primer/control-101.md` —— 位置/速度/力矩控制、PID、阻抗控制、MPC
+- [x] `01-robotics-primer/dof-and-joints.md` —— 自由度、关节空间 vs 笛卡尔空间、关节类型
+- [x] `01-robotics-primer/coordinate-frames.md` —— 坐标系、TF2、URDF（数据对齐的地基）
+- [x] `01-robotics-primer/kinematics.md` —— 正运动学、逆运动学、雅可比、奇异性
+- [x] `01-robotics-primer/control-101.md` —— 位置/速度/力矩控制、PID、阻抗控制
 
 ### 阶段 2 · 传感器数据
 每种传感器：输出什么张量、多高频率、噪声特性、数据量级。
@@ -56,7 +56,20 @@
 
 ## 当前进度
 
-**阶段 0 完成（3/3）**。下一步进入阶段 1 机器人最小集。
+| 阶段 | 状态 |
+|---|---|
+| 0 心智模型 | ✅ 3/3 |
+| 1 机器人最小集 | ✅ 4/4（每篇配可运行实验） |
+| 2 传感器数据 | ⬜ 0/5 |
+| 3 数据流水线 | ⬜ 0/6 |
+| 4 公开数据集 | ⬜ 0/3 |
+| 5 从数据学策略 | ⬜ 0/3 |
+| 6 VLA | ⬜ 0/3 |
+| 7 开放问题 | ⬜ 0/1 |
+
+共 **28 篇**，已完成 **7 篇**，可运行实验 **4 个**（`examples/`）。
+
+下一步：阶段 2 传感器数据，从 `camera-rgbd.md` 和 `action-and-state.md` 开始。
 
 ## 写作原则
 
