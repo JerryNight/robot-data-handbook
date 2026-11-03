@@ -1,5 +1,7 @@
 # robot-data-handbook · 机器人数据手册
 
+[![ci](https://github.com/JerryNight/robot-data-handbook/actions/workflows/ci.yml/badge.svg)](https://github.com/JerryNight/robot-data-handbook/actions/workflows/ci.yml)
+
 > 从零理解机器人大脑的**上游**：机器人会产生哪些数据、这些数据长什么样、怎么存、怎么流、又怎么被用来训练出 VLA 这样的策略模型。
 
 一份以**数据**为主线、面向软件工程师和数据分析背景读者的机器人学习手册。
