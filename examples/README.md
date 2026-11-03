@@ -48,6 +48,14 @@ python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 | `03_data_pipeline/05_storage_versioning.py` | [存储与版本](../03-data-pipeline/storage-and-versioning.md) | 按块去重、血缘哈希、子集引用、manifest 校验 |
 | `03_data_pipeline/06_annotation.py` | [标注](../03-data-pipeline/annotation.md) | kappa 悖论、阈值敏感性、人工切分精度、语言熵 |
 
+### 阶段 4 · 公开数据集
+
+| 脚本 | 对应文章 | 演示什么 |
+|---|---|---|
+| `04_datasets/01_schema_alignment.py` | [多本体聚合](../04-datasets/open-x-embodiment.md) | 四种 schema 的字段矩阵、零空间占比、量化放大、频率与量纲、装不下的本体 |
+| `04_datasets/02_collection_cost.py` | [DROID](../04-datasets/droid.md) | 公开数字对账、人力效率 0.35%、场景覆盖饱和曲线、每场景预算取舍 |
+| `04_datasets/03_dataset_linter.py` | [自采数据](../04-datasets/self-collected.md) | 七项检查，在埋了缺陷的合成数据上验证召回率 |
+
 ## 环境要求
 
 - Python 3.9+

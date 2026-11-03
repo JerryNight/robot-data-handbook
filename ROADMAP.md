@@ -38,9 +38,9 @@
 - [x] `03-data-pipeline/annotation.md` —— kappa 悖论、阈值敏感性、人工精度上限
 
 ### 阶段 4 · 公开数据集
-- [ ] `04-datasets/open-x-embodiment.md` —— 多本体聚合的范式与代价
-- [ ] `04-datasets/droid.md` —— 大规模真实场景采集的组织方式
-- [ ] `04-datasets/self-collected.md` —— 自采数据的典型坑（含清单）
+- [x] `04-datasets/open-x-embodiment.md` —— 22 本体 / 7 维动作的代价：冗余自由度、量化、量纲
+- [x] `04-datasets/droid.md` —— 564 场景的采集成本：0.35% 人力效率、覆盖饱和曲线
+- [x] `04-datasets/self-collected.md` —— 七项自检：动作-状态一致性、时间戳、去重、饱和、收尾、标注、元数据
 
 ### 阶段 5 · 从数据学策略
 - [ ] `05-learning-from-data/imitation-learning.md` —— BC / DAgger / ACT / Diffusion Policy
@@ -63,14 +63,14 @@
 | 1 机器人最小集 | ✅ 4/4（每篇配可运行实验） |
 | 2 传感器数据 | ✅ 6/6（每篇配可运行实验） |
 | 3 数据流水线 | ✅ 6/6（每篇配可运行实验） |
-| 4 公开数据集 | ⬜ 0/3 |
+| 4 公开数据集 | ✅ 3/3（每篇配可运行实验） |
 | 5 从数据学策略 | ⬜ 0/3 |
 | 6 VLA | ⬜ 0/3 |
 | 7 开放问题 | ⬜ 0/1 |
 
-共 **29 篇**，已完成 **19 篇**，可运行实验 **16 个**（`examples/`），CI 覆盖示例运行与链接检查。
+共 **29 篇**，已完成 **22 篇**，可运行实验 **19 个**（`examples/`），CI 覆盖示例运行与链接检查。
 
-下一步：阶段 4 公开数据集。先写 `open-x-embodiment.md` —— 多本体聚合是当前最大的数据问题，也是 VLA 泛化能力的来源。
+下一步：阶段 5 从数据学策略。先写 `imitation-learning.md` —— 把「一堆 episode」变成「一个策略」的最小闭环。
 
 ## 写作原则
 
