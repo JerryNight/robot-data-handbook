@@ -56,6 +56,14 @@ python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 | `04_datasets/02_collection_cost.py` | [DROID](../04-datasets/droid.md) | 公开数字对账、人力效率 0.35%、场景覆盖饱和曲线、每场景预算取舍 |
 | `04_datasets/03_dataset_linter.py` | [自采数据](../04-datasets/self-collected.md) | 七项检查，在埋了缺陷的合成数据上验证召回率 |
 
+### 阶段 5 · 从数据学策略
+
+| 脚本 | 对应文章 | 演示什么 |
+|---|---|---|
+| `05_learning_from_data/01_bc_and_dagger.py` | [模仿学习](../05-learning-from-data/imitation-learning.md) | 起点偏移成功率曲线、覆盖缺口指标、DAgger 迭代、双峰动作、chunk 与反应延迟 |
+| `05_learning_from_data/02_action_representation.py` | [动作表示](../05-learning-from-data/action-representation.md) | 量化误差 Δ/√12、全局 vs 逐维归一化、token 吞吐预算、量化与安全余量 |
+| `05_learning_from_data/03_evaluation_power.py` | [评测](../05-learning-from-data/evaluation.md) | Wilson 区间、两比例功效分析、测试分布对结论的影响、评测集泄漏 |
+
 ## 环境要求
 
 - Python 3.9+

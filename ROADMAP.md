@@ -43,9 +43,9 @@
 - [x] `04-datasets/self-collected.md` —— 七项自检：动作-状态一致性、时间戳、去重、饱和、收尾、标注、元数据
 
 ### 阶段 5 · 从数据学策略
-- [ ] `05-learning-from-data/imitation-learning.md` —— BC / DAgger / ACT / Diffusion Policy
-- [ ] `05-learning-from-data/action-representation.md` —— ★ 离散 token vs 连续回归 vs flow matching
-- [ ] `05-learning-from-data/evaluation.md` —— 为什么机器人评测这么难
+- [x] `05-learning-from-data/imitation-learning.md` —— BC / DAgger / ACT / Diffusion Policy
+- [x] `05-learning-from-data/action-representation.md` —— ★ 离散 token vs 连续回归 vs flow matching
+- [x] `05-learning-from-data/evaluation.md` —— 为什么机器人评测这么难
 
 ### 阶段 6 · VLA
 - [ ] `06-vla/what-is-vla.md` —— 和"视觉+语言模型"的本质区别
@@ -64,13 +64,13 @@
 | 2 传感器数据 | ✅ 6/6（每篇配可运行实验） |
 | 3 数据流水线 | ✅ 6/6（每篇配可运行实验） |
 | 4 公开数据集 | ✅ 3/3（每篇配可运行实验） |
-| 5 从数据学策略 | ⬜ 0/3 |
+| 5 从数据学策略 | ✅ 3/3（每篇配可运行实验） |
 | 6 VLA | ⬜ 0/3 |
 | 7 开放问题 | ⬜ 0/1 |
 
-共 **29 篇**，已完成 **22 篇**，可运行实验 **19 个**（`examples/`），CI 覆盖示例运行与链接检查。
+共 **29 篇**，已完成 **25 篇**，可运行实验 **22 个**（`examples/`），CI 覆盖示例运行与链接检查。
 
-下一步：阶段 5 从数据学策略。先写 `imitation-learning.md` —— 把「一堆 episode」变成「一个策略」的最小闭环。
+下一步：阶段 6 VLA。先写 `what-is-vla.md` —— VLA 和「视觉+语言模型」的本质区别是什么。
 
 ## 写作原则
 

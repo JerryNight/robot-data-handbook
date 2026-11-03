@@ -109,6 +109,13 @@
 | Policy | 策略 | 从观测到动作的映射函数，就是"大脑" |
 | Generalist Policy | 通用策略 | 一个模型跨任务、跨本体干活 |
 | Foundation Model | 基础模型 | 大规模预训练的通用模型，机器人领域对标 LLM |
+| Covariate Shift | 分布偏移 / 协变量偏移 | 策略跑起来后访问的状态，和训练数据的状态分布不一致；BC 的核心失败模式 |
+| Compounding Error | 误差累积 | 每一步的小误差改变下一步的输入，误差随步数放大；长程任务的主要死因 |
+| Multimodal Action | 多模态动作 | 同一状态下有多种正确动作；MSE 回归必然给出它们的均值（通常不可行） |
+| Action Chunking | 动作分块 | 一次预测 k 步动作并整段执行，降低决策频率、提高连贯性，代价是反应延迟 |
+| Temporal Ensembling | 时序集成 | 对重叠 chunk 的预测做加权平均，缓解 chunk 带来的反应延迟（ACT 的做法） |
+| State Coverage | 状态覆盖 | 训练数据实际覆盖到的状态集合；比 episode 条数更能预测部署表现 |
+| Quantization Bin | 量化分箱 | 把连续动作切成 N 档；步长 Δ 决定精度上限（RMSE = Δ/√12）和安全余量（≥ Δ/2） |
 
 ## 7. VLA 与基础模型
 
@@ -135,3 +142,6 @@
 | Generalization | 泛化 | 换物体/换场景/换光照还能不能干成 |
 | LIBERO / SimplerEnv / RoboArena | 评测基准 | 常见仿真或混合评测环境，真机评测仍无统一标准 |
 | Held-out Task | 留出任务 | 训练时没见过的任务，用来测真泛化 |
+| Confidence Interval (Wilson) | 置信区间 | 成功率的误差棒；20 次试验的 75% 对应区间宽度约 36 个百分点 |
+| Statistical Power | 统计功效 | 检出真实差异的概率；区分 70% vs 80% 每组需约 290 次试验 |
+| Data Leakage (Scene-level) | 评测集泄漏 | 评测场景与训练场景重叠，导致成功率虚高；20% 重叠约虚高 7 pt |

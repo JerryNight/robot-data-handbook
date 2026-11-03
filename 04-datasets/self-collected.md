@@ -303,7 +303,7 @@ embodiment     缺失 124 / 124 条
 
 阶段 5 转向**这些数据怎么变成策略**：模仿学习的基本形态（BC / DAgger / ACT / Diffusion Policy）、动作表示的三种选择、以及为什么机器人评测这么难。
 
-见 [`05-learning-from-data/imitation-learning.md`](../05-learning-from-data/README.md)。
+见 [`05-learning-from-data/`](../05-learning-from-data/README.md) —— 三篇都有配套实验。
 
 ---
 
