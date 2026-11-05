@@ -177,11 +177,12 @@ class MiniTF:
         path = self._path(source, target)
         m = identity()
         for (a, b) in path:
-            # 边可能存的是 a->b，也可能是 b->a
-            if (a, b) in self.edges:
-                step = self._lookup_edge(a, b, t)
+            # 路径沿 source -> target 走，但边是按 (父, 子) 存的，
+            # 所以 (a, b) 这一跳通常对应存下来的边 (b, a)，直接用即可。
+            if (b, a) in self.edges:
+                step = self._lookup_edge(b, a, t)
             else:
-                step = inverse(self._lookup_edge(b, a, t))
+                step = inverse(self._lookup_edge(a, b, t))
             m = matmul(step, m)
         return m
 
@@ -233,7 +234,8 @@ def main():
         drift = math.dist(p, base_at_0)
         print(f"  {t:>6.2f} ({p[0]:>8.4f}, {p[1]:>8.4f}, {p[2]:>8.4f})   {drift:>12.4f} m")
 
-    print("\n  杯子没动，机器人动了 -> 同一像素在不同时刻对应世界中的不同位置。")
+    print("\n  杯子在相机坐标里的三元组没变，但相机随手臂在动")
+    print("  -> 同一个三元组落到 base 下就是不同的点。")
     print("  这就是为什么 TF 查询必须带时间戳：不带时间戳的变换没有意义。")
 
     # -------- 外参误差的影响
@@ -269,6 +271,16 @@ def main():
     max_err = max(abs(prod[i][j] - (1.0 if i == j else 0.0))
                   for i in range(4) for j in range(4))
     print(f"  最大偏差：{max_err:.2e}（浮点误差量级即为正确）")
+
+    # 方向自检：往返一次必须回到原点，这是查"query 方向写反了"最省事的办法
+    rt = matmul(tf.query("base", "camera", 0.0), tf.query("camera", "base", 0.0))
+    rt_err = max(abs(rt[i][j] - (1.0 if i == j else 0.0))
+                 for i in range(4) for j in range(4))
+    print(f"  方向自检 query(base,camera)·query(camera,base) 与 I 的最大偏差：{rt_err:.2e}")
+    print("  注意这条路走不通：两个方向同时写反时，乘积照样是 I。")
+    print("  要抓方向 bug 只能看物理量：")
+    print(f"  杯子在 base 下 z = {apply(m, cup_in_camera)[2]:.3f} m，"
+          f"应当高于肩关节 0.35 m 而不是落在下方。")
 
     # -------- 旋转插值的坑
     print("\n[5] 为什么旋转不能用矩阵线性插值")
