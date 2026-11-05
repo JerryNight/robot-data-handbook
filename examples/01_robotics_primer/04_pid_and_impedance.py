@@ -9,6 +9,8 @@
   1. P / PD / PID 位置控制 -> 超调、振荡、稳态误差
   2. 阻抗控制（impedance）-> 遇外力时主动让步
   3. 两者的数据曲线差异 -> 判断一批数据是哪种控制器产生的
+  4. 积分的副作用：卡住两秒，松手后冲过头（windup）
+  5. 控制频率 vs 采样频率 -> 记录下来的轨迹为什么会变成折线
 
 为什么要关心这个：数据里看到轨迹有超调和振荡，不一定是采集质量差，
 可能是控制器参数问题；看到遇阻就停，可能是阻抗控制而不是失败。
@@ -29,7 +31,8 @@ if hasattr(sys.stdout, "reconfigure"):
 # ---------------------------------------------------------------- 仿真
 
 def simulate(kp, ki, kd, m=1.0, b=0.4, f_c=0.6, target=1.0, t_end=4.0, dt=0.0005,
-             ext_force=0.0, ext_start=99.0):
+             ext_force=0.0, ext_start=99.0, record_every=40,
+             f_max=None, clamp_integ=False, block_x=None, block_until=0.0):
     """
     一维质量-阻尼系统，受 PID 控制力 + 可选外力。
 
@@ -43,6 +46,13 @@ def simulate(kp, ki, kd, m=1.0, b=0.4, f_c=0.6, target=1.0, t_end=4.0, dt=0.0005
     这里用粘滑（stick-slip）模型：
       - 速度接近 0 且驱动力不足以克服 f_c -> 锁死不动
       - 否则按速度方向施加 f_c 的动摩擦
+
+    可选实验参数（默认都不启用，行为与之前完全一致）：
+      record_every  每多少个控制周期记录一个采样点（默认 40，即 500Hz 控制 / 50Hz 记录）
+      f_max         执行器力上限（None = 不限）
+      clamp_integ   True 时，力饱和期间冻结积分（抗饱和 / conditional integration）
+      block_x       一个虚拟障碍：t < block_until 时位置不能超过 block_x（模拟撞墙/堵转）
+      block_until   障碍消失的时刻
 
     返回 [(t, x, F_pid)] 采样序列。
     """
@@ -58,7 +68,13 @@ def simulate(kp, ki, kd, m=1.0, b=0.4, f_c=0.6, target=1.0, t_end=4.0, dt=0.0005
         integ += e * dt
         de = (e - prev_e) / dt
 
-        f_pid = kp * e + ki * integ + kd * de
+        f_un = kp * e + ki * integ + kd * de
+        f_pid = f_un
+        if f_max is not None and abs(f_un) > f_max:
+            f_pid = math.copysign(f_max, f_un)
+            if clamp_integ:
+                integ -= e * dt          # 饱和了就别再记账，否则账本会越过越高
+
         f_ext = ext_force if t >= ext_start else 0.0
         drive = f_pid + f_ext
 
@@ -74,9 +90,13 @@ def simulate(kp, ki, kd, m=1.0, b=0.4, f_c=0.6, target=1.0, t_end=4.0, dt=0.0005
             v += a * dt
             x += v * dt
 
+        if block_x is not None and t < block_until and x > block_x:
+            x = block_x                  # 撞上了，过不去
+            v = 0.0
+
         prev_e = e
 
-        if step % 40 == 0:            # 降采样到 50 Hz，对应约 500 Hz 控制
+        if step % record_every == 0:     # 降采样到 50 Hz，对应约 500 Hz 控制
             hist.append((t, x, f_pid))
 
     return hist
@@ -184,6 +204,31 @@ def show_metrics(tag, hist, target):
     print(f"  {tag} 超调 {ov:>5.1f}%   稳态误差 {ss_txt:>10}   调节时间 {st_txt}")
 
 
+def chord_error(truth, sparse):
+    """
+    把稀疏采样点用直线连起来，和真实（500 Hz）曲线比，最大差多少。
+
+    这正是"回放一条低采样率轨迹"时发生的事：控制器按折线走，
+    而当时机器人走的是曲线。返回 (最大偏差 m, 出现时刻 s)。
+    """
+    worst, t_worst = 0.0, 0.0
+    j = 0
+    for t, x, _ in truth:
+        while j + 2 < len(sparse) and sparse[j + 1][0] <= t:
+            j += 1
+        if j + 1 >= len(sparse):
+            break
+        t0, x0 = sparse[j][0], sparse[j][1]
+        t1, x1 = sparse[j + 1][0], sparse[j + 1][1]
+        if t1 <= t0:
+            continue
+        x_line = x0 + (x1 - x0) * (t - t0) / (t1 - t0)
+        d = abs(x - x_line)
+        if d > worst:
+            worst, t_worst = d, t
+    return worst, t_worst
+
+
 def main():
     target = 1.0
     print("=" * 76)
@@ -289,6 +334,41 @@ def main():
     print("  " + "-" * 74)
     for r in rows:
         print(f"  {r[0]:<24} {r[1]:<26} {r[2]}")
+
+    # -------- 7. 积分饱和：卡住两秒会怎样
+    print("\n[7] 积分的副作用：卡住两秒，松手后冲过头")
+    print("  场景：目标 1.0 m，但 0.55 m 处有堵墙，2 秒后墙消失。")
+    print("  卡住期间位置误差一直是 0.45 m，积分项（'账本'）一直在往上记。")
+    peaks = []
+    for clamp_on, tag in ((False, "不抗饱和"), (True, "饱和时冻结积分")):
+        h_blk = simulate(kp=60, ki=30, kd=25, t_end=6.0, f_max=40.0,
+                         clamp_integ=clamp_on, block_x=0.55, block_until=2.0)
+        xs = [x for _, x, _ in h_blk]
+        peak = max(xs)
+        peaks.append(peak)
+        print(f"    {tag:<16} 最高冲到 {peak:.3f} m（超调 {(peak - 1) * 100:>5.1f}%）")
+    print(f"  差 {(peaks[0] - peaks[1]) * 100:.0f} cm。账本记的是历史误差总和，")
+    print("  墙没了它也不会自己清零，只能靠反方向的误差慢慢还 —— 所以冲过头再退回来。")
+    print("  这就是 windup。真机上还有一个更常见的场景：")
+    print("  机器人贴着限位等了几秒，一旦任务切换，它会'报复性'地冲出去。")
+
+    # -------- 8. 控制频率 vs 采样频率
+    print("\n[8] 控制周期 0.5 ms，数据记多密才够")
+    print("  仿真内部按 0.5 ms 积分（相当于 2 kHz 的控制周期），")
+    print("  记录间隔可以调：间隔越大，'折线'离真实曲线越远。")
+    truth = simulate(kp=60, ki=30, kd=25, t_end=1.2, record_every=1)
+    print(f"    {'记录频率':<10}{'采样点':>6}{'折线最大偏差':>14}{'单步最大跳变':>14}")
+    print("    " + "-" * 42)
+    for hz in (50, 25, 10):
+        every = int(round(2000 / hz))
+        sparse = simulate(kp=60, ki=30, kd=25, t_end=1.2, record_every=every)
+        err, _ = chord_error(truth, sparse)
+        step = max(abs(sparse[i + 1][1] - sparse[i][1]) for i in range(len(sparse) - 1))
+        print(f"    {hz:>3} Hz{'':<6}{len(sparse):>6}{err * 1000:>12.1f} mm{step * 1000:>12.1f} mm")
+    print("  这不是'噪声'，是系统性偏差：低采样率记录下来的轨迹，")
+    print("  形状上就已经和真机执行的不是同一条了 —— 动作最快的那一段丢得最狠。")
+    print("  入库校验：Δt 是否与声明的频率匹配；同一段位移里是否出现")
+    print("  '一步跨很大、几步几乎不动'的阶梯特征（零阶保持的痕迹）。")
 
     print("\n" + "=" * 76)
     print("结论（数据平台视角）：")
