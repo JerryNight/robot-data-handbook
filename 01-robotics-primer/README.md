@@ -12,7 +12,7 @@
 |---|---|---|
 | [dof-and-joints.md](dof-and-joints.md) | [01_joint_space_vs_cartesian.py](../examples/01_robotics_primer/01_joint_space_vs_cartesian.py) | 自由度是什么？关节空间和笛卡尔空间差在哪？为什么这个区别影响动作定义 |
 | [coordinate-frames.md](coordinate-frames.md) | [02_frames_and_transforms.py](../examples/01_robotics_primer/02_frames_and_transforms.py) | 坐标系为什么需要一棵树？TF2 怎么维护时间维度？外参误差怎么毁数据 |
-| [kinematics.md](kinematics.md) | [03_ik_and_singularity.py](../examples/01_robotics_primer/03_ik_and_singularity.py) | 正/逆运动学各解决什么？冗余和奇异性如何污染数据 |
+| [kinematics.md](kinematics.md) | [03_ik_and_singularity.py](../examples/01_robotics_primer/03_ik_and_singularity.py) | 雅可比矩阵到底在算什么？逆运动学为什么没有唯一解？冗余怎么用？奇异和关节限位怎么毁数据 |
 | [control-101.md](control-101.md) | [04_pid_and_impedance.py](../examples/01_robotics_primer/04_pid_and_impedance.py) | 位置/速度/力矩控制有什么本质区别？你的数据是在哪一层记录的 |
 
 ## 为什么这章不能跳
