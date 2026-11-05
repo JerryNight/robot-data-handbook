@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="420" fill="#ffffff"/>
+  <defs>
+    <marker id="up" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#C0392B"/>
+    </marker>
+  </defs>
+
+  <line x1="395" y1="72" x2="395" y2="360" stroke="#E4E8EC" stroke-width="1"/>
+
+  <circle cx="80" cy="250" r="7" fill="#1F2328"/>
+  <line x1="80" y1="250" x2="200" y2="250" stroke="#4A6B8A" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200" y1="250" x2="320" y2="250" stroke="#8FA3B8" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="200" cy="250" r="5" fill="#3C5164"/>
+
+  <line x1="320" y1="216" x2="320" y2="284" stroke="#C0392B" stroke-width="3" marker-end="url(#up)" marker-start="url(#up)"/>
+  <circle cx="320" cy="250" r="5" fill="#C0392B"/>
+
+  <text x="203" y="305" text-anchor="middle" font-size="13" font-weight="600" fill="#1F2328">完全伸直（θ₂ = 0）</text>
+  <text x="203" y="328" text-anchor="middle" font-size="11.5" fill="#C0392B">末端只能上下滑，沿臂方向推不动</text>
+
+  <circle cx="470" cy="260" r="7" fill="#1F2328"/>
+  <line x1="470" y1="260" x2="574" y2="200" stroke="#4A6B8A" stroke-width="6" stroke-linecap="round"/>
+  <line x1="574" y1="200" x2="553" y2="82" stroke="#8FA3B8" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="574" cy="200" r="5" fill="#3C5164"/>
+
+  <ellipse cx="553" cy="82" rx="32" ry="24" fill="none" stroke="#1565C0" stroke-width="2.2" stroke-dasharray="5 3"/>
+  <circle cx="553" cy="82" r="5" fill="#1565C0"/>
+  <text x="596" y="78" font-size="11" fill="#1565C0">末端还能往</text>
+  <text x="596" y="94" font-size="11" fill="#1565C0">哪些方向动</text>
+
+  <text x="553" y="305" text-anchor="middle" font-size="13" font-weight="600" fill="#1F2328">正常弯曲</text>
+  <text x="553" y="328" text-anchor="middle" font-size="11.5" fill="#1565C0">各方向都能小范围移动</text>
+
+  <line x1="40" y1="388" x2="720" y2="388" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="380" y="408" text-anchor="middle" font-size="12" fill="#1F2328">奇异位形 = 末端在某些方向上<tspan font-weight="600" fill="#C0392B">彻底失去运动能力</tspan>：逆解会剧烈抖动，甚至算不出结果</text>
+</svg>

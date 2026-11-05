@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 310" width="760" height="310" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="310" fill="#ffffff"/>
+  <defs>
+    <marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#1565C0"/>
+    </marker>
+    <marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#2E7D32"/>
+    </marker>
+    <marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#C0392B"/>
+    </marker>
+  </defs>
+
+  <circle cx="150" cy="140" r="62" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.4"/>
+  <circle cx="150" cy="140" r="4" fill="#1F2328"/>
+  <line x1="150" y1="140" x2="204" y2="140" stroke="#1565C0" stroke-width="2.2"/>
+  <path d="M212 140 A62 62 0 0 0 171.2 81.7" fill="none" stroke="#1565C0" stroke-width="2" marker-end="url(#mb)"/>
+  <text x="150" y="52" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1565C0">① 绕 Z 轴 → yaw</text>
+  <text x="150" y="232" text-anchor="middle" font-size="11.5" fill="#57606A">偏航：原地左右摆头</text>
+
+  <circle cx="380" cy="140" r="62" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.4"/>
+  <circle cx="380" cy="140" r="4" fill="#1F2328"/>
+  <line x1="380" y1="140" x2="434" y2="140" stroke="#2E7D32" stroke-width="2.2"/>
+  <path d="M442 140 A62 62 0 0 0 401.2 81.7" fill="none" stroke="#2E7D32" stroke-width="2" marker-end="url(#mg)"/>
+  <text x="380" y="52" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2E7D32">② 绕 Y 轴 → pitch</text>
+  <text x="380" y="232" text-anchor="middle" font-size="11.5" fill="#57606A">俯仰：点头 / 仰头</text>
+
+  <circle cx="610" cy="140" r="62" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.4"/>
+  <circle cx="610" cy="140" r="4" fill="#1F2328"/>
+  <line x1="610" y1="140" x2="664" y2="140" stroke="#C0392B" stroke-width="2.2"/>
+  <path d="M672 140 A62 62 0 0 0 631.2 81.7" fill="none" stroke="#C0392B" stroke-width="2" marker-end="url(#mr)"/>
+  <text x="610" y="52" text-anchor="middle" font-size="12.5" font-weight="600" fill="#C0392B">③ 绕 X 轴 → roll</text>
+  <text x="610" y="232" text-anchor="middle" font-size="11.5" fill="#57606A">滚转：歪头 / 侧倾</text>
+
+  <line x1="40" y1="256" x2="720" y2="256" stroke="#D0D7DE" stroke-width="1"/>
+
+  <text x="380" y="284" text-anchor="middle" font-size="12" fill="#1F2328">三个角要<tspan font-weight="600">按固定顺序</tspan>依次转，才能累积出最终姿态 —— 顺序换了，结果就不一样</text>
+</svg>
