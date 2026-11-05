@@ -10,8 +10,11 @@
   2. 目标靠近奇异位形时，收敛变慢甚至卡死
   3. 冗余臂有无穷多组解 -> 同一个末端轨迹，关节轨迹可以完全不同
   4. 关节限位会让 IK 直接卡在墙上
+  5. 雅可比的实际用途：速度映射、力映射、零空间
+  6. 冗余的自运动：末端钉死，肘部自己沿一条弧滑
 
 第 3 点最重要：它是"为什么数据集里同类任务的关节轨迹差异巨大"的答案。
+第 5、6 点是配套文档 kinematics.md 第 3、5 节要引用的数字。
 
 运行：
     python examples/01_robotics_primer/03_ik_and_singularity.py
@@ -135,6 +138,32 @@ def cond_number(q):
     return math.sqrt(l1 / l2)
 
 
+def pinv_apply(J, v):
+    """J^+ v ：2x3 雅可比的伪逆右乘一个 2 维向量，得到 3 维关节速度。"""
+    a = sum(J[0][k] ** 2 for k in range(3))
+    b = sum(J[1][k] ** 2 for k in range(3))
+    c = sum(J[0][k] * J[1][k] for k in range(3))
+    det = a * b - c * c
+    y0 = (b * v[0] - c * v[1]) / det
+    y1 = (-c * v[0] + a * v[1]) / det
+    return [J[0][k] * y0 + J[1][k] * y1 for k in range(3)]
+
+
+def null_direction(q):
+    """返回 J·n = 0 的单位方向 n（零空间方向）。
+
+    做法：任取一个 z，做投影 (I - J^+J)z。它不是零向量，就说明存在一个
+    关节变化方向让末端速度恰好为 0 —— 这正是"冗余"的数学定义。
+    """
+    J = jacobian(q)
+    z = [1.0, 0.0, 0.0]
+    jz = [sum(J[i][k] * z[k] for k in range(3)) for i in range(2)]
+    p = pinv_apply(J, jz)
+    n = [z[k] - p[k] for k in range(3)]
+    ln = math.hypot(*n)
+    return [v / ln for v in n]
+
+
 def fmt_deg(q):
     return "[" + ", ".join(f"{math.degrees(v):>7.1f}°" for v in q) + "]"
 
@@ -211,12 +240,77 @@ def main():
     print("  数据里会出现'动作在变但状态不变'的片段 —— 这类样本必须剔除，")
     print("  否则模型会学到'无效动作'。")
 
+    # -------- 5. 雅可比的三个真实用途
+    print("\n[5] 雅可比能用来干什么（取一个普通构型，避开奇异）")
+    q = [math.radians(v) for v in (70.0, -40.0, -80.0)]
+    pj = fk(q)
+    print(f"  q = (70°, -40°, -80°)，末端在 ({pj[0]:.3f}, {pj[1]:.3f})")
+    J = jacobian(q)
+    print("  先看三列 —— 每列 = 只有一个关节转 1 rad/s 时，末端的速度：")
+    for j in range(3):
+        vx, vy = J[0][j], J[1][j]
+        print(f"    关节 {j+1}：({vx:+.3f}, {vy:+.3f}) m/s   大小 {math.hypot(vx, vy):.3f} m/s")
+
+    print("\n  ① 速度映射：想让末端以 0.10 m/s 沿 +x 走，各关节该转多快？")
+    qd = pinv_apply(J, (0.10, 0.0))
+    print(f"     qdot = [{qd[0]:+.4f}, {qd[1]:+.4f}, {qd[2]:+.4f}] rad/s"
+          f"  = [{math.degrees(qd[0]):+.2f}, {math.degrees(qd[1]):+.2f}, "
+          f"{math.degrees(qd[2]):+.2f}] deg/s")
+    back = [sum(J[i][k] * qd[k] for k in range(3)) for i in range(2)]
+    print(f"     回代验算 J*qdot = ({back[0]:+.6f}, {back[1]:+.6f}) m/s")
+    signs = "".join("正" if v > 0 else "反" for v in qd)
+    print(f"     方向是（{signs[0]}、{signs[1]}、{signs[2]}）—— 关节要互相配合，"
+          f"不是各转各的。伪逆给的是“关节转速平方和最小”的那组。")
+
+    print("\n  ② 力映射：末端被 10 N 的力往下压，各关节要出多大力矩扛住？")
+    F = (0.0, -10.0)
+    tau = [J[0][k] * F[0] + J[1][k] * F[1] for k in range(3)]
+    print(f"     tau = J^T F = [{tau[0]:+.2f}, {tau[1]:+.2f}, {tau[2]:+.2f}] N·m")
+    print("     关节 1 扛得最多：它离末端最远，同样的末端力在它身上杠杆臂最长。")
+
+    print("\n  ③ 零空间：存在一个关节变化方向，走它末端完全不动")
+    n = null_direction(q)
+    print(f"     n = [{n[0]:+.3f}, {n[1]:+.3f}, {n[2]:+.3f}]"
+          f"  （三项都不小，但方向不同：一个关节反向转，另外两个补回来）")
+    p0 = fk(q)
+    print(f"     {'走多少':>8} {'关节各变化多少':>28} {'末端漂移':>12}")
+    for d in (5, 10, 20):
+        step = math.radians(d)
+        q2 = [q[k] + step * n[k] for k in range(3)]
+        dq = [math.degrees(step * n[k]) for k in range(3)]
+        p2 = fk(q2)
+        print(f"     {d:>6}° [{dq[0]:>+7.2f}°, {dq[1]:>+7.2f}°, {dq[2]:>+7.2f}°]"
+              f" {math.hypot(p2[0] - p0[0], p2[1] - p0[1]) * 1000:>9.2f} mm")
+    print("     速度级上严格为 0；走大步时只剩二阶残差，所以'零空间'是局部性质。")
+
+    # -------- 6. 冗余的自运动
+    print("\n[6] 冗余的自运动：末端钉死，肘部沿弧线自己滑")
+    q = list(q_sol)
+    print(f"  目标锁死在 {target}，沿零空间一步 1° 地走 240°，中途每 80° 取一次快照：")
+    print(f"  {'参数':>5} {'关节角 q':>32} {'肘 (x, y)':>20} {'末端':>18}")
+    for s_ in range(0, 241):
+        if s_ % 80 == 0:
+            ex = L[0] * math.cos(q[0]); ey = L[0] * math.sin(q[0])
+            px, py = fk(q)
+            print(f"  {s_:>5} {fmt_deg(q):>32} ({ex:>+6.3f}, {ey:>+6.3f})"
+                  f"   ({px:.4f}, {py:.4f})")
+        n = null_direction(q)
+        for k in range(3):
+            q[k] += math.radians(1.0) * n[k]
+        if any(abs(v) > math.pi - 0.05 for v in q):
+            print("   （继续走会撞上 ±180° 关节限位，到此为止）")
+            break
+        q = list(ik_dls(target, q, max_iter=80)[0])
+    print("\n  末端读数一直不变，肘部位置却从右下绕到了左上 ——")
+    print("  这就是为什么'同一个任务的关节轨迹'可以差几十度。")
+
     print("\n" + "=" * 74)
     print("结论（数据平台视角）：")
     print("  1. 同一末端轨迹对应多组关节轨迹，动作表示的选择决定数据能不能复用")
     print("  2. 接近奇异的样本信噪比极差，入库时应标记或剔除")
     print("  3. 关节限位导致的'指令-状态脱节'是常见脏数据，需要自动检测")
     print("  4. 数值 IK 的结果依赖初始值 -> 采集系统必须记录初始构型")
+    print("  5. 零空间方向让末端不动而关节在动，是'动作空间选哪个'绕不开的根")
     print("=" * 74)
 
 
