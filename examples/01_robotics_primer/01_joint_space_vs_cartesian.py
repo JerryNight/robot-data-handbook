@@ -69,6 +69,28 @@ def ik(x, y):
     return solutions
 
 
+def is_elbow_up(t1, t2, x, y):
+    """
+    判断这组解是"肘上"还是"肘下"。
+
+    判据：肘点（第一关节的转轴）落在基座 -> 末端这条连线的哪一侧。
+    用叉积比"看 theta2 正负"可靠：
+
+        cross = 末端向量 x 肘点向量
+        cross > 0 -> 肘点在连线的逆时针一侧，记作"肘上"
+        cross < 0 -> 顺时针一侧，记作"肘下"
+
+    为什么不能只看 theta2 的正负？因为 theta2 是相对于大臂量的角度，
+    它的符号只反映"小臂往哪个方向折"，不代表肘在空间里的高低。
+    只有当目标点恰好落在 +x 轴上时，两者才碰巧一致；目标一转到别的
+    方向，结论就反过来了。不同教材对 theta2 零位的定义也不一样。
+    """
+    elbow_x = L1 * math.cos(t1)
+    elbow_y = L1 * math.sin(t1)
+    cross = x * elbow_y - y * elbow_x
+    return cross > 0
+
+
 def condition_number(t1, t2):
     """
     雅可比矩阵的条件数。越大越接近奇异，IK 越不可靠。
@@ -142,10 +164,10 @@ def main():
     print(f"  目标点：({tx}, {ty})，距离 {math.hypot(tx, ty):.4f} m")
     sols = ik(tx, ty)
     for k, (t1, t2) in enumerate(sols, 1):
-        name = "肘上 (elbow up)" if t2 > 0 else "肘下 (elbow down)"
+        name = "肘上 (elbow up)" if is_elbow_up(t1, t2, tx, ty) else "肘下 (elbow down)"
         veri_x, veri_y = fk(t1, t2)
         print(f"  解 {k}: theta1={math.degrees(t1):>8.2f}°  theta2={math.degrees(t2):>8.2f}°"
-              f"  [{name}]  -> 验证 FK = ({veri_x:.4f}, {veri_y:.4f})")
+              f"  -> 验证 FK = ({veri_x:.4f}, {veri_y:.4f})   {name}")
 
     print("\n  两组解末端位置相同，但姿态完全不同。")
     print("  数据平台的含义：只记末端位置是不够的，关节构型也必须记。")
