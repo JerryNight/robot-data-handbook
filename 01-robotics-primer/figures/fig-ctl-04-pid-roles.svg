@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 318" width="760" height="318" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="318" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">P、I、D 三个字母，各自对应一个具体的物理角色</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">它们不是三个数学项，而是三种“看到偏差之后该怎么办”的本能。</text>
+  <line x1="70.0" y1="118.0" x2="70.0" y2="186.0" stroke="#B9C2CB" stroke-width="2" opacity="1.0"/>
+  <path d="M 70 152 L 78 166 L 93 138 L 108 166 L 123 138 L 138 166 L 153 138 L 168 166 L 170 152" fill="none" stroke="#3C6E9F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <line x1="170.0" y1="152.0" x2="210.0" y2="152.0" stroke="#3C6E9F" stroke-width="2.4" opacity="1.0"/>
+  <line x1="210.0" y1="152.0" x2="223.5" y2="152.0" stroke="#3C6E9F" stroke-width="2"/>
+  <polygon points="230.0,152.0 223.5,148.4 223.5,155.6" fill="#3C6E9F"/>
+  <text x="236.0" y="156.0" font-size="10.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">F</text>
+  <line x1="70.0" y1="100.0" x2="70.0" y2="204.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="70.0" y="220.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">0</text>
+  <text x="188.0" y="220.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">x</text>
+  <line x1="70.0" y1="210.0" x2="210.0" y2="210.0" stroke="#57606A" stroke-width="1" opacity="1.0"/>
+  <text x="140.0" y="204.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">拉得越长，力越大</text>
+  <text x="148.0" y="246.0" font-size="11.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">P：一根弹簧</text>
+  <text x="148.0" y="266.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">离目标差多少，就出多大的力</text>
+  <text x="148.0" y="282.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">差得多 → 猛推；差得少 → 轻推</text>
+  <text x="148.0" y="302.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">它只管“现在”</text>
+  <rect x="310.0" y="128.0" width="64.0" height="48.0" rx="4" fill="#F3F7FB" stroke="#C9CFD6" stroke-width="1.4" opacity="1.0"/>
+  <rect x="316.0" y="136.0" width="10.0" height="32.0" rx="2" fill="#8A94A0" stroke="#8A94A0" stroke-width="0" opacity="1.0"/>
+  <line x1="326.0" y1="152.0" x2="410.0" y2="152.0" stroke="#8A94A0" stroke-width="3" opacity="1.0"/>
+  <line x1="410.0" y1="138.0" x2="410.0" y2="166.0" stroke="#1F2328" stroke-width="2.4" opacity="1.0"/>
+  <line x1="410.0" y1="152.0" x2="439.5" y2="152.0" stroke="#C0651A" stroke-width="2"/>
+  <polygon points="446.0,152.0 439.5,148.4 439.5,155.6" fill="#C0651A"/>
+  <text x="452.0" y="156.0" font-size="10.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">v</text>
+  <line x1="350.0" y1="100.0" x2="350.0" y2="119.0" stroke="#57606A" stroke-width="1.4"/>
+  <polygon points="350.0,124.0 352.8,119.0 347.2,119.0" fill="#57606A"/>
+  <text x="350.0" y="92.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">推得快</text>
+  <line x1="318.0" y1="192.0" x2="383.0" y2="192.0" stroke="#57606A" stroke-width="1.4"/>
+  <polygon points="388.0,192.0 383.0,189.2 383.0,194.8" fill="#57606A"/>
+  <text x="352.0" y="208.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">阻力越大</text>
+  <text x="380.0" y="246.0" font-size="11.5" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">D：一个阻尼器</text>
+  <text x="380.0" y="266.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">冲得越快，往回拽得越狠</text>
+  <text x="380.0" y="282.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">专门对付“冲过头再荡回来”</text>
+  <text x="380.0" y="302.0" font-size="9.5" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">它看的是“趋势”</text>
+  <rect x="558.0" y="116.0" width="108.0" height="82.0" rx="4" fill="#FBF7F1" stroke="#D8C9B4" stroke-width="1.4" opacity="1.0"/>
+  <line x1="570.0" y1="138.0" x2="652.0" y2="138.0" stroke="#D8C9B4" stroke-width="1.2" opacity="1.0"/>
+  <line x1="570.0" y1="154.0" x2="652.0" y2="154.0" stroke="#D8C9B4" stroke-width="1.2" opacity="1.0"/>
+  <line x1="570.0" y1="170.0" x2="652.0" y2="170.0" stroke="#D8C9B4" stroke-width="1.2" opacity="1.0"/>
+  <line x1="570.0" y1="186.0" x2="652.0" y2="186.0" stroke="#D8C9B4" stroke-width="1.2" opacity="1.0"/>
+  <line x1="580.0" y1="116.0" x2="580.0" y2="198.0" stroke="#D8C9B4" stroke-width="1.2" opacity="1.0"/>
+  <text x="672.0" y="128.0" font-size="9.5" fill="#6B5B95" text-anchor="start" font-weight="600" opacity="1.0">e·dt</text>
+  <text x="672.0" y="142.0" font-size="9.5" fill="#6B5B95" text-anchor="start" font-weight="600" opacity="1.0">e·dt</text>
+  <text x="672.0" y="156.0" font-size="9.5" fill="#6B5B95" text-anchor="start" font-weight="600" opacity="1.0">…</text>
+  <line x1="664.0" y1="170.0" x2="664.0" y2="191.0" stroke="#6B5B95" stroke-width="1.4"/>
+  <polygon points="664.0,196.0 666.8,191.0 661.2,191.0" fill="#6B5B95"/>
+  <text x="612.0" y="214.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">一直差着，就一直往上记</text>
+  <text x="620.0" y="246.0" font-size="11.5" fill="#6B5B95" text-anchor="middle" font-weight="600" opacity="1.0">I：一本账本</text>
+  <text x="620.0" y="266.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">把历次误差攒起来，慢慢加力</text>
+  <text x="620.0" y="282.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">专门消灭“差一点点就是到不了”</text>
+  <text x="620.0" y="302.0" font-size="9.5" fill="#6B5B95" text-anchor="middle" font-weight="600" opacity="1.0">它记的是“历史”</text>
+  <line x1="266.0" y1="96.0" x2="266.0" y2="216.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="500.0" y1="96.0" x2="500.0" y2="216.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+</svg>

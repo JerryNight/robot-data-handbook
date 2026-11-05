@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="430" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">为什么纯 P 一定停不准：它被静摩擦卡在半路上</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">弹簧推箱子，箱子底下有静摩擦。推力小于门槛时，箱子根本不挪。</text>
+  <line x1="30.0" y1="252.0" x2="330.0" y2="252.0" stroke="#B9C2CB" stroke-width="2" opacity="1.0"/>
+  <line x1="36.0" y1="252.0" x2="27.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="61.0" y1="252.0" x2="52.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="86.0" y1="252.0" x2="77.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="111.0" y1="252.0" x2="102.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="136.0" y1="252.0" x2="127.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="161.0" y1="252.0" x2="152.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="186.0" y1="252.0" x2="177.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="211.0" y1="252.0" x2="202.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="236.0" y1="252.0" x2="227.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="261.0" y1="252.0" x2="252.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="286.0" y1="252.0" x2="277.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="311.0" y1="252.0" x2="302.0" y2="265.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="58.0" y1="186.0" x2="58.0" y2="258.0" stroke="#B9C2CB" stroke-width="3" opacity="1.0"/>
+  <line x1="58.0" y1="190.0" x2="48.0" y2="196.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="58.0" y1="208.0" x2="48.0" y2="214.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="58.0" y1="226.0" x2="48.0" y2="232.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <line x1="58.0" y1="244.0" x2="48.0" y2="250.0" stroke="#DDE2E7" stroke-width="1.4" opacity="1.0"/>
+  <rect x="146.0" y="172.0" width="106.0" height="80.0" rx="4" fill="#F3F7FB" stroke="#9AA8B6" stroke-width="1.6" opacity="1.0"/>
+  <text x="199.0" y="216.0" font-size="10.5" fill="#1F2328" text-anchor="middle" font-weight="400" opacity="1.0">负载</text>
+  <path d="M 58 212 L 66 223 L 81 201 L 96 223 L 111 201 L 126 223 L 146 212" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="102.0" y="188.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">Kp·e</text>
+  <line x1="228.0" y1="268.0" x2="176.5" y2="268.0" stroke="#C0392B" stroke-width="1.8"/>
+  <polygon points="170.0,268.0 176.5,271.6 176.5,264.4" fill="#C0392B"/>
+  <text x="236.0" y="264.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">静摩擦 0.6 N</text>
+  <text x="236.0" y="280.0" font-size="8" fill="#C0392B" text-anchor="start" font-weight="400" opacity="0.85">反向顶住</text>
+  <text x="180.0" y="300.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">推不动：弹簧力还没到 0.6 N</text>
+  <text x="180.0" y="318.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">箱子就停在这儿了</text>
+  <text x="180.0" y="344.0" font-size="9.5" fill="#1F2328" text-anchor="middle" font-weight="400" opacity="1.0">位置控制本质上就是这个弹簧。</text>
+  <text x="180.0" y="362.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">它没有别的办法 —— 只能用“差一点”</text>
+  <text x="180.0" y="378.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">换“出一点力”。</text>
+  <text x="366.0" y="92.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">推力随误差一起变小，小到刚好等于静摩擦时，就再也推不动了</text>
+  <text x="366.0" y="128.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">误差 5 cm</text>
+  <rect x="366.0" y="136.0" width="166.9" height="14.0" rx="3" fill="#E8EBEE" stroke="#D5DBE1" stroke-width="1" opacity="1.0"/>
+  <text x="540.9" y="148.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">静摩擦上限</text>
+  <rect x="366.0" y="156.0" width="278.1" height="14.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="0.8"/>
+  <text x="652.1" y="168.0" font-size="8.5" fill="#2E7D5B" text-anchor="start" font-weight="400" opacity="1.0">Kp·e = 1.0 N</text>
+  <text x="366.0" y="188.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">还能走</text>
+  <text x="366.0" y="212.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">误差 3 cm</text>
+  <rect x="366.0" y="220.0" width="166.9" height="14.0" rx="3" fill="#E8EBEE" stroke="#D5DBE1" stroke-width="1" opacity="1.0"/>
+  <text x="540.9" y="232.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">静摩擦上限</text>
+  <rect x="366.0" y="240.0" width="166.9" height="14.0" rx="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="0.8"/>
+  <text x="540.9" y="252.0" font-size="8.5" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">Kp·e = 0.6 N</text>
+  <text x="366.0" y="272.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">停在这里</text>
+  <text x="366.0" y="296.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">误差 1 cm</text>
+  <rect x="366.0" y="304.0" width="166.9" height="14.0" rx="3" fill="#E8EBEE" stroke="#D5DBE1" stroke-width="1" opacity="1.0"/>
+  <text x="540.9" y="316.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">静摩擦上限</text>
+  <rect x="366.0" y="324.0" width="55.6" height="14.0" rx="3" fill="#57606A" stroke="none" stroke-width="0" opacity="0.8"/>
+  <text x="429.6" y="336.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">Kp·e = 0.2 N</text>
+  <text x="366.0" y="356.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">推不动了</text>
+  <line x1="366.0" y1="384.0" x2="720.0" y2="384.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="366.0" y="404.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">停下来之后，推力必须正好抵住静摩擦：Kp·e = 0.6 N。</text>
+  <text x="366.0" y="423.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">于是 e = 0.6 / Kp。跟目标在多远、走得多快都没关系。</text>
+</svg>

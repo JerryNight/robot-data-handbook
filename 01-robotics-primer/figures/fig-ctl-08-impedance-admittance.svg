@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 366" width="760" height="366" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="366" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">阻抗与导纳：一个“用位置偏差产生力”，一个“测到力再决定怎么动”</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">区别不在名字，在于谁被动、需不需要力传感器、以及数据里会多出哪一列。</text>
+  <text x="40.0" y="88.0" font-size="11.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">阻抗控制 impedance</text>
+  <text x="40.0" y="106.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">机器人假装自己是一根弹簧</text>
+  <rect x="40.0" y="122.0" width="140.0" height="44.0" rx="5" fill="#F3F7FB" stroke="#3C6E9F" stroke-width="1.3" opacity="1.0"/>
+  <text x="110.0" y="141.0" font-size="10" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">位置内环</text>
+  <text x="110.0" y="157.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">（本来就是硬的）</text>
+  <line x1="180.0" y1="144.0" x2="209.5" y2="144.0" stroke="#57606A" stroke-width="1.6"/>
+  <polygon points="216.0,144.0 209.5,140.4 209.5,147.6" fill="#57606A"/>
+  <rect x="216.0" y="122.0" width="96.0" height="44.0" rx="5" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.3" opacity="1.0"/>
+  <text x="264.0" y="141.0" font-size="10" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">虚拟弹簧</text>
+  <text x="264.0" y="157.0" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">k, b</text>
+  <line x1="312.0" y1="144.0" x2="345.5" y2="144.0" stroke="#57606A" stroke-width="1.6"/>
+  <polygon points="352.0,144.0 345.5,140.4 345.5,147.6" fill="#57606A"/>
+  <line x1="262.0" y1="100.0" x2="262.0" y2="115.0" stroke="#C0392B" stroke-width="1.4"/>
+  <polygon points="262.0,120.0 264.8,115.0 259.2,115.0" fill="#C0392B"/>
+  <text x="256.0" y="96.0" font-size="8.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">外力一来，立刻偏</text>
+  <text x="40.0" y="196.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">· 输入：目标位置　· 输出：力</text>
+  <text x="40.0" y="214.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">· 不需要力传感器（可以装，但不是必须）</text>
+  <text x="40.0" y="232.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">· 数据里：位置、力（若有）、刚度参数</text>
+  <text x="40.0" y="256.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">“我先动，力由偏差自然产生”</text>
+  <rect x="32.0" y="76.0" width="336.0" height="196.0" rx="8" fill="none" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="410.0" y="88.0" font-size="11.5" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">导纳控制 admittance</text>
+  <text x="410.0" y="106.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">机器人先测力，再算该往哪动</text>
+  <rect x="410.0" y="122.0" width="88.0" height="44.0" rx="5" fill="#F1F8F4" stroke="#2E7D5B" stroke-width="1.3" opacity="1.0"/>
+  <text x="454.0" y="141.0" font-size="10" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">力传感器</text>
+  <text x="454.0" y="157.0" font-size="9" fill="#2E7D5B" text-anchor="middle" font-weight="400" opacity="1.0">测 F</text>
+  <line x1="498.0" y1="144.0" x2="519.5" y2="144.0" stroke="#57606A" stroke-width="1.6"/>
+  <polygon points="526.0,144.0 519.5,140.4 519.5,147.6" fill="#57606A"/>
+  <rect x="526.0" y="122.0" width="84.0" height="44.0" rx="5" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.3" opacity="1.0"/>
+  <text x="568.0" y="141.0" font-size="10" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">算 Δx</text>
+  <text x="568.0" y="157.0" font-size="9" fill="#2E7D5B" text-anchor="middle" font-weight="400" opacity="1.0">F / k</text>
+  <line x1="610.0" y1="144.0" x2="631.5" y2="144.0" stroke="#57606A" stroke-width="1.6"/>
+  <polygon points="638.0,144.0 631.5,140.4 631.5,147.6" fill="#57606A"/>
+  <rect x="638.0" y="122.0" width="80.0" height="44.0" rx="5" fill="#F3F7FB" stroke="#3C6E9F" stroke-width="1.3" opacity="1.0"/>
+  <text x="678.0" y="141.0" font-size="9.5" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">位置内环</text>
+  <text x="678.0" y="157.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">去执行</text>
+  <text x="410.0" y="196.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">· 输入：力　· 输出：位移</text>
+  <text x="410.0" y="214.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">· 必须有力传感器（或电流估算）</text>
+  <text x="410.0" y="232.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">· 数据里：力/力矩是必需的一列</text>
+  <text x="410.0" y="256.0" font-size="9.5" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">“你先推，我按推的力决定让多少”</text>
+  <rect x="402.0" y="76.0" width="336.0" height="196.0" rx="8" fill="none" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="304.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">对数据的影响：导纳控制的数据集一定有力/力矩列；阻抗控制不一定。</text>
+  <text x="24.0" y="324.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">如果一份接触任务的数据只有位置没有力，那它几乎不可能来自导纳控制。</text>
+  <text x="24.0" y="348.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">反过来，有力列也不代表一定用了力控 —— 也可能只是记录了传感器读数当参考。</text>
+</svg>

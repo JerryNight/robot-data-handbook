@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 392" width="760" height="392" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="392" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">控制是一个闭环：控制器只看得见“差多少”</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">箭头是信号在流动，不是力。末端那根回头的线，就是“闭环”与“开环”的全部区别。</text>
+  <rect x="26.0" y="152.0" width="76.0" height="40.0" rx="6" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.2" opacity="1.0"/>
+  <text x="64.0" y="171.0" font-size="10.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">目标</text>
+  <text x="64.0" y="186.0" font-size="11" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">x_d</text>
+  <line x1="102.0" y1="172.0" x2="121.5" y2="172.0" stroke="#57606A" stroke-width="1.6"/>
+  <polygon points="128.0,172.0 121.5,168.4 121.5,175.6" fill="#57606A"/>
+  <circle cx="146" cy="172" r="15" fill="#ffffff" stroke="#1F2328" stroke-width="1.6"/>
+  <line x1="140.0" y1="172.0" x2="152.0" y2="172.0" stroke="#1F2328" stroke-width="1.8" opacity="1.0"/>
+  <line x1="161.0" y1="172.0" x2="185.5" y2="172.0" stroke="#57606A" stroke-width="1.6"/>
+  <polygon points="192.0,172.0 185.5,168.4 185.5,175.6" fill="#57606A"/>
+  <text x="177.0" y="163.0" font-size="11" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">e</text>
+  <rect x="194.0" y="142.0" width="126.0" height="60.0" rx="6" fill="#F3F7FB" stroke="#3C6E9F" stroke-width="1.5" opacity="1.0"/>
+  <text x="257.0" y="168.0" font-size="11.5" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">控制器</text>
+  <text x="257.0" y="187.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">P / I / D</text>
+  <line x1="320.0" y1="172.0" x2="365.5" y2="172.0" stroke="#57606A" stroke-width="1.6"/>
+  <polygon points="372.0,172.0 365.5,168.4 365.5,175.6" fill="#57606A"/>
+  <text x="346.0" y="162.0" font-size="11" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">τ</text>
+  <text x="346.0" y="189.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">力 / 力矩</text>
+  <rect x="372.0" y="132.0" width="202.0" height="80.0" rx="6" fill="#F7F7F7" stroke="#C9CFD6" stroke-width="1.4" opacity="1.0"/>
+  <text x="473.0" y="164.0" font-size="11.5" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">机器人本体</text>
+  <text x="473.0" y="184.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">电机 + 减速器 + 连杆</text>
+  <text x="473.0" y="200.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="0.85">+ 摩擦、重力、负载</text>
+  <line x1="574.0" y1="172.0" x2="619.5" y2="172.0" stroke="#57606A" stroke-width="1.6"/>
+  <polygon points="626.0,172.0 619.5,168.4 619.5,175.6" fill="#57606A"/>
+  <text x="600.0" y="162.0" font-size="11" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">x</text>
+  <text x="600.0" y="189.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">实际位置</text>
+  <path d="M 626 172 L 668 172 L 668 298 L 146 298 L 146 189" fill="none" stroke="#57606A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <polygon points="146,189 141,197 151,197" fill="#57606A"/>
+  <rect x="382.0" y="274.0" width="112.0" height="48.0" rx="5" fill="#ffffff" stroke="#C9CFD6" stroke-width="1.2" opacity="1.0"/>
+  <text x="438.0" y="295.0" font-size="10.5" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">编码器</text>
+  <text x="438.0" y="311.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">位置 → 数字</text>
+  <line x1="473.0" y1="96.0" x2="473.0" y2="123.5" stroke="#C0392B" stroke-width="1.6"/>
+  <polygon points="473.0,130.0 476.6,123.5 469.4,123.5" fill="#C0392B"/>
+  <text x="473.0" y="86.0" font-size="9.5" fill="#C0392B" text-anchor="middle" font-weight="400" opacity="1.0">外力 / 摩擦 / 重力</text>
+  <text x="24.0" y="344.0" font-size="11" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">控制器从头到尾只看见一个东西：误差。</text>
+  <text x="24.0" y="366.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">它不知道任务是什么，也不知道机器人长什么样 —— 它只会做一件事：</text>
+  <text x="24.0" y="383.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">给定误差，算出一个能让误差变小的力。整个这一篇，讲的就是这个函数怎么设计。</text>
+</svg>

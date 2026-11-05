@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 434" width="760" height="434" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="434" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同一个机器人，控制是分层的：记录点决定 action 的含义</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">越往下，频率越高、越贴近硬件、越难跨机器人复用。</text>
+  <rect x="26.0" y="78.0" width="708.0" height="52.0" rx="7" fill="#F6F8FA" stroke="#D5DBE1" stroke-width="1.1" opacity="1.0"/>
+  <text x="46.0" y="100.0" font-size="11.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">任务层</text>
+  <text x="46.0" y="116.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">战略</text>
+  <text x="150.0" y="100.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">“把杯子拿起来”。人和上层系统在这一层说话</text>
+  <text x="150.0" y="116.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">记在这里：技能标签、语言指令</text>
+  <line x1="120.0" y1="131.0" x2="120.0" y2="135.0" stroke="#B9C2CB" stroke-width="1.4"/>
+  <polygon points="120.0,140.0 122.8,135.0 117.2,135.0" fill="#B9C2CB"/>
+  <rect x="26.0" y="141.0" width="708.0" height="52.0" rx="7" fill="#F6F8FA" stroke="#D5DBE1" stroke-width="1.1" opacity="1.0"/>
+  <text x="46.0" y="163.0" font-size="11.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">规划层</text>
+  <text x="46.0" y="179.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">约 30 Hz</text>
+  <text x="150.0" y="163.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">把任务拆成一条轨迹（路径点）</text>
+  <text x="150.0" y="179.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">记在这里：轨迹点序列（waypoints）</text>
+  <line x1="120.0" y1="194.0" x2="120.0" y2="198.0" stroke="#B9C2CB" stroke-width="1.4"/>
+  <polygon points="120.0,203.0 122.8,198.0 117.2,198.0" fill="#B9C2CB"/>
+  <rect x="26.0" y="204.0" width="708.0" height="52.0" rx="7" fill="#EAF2FA" stroke="#3C6E9F" stroke-width="2.0" opacity="1.0"/>
+  <text x="46.0" y="226.0" font-size="11.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">控制层</text>
+  <text x="46.0" y="242.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">100–1000 Hz</text>
+  <text x="150.0" y="226.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">位置 / 速度 / 力矩 / 阻抗</text>
+  <text x="150.0" y="242.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">记在这里：目标关节角、目标速度、力矩</text>
+  <rect x="646.0" y="219.0" width="72.0" height="22.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="682.0" y="234.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600" opacity="1.0">多数在这层</text>
+  <line x1="120.0" y1="257.0" x2="120.0" y2="261.0" stroke="#B9C2CB" stroke-width="1.4"/>
+  <polygon points="120.0,266.0 122.8,261.0 117.2,261.0" fill="#B9C2CB"/>
+  <rect x="26.0" y="267.0" width="708.0" height="52.0" rx="7" fill="#F6F8FA" stroke="#D5DBE1" stroke-width="1.1" opacity="1.0"/>
+  <text x="46.0" y="289.0" font-size="11.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">伺服层</text>
+  <text x="46.0" y="305.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">1–10 kHz</text>
+  <text x="150.0" y="289.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">PID 跟踪 + 电流环，在驱动器里</text>
+  <text x="150.0" y="305.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">记在这里：电流、电压、PWM 占空比</text>
+  <line x1="120.0" y1="320.0" x2="120.0" y2="324.0" stroke="#B9C2CB" stroke-width="1.4"/>
+  <polygon points="120.0,329.0 122.8,324.0 117.2,324.0" fill="#B9C2CB"/>
+  <rect x="26.0" y="330.0" width="708.0" height="52.0" rx="7" fill="#F6F8FA" stroke="#D5DBE1" stroke-width="1.1" opacity="1.0"/>
+  <text x="46.0" y="352.0" font-size="11.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">电机</text>
+  <text x="150.0" y="352.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">真正出力、转起来的地方</text>
+  <text x="150.0" y="368.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">没有 action，只有物理</text>
+  <text x="24.0" y="402.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">“action 是什么”不是一个可以猜的问题：它是“这条数据记录在哪一层”的直接结果。</text>
+  <text x="24.0" y="421.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同一个机器人，接在不同的层上取数，得到的是三种完全不同的数据集。</text>
+</svg>

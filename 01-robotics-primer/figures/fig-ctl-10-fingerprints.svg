@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="470" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">六种轨迹形状，对应六种完全不同的原因</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">看到“不对劲”先别删：先认出它是哪一种，再决定该修数据、调参数，还是什么都别做。</text>
+  <rect x="26.0" y="76.0" width="218.0" height="148.0" rx="7" fill="#FCFCFD" stroke="#DDE2E7" stroke-width="1.1" opacity="1.0"/>
+  <text x="38.0" y="96.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">① 冲过头再荡回来</text>
+  <line x1="38.0" y1="212.0" x2="232.0" y2="212.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="38.0" y1="134.0" x2="232.0" y2="134.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <path d="M 38.0 186.7 L 41.2 177.9 L 44.5 166.2 L 47.7 153.8 L 50.9 142.3 L 54.2 132.8 L 57.4 126.0 L 60.6 122.2 L 63.9 121.0 L 67.1 122.0 L 70.3 124.5 L 73.6 128.0 L 76.8 131.7 L 80.0 135.1 L 83.3 138.0 L 86.5 140.1 L 89.7 141.3 L 93.0 141.7 L 96.2 141.4 L 99.4 140.7 L 102.7 139.7 L 105.9 138.6 L 109.1 137.5 L 112.4 136.7 L 115.6 136.0 L 118.8 135.7 L 122.1 135.5 L 125.3 135.6 L 128.5 135.8 L 131.8 136.1 L 135.0 136.4 L 138.2 136.7 L 141.5 137.0 L 144.7 137.2 L 147.9 137.3 L 151.2 137.4 L 154.4 137.3 L 157.6 137.3 L 160.9 137.2 L 164.1 137.1 L 167.3 137.0 L 170.6 136.9 L 173.8 136.9 L 177.0 136.8 L 180.3 136.8 L 183.5 136.8 L 186.7 136.8 L 190.0 136.9 L 193.2 136.9 L 196.4 136.9 L 199.7 136.9 L 202.9 137.0 L 206.1 137.0 L 209.4 137.0 L 212.6 137.0 L 215.8 137.0 L 219.1 137.0 L 222.3 137.0 L 225.5 136.9 L 228.8 136.9 L 232.0 136.9" fill="none" stroke="#3C6E9F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="230.0" y="129.0" font-size="7.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">目标</text>
+  <text x="38.0" y="216.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">控制器欠阻尼，参数偏软 —— 数据是真的</text>
+  <rect x="271.0" y="76.0" width="218.0" height="148.0" rx="7" fill="#FCFCFD" stroke="#DDE2E7" stroke-width="1.1" opacity="1.0"/>
+  <text x="283.0" y="96.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">② 稳稳停住，但差一点</text>
+  <line x1="283.0" y1="212.0" x2="477.0" y2="212.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="283.0" y1="130.9" x2="477.0" y2="130.9" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <path d="M 283.0 212.0 L 286.2 199.6 L 289.5 189.6 L 292.7 181.5 L 295.9 175.0 L 299.2 169.7 L 302.4 165.4 L 305.6 162.0 L 308.9 159.2 L 312.1 157.0 L 315.3 155.2 L 318.6 153.7 L 321.8 152.5 L 325.0 151.5 L 328.3 150.8 L 331.5 150.1 L 334.7 149.6 L 338.0 149.2 L 341.2 148.9 L 344.4 148.6 L 347.7 148.4 L 350.9 148.3 L 354.1 148.1 L 357.4 148.0 L 360.6 147.9 L 363.8 147.8 L 367.1 147.8 L 370.3 147.7 L 373.5 147.7 L 376.8 147.7 L 380.0 147.6 L 383.2 147.6 L 386.5 147.6 L 389.7 147.6 L 392.9 147.6 L 396.2 147.6 L 399.4 147.5 L 402.6 147.5 L 405.9 147.5 L 409.1 147.5 L 412.3 147.5 L 415.6 147.5 L 418.8 147.5 L 422.0 147.5 L 425.3 147.5 L 428.5 147.5 L 431.7 147.5 L 435.0 147.5 L 438.2 147.5 L 441.4 147.5 L 444.7 147.5 L 447.9 147.5 L 451.1 147.5 L 454.4 147.5 L 457.6 147.5 L 460.8 147.5 L 464.1 147.5 L 467.3 147.5 L 470.5 147.5 L 473.8 147.5 L 477.0 147.5" fill="none" stroke="#3C6E9F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <line x1="389.7" y1="151.7" x2="389.7" y2="130.9" stroke="#C0651A" stroke-width="1.2" opacity="1.0"/>
+  <text x="395.5" y="145.4" font-size="7.5" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">差一截</text>
+  <text x="283.0" y="216.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">纯 P，没有积分项 —— 结构如此，不是故障</text>
+  <rect x="516.0" y="76.0" width="218.0" height="148.0" rx="7" fill="#FCFCFD" stroke="#DDE2E7" stroke-width="1.1" opacity="1.0"/>
+  <text x="528.0" y="96.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">③ 遇力一偏，就保持在那儿</text>
+  <line x1="528.0" y1="212.0" x2="722.0" y2="212.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="528.0" y1="180.8" x2="722.0" y2="180.8" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <path d="M 528.0 180.8 L 531.2 180.8 L 534.5 180.8 L 537.7 180.8 L 540.9 180.8 L 544.2 180.8 L 547.4 180.8 L 550.6 180.8 L 553.9 180.8 L 557.1 180.8 L 560.3 180.8 L 563.6 180.8 L 566.8 180.8 L 570.0 180.8 L 573.3 180.8 L 576.5 180.8 L 579.7 180.8 L 583.0 180.8 L 586.2 180.8 L 589.4 180.8 L 592.7 180.8 L 595.9 182.2 L 599.1 185.5 L 602.4 188.0 L 605.6 190.0 L 608.8 191.6 L 612.1 192.9 L 615.3 193.8 L 618.5 194.6 L 621.8 195.2 L 625.0 195.7 L 628.2 196.1 L 631.5 196.4 L 634.7 196.6 L 637.9 196.8 L 641.2 196.9 L 644.4 197.0 L 647.6 197.1 L 650.9 197.2 L 654.1 197.2 L 657.3 197.3 L 660.6 197.3 L 663.8 197.3 L 667.0 197.4 L 670.3 197.4 L 673.5 197.4 L 676.7 197.4 L 680.0 197.4 L 683.2 197.4 L 686.4 197.4 L 689.7 197.4 L 692.9 197.4 L 696.1 197.4 L 699.4 197.4 L 702.6 197.4 L 705.8 197.4 L 709.1 197.4 L 712.3 197.4 L 715.5 197.4 L 718.8 197.4 L 722.0 197.4" fill="none" stroke="#C0651A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <line x1="594.0" y1="110.0" x2="594.0" y2="212.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 3"/>
+  <text x="590.1" y="120.0" font-size="7.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">外力出现</text>
+  <text x="528.0" y="216.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">阻抗 / 导纳控制的正常表现</text>
+  <rect x="26.0" y="268.0" width="218.0" height="148.0" rx="7" fill="#FCFCFD" stroke="#DDE2E7" stroke-width="1.1" opacity="1.0"/>
+  <text x="38.0" y="288.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">④ 遇力偏了，再慢慢爬回来</text>
+  <line x1="38.0" y1="404.0" x2="232.0" y2="404.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="38.0" y1="372.8" x2="232.0" y2="372.8" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <path d="M 38.0 372.8 L 41.2 372.8 L 44.5 372.8 L 47.7 372.8 L 50.9 372.8 L 54.2 372.8 L 57.4 372.8 L 60.6 372.8 L 63.9 372.8 L 67.1 372.8 L 70.3 372.8 L 73.6 372.8 L 76.8 372.8 L 80.0 372.8 L 83.3 372.8 L 86.5 372.8 L 89.7 372.8 L 93.0 372.8 L 96.2 372.8 L 99.4 373.9 L 102.7 377.1 L 105.9 379.0 L 109.1 380.1 L 112.4 380.5 L 115.6 380.6 L 118.8 380.4 L 122.1 380.2 L 125.3 379.8 L 128.5 379.4 L 131.8 379.0 L 135.0 378.6 L 138.2 378.2 L 141.5 377.8 L 144.7 377.4 L 147.9 377.1 L 151.2 376.7 L 154.4 376.4 L 157.6 376.2 L 160.9 375.9 L 164.1 375.7 L 167.3 375.5 L 170.6 375.3 L 173.8 375.1 L 177.0 374.9 L 180.3 374.7 L 183.5 374.6 L 186.7 374.4 L 190.0 374.3 L 193.2 374.2 L 196.4 374.1 L 199.7 374.0 L 202.9 373.9 L 206.1 373.8 L 209.4 373.7 L 212.6 373.7 L 215.8 373.6 L 219.1 373.5 L 222.3 373.5 L 225.5 373.4 L 228.8 373.4 L 232.0 373.3" fill="none" stroke="#6B5B95" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <line x1="98.1" y1="302.0" x2="98.1" y2="404.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 3"/>
+  <text x="94.3" y="312.0" font-size="7.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">外力出现</text>
+  <text x="38.0" y="408.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">积分在还账 —— 看恢复时间够不够</text>
+  <rect x="271.0" y="268.0" width="218.0" height="148.0" rx="7" fill="#FCFCFD" stroke="#DDE2E7" stroke-width="1.1" opacity="1.0"/>
+  <text x="283.0" y="288.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">⑤ 动作一直在加，位置不动</text>
+  <line x1="283.0" y1="404.0" x2="477.0" y2="404.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="283.0" y1="335.4" x2="477.0" y2="335.4" stroke="#8A94A0" stroke-width="2.2" opacity="1.0"/>
+  <text x="285.0" y="330.4" font-size="7.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">位置：纹丝不动</text>
+  <rect x="285.0" y="388.0" width="11.2" height="4.0" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="301.2" y="386.6" width="11.2" height="5.3" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="317.3" y="385.3" width="11.2" height="6.7" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="333.5" y="383.9" width="11.2" height="8.1" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="349.7" y="382.6" width="11.2" height="9.4" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="365.8" y="381.2" width="11.2" height="10.8" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="382.0" y="379.9" width="11.2" height="12.1" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="398.2" y="378.6" width="11.2" height="13.5" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="414.3" y="377.2" width="11.2" height="14.8" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="430.5" y="375.9" width="11.2" height="16.1" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="446.7" y="374.5" width="11.2" height="17.5" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <rect x="462.8" y="373.1" width="11.2" height="18.9" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.55"/>
+  <text x="473.0" y="358.0" font-size="7.5" fill="#3C6E9F" text-anchor="end" font-weight="400" opacity="1.0">动作：越来越大</text>
+  <text x="283.0" y="408.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">顶到限位、堵转、或者根本没使能</text>
+  <rect x="516.0" y="268.0" width="218.0" height="148.0" rx="7" fill="#FCFCFD" stroke="#DDE2E7" stroke-width="1.1" opacity="1.0"/>
+  <text x="528.0" y="288.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">⑥ 一格一格的台阶</text>
+  <line x1="528.0" y1="404.0" x2="722.0" y2="404.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="528.0" y1="327.0" x2="722.0" y2="327.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <path d="M 528.0 391.5 L 549.6 391.5 L 549.6 374.4 L 571.1 374.4 L 571.1 362.4 L 592.7 362.4 L 592.7 354.0 L 614.2 354.0 L 614.2 348.1 L 635.8 348.1 L 635.8 344.0 L 657.3 344.0 L 657.3 341.1 L 678.9 341.1 L 678.9 339.1 L 700.4 339.1 L 700.4 337.6 L 722.0 337.6 L 722.0 336.7" fill="none" stroke="#2E7D5B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="530.0" y="312.0" font-size="7.5" fill="#2E7D5B" text-anchor="start" font-weight="400" opacity="1.0">每格一次跳变</text>
+  <text x="528.0" y="408.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">记录频率远低于控制频率，插值伪影</text>
+</svg>
