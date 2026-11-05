@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 448" width="760" height="448" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="448" fill="#ffffff"/>
+  <defs>
+    <marker id="kr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#C0392B"/>
+    </marker>
+    <marker id="kb" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#1565C0"/>
+    </marker>
+  </defs>
+  <text x="30.0" y="40.0" font-size="12.5" font-weight="600" fill="#1F2328">同一个目标，三次快照</text>
+  <text x="30.0" y="60.0" font-size="10.5" fill="#57606A">同一条臂的三个时刻：浅 = 第 0 步，中 = 第 1 步，深 = 第 15 步（已收敛）</text>
+  <line x1="70" y1="330" x2="412" y2="330" stroke="#EAEEF2" stroke-width="1"/>
+  <line x1="126.0" y1="330.0" x2="231.8" y2="308.5" stroke="#4A6B8A" stroke-width="6" stroke-linecap="round" opacity="0.26"/>
+  <line x1="231.8" y1="308.5" x2="306.1" y2="257.6" stroke="#8FA3B8" stroke-width="5" stroke-linecap="round" opacity="0.26"/>
+  <line x1="306.1" y1="257.6" x2="372.4" y2="229.6" stroke="#A9B8C6" stroke-width="4.5" stroke-linecap="round" opacity="0.26"/>
+  <circle cx="126.0" cy="330.0" r="6" fill="#1F2328"/>
+  <line x1="126.0" y1="330.0" x2="219.0" y2="385.0" stroke="#4A6B8A" stroke-width="6.5" stroke-linecap="round" opacity="0.62"/>
+  <line x1="219.0" y1="385.0" x2="246.6" y2="299.3" stroke="#8FA3B8" stroke-width="5.5" stroke-linecap="round" opacity="0.62"/>
+  <line x1="246.6" y1="299.3" x2="288.6" y2="240.9" stroke="#A9B8C6" stroke-width="5.0" stroke-linecap="round" opacity="0.62"/>
+  <circle cx="126.0" cy="330.0" r="6" fill="#1F2328"/>
+  <line x1="126.0" y1="330.0" x2="229.3" y2="361.6" stroke="#4A6B8A" stroke-width="8" stroke-linecap="round" opacity="1.0"/>
+  <line x1="229.3" y1="361.6" x2="259.3" y2="276.7" stroke="#8FA3B8" stroke-width="7" stroke-linecap="round" opacity="1.0"/>
+  <line x1="259.3" y1="276.7" x2="306.1" y2="222.0" stroke="#A9B8C6" stroke-width="6.5" stroke-linecap="round" opacity="1.0"/>
+  <circle cx="229.3" cy="361.6" r="4.5" fill="#3C5164" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+  <circle cx="259.3" cy="276.7" r="3.6" fill="#3C5164" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+  <circle cx="126.0" cy="330.0" r="6" fill="#1F2328"/>
+  <path d="M 372.4 229.7 L 288.6 240.8 L 306.0 222.0" fill="none" stroke="#1565C0" stroke-width="1.6" stroke-dasharray="5 4" opacity="0.85"/>
+  <circle cx="372.4" cy="229.7" r="4.4" fill="#1565C0"/>
+  <circle cx="288.6" cy="240.8" r="3.2" fill="#1565C0"/>
+  <circle cx="306.0" cy="222.0" r="3.2" fill="#1565C0"/>
+  <circle cx="306.0" cy="222.0" r="8" fill="none" stroke="#C0392B" stroke-width="2"/>
+  <line x1="297.9" y1="222.0" x2="293.0" y2="222.0" stroke="#C0392B" stroke-width="2"/>
+  <line x1="314.1" y1="222.0" x2="319.0" y2="222.0" stroke="#C0392B" stroke-width="2"/>
+  <line x1="306.0" y1="213.9" x2="306.0" y2="209.0" stroke="#C0392B" stroke-width="2"/>
+  <line x1="306.0" y1="230.1" x2="306.0" y2="235.0" stroke="#C0392B" stroke-width="2"/>
+  <text x="306.0" y="200.0" text-anchor="middle" font-size="11" font-weight="600" fill="#C0392B">目标 (1.0, 0.6)</text>
+  <text x="382.4" y="225.7" font-size="10.5" font-weight="600" fill="#1565C0">误差 37 cm</text>
+  <text x="278.6" y="258.8" text-anchor="end" font-size="10.5" font-weight="600" fill="#1565C0">14 cm</text>
+  <text x="70.0" y="354.0" font-size="10.5" fill="#57606A">base</text>
+  <text x="452.0" y="40.0" font-size="12.5" font-weight="600" fill="#1F2328">每步只修掉一部分误差</text>
+  <text x="452.0" y="60.0" font-size="10.5" fill="#57606A">残差按固定比例缩小 —— 这叫线性收敛</text>
+  <text x="456.0" y="96.0" font-size="10" font-weight="600" fill="#57606A">迭代</text>
+  <text x="556.0" y="96.0" text-anchor="end" font-size="10" font-weight="600" fill="#57606A">末端误差 (m)</text>
+  <text x="624.0" y="96.0" text-anchor="end" font-size="10" font-weight="600" fill="#57606A">比值</text>
+  <line x1="452" y1="105" x2="628" y2="105" stroke="#E4E8EC" stroke-width="1"/>
+  <text x="456.0" y="126.0" font-size="11" fill="#1F2328">第 0 步</text>
+  <text x="556.0" y="126.0" text-anchor="end" font-size="11" fill="#1F2328">0.3716</text>
+  <text x="624.0" y="126.0" text-anchor="end" font-size="11" fill="#57606A">—</text>
+  <text x="456.0" y="151.0" font-size="11" fill="#1F2328">第 1 步</text>
+  <text x="556.0" y="151.0" text-anchor="end" font-size="11" fill="#1F2328">0.1421</text>
+  <text x="624.0" y="151.0" text-anchor="end" font-size="11" fill="#57606A">×0.38</text>
+  <text x="456.0" y="176.0" font-size="11" fill="#1F2328">第 2 步</text>
+  <text x="556.0" y="176.0" text-anchor="end" font-size="11" fill="#1F2328">0.0601</text>
+  <text x="624.0" y="176.0" text-anchor="end" font-size="11" fill="#57606A">×0.42</text>
+  <text x="456.0" y="201.0" font-size="11" fill="#1F2328">第 3 步</text>
+  <text x="556.0" y="201.0" text-anchor="end" font-size="11" fill="#1F2328">0.0252</text>
+  <text x="624.0" y="201.0" text-anchor="end" font-size="11" fill="#57606A">×0.42</text>
+  <text x="456.0" y="226.0" font-size="11" fill="#1F2328">第 4 步</text>
+  <text x="556.0" y="226.0" text-anchor="end" font-size="11" fill="#1F2328">0.0105</text>
+  <text x="624.0" y="226.0" text-anchor="end" font-size="11" fill="#57606A">×0.42</text>
+  <text x="456.0" y="251.0" font-size="11" fill="#1F2328">第 10 步</text>
+  <text x="556.0" y="251.0" text-anchor="end" font-size="11" fill="#1F2328">0.0001</text>
+  <text x="624.0" y="251.0" text-anchor="end" font-size="11" fill="#57606A">×0.42</text>
+  <line x1="452" y1="262" x2="628" y2="262" stroke="#E4E8EC" stroke-width="1"/>
+  <text x="452.0" y="318.0" font-size="11.5" font-weight="600" fill="#1F2328">为什么是 0.42，不是更快？</text>
+  <text x="452.0" y="340.0" font-size="10.5" fill="#57606A">脚本里 step_scale = 0.6，每步只走“理论步长”的 60%；</text>
+  <text x="452.0" y="358.0" font-size="10.5" fill="#57606A">阻尼 λ = 0.05 再打一点折扣。两者都是为了避免冲过头，</text>
+  <text x="452.0" y="376.0" font-size="10.5" fill="#57606A">代价是收敛更慢、需要更多次迭代。</text>
+  <text x="30.0" y="408.0" font-size="10.8" fill="#57606A">第 1 步其实冲到了目标的另一侧（x 从 1.37 掉到 0.90），然后才折回来。</text>
+  <text x="30.0" y="428.0" font-size="10.8" fill="#57606A">这一跳不是 bug：误差大时线性化很不准，算出来的方向只能算“大致对”。</text>
+</svg>

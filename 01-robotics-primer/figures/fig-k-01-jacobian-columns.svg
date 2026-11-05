@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 464" width="760" height="464" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="464" fill="#ffffff"/>
+  <defs>
+    <marker id="a1" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#C0392B"/>
+    </marker>
+    <marker id="a2" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#4A8060"/>
+    </marker>
+    <marker id="a3" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#B0894C"/>
+    </marker>
+  </defs>
+  <line x1="176" y1="396" x2="352.6" y2="396.0" stroke="#E4E8EC" stroke-width="1" stroke-dasharray="5 4"/>
+  <line x1="176" y1="396" x2="176.0" y2="219.4" stroke="#E4E8EC" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="358.6" y="400.0" font-size="10" fill="#8A9199">x</text>
+  <text x="164.0" y="231.4" font-size="10" fill="#8A9199">y</text>
+  <line x1="245.0" y1="393" x2="245.0" y2="399" stroke="#D8DEE4" stroke-width="1"/>
+  <line x1="314.0" y1="393" x2="314.0" y2="399" stroke="#D8DEE4" stroke-width="1"/>
+  <line x1="176.0" y1="396.0" x2="204.3" y2="318.2" stroke="#4A6B8A" stroke-width="7" stroke-linecap="round" opacity="1.0"/>
+  <line x1="204.3" y1="318.2" x2="264.1" y2="283.7" stroke="#8FA3B8" stroke-width="6" stroke-linecap="round" opacity="1.0"/>
+  <line x1="264.1" y1="283.7" x2="299.6" y2="326.0" stroke="#A9B8C6" stroke-width="5" stroke-linecap="round" opacity="1.0"/>
+  <circle cx="204.3" cy="318.2" r="4.5" fill="#3C5164" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+  <circle cx="264.1" cy="283.7" r="3.6" fill="#3C5164" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+  <circle cx="176.0" cy="396.0" r="6" fill="#1F2328"/>
+  <line x1="299.6" y1="326.0" x2="229.5" y2="202.4" stroke="#C0392B" stroke-width="2.4" marker-end="url(#a1)"/>
+  <line x1="299.6" y1="326.0" x2="307.3" y2="230.7" stroke="#4A8060" stroke-width="2.4" marker-end="url(#a2)"/>
+  <line x1="299.6" y1="326.0" x2="341.8" y2="290.5" stroke="#B0894C" stroke-width="2.4" marker-end="url(#a3)"/>
+  <text x="223.5" y="192.4" text-anchor="end" font-size="11" font-weight="600" fill="#C0392B">关节 1</text>
+  <text x="317.3" y="224.7" font-size="11" font-weight="600" fill="#4A8060">关节 2</text>
+  <text x="350.8" y="283.5" font-size="11" font-weight="600" fill="#B0894C">关节 3</text>
+  <text x="299.6" y="348.0" text-anchor="middle" font-size="10.5" fill="#57606A">末端</text>
+  <text x="176.0" y="416.0" text-anchor="middle" font-size="11" font-weight="600" fill="#1F2328">base</text>
+  <text x="420.0" y="74.0" font-size="12.5" font-weight="600" fill="#1F2328">把三列画在末端，就是左边那三个箭头</text>
+  <text x="420.0" y="96.0" font-size="10.5" fill="#57606A">第 j 列 = 只有关节 j 以 1 rad/s 转、其余关节不动时，末端的速度</text>
+  <text x="414.0" y="178.0" font-size="15" fill="#1F2328">J =</text>
+  <path d="M 454 114 L 448 114 L 448 218 L 454 218" fill="none" stroke="#1F2328" stroke-width="1.2"/>
+  <path d="M 688 114 L 694 114 L 694 218 L 688 218" fill="none" stroke="#1F2328" stroke-width="1.2"/>
+  <text x="497.0" y="106.0" text-anchor="middle" font-size="11.5" font-weight="600" fill="#C0392B">q₁</text>
+  <text x="571.0" y="106.0" text-anchor="middle" font-size="11.5" font-weight="600" fill="#4A8060">q₂</text>
+  <text x="645.0" y="106.0" text-anchor="middle" font-size="11.5" font-weight="600" fill="#B0894C">q₃</text>
+  <rect x="462" y="122" width="70" height="42" rx="3" fill="#C0392B" opacity="0.07"/>
+  <text x="497.0" y="148.0" text-anchor="middle" font-size="13" font-weight="600" fill="#C0392B">-0.51</text>
+  <rect x="536" y="122" width="70" height="42" rx="3" fill="#4A8060" opacity="0.07"/>
+  <text x="571.0" y="148.0" text-anchor="middle" font-size="13" font-weight="600" fill="#4A8060">+0.06</text>
+  <rect x="610" y="122" width="70" height="42" rx="3" fill="#B0894C" opacity="0.07"/>
+  <text x="645.0" y="148.0" text-anchor="middle" font-size="13" font-weight="600" fill="#B0894C">+0.31</text>
+  <rect x="462" y="168" width="70" height="42" rx="3" fill="#C0392B" opacity="0.07"/>
+  <text x="497.0" y="194.0" text-anchor="middle" font-size="13" font-weight="600" fill="#C0392B">+0.90</text>
+  <rect x="536" y="168" width="70" height="42" rx="3" fill="#4A8060" opacity="0.07"/>
+  <text x="571.0" y="194.0" text-anchor="middle" font-size="13" font-weight="600" fill="#4A8060">+0.69</text>
+  <rect x="610" y="168" width="70" height="42" rx="3" fill="#B0894C" opacity="0.07"/>
+  <text x="645.0" y="194.0" text-anchor="middle" font-size="13" font-weight="600" fill="#B0894C">+0.26</text>
+  <text x="704.0" y="147.0" font-size="10.5" fill="#57606A">m / rad</text>
+  <text x="704.0" y="193.0" font-size="10.5" fill="#57606A">m / rad</text>
+  <rect x="418" y="257" width="4" height="34" rx="2" fill="#C0392B"/>
+  <text x="432.0" y="269.0" font-size="11.5" font-weight="600" fill="#C0392B">列 1  (-0.51, +0.90)</text>
+  <text x="432.0" y="287.0" font-size="10.5" fill="#57606A">长 1.03 —— 关节 1 转 1 rad/s，末端走 1.03 m/s</text>
+  <rect x="418" y="309" width="4" height="34" rx="2" fill="#4A8060"/>
+  <text x="432.0" y="321.0" font-size="11.5" font-weight="600" fill="#4A8060">列 2  (+0.06, +0.69)</text>
+  <text x="432.0" y="339.0" font-size="10.5" fill="#57606A">长 0.69 —— 同样转速，末端只走 0.69 m/s</text>
+  <rect x="418" y="361" width="4" height="34" rx="2" fill="#B0894C"/>
+  <text x="432.0" y="373.0" font-size="11.5" font-weight="600" fill="#B0894C">列 3  (+0.31, +0.26)</text>
+  <text x="432.0" y="391.0" font-size="10.5" fill="#57606A">长 0.40 —— 最外侧关节最“没劲”，只走 0.40 m/s</text>
+  <text x="40.0" y="450.0" font-size="11" fill="#57606A">注意：三个箭头起点相同、方向不同、长度不同 —— 这正是“三个关节各自动，末端走法完全不一样”的意思。</text>
+</svg>
