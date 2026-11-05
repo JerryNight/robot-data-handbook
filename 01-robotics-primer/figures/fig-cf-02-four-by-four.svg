@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 424" width="760" height="424" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="424" fill="#ffffff"/>
+
+  <!-- ============ 上半：3x3 + 3x1 的写法 ============ -->
+  <text x="40" y="34" font-size="12.5" font-weight="600" fill="#1F2328">① 分开写：3×3 管转，3×1 管移</text>
+  <text x="248" y="34" font-size="11" fill="#8A4B12">每接一段，就多一次乘、一次加</text>
+
+  <text x="52" y="62" font-size="11.5" fill="#1F2328">一段：  p1 = R1 · p + t1</text>
+  <text x="52" y="86" font-size="11.5" fill="#1F2328">两段：  p2 = R2 · p1 + t2 = R2 · ( R1 · p + t1 ) + t2</text>
+  <text x="120" y="110" font-size="11.5" fill="#C0392B">= (R2 · R1) · p + ( R2 · t1 + t2 )</text>
+
+  <text x="52" y="136" font-size="10.8" fill="#57606A">展开之后：旋转部分自动变成 R2·R1，平移部分多出一个 R2·t1。段数一多，人肉合并几乎必错。</text>
+
+  <!-- ============ 中间：4x4 块矩阵 ============ -->
+  <line x1="40" y1="154" x2="720" y2="154" stroke="#E3E7EB" stroke-width="1"/>
+  <text x="40" y="178" font-size="12.5" font-weight="600" fill="#1F2328">② 合成一个 4×4：连乘就够了，规律和上面完全一致</text>
+
+  <!-- 矩阵 1：T2 -->
+  <g>
+    <rect x="58" y="196" width="96" height="96" rx="4" fill="#ffffff" stroke="#4A5560" stroke-width="1.4"/>
+    <rect x="58" y="196" width="72" height="72" fill="#DDEAF7"/>
+    <rect x="130" y="196" width="24" height="72" fill="#FBE5D6"/>
+    <rect x="58" y="268" width="96" height="24" fill="#EEF1F4"/>
+    <line x1="130" y1="196" x2="130" y2="292" stroke="#4A5560" stroke-width="1"/>
+    <line x1="58" y1="268" x2="154" y2="268" stroke="#4A5560" stroke-width="1"/>
+    <rect x="58" y="196" width="96" height="96" rx="4" fill="none" stroke="#4A5560" stroke-width="1.4"/>
+    <text x="94" y="238" text-anchor="middle" font-size="13" font-weight="600" fill="#1F2328">R2</text>
+    <text x="142" y="238" text-anchor="middle" font-size="12" font-weight="600" fill="#8A4B12">t2</text>
+    <text x="70" y="284" text-anchor="middle" font-size="9.5" fill="#57606A">0</text><text x="94" y="284" text-anchor="middle" font-size="9.5" fill="#57606A">0</text><text x="118" y="284" text-anchor="middle" font-size="9.5" fill="#57606A">0</text><text x="142" y="284" text-anchor="middle" font-size="9.5" fill="#1F2328" font-weight="600">1</text>
+  </g>
+  <text x="106" y="312" text-anchor="middle" font-size="10" fill="#8A9199">T2</text>
+
+  <text x="172" y="250" font-size="14" fill="#57606A">×</text>
+
+  <!-- 矩阵 2：T1 -->
+  <g>
+    <rect x="192" y="196" width="96" height="96" rx="4" fill="#ffffff" stroke="#4A5560" stroke-width="1.4"/>
+    <rect x="192" y="196" width="72" height="72" fill="#DDEAF7"/>
+    <rect x="264" y="196" width="24" height="72" fill="#FBE5D6"/>
+    <rect x="192" y="268" width="96" height="24" fill="#EEF1F4"/>
+    <line x1="264" y1="196" x2="264" y2="292" stroke="#4A5560" stroke-width="1"/>
+    <line x1="192" y1="268" x2="288" y2="268" stroke="#4A5560" stroke-width="1"/>
+    <rect x="192" y="196" width="96" height="96" rx="4" fill="none" stroke="#4A5560" stroke-width="1.4"/>
+    <text x="228" y="238" text-anchor="middle" font-size="13" font-weight="600" fill="#1F2328">R1</text>
+    <text x="276" y="238" text-anchor="middle" font-size="12" font-weight="600" fill="#8A4B12">t1</text>
+    <text x="204" y="284" text-anchor="middle" font-size="9.5" fill="#57606A">0</text><text x="228" y="284" text-anchor="middle" font-size="9.5" fill="#57606A">0</text><text x="252" y="284" text-anchor="middle" font-size="9.5" fill="#57606A">0</text><text x="276" y="284" text-anchor="middle" font-size="9.5" fill="#1F2328" font-weight="600">1</text>
+  </g>
+  <text x="240" y="312" text-anchor="middle" font-size="10" fill="#8A9199">T1</text>
+
+  <text x="306" y="250" font-size="14" fill="#57606A">=</text>
+
+  <!-- 矩阵 3：T2*T1 -->
+  <g>
+    <rect x="326" y="196" width="96" height="96" rx="4" fill="#ffffff" stroke="#4A5560" stroke-width="1.4"/>
+    <rect x="326" y="196" width="72" height="72" fill="#DDEAF7"/>
+    <rect x="398" y="196" width="24" height="72" fill="#FBE5D6"/>
+    <rect x="326" y="268" width="96" height="24" fill="#EEF1F4"/>
+    <line x1="398" y1="196" x2="398" y2="292" stroke="#4A5560" stroke-width="1"/>
+    <line x1="326" y1="268" x2="422" y2="268" stroke="#4A5560" stroke-width="1"/>
+    <rect x="326" y="196" width="96" height="96" rx="4" fill="none" stroke="#4A5560" stroke-width="1.4"/>
+    <text x="362" y="236" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1F2328">R2·R1</text>
+    <text x="410" y="230" text-anchor="middle" font-size="7.9" font-weight="600" fill="#8A4B12">R2·t1</text>
+    <text x="410" y="245" text-anchor="middle" font-size="7.9" font-weight="600" fill="#8A4B12">+ t2</text>
+    <text x="338" y="284" text-anchor="middle" font-size="9.5" fill="#57606A">0</text><text x="362" y="284" text-anchor="middle" font-size="9.5" fill="#57606A">0</text><text x="386" y="284" text-anchor="middle" font-size="9.5" fill="#57606A">0</text><text x="410" y="284" text-anchor="middle" font-size="9.5" fill="#1F2328" font-weight="600">1</text>
+  </g>
+  <text x="374" y="312" text-anchor="middle" font-size="10" fill="#8A9199">T2 · T1</text>
+
+  <!-- 右侧解释 -->
+  <text x="452" y="206" font-size="11" fill="#1F2328">和上面手推的结果逐项相同：</text>
+  <text x="452" y="226" font-size="11" fill="#4A7CA8">左上 3×3 → R2·R1</text>
+  <text x="452" y="246" font-size="11" fill="#C0651A">右上 3×1 → R2·t1 + t2</text>
+  <text x="452" y="266" font-size="11" fill="#57606A">最后一行 → 0 0 0 1</text>
+  <text x="452" y="292" font-size="10.5" fill="#8A4B12">四个 3×3 块都不用再单独记公式</text>
+
+  <!-- ============ 下半：最后一行为什么是 0001 ============ -->
+  <line x1="40" y1="330" x2="720" y2="330" stroke="#E3E7EB" stroke-width="1"/>
+  <text x="40" y="352" font-size="12.5" font-weight="600" fill="#1F2328">③ 补的那个 1 和最后一行 0 0 0 1，是同一件事：让"多出来的那一维"保持不变</text>
+
+  <rect x="40" y="364" width="330" height="46" rx="6" fill="#F7F9FA" stroke="#E3E7EB"/>
+  <text x="54" y="382" font-size="11" fill="#1F2328">点：(x, y, z, 1)　→ 平移会作用到它</text>
+  <text x="54" y="400" font-size="11" fill="#1F2328">方向：(dx, dy, dz, 0)　→ 只转，不平移</text>
+
+  <rect x="386" y="364" width="334" height="46" rx="6" fill="#FDF4EC" stroke="#E8D3BC"/>
+  <text x="400" y="382" font-size="11" fill="#1F2328">乘完最后一行恒为 0 0 0 1，第 4 个分量恒为 1</text>
+  <text x="400" y="400" font-size="11" fill="#8A4B12">所以结果还是同一个形式，可以继续往下乘</text>
+</svg>

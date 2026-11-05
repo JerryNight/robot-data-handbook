@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 376" width="760" height="376" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="376" fill="#ffffff"/>
+  <defs>
+    <marker id="kx" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#C0392B"/>
+    </marker>
+    <marker id="ky" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#4A8060"/>
+    </marker>
+    <marker id="kg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#ADB5BD"/>
+    </marker>
+    <marker id="karc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#B0894C"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="32" font-size="12.5" font-weight="600" fill="#1F2328">一个矩阵只干一件事：告诉你「原来的每根轴，转完之后指向哪」</text>
+
+  <!-- ===== 左：平面图 ===== -->
+  <line x1="70" y1="210" x2="352" y2="210" stroke="#D5DBE0" stroke-width="1"/>
+  <line x1="190" y1="326" x2="190" y2="86" stroke="#D5DBE0" stroke-width="1"/>
+
+  <!-- 旧轴（浅灰） -->
+  <line x1="190" y1="210" x2="288" y2="210" stroke="#ADB5BD" stroke-width="1.4" marker-end="url(#kg)"/>
+  <line x1="190" y1="210" x2="190" y2="112" stroke="#ADB5BD" stroke-width="1.4" marker-end="url(#kg)"/>
+  <text x="294" y="214" font-size="11" fill="#8A9199">x</text>
+  <text x="180" y="108" font-size="11" fill="#8A9199">y</text>
+
+  <!-- 旋转后的轴 -->
+  <line x1="190" y1="206" x2="190" y2="106" stroke="#C0392B" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#kx)"/>
+  <line x1="186" y1="210" x2="84" y2="210" stroke="#4A8060" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#ky)"/>
+  <text x="198" y="100" font-size="10" fill="#C0392B">上</text>
+  <text x="72" y="204" font-size="10" fill="#4A8060">左</text>
+
+  <!-- p 与 p' 的分量走法 -->
+  <line x1="190" y1="210" x2="285" y2="210" stroke="#1565C0" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <line x1="285" y1="210" x2="285" y2="163" stroke="#1565C0" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <circle cx="285" cy="162.5" r="5" fill="#1565C0"/>
+  <text x="293" y="160" font-size="11.5" fill="#1565C0" font-weight="600">p</text>
+  <text x="293" y="177" font-size="9.5" fill="#4A7CA8">1 份 x、0.5 份 y</text>
+
+  <line x1="190" y1="210" x2="190" y2="115" stroke="#C0392B" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <line x1="190" y1="115" x2="145" y2="115" stroke="#4A8060" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <circle cx="142.5" cy="115" r="5" fill="#1565C0"/>
+  <text x="132" y="104" font-size="11.5" fill="#1565C0" font-weight="600" text-anchor="middle">p′</text>
+
+  <!-- 旋转弧：圆心在原点，过 p 与 p' 的上凸弧 -->
+  <path d="M285 162.5 Q232.3 79.3 142.5 115" fill="none" stroke="#B0894C" stroke-width="1.3" stroke-dasharray="4 3" marker-end="url(#karc)"/>
+  <text x="236" y="152" font-size="10" fill="#B0894C">转 90°</text>
+
+  <text x="60" y="342" font-size="10.5" fill="#57606A">红虚线：x 轴转完指向正上　　绿虚线：y 轴转完指向正左</text>
+  <text x="60" y="360" font-size="10.5" fill="#57606A">p 是沿旧轴量出来的，Rp 是沿新轴走同样多份</text>
+
+  <!-- ===== 右：矩阵与列的读法 ===== -->
+  <line x1="378" y1="52" x2="378" y2="330" stroke="#E3E7EB" stroke-width="1"/>
+
+  <text x="400" y="72" font-size="11.5" fill="#1F2328">R =</text>
+  <rect x="436" y="56" width="96" height="96" rx="4" fill="#ffffff" stroke="#4A5560" stroke-width="1.4"/>
+  <rect x="436" y="56" width="48" height="96" fill="#FBE5E3"/>
+  <rect x="484" y="56" width="48" height="96" fill="#E4F0E2"/>
+  <line x1="484" y1="56" x2="484" y2="152" stroke="#4A5560" stroke-width="1"/>
+  <rect x="436" y="56" width="96" height="96" rx="4" fill="none" stroke="#4A5560" stroke-width="1.4"/>
+  <text x="460" y="113" text-anchor="middle" font-size="15" font-weight="600" fill="#1F2328">0</text>
+  <text x="508" y="113" text-anchor="middle" font-size="15" font-weight="600" fill="#1F2328">−1</text>
+  <text x="460" y="140" text-anchor="middle" font-size="15" font-weight="600" fill="#1F2328">1</text>
+  <text x="508" y="140" text-anchor="middle" font-size="15" font-weight="600" fill="#1F2328">0</text>
+
+  <text x="460" y="172" text-anchor="middle" font-size="9.8" fill="#C0392B">第 1 列</text>
+  <text x="508" y="172" text-anchor="middle" font-size="9.8" fill="#4A8060">第 2 列</text>
+
+  <text x="548" y="66" font-size="11" fill="#C0392B">第 1 列 = (0, 1)</text>
+  <text x="548" y="84" font-size="10.5" fill="#57606A">x 轴转完指向正上方</text>
+  <text x="548" y="112" font-size="11" fill="#4A8060">第 2 列 = (−1, 0)</text>
+  <text x="548" y="130" font-size="10.5" fill="#57606A">y 轴转完指向正左方</text>
+
+  <rect x="400" y="192" width="330" height="106" rx="6" fill="#F7F9FA" stroke="#E3E7EB"/>
+  <text x="414" y="212" font-size="10.8" fill="#1F2328">p = 1·(x 轴) + 0.5·(y 轴)</text>
+  <text x="414" y="234" font-size="10.8" fill="#1F2328">R·p = 1·<tspan fill="#C0392B">(0,1)</tspan> + 0.5·<tspan fill="#4A8060">(−1,0)</tspan> = (−0.5, 1)</text>
+  <text x="414" y="256" font-size="10.5" fill="#57606A">矩阵乘法的定义就是「按列线性组合」：</text>
+  <text x="414" y="274" font-size="10.5" fill="#57606A">每个分量去乘对应的那一列，再全部加起来</text>
+  <text x="414" y="292" font-size="10.5" fill="#8A4B12">所以「乘一个矩阵」= 把每一份改沿新的轴走</text>
+</svg>

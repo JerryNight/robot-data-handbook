@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 386" width="760" height="386" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="386" fill="#ffffff"/>
+  <defs>
+    <marker id="v1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#4A5560"/>
+    </marker>
+  </defs>
+
+  <text x="34" y="30" font-size="12.5" font-weight="600" fill="#1F2328">两根单位轴「直线插值」，长度会变短 —— 这就是旋转矩阵插值失效的原因</text>
+
+  <!-- 单位圆弧 -->
+  <path d="M230 300 A120 120 0 0 0 110 180" fill="none" stroke="#E3E7EB" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <circle cx="110" cy="300" r="3" fill="#4A5560"/>
+  <text x="96" y="316" text-anchor="middle" font-size="9.5" fill="#8A9199">原点</text>
+
+  <!-- 两个关键帧的轴方向 -->
+  <line x1="110" y1="300" x2="230" y2="300" stroke="#4A5560" stroke-width="2" marker-end="url(#v1)"/>
+  <text x="236" y="304" font-size="10.5" fill="#4A5560">轴@t=0</text>
+  <line x1="110" y1="300" x2="151" y2="187" stroke="#4A5560" stroke-width="2" marker-end="url(#v1)"/>
+  <text x="158" y="182" font-size="10.5" fill="#4A5560">轴@t=1</text>
+
+  <!-- 弦：线性插值 -->
+  <line x1="230" y1="300" x2="151" y2="187" stroke="#C0392B" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <circle cx="190.5" cy="243.6" r="5.5" fill="#ffffff" stroke="#C0392B" stroke-width="2.2"/>
+  <line x1="196" y1="246" x2="244" y2="266" stroke="#C0392B" stroke-width="0.9"/>
+  <text x="248" y="264" font-size="10.5" fill="#C0392B">走弦：长度 0.82</text>
+  <text x="248" y="280" font-size="9.8" fill="#C0392B">（矩阵逐元素插值走的就是这条路）</text>
+
+  <!-- 弧：slerp -->
+  <path d="M230 300 A120 120 0 0 0 151 187" fill="none" stroke="#4A8060" stroke-width="2.2"/>
+  <circle cx="208.3" cy="231.2" r="5.5" fill="#4A8060"/>
+  <line x1="212" y1="228" x2="244" y2="212" stroke="#4A8060" stroke-width="0.9"/>
+  <text x="248" y="210" font-size="10.5" fill="#4A8060">走弧：长度恒为 1.00</text>
+  <text x="248" y="226" font-size="9.8" fill="#4A8060">（slerp / 四元数插值走的是这条）</text>
+
+  <!-- 右栏：数值 -->
+  <line x1="404" y1="52" x2="404" y2="330" stroke="#E3E7EB" stroke-width="1"/>
+
+  <text x="428" y="70" font-size="11.5" fill="#1F2328">中点长度 = cos(间隔角 ÷ 2)</text>
+
+  <text x="428" y="104" font-size="10" fill="#8A9199">关键帧间隔</text>
+  <text x="540" y="104" font-size="10" fill="#8A9199">中点长度</text>
+  <text x="644" y="104" font-size="10" fill="#8A9199">Rᵀ·R 对角线</text>
+  <line x1="428" y1="112" x2="726" y2="112" stroke="#E3E7EB" stroke-width="1"/>
+
+  <text x="428" y="134" font-size="11" fill="#1F2328">30°</text>
+  <text x="540" y="134" font-size="11" fill="#1F2328">cos 15° = 0.966</text>
+  <text x="644" y="134" font-size="11" fill="#1F2328">0.933</text>
+
+  <text x="428" y="160" font-size="11" fill="#1F2328">90°</text>
+  <text x="540" y="160" font-size="11" fill="#1F2328">cos 45° = 0.707</text>
+  <text x="644" y="160" font-size="11" fill="#1F2328">0.500</text>
+
+  <text x="428" y="186" font-size="11" fill="#1F2328">120°</text>
+  <text x="540" y="186" font-size="11" fill="#1F2328">cos 60° = 0.500</text>
+  <text x="644" y="186" font-size="11" fill="#1F2328">0.250</text>
+
+  <rect x="424" y="204" width="302" height="96" rx="6" fill="#FDF4EC" stroke="#E8D3BC"/>
+  <text x="438" y="224" font-size="10.5" fill="#1F2328">脚本里那 7.41e-02 的偏差就来自第一行：</text>
+  <text x="438" y="244" font-size="10.5" fill="#1F2328">30° 间隔插到一半，三根轴各缩到 0.966，</text>
+  <text x="438" y="262" font-size="10.5" fill="#1F2328">轴之间也不再严格垂直（0.933 ≠ 1）。</text>
+  <text x="438" y="284" font-size="10.5" fill="#8A4B12">矩阵不再是旋转 → 求逆、反投影全部失准。</text>
+
+  <text x="428" y="322" font-size="10" fill="#57606A">间隔越大错得越狠，但间隔再小也不会「恰好正确」。</text>
+
+  <text x="34" y="356" font-size="10.5" fill="#57606A">三个轴各自走直线 → 轴变短、夹角变歪 → 那个 4×4 已经不是一个刚体变换了。</text>
+  <text x="34" y="374" font-size="10.5" fill="#8A4B12">正确做法：位置线性插值，旋转用 slerp；TF2 内部就是这么做的，别自己写。</text>
+</svg>

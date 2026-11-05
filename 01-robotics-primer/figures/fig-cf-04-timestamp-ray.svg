@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="430" fill="#ffffff"/>
+  <defs>
+    <marker id="tm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#B0894C"/>
+    </marker>
+    <marker id="tb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#1565C0"/>
+    </marker>
+    <marker id="tr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#C0392B"/>
+    </marker>
+  </defs>
+
+  <text x="34" y="28" font-size="12.5" font-weight="600" fill="#1F2328">① 俯视：相机坐标里的读数没变，base 下的位置一直在跑</text>
+
+  <!-- ===== 左：俯视图 ===== -->
+  <line x1="120" y1="300" x2="410" y2="300" stroke="#E3E7EB" stroke-width="1"/>
+  <line x1="150" y1="392" x2="150" y2="170" stroke="#E3E7EB" stroke-width="1"/>
+  <text x="412" y="304" font-size="10" fill="#8A9199">x</text>
+  <text x="142" y="166" font-size="10" fill="#8A9199">y</text>
+
+  <!-- 基座 -->
+  <rect x="136" y="286" width="28" height="28" rx="4" fill="#DDE3E9" stroke="#8A9199" stroke-width="1.3"/>
+  <text x="150" y="276" text-anchor="middle" font-size="10" fill="#57606A">base</text>
+
+  <!-- t=0 的臂与相机 -->
+  <line x1="150" y1="300" x2="342" y2="300" stroke="#9AA6B2" stroke-width="9" stroke-linecap="round"/>
+  <line x1="150" y1="300" x2="342" y2="300" stroke="#D5DDE4" stroke-width="5" stroke-linecap="round"/>
+  <line x1="342" y1="300" x2="362" y2="300" stroke="#C0651A" stroke-width="1.6"/>
+  <rect x="360" y="290" width="20" height="20" rx="3" fill="#FBE5D6" stroke="#C0651A" stroke-width="1.4"/>
+  <circle cx="370" cy="300" r="4" fill="#C0651A"/>
+  <text x="386" y="290" font-size="10" fill="#B08050">t = 0</text>
+
+  <!-- t=1 的臂与相机 -->
+  <line x1="150" y1="300" x2="316" y2="204" stroke="#9AA6B2" stroke-width="9" stroke-linecap="round"/>
+  <line x1="150" y1="300" x2="316" y2="204" stroke="#D5DDE4" stroke-width="5" stroke-linecap="round"/>
+  <line x1="316" y1="204" x2="339" y2="186" stroke="#C0651A" stroke-width="1.6"/>
+  <rect x="339" y="175" width="20" height="20" rx="3" fill="#FBE5D6" stroke="#C0651A" stroke-width="1.4"/>
+  <circle cx="349" cy="185" r="4" fill="#C0651A"/>
+  <text x="364" y="172" font-size="10" fill="#B08050">t = 1</text>
+
+  <!-- 偏航弧 -->
+  <path d="M282 300 A68 68 0 0 0 268 236" fill="none" stroke="#C9D3DC" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="228" y="268" font-size="9.8" fill="#8A9199">偏航 30°</text>
+
+  <!-- 两条“同一个相机坐标”的向量 -->
+  <line x1="370" y1="300" x2="252" y2="368" stroke="#1565C0" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#tb)"/>
+  <line x1="349" y1="185" x2="294" y2="316" stroke="#1565C0" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#tb)"/>
+
+  <!-- 两个落点 -->
+  <circle cx="249" cy="372" r="5.5" fill="#C0392B"/>
+  <circle cx="291" cy="319" r="5.5" fill="#C0392B"/>
+  <text x="236" y="390" text-anchor="end" font-size="9.5" fill="#C0392B">t=0 落点</text>
+  <text x="302" y="352" font-size="9.5" fill="#C0392B">t=1 落点</text>
+
+  <!-- 位移标注 -->
+  <line x1="252" y1="366" x2="289" y2="325" stroke="#B0894C" stroke-width="1.6" marker-end="url(#tm)"/>
+  <text x="214" y="336" font-size="10.5" font-weight="600" fill="#B0894C">差 14.1 cm</text>
+
+  <text x="34" y="414" font-size="10.5" fill="#57606A">两段蓝虚线的长度、方向完全一样：同一个相机坐标 (0.15, −0.05, 0.60)。</text>
+
+  <!-- ===== 右：像素是射线 ===== -->
+  <line x1="440" y1="52" x2="440" y2="392" stroke="#E3E7EB" stroke-width="1"/>
+  <text x="464" y="28" font-size="12.5" font-weight="600" fill="#1F2328">② 一个像素，其实是一条射线</text>
+
+  <!-- 相机轮廓 -->
+  <path d="M470 96 L506 82 L506 142 L470 128 Z" fill="#FBE5D6" stroke="#C0651A" stroke-width="1.5"/>
+  <line x1="506" y1="82" x2="506" y2="142" stroke="#C0651A" stroke-width="2"/>
+  <text x="470" y="162" font-size="9.8" fill="#8A4B12">镜头 / 光心</text>
+
+  <!-- 像平面上那个像素 -->
+  <circle cx="506" cy="112" r="3.5" fill="#C0392B"/>
+  <text x="512" y="104" font-size="9.5" fill="#C0392B">这个像素</text>
+
+  <!-- 射线 -->
+  <line x1="488" y1="112" x2="726" y2="252" stroke="#C0392B" stroke-width="1.4"/>
+  <line x1="488" y1="108" x2="726" y2="248" stroke="#C0392B" stroke-width="0" />
+
+  <!-- 三个候选深度 -->
+  <circle cx="580" cy="166" r="5" fill="#ffffff" stroke="#1565C0" stroke-width="2"/>
+  <circle cx="640" cy="197" r="5" fill="#ffffff" stroke="#1565C0" stroke-width="2"/>
+  <circle cx="700" cy="229" r="5" fill="#ffffff" stroke="#1565C0" stroke-width="2"/>
+  <text x="592" y="164" font-size="9.5" fill="#1565C0">深度 0.4 m</text>
+  <text x="612" y="220" font-size="9.5" fill="#1565C0">深度 0.6 m</text>
+  <text x="666" y="252" font-size="9.5" fill="#1565C0">深度 0.9 m</text>
+
+  <rect x="464" y="292" width="268" height="92" rx="6" fill="#F7F9FA" stroke="#E3E7EB"/>
+  <text x="478" y="312" font-size="10.5" fill="#1F2328">同一个像素 = 同一条射线，</text>
+  <text x="478" y="330" font-size="10.5" fill="#1F2328">射线上的每一点都会印在这个像素上。</text>
+  <text x="478" y="352" font-size="10.5" fill="#8A4B12">要定出一个点，必须再给一个深度；</text>
+  <text x="478" y="370" font-size="10.5" fill="#8A4B12">而给了深度，也只是一个「相机坐标」。</text>
+</svg>
