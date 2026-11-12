@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="400" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">误差上限不看“谁更稀疏”，只看“你去取值的那一方有多稀疏”</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同样的两路数据，对齐方向反了，误差从 5 ms 变成 18 ms。窗口 100 ms。</text>
+  <text x="100.0" y="88.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">方向 A：图像时刻 → 最近的关节采样</text>
+  <text x="100.0" y="106.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">上限 5.0 ms</text>
+  <line x1="100.0" y1="150.0" x2="388.0" y2="150.0" stroke="#1F2328" stroke-width="1.4" opacity="1.0"/>
+  <line x1="100.0" y1="240.0" x2="388.0" y2="240.0" stroke="#1F2328" stroke-width="1.4" opacity="1.0"/>
+  <text x="94.0" y="153.5" font-size="9" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">相机</text>
+  <text x="94.0" y="243.5" font-size="9" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">关节</text>
+  <text x="94.0" y="140.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">30 Hz</text>
+  <text x="94.0" y="230.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">100 Hz</text>
+  <line x1="100.0" y1="235.0" x2="100.0" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="128.8" y1="235.0" x2="128.8" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="157.6" y1="235.0" x2="157.6" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="186.4" y1="235.0" x2="186.4" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="215.2" y1="235.0" x2="215.2" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="244.0" y1="235.0" x2="244.0" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="272.8" y1="235.0" x2="272.8" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="301.6" y1="235.0" x2="301.6" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="330.4" y1="235.0" x2="330.4" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="359.2" y1="235.0" x2="359.2" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="388.0" y1="235.0" x2="388.0" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="100.0" y1="144.0" x2="100.0" y2="156.0" stroke="#C0651A" stroke-width="2" opacity="1.0"/>
+  <line x1="196.0" y1="144.0" x2="196.0" y2="156.0" stroke="#C0651A" stroke-width="2" opacity="1.0"/>
+  <line x1="292.0" y1="144.0" x2="292.0" y2="156.0" stroke="#C0651A" stroke-width="2" opacity="1.0"/>
+  <line x1="388.0" y1="144.0" x2="388.0" y2="156.0" stroke="#C0651A" stroke-width="2" opacity="1.0"/>
+  <line x1="100.0" y1="150.0" x2="100.0" y2="240.0" stroke="#3C6E9F" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="196.0" y1="150.0" x2="186.4" y2="240.0" stroke="#3C6E9F" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="292.0" y1="150.0" x2="301.6" y2="240.0" stroke="#3C6E9F" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="388.0" y1="150.0" x2="388.0" y2="240.0" stroke="#3C6E9F" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <text x="460.0" y="88.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">方向 B：关节时刻 → 最近的图像</text>
+  <text x="460.0" y="106.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">上限 18.3 ms</text>
+  <line x1="460.0" y1="150.0" x2="748.0" y2="150.0" stroke="#1F2328" stroke-width="1.4" opacity="1.0"/>
+  <line x1="460.0" y1="240.0" x2="748.0" y2="240.0" stroke="#1F2328" stroke-width="1.4" opacity="1.0"/>
+  <text x="454.0" y="153.5" font-size="9" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">相机</text>
+  <text x="454.0" y="243.5" font-size="9" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">关节</text>
+  <text x="454.0" y="140.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">30 Hz</text>
+  <text x="454.0" y="230.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">100 Hz</text>
+  <line x1="460.0" y1="235.0" x2="460.0" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="488.8" y1="235.0" x2="488.8" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="517.6" y1="235.0" x2="517.6" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="546.4" y1="235.0" x2="546.4" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="575.2" y1="235.0" x2="575.2" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="604.0" y1="235.0" x2="604.0" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="632.8" y1="235.0" x2="632.8" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="661.6" y1="235.0" x2="661.6" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="690.4" y1="235.0" x2="690.4" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="719.2" y1="235.0" x2="719.2" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="748.0" y1="235.0" x2="748.0" y2="245.0" stroke="#3C6E9F" stroke-width="1.4" opacity="1.0"/>
+  <line x1="460.0" y1="144.0" x2="460.0" y2="156.0" stroke="#C0651A" stroke-width="2" opacity="1.0"/>
+  <line x1="556.0" y1="144.0" x2="556.0" y2="156.0" stroke="#C0651A" stroke-width="2" opacity="1.0"/>
+  <line x1="652.0" y1="144.0" x2="652.0" y2="156.0" stroke="#C0651A" stroke-width="2" opacity="1.0"/>
+  <line x1="748.0" y1="144.0" x2="748.0" y2="156.0" stroke="#C0651A" stroke-width="2" opacity="1.0"/>
+  <line x1="460.0" y1="240.0" x2="460.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="488.8" y1="240.0" x2="460.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="517.6" y1="240.0" x2="556.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="546.4" y1="240.0" x2="556.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="575.2" y1="240.0" x2="556.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="604.0" y1="240.0" x2="556.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="632.8" y1="240.0" x2="652.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="661.6" y1="240.0" x2="652.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="690.4" y1="240.0" x2="652.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="719.2" y1="240.0" x2="748.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="748.0" y1="240.0" x2="748.0" y2="150.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <text x="24.0" y="288.0" font-size="10" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">方向 A 的连线几乎是竖直的：相机帧总能找到 5 ms 以内的关节采样。</text>
+  <text x="24.0" y="306.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">方向 B 的连线明显更斜：关节采样被拉到 16 ms 外的图像上，横向跨了半条栅格。</text>
+  <text x="24.0" y="324.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">而且方向 B 的“猜”是没有物理意义的 —— 图像不能插值，只能取最近的那张。</text>
+  <line x1="24.0" y1="344.0" x2="736.0" y2="344.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="366.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">结论：对齐只能发生在“低频信号的时间网格”上，把高频信号插值过去。反过来做等于用 30 Hz 的信息去猜 100 Hz 的时刻。</text>
+</svg>

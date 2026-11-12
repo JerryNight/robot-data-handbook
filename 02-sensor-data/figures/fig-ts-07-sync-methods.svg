@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="320" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">四种同步方案：误差差三个数量级，成本也差三个数量级</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">横轴对数，单位 µs。同一个机器人，换一种打点方式就能从毫秒级进到微秒级。</text>
+  <line x1="300.0" y1="84.0" x2="300.0" y2="250.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="300.0" y="266.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1 µs</text>
+  <line x1="385.1" y1="84.0" x2="385.1" y2="250.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="385.1" y="266.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10 µs</text>
+  <line x1="470.3" y1="84.0" x2="470.3" y2="250.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="470.3" y="266.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">100 µs</text>
+  <line x1="555.4" y1="84.0" x2="555.4" y2="250.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="555.4" y="266.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1 ms</text>
+  <line x1="640.5" y1="84.0" x2="640.5" y2="250.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="640.5" y="266.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10 ms</text>
+  <text x="500.0" y="288.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">残余同步误差（对数）</text>
+  <text x="24.0" y="108.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">驱动里软件打点</text>
+  <rect x="614.9" y="97.0" width="51.3" height="14.0" rx="4" fill="#8A94A0" stroke="#8A94A0" stroke-width="0" opacity="1.0"/>
+  <text x="674.1" y="108.0" font-size="9.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">5–20 ms</text>
+  <text x="24.0" y="144.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">主机收到时打点</text>
+  <rect x="581.0" y="133.0" width="51.3" height="14.0" rx="4" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="1.0"/>
+  <text x="640.3" y="144.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">2–8 ms</text>
+  <text x="24.0" y="180.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">触发线 + 硬件打点</text>
+  <rect x="385.1" y="169.0" width="85.1" height="14.0" rx="4" fill="#C0651A" stroke="#C0651A" stroke-width="0" opacity="1.0"/>
+  <text x="478.3" y="180.0" font-size="9.5" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">10–100 µs</text>
+  <text x="24.0" y="216.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">PTP 全网同钟</text>
+  <rect x="300.0" y="205.0" width="85.1" height="14.0" rx="4" fill="#2E7D5B" stroke="#2E7D5B" stroke-width="0" opacity="1.0"/>
+  <text x="393.1" y="216.0" font-size="9.5" fill="#2E7D5B" text-anchor="start" font-weight="400" opacity="1.0">1–10 µs</text>
+  <text x="24.0" y="306.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">前两行的毫秒级误差，正好落在“只能学任务顺序”那一档；后两行的微秒级，才够做力控装配。</text>
+</svg>

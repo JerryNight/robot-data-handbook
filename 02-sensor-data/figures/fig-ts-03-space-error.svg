@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="400" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">时间对不齐 = 空间对不齐，换算系数就是末端速度</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">误差 = 速度 × 时间。所以同一个 8 ms，慢速搬运无所谓，快速插孔是灾难。</text>
+  <line x1="88.0" y1="296.0" x2="690.0" y2="296.0" stroke="#C9D0D8" stroke-width="1" opacity="1.0"/>
+  <text x="80.0" y="299.5" font-size="9" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <line x1="88.0" y1="229.3" x2="690.0" y2="229.3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="80.0" y="232.8" font-size="9" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">20</text>
+  <line x1="88.0" y1="162.7" x2="690.0" y2="162.7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="80.0" y="166.2" font-size="9" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">40</text>
+  <line x1="88.0" y1="96.0" x2="690.0" y2="96.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="80.0" y="99.5" font-size="9" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">60</text>
+  <text x="88.0" y="313.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0</text>
+  <text x="208.4" y="313.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <text x="328.8" y="313.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">20</text>
+  <text x="449.2" y="313.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">30</text>
+  <text x="569.6" y="313.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">40</text>
+  <text x="690.0" y="313.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">50</text>
+  <text x="389.0" y="330.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">时间对齐误差 (ms)</text>
+  <text x="88.0" y="86.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">末端位置误差 (mm)</text>
+  <path d="M 88.0 296.0 L 690.0 279.3" fill="none" stroke="#B9C6D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="686.0" y="273.3" font-size="9.5" fill="#B9C6D2" text-anchor="end" font-weight="400" opacity="1.0">0.1 m/s</text>
+  <path d="M 88.0 296.0 L 690.0 212.7" fill="none" stroke="#3C6E9F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="686.0" y="206.7" font-size="9.5" fill="#3C6E9F" text-anchor="end" font-weight="400" opacity="1.0">0.5 m/s</text>
+  <path d="M 88.0 296.0 L 690.0 129.3" fill="none" stroke="#C0651A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="686.0" y="123.3" font-size="9.5" fill="#C0651A" text-anchor="end" font-weight="400" opacity="1.0">1 m/s</text>
+  <path d="M 88.0 296.0 L 437.2 102.7" fill="none" stroke="#C0392B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="433.2" y="96.7" font-size="9.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">2 m/s</text>
+  <line x1="187.9" y1="96.0" x2="187.9" y2="296.0" stroke="#6B5B95" stroke-width="1.2" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="195.9" y="112.0" font-size="9" fill="#6B5B95" text-anchor="start" font-weight="400" opacity="1.0">8.3 ms（一个相机半周期）</text>
+  <circle cx="187.9" cy="268.3" r="3.6" fill="none" stroke="#C0651A" stroke-width="1.4" opacity="1.0"/>
+  <text x="177.9" y="254.3" font-size="9.5" fill="#C0651A" text-anchor="end" font-weight="400" opacity="1.0">1 m/s → 8.3 mm</text>
+  <line x1="24.0" y1="348.0" x2="736.0" y2="348.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="370.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">8.3 mm 是什么概念：杯子直径 70 mm，这是杯口半径的四分之一 —— 足够让抓取从“正好卡住”变成“撞在杯沿”。</text>
+  <text x="24.0" y="390.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">而且误差是有方向的：系统性滞后会被模型学成“动作要提前开始”，训练 loss 完全正常。</text>
+</svg>

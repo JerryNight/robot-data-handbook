@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 372" width="760" height="372" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="372" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">一帧图像有四个“时刻”，你打的时间戳落在哪一个？</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">曝光 10 ms、传输 4 ms、驱动缓冲 2 ms —— 全链条 16 ms 的滞后，就这么来的。</text>
+  <line x1="90.0" y1="128.0" x2="690.0" y2="128.0" stroke="#1F2328" stroke-width="1.4" opacity="1.0"/>
+  <line x1="90.0" y1="124.0" x2="90.0" y2="132.0" stroke="#8A94A0" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="116.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0 ms</text>
+  <line x1="240.0" y1="124.0" x2="240.0" y2="132.0" stroke="#8A94A0" stroke-width="1" opacity="1.0"/>
+  <text x="240.0" y="116.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">5 ms</text>
+  <line x1="390.0" y1="124.0" x2="390.0" y2="132.0" stroke="#8A94A0" stroke-width="1" opacity="1.0"/>
+  <text x="390.0" y="116.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10 ms</text>
+  <line x1="540.0" y1="124.0" x2="540.0" y2="132.0" stroke="#8A94A0" stroke-width="1" opacity="1.0"/>
+  <text x="540.0" y="116.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">15 ms</text>
+  <line x1="690.0" y1="124.0" x2="690.0" y2="132.0" stroke="#8A94A0" stroke-width="1" opacity="1.0"/>
+  <text x="690.0" y="116.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">20 ms</text>
+  <circle cx="90.0" cy="128.0" r="4.5" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="90.0" y1="133.0" x2="90.0" y2="152.0" stroke="#C0651A" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="162.0" font-size="9.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">t0 曝光开始</text>
+  <text x="96.0" y="177.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">物理上的“这一刻”</text>
+  <circle cx="390.0" cy="128.0" r="4.5" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="390.0" y1="133.0" x2="390.0" y2="152.0" stroke="#3C6E9F" stroke-width="1" opacity="1.0"/>
+  <text x="390.0" y="162.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">t1 曝光结束</text>
+  <text x="390.0" y="177.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">晚一个曝光时间</text>
+  <circle cx="510.0" cy="128.0" r="4.5" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="510.0" y1="133.0" x2="510.0" y2="152.0" stroke="#3C6E9F" stroke-width="1" opacity="1.0"/>
+  <text x="510.0" y="162.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">t2 传输完成</text>
+  <text x="510.0" y="177.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">USB 传完</text>
+  <circle cx="570.0" cy="128.0" r="4.5" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="570.0" y1="133.0" x2="570.0" y2="186.0" stroke="#C0392B" stroke-width="1" opacity="1.0"/>
+  <text x="570.0" y="196.0" font-size="9.5" fill="#C0392B" text-anchor="middle" font-weight="600" opacity="1.0">t3 应用层拿到</text>
+  <text x="570.0" y="211.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">队列深度决定</text>
+  <rect x="90.0" y="62.0" width="480.0" height="16.0" rx="3" fill="#FDECEA" stroke="#E7C0BA" stroke-width="1" opacity="1.0"/>
+  <text x="330.0" y="74.0" font-size="9.5" fill="#C0392B" text-anchor="middle" font-weight="400" opacity="1.0">用 t3 打点 = 整段数据晚 16 ms</text>
+  <line x1="24.0" y1="250.0" x2="736.0" y2="250.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="272.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">前两个时刻的抖动很低（晶振决定，微秒级）；后两个的抖动由系统负载决定，可能到几毫秒。</text>
+  <text x="24.0" y="294.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">关键区别：常数滞后可以标定后减掉，抖动减不掉 —— 因为抖动是随机的，你没法从数据本身知道这一帧晚了几毫秒。</text>
+  <text x="24.0" y="318.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">而且“常数滞后 + 抖动”往往同时存在：你以为标定掉了一个固定值，其实每帧还在上下跳。</text>
+  <text x="24.0" y="344.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">所以工程上不看“我标定过一次”，而看“时间戳是不是在事件发生的那一刻由硬件生成的”。</text>
+</svg>
