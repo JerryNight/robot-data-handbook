@@ -6,7 +6,7 @@
 |---|---|---|
 | 1 | [录制格式](recording.md) | rosbag2 就是一个 SQLite + 一个 yaml；「录制成功」不等于「数据完整」 |
 | 2 | [时钟与触发链](clock-and-trigger.md) | 40ppm 跑 8 小时差 1.15 秒；PTP 的天花板是路径不对称，不是采样次数 |
-| 3 | [标定](calibration.md) | 单视图标定解不出焦距，只能解出 f/d；外参一定会漂，要能检测 |
+| 3 | [标定](calibration.md) | 残差 0.2 px 的时候焦距可以错 25%；借重力只能测 6 个自由度里的 2 个 |
 | 4 | [格式](formats.md) | chunk 布局差 100 倍 I/O；视频省 69 倍空间，代价是随机访问 |
 | 5 | [存储与版本](storage-and-versioning.md) | 去重收益取决于 idle 占比；复现性 = 代码版本 + 数据哈希 + 参数 |
 | 6 | [标注](annotation.md) | 一致率 99% 的 kappa 可以是负数；人工切分精度约 3–10 帧 |

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 452" width="760" height="452" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="452" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">一张桌面的法向只覆盖 6 个自由度里的 2 个</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">把外参按 6 个自由度分别改一下，看「拟合出的倾角」变成多少。阈值 0.3°。</text>
+  <text x="40.0" y="96.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">自由度</text>
+  <text x="266.0" y="96.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">引入的误差</text>
+  <text x="372.0" y="96.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">测出的倾角</text>
+  <text x="476.0" y="96.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">结论</text>
+  <line x1="24.0" y1="104.0" x2="560.0" y2="104.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <rect x="24.0" y="114.0" width="536.0" height="34.0" rx="5" fill="#F5FAF7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="40.0" y="136.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">绕 x 转（pitch）</text>
+  <text x="266.0" y="136.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">1.5°</text>
+  <text x="372.0" y="136.0" font-size="10" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">1.51°</text>
+  <circle cx="484.0" cy="132.0" r="4.2" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="496.0" y="136.0" font-size="9.5" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">能测出</text>
+  <rect x="24.0" y="158.0" width="536.0" height="34.0" rx="5" fill="#F5FAF7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="40.0" y="180.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">绕 y 转（roll）</text>
+  <text x="266.0" y="180.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">1.5°</text>
+  <text x="372.0" y="180.0" font-size="10" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">1.50°</text>
+  <circle cx="484.0" cy="176.0" r="4.2" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="496.0" y="180.0" font-size="9.5" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">能测出</text>
+  <rect x="24.0" y="202.0" width="536.0" height="34.0" rx="5" fill="#FDF4F3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="40.0" y="224.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">绕 z 转（yaw）</text>
+  <text x="266.0" y="224.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">5.0°</text>
+  <text x="372.0" y="224.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">0.02°</text>
+  <circle cx="484.0" cy="220.0" r="4.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="496.0" y="224.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">测不出</text>
+  <rect x="24.0" y="246.0" width="536.0" height="34.0" rx="5" fill="#FDF4F3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="40.0" y="268.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">沿 x 平移</text>
+  <text x="266.0" y="268.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">50 mm</text>
+  <text x="372.0" y="268.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">0.01°</text>
+  <circle cx="484.0" cy="264.0" r="4.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="496.0" y="268.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">测不出</text>
+  <rect x="24.0" y="290.0" width="536.0" height="34.0" rx="5" fill="#FDF4F3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="40.0" y="312.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">沿 y 平移</text>
+  <text x="266.0" y="312.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">50 mm</text>
+  <text x="372.0" y="312.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">0.02°</text>
+  <circle cx="484.0" cy="308.0" r="4.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="496.0" y="312.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">测不出</text>
+  <rect x="24.0" y="334.0" width="536.0" height="34.0" rx="5" fill="#FDF4F3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="40.0" y="356.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">沿 z 平移</text>
+  <text x="266.0" y="356.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">50 mm</text>
+  <text x="372.0" y="356.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">0.02°</text>
+  <circle cx="484.0" cy="352.0" r="4.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="496.0" y="356.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">测不出</text>
+  <rect x="588.0" y="92.0" width="148.0" height="130.0" rx="6" fill="#F7F9FB" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="600.0" y="114.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">为什么能测出来</text>
+  <text x="600.0" y="136.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">一方是标定时刻</text>
+  <text x="600.0" y="151.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">冻结的法向，</text>
+  <text x="600.0" y="166.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">一方是当次数据。</text>
+  <text x="600.0" y="190.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">两边都现推 →</text>
+  <text x="600.0" y="205.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">永远一致，测不出</text>
+  <line x1="24.0" y1="372.0" x2="736.0" y2="372.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="394.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">补盲区：参考物必须在你想测的那个自由度上「有变化」，否则它就是个常数。</text>
+  <text x="40.0" y="418.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">yaw → 带方向的图案（标定板 / AprilTag），或机器人的直线运动方向</text>
+  <text x="40.0" y="440.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">平移 → 已知尺寸的物体（点云上的尺规），或机械臂碰到桌面的那个位置</text>
+</svg>

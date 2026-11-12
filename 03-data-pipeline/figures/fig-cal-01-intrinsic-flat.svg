@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 456" width="760" height="456" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="456" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">单视图的残差是一条平线：焦距错 25%，残差只动 2%</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">横轴候选焦距，纵轴「该焦距下能做到的最小重投影残差」。真值 f=600 px、d=1.0 m，像素噪声 0.2 px。</text>
+  <line x1="78.0" y1="300.0" x2="560.0" y2="300.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="78.0" y1="300.0" x2="78.0" y2="92.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="78.0" y1="300.0" x2="78.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="78.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">400</text>
+  <line x1="198.5" y1="300.0" x2="198.5" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="198.5" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">500</text>
+  <line x1="319.0" y1="300.0" x2="319.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="319.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">600</text>
+  <line x1="439.5" y1="300.0" x2="439.5" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="439.5" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">700</text>
+  <line x1="560.0" y1="300.0" x2="560.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="560.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">800</text>
+  <line x1="73.0" y1="300.0" x2="78.0" y2="300.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="69.0" y="303.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.0</text>
+  <line x1="73.0" y1="260.0" x2="78.0" y2="260.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="69.0" y="263.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.5</text>
+  <line x1="73.0" y1="220.0" x2="78.0" y2="220.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="69.0" y="223.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1.0</text>
+  <line x1="73.0" y1="180.0" x2="78.0" y2="180.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="69.0" y="183.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1.5</text>
+  <line x1="73.0" y1="140.0" x2="78.0" y2="140.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="69.0" y="143.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">2.0</text>
+  <line x1="73.0" y1="100.0" x2="78.0" y2="100.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="69.0" y="103.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">2.5</text>
+  <text x="319.0" y="336.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">候选焦距 f（px）</text>
+  <text x="69.0" y="84.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">残差（px）</text>
+  <line x1="319.0" y1="92.0" x2="319.0" y2="300.0" stroke="#2E7D5B" stroke-width="1.2" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="324.0" y="104.0" font-size="8.5" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">真值 600</text>
+  <path d="M 78.0 283.0 L 90.0 283.1 L 102.1 283.1 L 114.2 283.2 L 126.2 283.2 L 138.2 283.2 L 150.3 283.3 L 162.3 283.3 L 174.4 283.3 L 186.4 283.4 L 198.5 283.4 L 210.6 283.4 L 222.6 283.4 L 234.7 283.5 L 246.7 283.5 L 258.8 283.5 L 270.8 283.5 L 282.9 283.5 L 294.9 283.6 L 306.9 283.6 L 319.0 283.6 L 331.1 283.6 L 343.1 283.6 L 355.1 283.6 L 367.2 283.6 L 379.2 283.6 L 391.3 283.6 L 403.4 283.7 L 415.4 283.7 L 427.4 283.7 L 439.5 283.7 L 451.6 283.7 L 463.6 283.7 L 475.6 283.7 L 487.7 283.7 L 499.8 283.7 L 511.8 283.7 L 523.9 283.7 L 535.9 283.7 L 548.0 283.7 L 560.0 283.7" fill="none" stroke="#3C6E9F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <path d="M 78.0 104.4 L 90.0 117.0 L 102.1 129.1 L 114.2 142.4 L 126.2 154.2 L 138.2 164.7 L 150.3 175.5 L 162.3 187.0 L 174.4 197.2 L 186.4 205.9 L 198.5 215.1 L 210.6 225.3 L 222.6 234.2 L 234.7 241.6 L 246.7 248.1 L 258.8 257.6 L 270.8 265.6 L 282.9 271.3 L 294.9 273.6 L 306.9 279.1 L 319.0 284.1 L 331.1 283.7 L 343.1 278.6 L 355.1 271.7 L 367.2 269.9 L 379.2 265.9 L 391.3 260.5 L 403.4 254.3 L 415.4 248.1 L 427.4 244.2 L 439.5 239.6 L 451.6 234.6 L 463.6 229.4 L 475.6 223.9 L 487.7 219.9 L 499.8 215.7 L 511.8 211.3 L 523.9 206.7 L 535.9 202.1 L 548.0 198.0 L 560.0 194.3" fill="none" stroke="#C0651A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="114.2" y="275.6" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">单视图：全程 0.20 px 上下</text>
+  <text x="327.0" y="196.0" font-size="9.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">双视图：只有 600 附近压不下去</text>
+  <circle cx="319.0" cy="284.1" r="3.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="584.0" y="92.0" width="152.0" height="96.0" rx="6" fill="#F7F9FB" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="596.0" y1="114.0" x2="618.0" y2="114.0" stroke="#3C6E9F" stroke-width="2.4" opacity="1.0"/>
+  <text x="626.0" y="118.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">只有一张图</text>
+  <line x1="596.0" y1="140.0" x2="618.0" y2="140.0" stroke="#C0651A" stroke-width="2.4" opacity="1.0"/>
+  <text x="626.0" y="144.0" font-size="9.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">多走 300 mm</text>
+  <text x="596.0" y="168.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">两条线用同一份数据</text>
+  <text x="596.0" y="181.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">只差第二张图</text>
+  <line x1="24.0" y1="348.0" x2="736.0" y2="348.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="370.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">蓝线为什么是平的：</text>
+  <text x="24.0" y="392.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">u ≈ (f/d)·x，只有比值进得了图像。焦距取 480 就配 d=0.80 m，取 750 就配 d=1.25 m——</text>
+  <text x="24.0" y="412.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">两种参数生成完全相同的像素，残差当然一样。所谓「标定成功」只证明了这条曲线存在。</text>
+  <text x="24.0" y="436.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">橙线的谷不是「优化更好」，是多了一条真约束：第二张图的距离被 300 mm 锁死了。</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 448" width="760" height="448" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="448" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">平移误差是一条水平线，旋转误差是一条斜线</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">6 个姿态摸同一个固定点。横轴是末端原点到该点的距离，纵轴是残差。单位 mm。</text>
+  <line x1="88.0" y1="292.0" x2="566.0" y2="292.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="88.0" y1="292.0" x2="88.0" y2="100.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="88.0" y1="292.0" x2="88.0" y2="297.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="310.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0</text>
+  <line x1="201.8" y1="292.0" x2="201.8" y2="297.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="201.8" y="310.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">50</text>
+  <line x1="315.6" y1="292.0" x2="315.6" y2="297.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="315.6" y="310.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">100</text>
+  <line x1="429.4" y1="292.0" x2="429.4" y2="297.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="429.4" y="310.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">150</text>
+  <line x1="543.2" y1="292.0" x2="543.2" y2="297.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="543.2" y="310.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">200</text>
+  <line x1="83.0" y1="292.0" x2="88.0" y2="292.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="79.0" y="295.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <line x1="83.0" y1="248.4" x2="88.0" y2="248.4" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="79.0" y="251.4" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">5</text>
+  <line x1="83.0" y1="204.7" x2="88.0" y2="204.7" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="79.0" y="207.7" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">10</text>
+  <line x1="83.0" y1="161.1" x2="88.0" y2="161.1" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="79.0" y="164.1" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">15</text>
+  <line x1="83.0" y1="117.5" x2="88.0" y2="117.5" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="79.0" y="120.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">20</text>
+  <text x="327.0" y="328.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">力臂 |p_end|（mm）</text>
+  <text x="79.0" y="88.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">残差（mm）</text>
+  <path d="M 201.8 269.2 L 249.0 259.7 L 315.6 246.3 L 447.9 219.8 L 498.3 209.6 L 557.2 197.8" fill="none" stroke="#C0392B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="201.8" cy="269.2" r="3.6" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="249.0" cy="259.7" r="3.6" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="315.6" cy="246.3" r="3.6" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="447.9" cy="219.8" r="3.6" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="498.3" cy="209.6" r="3.6" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="557.2" cy="197.8" r="3.6" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <path d="M 201.8 284.4 L 249.0 281.2 L 315.6 276.8 L 447.9 267.9 L 498.3 264.5 L 557.2 260.6" fill="none" stroke="#C0651A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="201.8" cy="284.4" r="3.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="249.0" cy="281.2" r="3.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="315.6" cy="276.8" r="3.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="447.9" cy="267.9" r="3.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="498.3" cy="264.5" r="3.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="557.2" cy="260.6" r="3.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <path d="M 201.8 204.7 L 249.0 204.7 L 315.6 204.7 L 447.9 204.7 L 498.3 204.7 L 557.2 204.7" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="201.8" cy="204.7" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="249.0" cy="204.7" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="315.6" cy="204.7" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="447.9" cy="204.7" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="498.3" cy="204.7" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="557.2" cy="204.7" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="352.0" y1="120.0" x2="378.0" y2="120.0" stroke="#3C6E9F" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="365.0" cy="120.0" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="386.0" y="124.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">平移 10 mm</text>
+  <text x="458.0" y="124.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">恒 10.0 mm，与力臂无关</text>
+  <line x1="352.0" y1="142.0" x2="378.0" y2="142.0" stroke="#C0651A" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="365.0" cy="142.0" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="386.0" y="146.0" font-size="9.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">旋转 1°</text>
+  <text x="458.0" y="146.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">r=1.00，随力臂线性</text>
+  <line x1="352.0" y1="164.0" x2="378.0" y2="164.0" stroke="#C0392B" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="365.0" cy="164.0" r="3.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="386.0" y="168.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">旋转 3°</text>
+  <text x="458.0" y="168.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">r=1.00，斜率 ×3</text>
+  <rect x="592.0" y="100.0" width="144.0" height="116.0" rx="6" fill="#F7F9FB" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="604.0" y="122.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">看形状，不看大小</text>
+  <text x="604.0" y="146.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">残差窄但整体偏 →</text>
+  <text x="604.0" y="162.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">查平移（安装位置）</text>
+  <text x="604.0" y="186.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">残差随位置涨 →</text>
+  <text x="604.0" y="202.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">查旋转（装配角度）</text>
+  <line x1="24.0" y1="340.0" x2="736.0" y2="340.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="362.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">纯旋转的残差 = 2·|p_end|·sin(Δθ/2)，所以是一条过原点的直线；纯平移与 |p_end| 无关，是一条水平线。</text>
+  <text x="24.0" y="384.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">两种误差同时存在时（表里最后一行）相关性掉到 r=0.88——趋势还在，但不再是干净的直线。</text>
+  <text x="24.0" y="406.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">这条判据比重新标一次快，而且不用停机：先分清类型，再去查那一类对应的机械环节。</text>
+</svg>

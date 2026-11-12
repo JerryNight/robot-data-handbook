@@ -32,7 +32,7 @@
 ### 阶段 3 · 数据流水线（核心章节）
 - [x] `03-data-pipeline/recording.md` —— rosbag2 的容器结构，metadata 对账，两种静默缺陷
 - [x] `03-data-pipeline/clock-and-trigger.md` —— 漂移/抖动/PTP 天花板/触发链预算
-- [x] `03-data-pipeline/calibration.md` —— 焦距-距离退化、残差指纹、借重力检测漂移
+- [x] `03-data-pipeline/calibration.md` —— 焦距-距离退化、已知尺子的精度、σ_f ∝ 1/(板宽·√N)、残差指纹、6 自由度可观测性、热胀到不了 0.3°、检出天数
 - [x] `03-data-pipeline/formats.md` —— I/O 放大 100 倍、编码取舍、LeRobotDataset 结构
 - [x] `03-data-pipeline/storage-and-versioning.md` —— 去重实测、血缘哈希、manifest 的边界
 - [x] `03-data-pipeline/annotation.md` —— kappa 悖论、阈值敏感性、人工精度上限

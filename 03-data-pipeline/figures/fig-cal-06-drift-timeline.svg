@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 452" width="760" height="452" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="452" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">斜坡 3~8 天就能确认，而那时才漂到阈值的 17%</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">每天一次测量、噪声 0.02°、3σ 判据、对前 k 天做累积平均。横轴是第几天。</text>
+  <line x1="84.0" y1="288.0" x2="570.0" y2="288.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="84.0" y1="288.0" x2="84.0" y2="100.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="84.0" y1="288.0" x2="84.0" y2="293.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="84.0" y="306.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0</text>
+  <line x1="165.0" y1="288.0" x2="165.0" y2="293.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="165.0" y="306.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">5</text>
+  <line x1="246.0" y1="288.0" x2="246.0" y2="293.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="246.0" y="306.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <line x1="327.0" y1="288.0" x2="327.0" y2="293.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="327.0" y="306.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">15</text>
+  <line x1="408.0" y1="288.0" x2="408.0" y2="293.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="408.0" y="306.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">20</text>
+  <line x1="489.0" y1="288.0" x2="489.0" y2="293.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="489.0" y="306.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">25</text>
+  <line x1="570.0" y1="288.0" x2="570.0" y2="293.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="570.0" y="306.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">30</text>
+  <line x1="79.0" y1="288.0" x2="84.0" y2="288.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="75.0" y="291.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.0</text>
+  <line x1="79.0" y1="235.8" x2="84.0" y2="235.8" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="75.0" y="238.8" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.1</text>
+  <line x1="79.0" y1="183.6" x2="84.0" y2="183.6" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="75.0" y="186.6" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.2</text>
+  <line x1="79.0" y1="131.3" x2="84.0" y2="131.3" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="75.0" y="134.3" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.3</text>
+  <text x="327.0" y="324.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">第几天（每天一次测量）</text>
+  <text x="75.0" y="88.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">倾角（°）</text>
+  <line x1="84.0" y1="131.3" x2="570.0" y2="131.3" stroke="#C0392B" stroke-width="1.4" opacity="1.0" stroke-dasharray="5 3"/>
+  <text x="90.0" y="124.3" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">报警阈值 0.3°</text>
+  <path d="M 84.0 288.0 L 570.0 209.7" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="213.6" cy="267.1" r="4.4" fill="#3C6E9F" stroke="#ffffff" stroke-width="1.4" opacity="1.0"/>
+  <text x="440.4" y="224.3" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">0.005°/天</text>
+  <path d="M 84.0 288.0 L 570.0 131.3" fill="none" stroke="#C0651A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="165.0" cy="261.9" r="4.4" fill="#C0651A" stroke="#ffffff" stroke-width="1.4" opacity="1.0"/>
+  <text x="213.6" y="217.5" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">0.010°/天</text>
+  <path d="M 84.0 288.0 L 379.6 97.4" fill="none" stroke="#6B5B95" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="132.6" cy="256.7" r="4.4" fill="#6B5B95" stroke="#ffffff" stroke-width="1.4" opacity="1.0"/>
+  <text x="207.1" y="160.1" font-size="9" fill="#6B5B95" text-anchor="start" font-weight="600" opacity="1.0">0.020°/天</text>
+  <text x="588.0" y="246.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">确认所需天数（3σ）</text>
+  <circle cx="592.0" cy="265.0" r="3.4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="602.0" y="268.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">0.005°/天 → 第 8 天</text>
+  <circle cx="592.0" cy="282.0" r="3.4" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="602.0" y="285.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">0.010°/天 → 第 5 天</text>
+  <circle cx="592.0" cy="299.0" r="3.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="602.0" y="302.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">0.020°/天 → 第 3 天</text>
+  <rect x="588.0" y="100.0" width="148.0" height="112.0" rx="6" fill="#FDF4F3" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="600.0" y="122.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">阶跃（碰撞）</text>
+  <text x="600.0" y="148.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">0.01° → 1.5°</text>
+  <text x="600.0" y="170.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">超出本图纵轴 4 倍</text>
+  <text x="600.0" y="186.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">信噪比 75，一次</text>
+  <text x="600.0" y="201.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">测量就报警</text>
+  <line x1="24.0" y1="348.0" x2="736.0" y2="348.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="370.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">三类事件的时间尺度差得很远：</text>
+  <text x="24.0" y="392.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">阶跃（碰撞）：当天就该报。所以频率的意义不是灵敏度，是延迟——每天查，最坏废一天数据；</text>
+  <text x="24.0" y="412.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">每月查，最坏废一个月。斜坡（蠕变）：累积平均把噪声压到 σ/√k，3~8 天就能确认，</text>
+  <text x="24.0" y="432.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">那时累积量只有 0.04~0.06°，离 0.3° 还远。这个提前量就是整套流程的全部价值。</text>
+</svg>

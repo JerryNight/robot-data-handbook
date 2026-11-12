@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 434" width="760" height="434" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="434" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">已知位移从 50 mm 加到 1 m：谷深涨 7 倍，σ_f 缩 9 倍</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">左：焦距偏 20% 时残差被抬高多少（可检出性）。右：重复 400 次估计的标准差（可估准性）。红线＝噪声本底 0.19 px。</text>
+  <line x1="74.0" y1="288.0" x2="330.0" y2="288.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="74.0" y1="288.0" x2="74.0" y2="96.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="69.0" y1="288.0" x2="74.0" y2="288.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="65.0" y="291.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.0</text>
+  <line x1="69.0" y1="240.0" x2="74.0" y2="240.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="65.0" y="243.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.5</text>
+  <line x1="69.0" y1="192.0" x2="74.0" y2="192.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="65.0" y="195.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1.0</text>
+  <line x1="69.0" y1="144.0" x2="74.0" y2="144.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="65.0" y="147.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1.5</text>
+  <line x1="69.0" y1="96.0" x2="74.0" y2="96.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="65.0" y="99.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">2.0</text>
+  <text x="202.0" y="322.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">已知位移</text>
+  <text x="65.0" y="86.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">谷深（px）</text>
+  <text x="74.0" y="86.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0"></text>
+  <rect x="89.0" y="264.1" width="34.0" height="23.9" rx="2" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.85"/>
+  <text x="106.0" y="257.1" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">0.25</text>
+  <text x="106.0" y="305.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">50 mm</text>
+  <rect x="153.0" y="246.0" width="34.0" height="42.0" rx="2" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.85"/>
+  <text x="170.0" y="239.0" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">0.44</text>
+  <text x="170.0" y="305.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">100 mm</text>
+  <rect x="217.0" y="175.0" width="34.0" height="113.0" rx="2" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.85"/>
+  <text x="234.0" y="168.0" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">1.18</text>
+  <text x="234.0" y="305.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">300 mm</text>
+  <rect x="281.0" y="116.3" width="34.0" height="171.7" rx="2" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.85"/>
+  <text x="298.0" y="109.3" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">1.79</text>
+  <text x="298.0" y="305.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">1000 mm</text>
+  <line x1="74.0" y1="270.1" x2="330.0" y2="270.1" stroke="#C0392B" stroke-width="1.1" opacity="1.0" stroke-dasharray="4 3"/>
+  <line x1="434.0" y1="288.0" x2="690.0" y2="288.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="434.0" y1="288.0" x2="434.0" y2="96.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="429.0" y1="288.0" x2="434.0" y2="288.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="425.0" y="291.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <line x1="429.0" y1="253.1" x2="434.0" y2="253.1" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="425.0" y="256.1" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">2</text>
+  <line x1="429.0" y1="218.2" x2="434.0" y2="218.2" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="425.0" y="221.2" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">4</text>
+  <line x1="429.0" y1="183.3" x2="434.0" y2="183.3" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="425.0" y="186.3" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">6</text>
+  <line x1="429.0" y1="148.4" x2="434.0" y2="148.4" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="425.0" y="151.4" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">8</text>
+  <line x1="429.0" y1="113.5" x2="434.0" y2="113.5" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="425.0" y="116.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">10</text>
+  <text x="562.0" y="322.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">已知位移</text>
+  <text x="425.0" y="86.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">σ_f（px）</text>
+  <rect x="449.0" y="117.8" width="34.0" height="170.2" rx="2" fill="#C0651A" stroke="#C0651A" stroke-width="0" opacity="0.85"/>
+  <text x="466.0" y="110.8" font-size="9" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">9.8</text>
+  <text x="466.0" y="305.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">50 mm</text>
+  <rect x="513.0" y="196.8" width="34.0" height="91.2" rx="2" fill="#C0651A" stroke="#C0651A" stroke-width="0" opacity="0.85"/>
+  <text x="530.0" y="189.8" font-size="9" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">5.2</text>
+  <text x="530.0" y="305.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">100 mm</text>
+  <rect x="577.0" y="252.4" width="34.0" height="35.6" rx="2" fill="#C0651A" stroke="#C0651A" stroke-width="0" opacity="0.85"/>
+  <text x="594.0" y="245.4" font-size="9" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">2.0</text>
+  <text x="594.0" y="305.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">300 mm</text>
+  <rect x="641.0" y="268.1" width="34.0" height="19.9" rx="2" fill="#C0651A" stroke="#C0651A" stroke-width="0" opacity="0.85"/>
+  <text x="658.0" y="261.1" font-size="9" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">1.1</text>
+  <text x="658.0" y="305.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">1000 mm</text>
+  <line x1="24.0" y1="336.0" x2="736.0" y2="336.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="358.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">两件事必须分开问：</text>
+  <text x="24.0" y="380.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">50 mm 那一档的谷深 0.249 px 大于噪声本底，所以 20% 的焦距错误确实能被抓出来；</text>
+  <text x="24.0" y="400.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">但同一条的 σ_f 是 9.8 px（1.6%），估计值只能信到这个精度——检出和估准不是同一件事。</text>
+  <text x="24.0" y="420.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">判据是 L/d 而不是 L：放大倍数约 (d+L)/L，从 21 降到 4.3，300 mm 的经验值就是这么来的。</text>
+</svg>
