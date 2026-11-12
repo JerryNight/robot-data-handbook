@@ -129,3 +129,13 @@ python scripts/run_all_examples.py -v       # 显示每个脚本的完整输出
 python scripts/run_all_examples.py
 python scripts/check_links.py
 ```
+
+## 写新示例之前
+
+先读 [CONTRIBUTING.md](../CONTRIBUTING.md)。几条最容易踩的：
+
+- 关键量做成**带默认值的参数**（`def part8(fs=1000.0, n_confirm=5)`），因为正文里每一句"改成 X 会怎样"都必须真的改一次跑过，参数写死在函数体里就只能靠改文件；
+- 可复用的表抽成函数返回 dict（如 `drift_table(n_list=...)`），画图和变体验证都能直接调；
+- 3.9 语法兼容——本地 3.12 跑得动不代表 CI 绿，一条 `X | Y` 注解就够红一个 job。
+
+图用 [`scripts/svglib.py`](../scripts/svglib.py) 手写，写完用 [`scripts/render_svg.py`](../scripts/render_svg.py) 渲染出来人眼检查，清单见 CONTRIBUTING 的 §4.6。
