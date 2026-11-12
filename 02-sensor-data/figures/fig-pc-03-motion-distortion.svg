@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="440" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">一帧不是一个时刻：扫描 100 ms 里机器人一直在动</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">俯视：8 m×8 m 的房间，机器人以 1 m/s 前进、30°/s 转向。畸变已放大 2.5 倍。</text>
+  <path d="M 154.0 372.0 L 157.5 372.0 L 160.9 372.0 L 164.4 372.0 L 167.9 372.0 L 171.3 372.0 L 174.8 372.0 L 178.3 372.0 L 181.7 372.0 L 185.2 372.0 L 188.7 372.0 L 192.1 372.0 L 195.6 372.0 L 199.1 372.0 L 202.5 372.0 L 206.0 372.0 L 209.5 372.0 L 212.9 372.0 L 216.4 372.0 L 219.9 372.0 L 223.3 372.0 L 226.8 372.0 L 230.3 372.0 L 233.7 372.0 L 237.2 372.0 L 240.7 372.0 L 244.1 372.0 L 247.6 372.0 L 251.1 372.0 L 254.5 372.0 L 258.0 372.0 L 261.5 372.0 L 264.9 372.0 L 268.4 372.0 L 271.9 372.0 L 275.3 372.0 L 278.8 372.0 L 282.3 372.0 L 285.7 372.0 L 289.2 372.0 L 292.7 372.0 L 296.1 372.0 L 299.6 372.0 L 303.1 372.0 L 306.5 372.0 L 310.0 372.0 L 313.5 372.0 L 316.9 372.0 L 320.4 372.0 L 323.9 372.0 L 327.3 372.0 L 330.8 372.0 L 334.3 372.0 L 337.7 372.0 L 341.2 372.0 L 344.7 372.0 L 348.1 372.0 L 351.6 372.0 L 355.1 372.0 L 358.5 372.0 L 362.0 372.0 L 362.0 368.5 L 362.0 365.1 L 362.0 361.6 L 362.0 358.1 L 362.0 354.7 L 362.0 351.2 L 362.0 347.7 L 362.0 344.3 L 362.0 340.8 L 362.0 337.3 L 362.0 333.9 L 362.0 330.4 L 362.0 326.9 L 362.0 323.5 L 362.0 320.0 L 362.0 316.5 L 362.0 313.1 L 362.0 309.6 L 362.0 306.1 L 362.0 302.7 L 362.0 299.2 L 362.0 295.7 L 362.0 292.3 L 362.0 288.8 L 362.0 285.3 L 362.0 281.9 L 362.0 278.4 L 362.0 274.9 L 362.0 271.5 L 362.0 268.0 L 362.0 264.5 L 362.0 261.1 L 362.0 257.6 L 362.0 254.1 L 362.0 250.7 L 362.0 247.2 L 362.0 243.7 L 362.0 240.3 L 362.0 236.8 L 362.0 233.3 L 362.0 229.9 L 362.0 226.4 L 362.0 222.9 L 362.0 219.5 L 362.0 216.0 L 362.0 212.5 L 362.0 209.1 L 362.0 205.6 L 362.0 202.1 L 362.0 198.7 L 362.0 195.2 L 362.0 191.7 L 362.0 188.3 L 362.0 184.8 L 362.0 181.3 L 362.0 177.9 L 362.0 174.4 L 362.0 170.9 L 362.0 167.5 L 362.0 164.0 L 358.5 164.0 L 355.1 164.0 L 351.6 164.0 L 348.1 164.0 L 344.7 164.0 L 341.2 164.0 L 337.7 164.0 L 334.3 164.0 L 330.8 164.0 L 327.3 164.0 L 323.9 164.0 L 320.4 164.0 L 316.9 164.0 L 313.5 164.0 L 310.0 164.0 L 306.5 164.0 L 303.1 164.0 L 299.6 164.0 L 296.1 164.0 L 292.7 164.0 L 289.2 164.0 L 285.7 164.0 L 282.3 164.0 L 278.8 164.0 L 275.3 164.0 L 271.9 164.0 L 268.4 164.0 L 264.9 164.0 L 261.5 164.0 L 258.0 164.0 L 254.5 164.0 L 251.1 164.0 L 247.6 164.0 L 244.1 164.0 L 240.7 164.0 L 237.2 164.0 L 233.7 164.0 L 230.3 164.0 L 226.8 164.0 L 223.3 164.0 L 219.9 164.0 L 216.4 164.0 L 212.9 164.0 L 209.5 164.0 L 206.0 164.0 L 202.5 164.0 L 199.1 164.0 L 195.6 164.0 L 192.1 164.0 L 188.7 164.0 L 185.2 164.0 L 181.7 164.0 L 178.3 164.0 L 174.8 164.0 L 171.3 164.0 L 167.9 164.0 L 164.4 164.0 L 160.9 164.0 L 157.5 164.0 L 154.0 164.0 L 154.0 167.5 L 154.0 170.9 L 154.0 174.4 L 154.0 177.9 L 154.0 181.3 L 154.0 184.8 L 154.0 188.3 L 154.0 191.7 L 154.0 195.2 L 154.0 198.7 L 154.0 202.1 L 154.0 205.6 L 154.0 209.1 L 154.0 212.5 L 154.0 216.0 L 154.0 219.5 L 154.0 222.9 L 154.0 226.4 L 154.0 229.9 L 154.0 233.3 L 154.0 236.8 L 154.0 240.3 L 154.0 243.7 L 154.0 247.2 L 154.0 250.7 L 154.0 254.1 L 154.0 257.6 L 154.0 261.1 L 154.0 264.5 L 154.0 268.0 L 154.0 271.5 L 154.0 274.9 L 154.0 278.4 L 154.0 281.9 L 154.0 285.3 L 154.0 288.8 L 154.0 292.3 L 154.0 295.7 L 154.0 299.2 L 154.0 302.7 L 154.0 306.1 L 154.0 309.6 L 154.0 313.1 L 154.0 316.5 L 154.0 320.0 L 154.0 323.5 L 154.0 326.9 L 154.0 330.4 L 154.0 333.9 L 154.0 337.3 L 154.0 340.8 L 154.0 344.3 L 154.0 347.7 L 154.0 351.2 L 154.0 354.7 L 154.0 358.1 L 154.0 361.6 L 154.0 365.1 L 154.0 368.5" fill="none" stroke="#C9D0D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" stroke-dasharray="5 4"/>
+  <line x1="44.0" y1="176.0" x2="74.0" y2="176.0" stroke="#C9D0D8" stroke-width="2" opacity="1.0" stroke-dasharray="5 4"/>
+  <text x="80.0" y="180.0" font-size="9.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">真实形状</text>
+  <line x1="44.0" y1="198.0" x2="74.0" y2="198.0" stroke="#3C6E9F" stroke-width="2" opacity="1.0"/>
+  <text x="80.0" y="202.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">一帧实测点</text>
+  <path d="M 141.6 363.2 L 145.0 363.5 L 148.4 363.7 L 151.8 364.0 L 155.2 364.2 L 158.6 364.5 L 162.0 364.7 L 165.4 365.0 L 168.8 365.2 L 172.2 365.5 L 175.6 365.7 L 179.0 366.0 L 182.3 366.3 L 185.7 366.5 L 189.1 366.8 L 192.5 367.1 L 195.9 367.4 L 199.2 367.6 L 202.6 367.9 L 206.0 368.2 L 209.3 368.5 L 212.7 368.8 L 216.1 369.1 L 219.4 369.4 L 222.8 369.7 L 226.1 370.0 L 229.5 370.3 L 232.9 370.6 L 236.2 370.9 L 239.6 371.3 L 242.9 371.6 L 246.3 371.9 L 249.6 372.3 L 253.0 372.6 L 256.3 373.0 L 259.7 373.3 L 263.0 373.7 L 266.4 374.1 L 269.8 374.4 L 273.1 374.8 L 276.5 375.2 L 279.8 375.6 L 283.2 376.0 L 286.6 376.3 L 289.9 376.7 L 293.3 377.1 L 296.7 377.5 L 300.1 377.9 L 303.4 378.3 L 306.8 378.7 L 310.2 379.2 L 313.6 379.6 L 317.0 380.0 L 320.4 380.4 L 323.8 380.8 L 327.1 381.2 L 330.5 381.7 L 333.9 382.1 L 337.3 382.5 L 340.7 382.9 L 344.1 383.4 L 344.5 380.0 L 344.8 376.5 L 345.2 373.1 L 345.5 369.7 L 345.9 366.3 L 346.2 362.8 L 346.5 359.4 L 346.9 356.0 L 347.2 352.6 L 347.6 349.2 L 348.0 345.8 L 348.3 342.4 L 348.7 339.0 L 349.0 335.6 L 349.4 332.2 L 349.7 328.8 L 350.1 325.4 L 350.5 322.0 L 350.8 318.6 L 351.2 315.2 L 351.6 311.8 L 352.0 308.4 L 352.4 305.0 L 352.7 301.6 L 353.1 298.2 L 353.5 294.8 L 353.9 291.4 L 354.3 288.0 L 354.7 284.7 L 362.0 268.0 L 362.0 264.6 L 361.9 261.2 L 361.9 257.8 L 361.9 254.4 L 361.9 251.0 L 361.9 247.6 L 361.9 244.2 L 361.9 240.8 L 361.9 237.4 L 361.9 234.0 L 361.9 230.6 L 361.9 227.2 L 362.0 223.8 L 362.0 220.4 L 362.0 217.0 L 362.1 213.6 L 362.1 210.2 L 362.1 206.8 L 362.2 203.4 L 362.2 199.9 L 362.3 196.5 L 362.3 193.1 L 362.4 189.7 L 362.5 186.3 L 362.5 182.8 L 362.6 179.4 L 362.7 176.0 L 362.7 172.6 L 362.8 169.1 L 362.9 165.7 L 359.4 165.7 L 356.0 165.7 L 352.5 165.6 L 349.1 165.6 L 345.7 165.6 L 342.2 165.6 L 338.8 165.5 L 335.3 165.5 L 331.9 165.5 L 328.4 165.4 L 325.0 165.4 L 321.6 165.3 L 318.1 165.3 L 314.7 165.2 L 311.2 165.2 L 307.8 165.1 L 304.4 165.1 L 300.9 165.0 L 297.5 165.0 L 294.1 164.9 L 290.6 164.8 L 287.2 164.8 L 283.8 164.7 L 280.4 164.6 L 276.9 164.5 L 273.5 164.4 L 270.1 164.3 L 266.6 164.2 L 263.2 164.1 L 259.8 164.0 L 256.4 163.9 L 252.9 163.8 L 249.5 163.6 L 246.1 163.5 L 242.6 163.4 L 239.2 163.2 L 235.8 163.1 L 232.3 162.9 L 228.9 162.8 L 225.5 162.6 L 222.1 162.5 L 218.6 162.3 L 215.2 162.1 L 211.8 162.0 L 208.3 161.8 L 204.9 161.6 L 201.5 161.4 L 198.0 161.3 L 194.6 161.1 L 191.1 160.9 L 187.7 160.7 L 184.3 160.5 L 180.8 160.3 L 177.4 160.1 L 173.9 159.9 L 170.5 159.7 L 167.1 159.5 L 163.6 159.3 L 160.2 159.1 L 156.7 158.9 L 156.6 162.3 L 156.4 165.8 L 156.3 169.2 L 156.1 172.6 L 155.9 176.0 L 155.8 179.4 L 155.6 182.9 L 155.4 186.3 L 155.3 189.7 L 155.1 193.1 L 154.9 196.5 L 154.8 199.9 L 154.6 203.4 L 154.4 206.8 L 154.2 210.2 L 154.0 213.6 L 153.8 217.0 L 153.6 220.4 L 153.4 223.8 L 153.2 227.2 L 153.0 230.6 L 152.8 234.0 L 152.5 237.4 L 152.3 240.8 L 152.1 244.2 L 151.8 247.5 L 151.6 250.9 L 151.3 254.3 L 151.1 257.7 L 150.8 261.1 L 150.6 264.5 L 150.3 267.9 L 150.0 271.3 L 149.8 274.7 L 149.5 278.1 L 149.2 281.5 L 148.9 284.8 L 148.6 288.2 L 148.3 291.6 L 148.0 295.0 L 147.7 298.4 L 147.4 301.8 L 147.1 305.2 L 146.8 308.6 L 146.5 312.0 L 146.2 315.4 L 145.8 318.8 L 145.5 322.2 L 145.2 325.6 L 144.9 329.1 L 144.6 332.5 L 144.2 335.9 L 143.9 339.3 L 143.6 342.7 L 143.2 346.1 L 142.9 349.5 L 142.6 353.0 L 142.2 356.4 L 141.9 359.8 L 141.6 363.2" fill="none" stroke="#3C6E9F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="141.6" cy="363.2" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="162.0" cy="364.7" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="182.3" cy="366.3" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="202.6" cy="367.9" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="222.8" cy="369.7" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="242.9" cy="371.6" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="263.0" cy="373.7" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="283.2" cy="376.0" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="303.4" cy="378.3" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="323.8" cy="380.8" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="344.1" cy="383.4" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="346.2" cy="362.8" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="348.3" cy="342.4" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="350.5" cy="322.0" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="352.7" cy="301.6" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="362.0" cy="268.0" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="361.9" cy="247.6" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="361.9" cy="227.2" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="362.1" cy="206.8" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="362.5" cy="186.3" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="362.9" cy="165.7" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="342.2" cy="165.6" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="321.6" cy="165.3" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="300.9" cy="165.0" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="280.4" cy="164.6" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="259.8" cy="164.0" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="239.2" cy="163.2" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="218.6" cy="162.3" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="198.0" cy="161.3" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="177.4" cy="160.1" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="156.7" cy="158.9" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="155.8" cy="179.4" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="154.8" cy="199.9" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="153.6" cy="220.4" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="152.3" cy="240.8" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="150.8" cy="261.1" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="149.2" cy="281.5" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="147.4" cy="301.8" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="145.5" cy="322.2" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="143.6" cy="342.7" r="1.9" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="247.0" y="260.0" width="22.0" height="16.0" rx="3" fill="#FFFFFF" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="270.0" y1="268.0" x2="297.0" y2="268.0" stroke="#1F2328" stroke-width="1.4"/>
+  <polygon points="302.0,268.0 297.0,265.2 297.0,270.8" fill="#1F2328"/>
+  <text x="244.0" y="246.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">前进 1 m/s</text>
+  <path d="M 258 268 m 30 0 a 30 30 0 0 1 -8 -29" fill="none" stroke="#C0651A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" stroke-dasharray="3 3"/>
+  <text x="206.0" y="312.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">转向 30°/s</text>
+  <text x="44.0" y="88.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">一帧内的时间轴</text>
+  <rect x="44.0" y="96.0" width="150.0" height="14.0" rx="3" fill="#EDF4FA" stroke="#CFDDEB" stroke-width="1" opacity="1.0"/>
+  <line x1="44.0" y1="96.0" x2="44.0" y2="110.0" stroke="#9DB4C9" stroke-width="1" opacity="1.0"/>
+  <line x1="81.5" y1="96.0" x2="81.5" y2="110.0" stroke="#9DB4C9" stroke-width="1" opacity="1.0"/>
+  <line x1="119.0" y1="96.0" x2="119.0" y2="110.0" stroke="#9DB4C9" stroke-width="1" opacity="1.0"/>
+  <line x1="156.5" y1="96.0" x2="156.5" y2="110.0" stroke="#9DB4C9" stroke-width="1" opacity="1.0"/>
+  <line x1="194.0" y1="96.0" x2="194.0" y2="110.0" stroke="#9DB4C9" stroke-width="1" opacity="1.0"/>
+  <text x="44.0" y="124.0" font-size="9" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">0 ms</text>
+  <text x="194.0" y="124.0" font-size="9" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">100 ms</text>
+  <text x="44.0" y="142.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">第 1 个方位角</text>
+  <text x="194.0" y="142.0" font-size="9" fill="#3C6E9F" text-anchor="end" font-weight="400" opacity="1.0">第 1800 个</text>
+  <text x="430.0" y="108.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同一面平墙，四个角被拉成了螺旋</text>
+  <text x="430.0" y="132.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">扫描是逐列的：方位角 0° 的点在 0 ms 采到，</text>
+  <text x="430.0" y="150.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">359.8° 的点在 99.9 ms 才采到，中间隔了 100 ms。</text>
+  <text x="430.0" y="168.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">但整帧只贴一个时间戳 —— 相当于把不同时刻的</text>
+  <text x="430.0" y="186.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">观测硬拼成了一张“同时刻”的点云。</text>
+  <text x="430.0" y="226.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">5 m 处，纯转向引起的横向错位</text>
+  <text x="724.0" y="226.0" font-size="11" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">26 cm</text>
+  <line x1="430.0" y1="233.0" x2="724.0" y2="233.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="430.0" y="256.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">5 m 处，纯前进引起的位移</text>
+  <text x="724.0" y="256.0" font-size="11" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">10 cm</text>
+  <line x1="430.0" y1="263.0" x2="724.0" y2="263.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="430.0" y="286.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">整帧用同一时刻补偿后的残余</text>
+  <text x="724.0" y="286.0" font-size="11" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">5 cm（v·T/2）</text>
+  <line x1="430.0" y1="293.0" x2="724.0" y2="293.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="430.0" y="336.0" font-size="10.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">关键：这不是“模糊”</text>
+  <text x="430.0" y="358.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">图像的运动模糊是空间上糊掉，点还在原地；</text>
+  <text x="430.0" y="376.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">点云的畸变是几何上错位 —— 点依然锐利，</text>
+  <text x="430.0" y="394.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">但不在它该在的位置。所以去卷积修不了它。</text>
+  <line x1="24.0" y1="404.0" x2="736.0" y2="404.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="426.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">解法只有一个：每点带自己的时间戳 + 高频位姿插值（IMU / 轮速），逐点把点“搬”回同一时刻。</text>
+</svg>

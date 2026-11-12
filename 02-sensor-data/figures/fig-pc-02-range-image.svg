@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412" width="760" height="412" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="412" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">把 16 线点云投到 640×480 图像平面：98.4% 的像素没有测量</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">两种“空”完全不同：上下是雷达根本没覆盖，带内是扫到了、但两条线之间是空的。</text>
+  <rect x="40.0" y="72.0" width="288.0" height="42.0" rx="0" fill="#F4F5F7" stroke="#E2E6EA" stroke-width="1" opacity="1.0"/>
+  <rect x="40.0" y="246.0" width="288.0" height="42.0" rx="0" fill="#F4F5F7" stroke="#E2E6EA" stroke-width="1" opacity="1.0"/>
+  <rect x="40.0" y="72.0" width="288.0" height="216.0" rx="2" fill="none" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <rect x="40.0" y="114.0" width="288.0" height="132.0" rx="0" fill="#EDF4FA" stroke="#CFDDEB" stroke-width="1" opacity="1.0"/>
+  <line x1="41.0" y1="114.0" x2="327.0" y2="114.0" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="122.8" x2="327.0" y2="122.8" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="131.6" x2="327.0" y2="131.6" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="140.4" x2="327.0" y2="140.4" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="149.2" x2="327.0" y2="149.2" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="158.0" x2="327.0" y2="158.0" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="166.8" x2="327.0" y2="166.8" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="175.6" x2="327.0" y2="175.6" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="184.4" x2="327.0" y2="184.4" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="193.2" x2="327.0" y2="193.2" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="202.0" x2="327.0" y2="202.0" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="210.8" x2="327.0" y2="210.8" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="219.6" x2="327.0" y2="219.6" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="228.4" x2="327.0" y2="228.4" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="237.2" x2="327.0" y2="237.2" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <line x1="41.0" y1="246.0" x2="327.0" y2="246.0" stroke="#3C6E9F" stroke-width="1.05" opacity="1.0" stroke-dasharray="1.3 1.7"/>
+  <text x="184.0" y="98.0" font-size="9.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">相机看得到，雷达没覆盖</text>
+  <text x="184.0" y="272.0" font-size="9.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">同上</text>
+  <text x="322.0" y="126.0" font-size="9" fill="#3C6E9F" text-anchor="end" font-weight="400" opacity="1.0">16 条线</text>
+  <text x="372.0" y="86.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">图像总像素</text>
+  <text x="700.0" y="86.0" font-size="14" fill="#1F2328" text-anchor="end" font-weight="600" opacity="1.0">307,200</text>
+  <line x1="372.0" y1="95.0" x2="700.0" y2="95.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="372.0" y="124.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">有数据的像素</text>
+  <text x="700.0" y="124.0" font-size="14" fill="#3C6E9F" text-anchor="end" font-weight="600" opacity="1.0">5,008</text>
+  <line x1="372.0" y1="133.0" x2="700.0" y2="133.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="372.0" y="162.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">空洞率</text>
+  <text x="700.0" y="162.0" font-size="14" fill="#C0392B" text-anchor="end" font-weight="600" opacity="1.0">98.4%</text>
+  <line x1="372.0" y1="171.0" x2="700.0" y2="171.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="372.0" y="214.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">为什么不能直接套卷积</text>
+  <text x="372.0" y="236.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">卷积核在 98% 的位置读到的是“这里没</text>
+  <text x="372.0" y="254.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">有测量”，不是“这里是黑色”。这两件事</text>
+  <text x="372.0" y="272.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">在语义上完全不同，而 3×3 卷积分不出来</text>
+  <text x="372.0" y="290.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">—— 它会把空洞当成低反射率的物体。</text>
+  <line x1="24.0" y1="316.0" x2="736.0" y2="316.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="40.0" y="340.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">灰区（上下）：相机 49.1° 视场 vs 雷达 30° 视场 —— 补不了，只能靠别的传感器。</text>
+  <text x="40.0" y="362.0" font-size="10" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">带内：扫到了，但每 20 行才有一条线，中间 19 行确实没有测量。</text>
+  <text x="40.0" y="388.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">所以“投影成图”不是把点云变成图像，而是造出一张 98% 是洞的图，再想办法让网络忽略这些洞。</text>
+</svg>

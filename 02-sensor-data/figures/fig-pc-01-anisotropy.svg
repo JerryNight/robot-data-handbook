@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="420" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">采样网格是长条形的：同样 1 米，水平 29 个点、垂直 3 个点</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">16 线雷达：水平 0.2°、垂直 2.0°，差 10 倍。下面看 10 m 远的一堵墙。</text>
+  <text x="44.0" y="92.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">沿水平方向取 1 m</text>
+  <rect x="44.0" y="104.0" width="320.0" height="34.0" rx="3" fill="#F5F8FB" stroke="#D8DEE4" stroke-width="1" opacity="1.0"/>
+  <circle cx="44.0" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="55.0" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="66.1" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="77.1" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="88.1" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="99.2" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="110.2" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="121.2" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="132.3" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="143.3" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="154.3" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="165.4" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="176.4" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="187.4" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="198.5" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="209.5" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="220.6" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="231.6" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="242.6" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="253.7" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="264.7" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="275.7" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="286.8" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="297.8" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="308.8" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="319.9" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="330.9" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="341.9" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="353.0" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="364.0" cy="121.0" r="2.3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="44.0" y="160.0" font-size="10" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">29 个点，间距 35 mm —— 密到几乎连成一条线</text>
+  <text x="44.0" y="186.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">沿竖直方向取 1 m</text>
+  <rect x="44.0" y="196.0" width="44.0" height="156.0" rx="3" fill="#FDF7F1" stroke="#DECDB8" stroke-width="1.4" opacity="1.0"/>
+  <line x1="44.0" y1="352.0" x2="88.0" y2="352.0" stroke="#E8D9C6" stroke-width="1" opacity="1.0" stroke-dasharray="3 3"/>
+  <circle cx="66.0" cy="352.0" r="3.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="44.0" y1="297.5" x2="88.0" y2="297.5" stroke="#E8D9C6" stroke-width="1" opacity="1.0" stroke-dasharray="3 3"/>
+  <circle cx="66.0" cy="297.5" r="3.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="44.0" y1="243.0" x2="88.0" y2="243.0" stroke="#E8D9C6" stroke-width="1" opacity="1.0" stroke-dasharray="3 3"/>
+  <circle cx="66.0" cy="243.0" r="3.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="78.0" y1="243.0" x2="78.0" y2="292.5" stroke="#C0651A" stroke-width="1.2"/>
+  <polygon points="78.0,297.5 80.8,292.5 75.2,292.5" fill="#C0651A"/>
+  <text x="122.0" y="230.0" font-size="10.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">3 个点，间距 349 mm</text>
+  <text x="122.0" y="252.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">两个点之间 35 cm 的起伏，</text>
+  <text x="122.0" y="268.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">数据里完全不存在 —— 只能靠猜。</text>
+  <text x="122.0" y="300.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">远处一辆车只有几行点：</text>
+  <text x="122.0" y="316.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">看得出它多高，看不出侧面形状。</text>
+  <text x="122.0" y="344.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">这不是“分辨率不够”，是采样</text>
+  <text x="122.0" y="360.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">网格本身就是长条形的。</text>
+  <text x="420.0" y="92.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">点间距随距离线性增长（双对数坐标）</text>
+  <line x1="420.0" y1="315.5" x2="700.0" y2="315.5" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="414.0" y="319.0" font-size="9" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">10</text>
+  <line x1="420.0" y1="234.2" x2="700.0" y2="234.2" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="414.0" y="237.7" font-size="9" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">100</text>
+  <line x1="420.0" y1="152.9" x2="700.0" y2="152.9" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="414.0" y="156.4" font-size="9" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1000</text>
+  <line x1="420.0" y1="340.0" x2="420.0" y2="344.0" stroke="#8A94A0" stroke-width="1" opacity="1.0"/>
+  <text x="420.0" y="356.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">2</text>
+  <line x1="499.7" y1="340.0" x2="499.7" y2="344.0" stroke="#8A94A0" stroke-width="1" opacity="1.0"/>
+  <text x="499.7" y="356.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">5</text>
+  <line x1="560.0" y1="340.0" x2="560.0" y2="344.0" stroke="#8A94A0" stroke-width="1" opacity="1.0"/>
+  <text x="560.0" y="356.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <line x1="620.3" y1="340.0" x2="620.3" y2="344.0" stroke="#8A94A0" stroke-width="1" opacity="1.0"/>
+  <text x="620.3" y="356.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">20</text>
+  <line x1="700.0" y1="340.0" x2="700.0" y2="344.0" stroke="#8A94A0" stroke-width="1" opacity="1.0"/>
+  <text x="700.0" y="356.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">50</text>
+  <text x="560.0" y="372.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">距离 (m)</text>
+  <text x="386.0" y="102.0" font-size="9" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">mm</text>
+  <path d="M 420.0 246.9 L 499.7 214.6 L 560.0 190.1 L 620.3 165.6 L 700.0 133.3" fill="none" stroke="#C0651A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <path d="M 420.0 328.2 L 499.7 295.9 L 560.0 271.4 L 620.3 246.9 L 700.0 214.6" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="420.0" cy="246.9" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="499.7" cy="214.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="560.0" cy="190.1" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="620.3" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="700.0" cy="133.3" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="420.0" cy="328.2" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="499.7" cy="295.9" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="560.0" cy="271.4" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="620.3" cy="246.9" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="700.0" cy="214.6" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="706.0" y="137.3" font-size="10" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">垂直 2°</text>
+  <text x="706.0" y="218.6" font-size="10" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">水平 0.2°</text>
+  <line x1="522.5" y1="205.3" x2="522.5" y2="281.6" stroke="#8A94A0" stroke-width="1.2"/>
+  <polygon points="522.5,286.6 525.3,281.6 519.8,281.6" fill="#8A94A0"/>
+  <text x="530.5" y="249.9" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">处处差 10 倍</text>
+  <line x1="24.0" y1="376.0" x2="736.0" y2="376.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="398.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">点间距 = 距离 × tan(角分辨率)。两条线平行 —— 因为比值只由角分辨率决定，与距离无关。</text>
+</svg>
