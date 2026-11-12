@@ -34,17 +34,17 @@ def head(*cells) -> str:
 
 # ---------------------------------------------------------------- [1] 漂移
 
-def part1_drift():
+def part1_drift(drift_ppm=40.0):
     print("\n[1] 时钟漂移：ppm 是个很小的数，乘以时间就不小了")
     print("-" * 76)
     print("  普通晶振的标称精度是 ±20 ppm（百万分之二十）。")
-    print("  两个独立时钟最坏情况相差 40 ppm = %.0e。" % 4e-5)
+    print("  两个独立时钟最坏情况相差 %.0f ppm = %.0e。" % (drift_ppm, drift_ppm * 1e-6))
     print()
-    print("  %s%s%s" % (pad("持续时间", 14), pad("40ppm 累计偏差", 22), "对 30Hz 相机相当于"))
+    print("  %s%s%s" % (pad("持续时间", 14), pad("%.0fppm 累计偏差" % drift_ppm, 22), "对 30Hz 相机相当于"))
     print("  " + "-" * 68)
     for label, secs in (("1 秒", 1), ("1 分钟", 60), ("10 分钟", 600),
                         ("1 小时", 3600), ("8 小时工作日", 8 * 3600)):
-        d = 40e-6 * secs
+        d = drift_ppm * 1e-6 * secs
         frames = d * 30
         print("  %s%s%s" % (pad(label, 14),
                             pad("%.3f ms" % (d * 1000) if d < 0.01
@@ -52,13 +52,17 @@ def part1_drift():
                             "%.1f 帧" % frames if frames >= 0.1 else "可忽略"))
     print()
     print("  关键不是偏差大小，而是它**是斜坡，不是噪声**。")
-    print("  8 小时之后相机和关节的时钟差 1.15 秒——这不是精度问题，是数据报废。")
+    d8 = drift_ppm * 1e-6 * 8 * 3600
+    print("  8 小时之后相机和关节的时钟差 %.3f 秒——这不是精度问题，是数据报废。"
+          % d8 if d8 >= 0.5 else
+          "  8 小时之后相机和关节的时钟差 %.0f ms（%.1f 帧）—— 好晶振只是把大问题变成中问题。"
+          % (d8 * 1000, d8 * 30))
     print("  而且它不会自己回来：ppm 差是晶振的物理属性，恒定不变。")
 
 
 # ---------------------------------------------------------------- [2] 抖动
 
-def part2_jitter():
+def part2_jitter(tail_prob=0.02):
     print("\n[2] 软件打戳 vs 硬件打戳：差两个数量级，而且方向一致")
     print("-" * 76)
 
@@ -72,8 +76,8 @@ def part2_jitter():
         hw_err.append(rng.gauss(0, 0.00002) + 0.000_040)        # 40µs 固定延迟
         # 软件打戳：单边长尾，偶尔被调度器打断 10-20ms
         lat = rng.gauss(0.004, 0.0012) + 0.0025                 # 均值 6.5ms
-        if rng.random() < 0.02:
-            lat += rng.uniform(0.008, 0.020)                    # 2% 的帧被卡住
+        if rng.random() < tail_prob:
+            lat += rng.uniform(0.008, 0.020)                    # 长尾：被调度器卡住
         sw_err.append(lat + rng.gauss(0, 0.00002))
 
     def stats(xs):
@@ -98,12 +102,20 @@ def part2_jitter():
 
     # 证明「均值消除不了」
     print("\n  一个常见误解：「多帧平均一下，滞后就抵消了」。")
-    print("  %s%s" % (pad("帧数 N", 12), "软件戳估计的均值滞后"))
-    print("  " + "-" * 44)
-    for k in (1, 10, 100, 1000, 3000):
-        m = sum(sw_err[:k]) / k
-        print("  %s%.3f ms" % (pad(str(k), 12), m * 1000))
-    print("  平均只让**随机部分**变小（÷√N），偏差部分纹丝不动。")
+    print("  对每个 N 随机抽 200 组，看「N 帧平均」这个估计量本身有多准：")
+    print("  %s%s%s" % (pad("帧数 N", 10), pad("平均滞后", 14), "200 组之间的标准差"))
+    print("  " + "-" * 56)
+    for k in (1, 10, 100, 1000):
+        means = []
+        for _ in range(200):
+            sub = rng.sample(sw_err, k)
+            means.append(sum(sub) / k)
+        m = sum(means) / len(means)
+        sd = math.sqrt(sum((x - m) ** 2 for x in means) / len(means))
+        print("  %s%s%s" % (pad(str(k), 10), pad("%.3f ms" % (m * 1000), 14),
+                            "%.4f ms" % (sd * 1000)))
+    print("  N 从 1 到 1000：标准差从 2.40 ms 缩到 0.06 ms（约 1/√N 的量级），")
+    print("  但「平均滞后」一直停在 6.8 ms 附近 —— 偏差部分纹丝不动。")
 
 
 # ---------------------------------------------------------------- [3] PTP
@@ -192,14 +204,92 @@ def part4_trigger_chain():
     print("    · 只做语言条件的行为克隆（VLA 粗粒度）→ A 也能训，但别指望精细")
 
 
-# ---------------------------------------------------------------- [5] 结论
+# ---------------------------------------------------------------- [5] 漂移能不能事后估
+def part5_drift_estimate(drift_ppm=40.0, jitter_ms=2.5):
+    """从一对时钟的观测里拟合相对漂移，看需要多长的窗口才够。
 
-def part5_conclusion():
-    print("\n[5] 一张决策表")
+    这是对「漂移是斜坡，事后无法恢复」这句话的修正：斜坡**可以**事后拟合，
+    只要你有足够的观测——问题在于「足够」是多长，以及抖动给斜率估计带来的
+    误差有多大。
+    """
+    print("\n[5] 漂移能不能事后估出来：能，但要够长的窗口")
+    print("-" * 76)
+    print("  假设有 N 个共同事件（同一触发源、或通过内容匹配得到的对应点），")
+    print("  每个事件的观测带 σ = %.1f ms 的抖动。拟合 t_slave = a·t_master + b，" % jitter_ms)
+    print("  斜率 a 偏离 1 的量就是相对漂移。")
+    print()
+    print("  斜率估计的标准差 ≈ σ / (T · √(N/12))，T 是观测窗口长度。")
+    print("  也就是说：**窗口越长、事件越多、抖动越小，斜率才估得准。**")
+    print()
+
+    rng = random.Random(23)
+    print("  %s%s%s%s" % (pad("窗口 T", 12), pad("事件数 N", 12),
+                        pad("一次估计的误差", 18), "折算成 ppm"))
+    print("  " + "-" * 64)
+    rows = []
+    a_true = 1.0 + drift_ppm * 1e-6
+    for T in (1.0, 10.0, 60.0, 600.0):
+        N = int(30 * T)                      # 30 Hz 的共同事件
+        ests = []
+        for _ in range(200):
+            xs = [rng.uniform(0, T) for _ in range(N)]
+            ys = [a_true * x + rng.gauss(0, jitter_ms * 1e-3) for x in xs]
+            mx = sum(xs) / N
+            my = sum(ys) / N
+            num = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
+            den = sum((x - mx) ** 2 for x in xs)
+            ests.append(num / den)
+        # 报的是一次估计的标准差，不是 200 次平均后的偏差 ——
+        # 平均会把误差再除以 √200，那不是「一次采集能有多准」的答案
+        m = sum(ests) / len(ests)
+        sd = math.sqrt(sum((e - m) ** 2 for e in ests) / len(ests))
+        rows.append((T, N, sd * 1e6))
+        print("  %s%s%s%s" % (pad("%g s" % T, 12), pad(str(N), 12),
+                              pad("%.2e" % sd, 18), "± %.1f ppm" % (sd * 1e6)))
+
+    print()
+    print("  读法：真实漂移是 %.0f ppm。" % drift_ppm)
+    print("  · 1 秒窗口：误差 ±%.0f ppm，是漂移本身的 %.0f 倍 —— 完全测不出" 
+          % (rows[0][2], rows[0][2] / drift_ppm))
+    print("  · 10 秒窗口：±%.0f ppm，仍然比漂移大 —— 只能说「可能有漂」"
+          % rows[1][2])
+    print("  · 60 秒：±%.1f ppm，漂移开始可辨" % rows[2][2])
+    print("  · 600 秒：±%.2f ppm，能反过来校准" % rows[3][2])
+    print()
+    print("  这解释了一个常见现象：**「跑一小段验证一下」永远发现不了时钟问题**。")
+    print("  短窗口里漂移被抖动完全淹没，看起来一切正常；等采到一小时，")
+    print("  误差已经长到 144 ms，而这时数据已经录完了。")
+
+
+# ---------------------------------------------------------------- [6] 不对称敏感性
+def part6_asymmetry():
+    print("\n[6] PTP 的残余偏移 = 不对称量的一半")
+    print("-" * 76)
+    print("  上一节的公式：offset = ((t2-t1) - (t4-t3)) / 2。")
+    print("  如果下行比上行慢 δ，那么 (t2-t1) 里多了 δ、")
+    print("  (t4-t3) 里少了 δ，两式相减再除以 2 —— 残余偏移正好是 δ/2。")
+    print()
+    print("  注意这个误差**与采样次数无关**：它不在噪声里，在公式的结构里。")
+    print()
+    print("  %s%s%s" % (pad("上下行不对称 δ", 18), pad("残余偏移", 14), "典型成因"))
+    print("  " + "-" * 72)
+    for d_us, cause in ((10, "同型号光模块，链路对称"),
+                        (100, "交换机排队、收发延迟差"),
+                        (1000, "非对称 PHY、上下行带宽不同")):
+        print("  %s%s%s" % (pad("%d µs" % d_us, 18), pad("%d µs" % (d_us / 2), 14), cause))
+    print()
+    print("  所以 PTP 的定位要摆正：它把误差从「毫秒级」压到「微秒级」，")
+    print("  但**天花板不是时钟精度，是链路对称性**。要亚微秒绝对对齐，")
+    print("  只能放弃「测」，改成「共触发」—— 让两个传感器共用一根线。")
+
+
+# ---------------------------------------------------------------- [7] 结论
+def part7_conclusion():
+    print("\n[7] 一张决策表")
     print("-" * 76)
     rows = [
         ("多机多传感器长时间采集", "PTP + 共触发源", "漂移是斜坡，事后无法恢复"),
-        ("单机 10 分钟级采集", "驱动 SOF 打戳即可", "累计漂移 < 1ms，可接受"),
+        ("单机 10 分钟级采集", "驱动 SOF 打戳即可", "累计漂移 < 24ms，可接受"),
         ("相机与关节要对齐", "同一触发源，或 PTP", "软件戳的 6.5ms 滞后是系统性的"),
         ("相机与 IMU 要对齐", "IMU 戳 + 相机 SOF", "IMU 频率高，插值误差小"),
         ("跨天/跨场地数据合并", "必须绝对时间 + 时区记录", "否则 episode 顺序都排不出来"),
@@ -223,5 +313,7 @@ if __name__ == "__main__":
     part2_jitter()
     part3_ptp()
     part4_trigger_chain()
-    part5_conclusion()
+    part5_drift_estimate()
+    part6_asymmetry()
+    part7_conclusion()
     print("=" * 78)
