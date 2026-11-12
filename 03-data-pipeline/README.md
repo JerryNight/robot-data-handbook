@@ -7,9 +7,9 @@
 | 1 | [录制格式](recording.md) | rosbag2 就是一个 SQLite + 一个 yaml；「录制成功」不等于「数据完整」 |
 | 2 | [时钟与触发链](clock-and-trigger.md) | 40ppm 跑 8 小时差 1.15 秒；PTP 的天花板是路径不对称，不是采样次数 |
 | 3 | [标定](calibration.md) | 残差 0.2 px 的时候焦距可以错 25%；借重力只能测 6 个自由度里的 2 个 |
-| 4 | [格式](formats.md) | chunk 布局差 100 倍 I/O；视频省 69 倍空间，代价是随机访问 |
-| 5 | [存储与版本](storage-and-versioning.md) | 去重收益取决于 idle 占比；复现性 = 代码版本 + 数据哈希 + 参数 |
-| 6 | [标注](annotation.md) | 一致率 99% 的 kappa 可以是负数；人工切分精度约 3–10 帧 |
+| 4 | [格式](formats.md) | 块大小决定一切：chunk=100 与 chunk=1 差 100 倍 I/O；视频省 69 倍空间，代价是随机访问 |
+| 5 | [存储与版本](storage-and-versioning.md) | 去重率是块大小的函数，不是数据的函数；插入一帧，固定分块多存 25 倍 |
+| 6 | [标注](annotation.md) | 99% 一致率下 kappa 可以是负的；阈值差 1.5 cm，kappa 还在 0.8 以上 |
 
 每篇都配一个零依赖的可运行实验，在 [`examples/03_data_pipeline/`](../examples/03_data_pipeline/)。报告里的每个数字都来自实际运行，不是估的。
 
@@ -21,7 +21,7 @@
 
 每一环都可能成为瓶颈。实践中最容易被低估的是**质检**和**回流**——前者决定数据能不能用，后者决定平台是不是只是个单向漏斗。
 
-## 贯穿全章的六个数字
+## 贯穿全章的八个数字
 
 先把这几个数记住，后面每篇都在用它们做判断：
 
@@ -31,8 +31,10 @@
 | 1.15 s | 40ppm 漂移跑 8 小时的累计偏差 | [clock](clock-and-trigger.md) |
 | 2.07 → 0.054 ms | 驱动打戳 vs 触发链 + PTP 的端到端不确定性 | [clock](clock-and-trigger.md) |
 | 17.5 mm | 1° 外参误差在 1m 处的偏移 | [calibration](calibration.md) |
-| 100 倍 | chunk=1 帧 vs chunk=100 帧的 I/O 差 | [formats](formats.md) |
+| 100 倍 | chunk=100 帧 vs chunk=1 帧的 I/O 差 | [formats](formats.md) |
 | 69 倍 | H.264 CRF23 相对原始 RGB 的压缩比 | [formats](formats.md) |
+| 25 倍 | 插入一帧后，固定分块 vs 内容分块的额外存储 | [storage](storage-and-versioning.md) |
+| 22 个百分点 | 阈值从 1.0 cm 挪到 3.0 cm 的成功率变化 | [annotation](annotation.md) |
 
 ## 常见错误清单
 

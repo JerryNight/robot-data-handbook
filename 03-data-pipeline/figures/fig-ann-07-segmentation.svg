@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 398" width="760" height="398" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="398" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">边界晚 10 帧，288 帧里 29 帧挂着错误的段标签</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">9.6 秒的抓取切 4 段 × 72 帧（30 Hz）。边界晚 9.6 帧，就有 9.6 帧被划给前一段。</text>
+  <text x="96.0" y="84.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">真实分段</text>
+  <rect x="96.0" y="92.0" width="149.5" height="26.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.22"/>
+  <text x="171.5" y="109.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="400" opacity="1.0">接近</text>
+  <rect x="247.0" y="92.0" width="149.5" height="26.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.2" opacity="0.22"/>
+  <text x="322.5" y="109.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="400" opacity="1.0">抓取</text>
+  <rect x="398.0" y="92.0" width="149.5" height="26.0" rx="3" fill="#6B5B95" stroke="none" stroke-width="1.2" opacity="0.22"/>
+  <text x="473.5" y="109.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="400" opacity="1.0">抬起</text>
+  <rect x="549.0" y="92.0" width="149.5" height="26.0" rx="3" fill="#C0651A" stroke="none" stroke-width="1.2" opacity="0.22"/>
+  <text x="624.5" y="109.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="400" opacity="1.0">放置</text>
+  <text x="96.0" y="146.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">人工实时观看看出的分段（整体晚 9.6 帧）</text>
+  <rect x="97.0" y="154.0" width="129.4" height="26.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.22"/>
+  <text x="161.4" y="171.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="400" opacity="1.0">接近</text>
+  <rect x="227.9" y="154.0" width="149.5" height="26.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.2" opacity="0.22"/>
+  <text x="302.4" y="171.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="400" opacity="1.0">抓取</text>
+  <rect x="378.9" y="154.0" width="149.5" height="26.0" rx="3" fill="#6B5B95" stroke="none" stroke-width="1.2" opacity="0.22"/>
+  <text x="453.4" y="171.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="400" opacity="1.0">抬起</text>
+  <rect x="529.9" y="154.0" width="149.5" height="26.0" rx="3" fill="#C0651A" stroke="none" stroke-width="1.2" opacity="0.22"/>
+  <text x="604.4" y="171.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="400" opacity="1.0">放置</text>
+  <rect x="247.0" y="88.0" width="20.1" height="98.0" rx="0" fill="#C0392B" stroke="#C0392B" stroke-width="1" opacity="0.12" stroke-dasharray="3 2.5"/>
+  <rect x="398.0" y="88.0" width="20.1" height="98.0" rx="0" fill="#C0392B" stroke="#C0392B" stroke-width="1" opacity="0.12" stroke-dasharray="3 2.5"/>
+  <rect x="549.0" y="88.0" width="20.1" height="98.0" rx="0" fill="#C0392B" stroke="#C0392B" stroke-width="1" opacity="0.12" stroke-dasharray="3 2.5"/>
+  <text x="96.0" y="204.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">虚线框 = 段标签错的帧：每个边界 9.6 帧，3 个边界共 29 帧（10%）</text>
+  <line x1="24.0" y1="228.0" x2="736.0" y2="228.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="248.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">标注方式</text>
+  <text x="320.0" y="248.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="600" opacity="1.0">边界误差</text>
+  <text x="430.0" y="248.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="600" opacity="1.0">错帧</text>
+  <text x="500.0" y="248.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="600" opacity="1.0">占比</text>
+  <text x="24.0" y="272.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">人工，慢放 ×0.25 逐帧看</text>
+  <text x="320.0" y="272.0" font-size="9.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">100 ms</text>
+  <text x="430.0" y="272.0" font-size="9.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">9 帧</text>
+  <text x="500.0" y="272.0" font-size="9.5" fill="#2E7D5B" text-anchor="end" font-weight="600" opacity="1.0">3%</text>
+  <rect x="512.0" y="264.0" width="65.6" height="10.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="24.0" y="296.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">人工，实时观看</text>
+  <text x="320.0" y="296.0" font-size="9.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">320 ms</text>
+  <text x="430.0" y="296.0" font-size="9.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">29 帧</text>
+  <text x="500.0" y="296.0" font-size="9.5" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">10%</text>
+  <rect x="512.0" y="288.0" width="210.0" height="10.0" rx="3" fill="#C0651A" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="24.0" y="320.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">速度阈值自动切分</text>
+  <text x="320.0" y="320.0" font-size="9.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">80 ms</text>
+  <text x="430.0" y="320.0" font-size="9.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">7 帧</text>
+  <text x="500.0" y="320.0" font-size="9.5" fill="#2E7D5B" text-anchor="end" font-weight="600" opacity="1.0">2%</text>
+  <rect x="512.0" y="312.0" width="52.5" height="10.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="24.0" y="344.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">力/接触信号自动切分</text>
+  <text x="320.0" y="344.0" font-size="9.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">30 ms</text>
+  <text x="430.0" y="344.0" font-size="9.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">3 帧</text>
+  <text x="500.0" y="344.0" font-size="9.5" fill="#2E7D5B" text-anchor="end" font-weight="600" opacity="1.0">1%</text>
+  <rect x="512.0" y="336.0" width="19.7" height="10.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <line x1="24.0" y1="368.0" x2="736.0" y2="368.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="388.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">人的反应时间下限决定这条路走不通：不是标注员不认真，是 300 ms 就是人的常态。</text>
+</svg>

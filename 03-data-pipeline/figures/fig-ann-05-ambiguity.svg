@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 366" width="760" height="366" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="366" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">两人都严格按规范判、零失误，规范差 1.5 cm，kappa 还有 0.82</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">A 的阈值固定 1.5 cm，B 的阈值从 1.5 挪到 3.0。除了阈值，两人没有任何分歧。</text>
+  <rect x="104.0" y="254.0" width="456.0" height="14.0" rx="0" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.06"/>
+  <line x1="104.0" y1="254.0" x2="560.0" y2="254.0" stroke="#2E7D5B" stroke-width="1.2" opacity="0.8" stroke-dasharray="5 3"/>
+  <text x="110.0" y="248.0" font-size="8.5" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">0.80 可信线：整条曲线都在它上面</text>
+  <path d="M 104.0 114.0 L 134.4 128.4 L 164.8 154.2 L 195.2 159.8 L 225.6 161.7 L 256.0 163.6 L 286.4 175.1 L 316.8 180.9 L 347.2 186.7 L 377.6 190.7 L 408.0 196.6 L 438.4 200.6 L 468.8 206.5 L 499.2 214.6 L 529.6 224.8 L 560.0 237.2" fill="none" stroke="#3C6E9F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="104.0" cy="114.0" r="3.4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="256.0" cy="163.6" r="3.4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="408.0" cy="196.6" r="3.4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="560.0" cy="237.2" r="3.4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="104.0" y="106.0" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">1.000</text>
+  <text x="256.0" y="153.6" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">0.929</text>
+  <text x="408.0" y="186.6" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">0.882</text>
+  <text x="560.0" y="225.2" font-size="9" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">0.824</text>
+  <line x1="104.0" y1="268.0" x2="560.0" y2="268.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="104.0" y1="100.0" x2="104.0" y2="268.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="104.0" y1="268.0" x2="104.0" y2="272.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="104.0" y="284.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.00</text>
+  <line x1="180.0" y1="268.0" x2="180.0" y2="272.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="180.0" y="284.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.25</text>
+  <line x1="256.0" y1="268.0" x2="256.0" y2="272.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="256.0" y="284.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.50</text>
+  <line x1="332.0" y1="268.0" x2="332.0" y2="272.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="332.0" y="284.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.75</text>
+  <line x1="408.0" y1="268.0" x2="408.0" y2="272.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="408.0" y="284.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1.00</text>
+  <line x1="484.0" y1="268.0" x2="484.0" y2="272.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="484.0" y="284.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1.25</text>
+  <line x1="560.0" y1="268.0" x2="560.0" y2="272.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="560.0" y="284.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1.50</text>
+  <line x1="100.0" y1="254.0" x2="104.0" y2="254.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="257.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.80</text>
+  <line x1="100.0" y1="219.0" x2="104.0" y2="219.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="222.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.85</text>
+  <line x1="100.0" y1="184.0" x2="104.0" y2="184.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="187.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.90</text>
+  <line x1="100.0" y1="149.0" x2="104.0" y2="149.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="152.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.95</text>
+  <text x="332.0" y="302.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">两人心里的阈值差（cm）</text>
+  <text x="104.0" y="92.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">kappa（两人都零失误）</text>
+  <rect x="592.0" y="100.0" width="148.0" height="150.0" rx="8" fill="#F7F9FA" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="604.0" y="122.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">差 0.5 cm 时</text>
+  <text x="604.0" y="142.0" font-size="10.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">kappa 0.93</text>
+  <text x="604.0" y="160.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">一致率 97.3%</text>
+  <line x1="604.0" y1="176.0" x2="728.0" y2="176.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="604.0" y="196.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">门槛一次没报警</text>
+  <text x="604.0" y="220.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">它挡得住乱判，</text>
+  <text x="604.0" y="236.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">挡不住两个规范。</text>
+  <text x="24.0" y="330.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">所以 kappa 是诊断工具，不是验收工具：它告诉你「有分歧」，但不告诉你是「人不行」还是「规范没写」。</text>
+  <text x="24.0" y="346.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">分辨方法只有一个——看分歧样本的误差分布：全部落在 1.5~2.0 cm 这条窄带上，就是规范问题。</text>
+</svg>

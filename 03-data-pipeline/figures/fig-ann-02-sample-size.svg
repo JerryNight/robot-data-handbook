@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 366" width="760" height="366" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="366" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">30 条算出来的 kappa，置信区间比判读门槛还宽</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">从 200 条里随机抽 n 条重算 kappa，重复 2000 次。条形是 95% 区间，点是均值。</text>
+  <line x1="452.3" y1="96.0" x2="452.3" y2="268.0" stroke="#2E7D5B" stroke-width="1.1" opacity="0.75" stroke-dasharray="5 3"/>
+  <text x="452.3" y="88.0" font-size="8.5" fill="#2E7D5B" text-anchor="middle" font-weight="600" opacity="1.0">0.80 可信</text>
+  <line x1="156.9" y1="96.0" x2="156.9" y2="268.0" stroke="#C0392B" stroke-width="1.1" opacity="0.75" stroke-dasharray="5 3"/>
+  <text x="156.9" y="88.0" font-size="8.5" fill="#C0392B" text-anchor="middle" font-weight="600" opacity="1.0">0.40 返工</text>
+  <line x1="400.6" y1="96.0" x2="400.6" y2="268.0" stroke="#3C6E9F" stroke-width="1.4" opacity="0.85" stroke-dasharray="6 4"/>
+  <text x="400.6" y="88.0" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">真值 0.73</text>
+  <text x="108.0" y="124.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">30 条</text>
+  <rect x="187.2" y="113.0" width="363.1" height="14.0" rx="7" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.16"/>
+  <line x1="187.2" y1="120.0" x2="550.3" y2="120.0" stroke="#3C6E9F" stroke-width="2.6" opacity="0.55"/>
+  <circle cx="396.9" cy="120.0" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="187.2" y1="114.0" x2="187.2" y2="126.0" stroke="#3C6E9F" stroke-width="1.4" opacity="0.8"/>
+  <line x1="550.3" y1="114.0" x2="550.3" y2="126.0" stroke="#3C6E9F" stroke-width="1.4" opacity="0.8"/>
+  <text x="560.3" y="123.5" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">宽 0.49</text>
+  <text x="108.0" y="166.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">60 条</text>
+  <rect x="253.0" y="155.0" width="268.2" height="14.0" rx="7" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.16"/>
+  <line x1="253.0" y1="162.0" x2="521.3" y2="162.0" stroke="#3C6E9F" stroke-width="2.6" opacity="0.55"/>
+  <circle cx="398.2" cy="162.0" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="253.0" y1="156.0" x2="253.0" y2="168.0" stroke="#3C6E9F" stroke-width="1.4" opacity="0.8"/>
+  <line x1="521.3" y1="156.0" x2="521.3" y2="168.0" stroke="#3C6E9F" stroke-width="1.4" opacity="0.8"/>
+  <text x="531.3" y="165.5" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">宽 0.36</text>
+  <text x="108.0" y="208.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">100 条</text>
+  <rect x="292.8" y="197.0" width="210.0" height="14.0" rx="7" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.16"/>
+  <line x1="292.8" y1="204.0" x2="502.8" y2="204.0" stroke="#3C6E9F" stroke-width="2.6" opacity="0.55"/>
+  <circle cx="399.5" cy="204.0" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="292.8" y1="198.0" x2="292.8" y2="210.0" stroke="#3C6E9F" stroke-width="1.4" opacity="0.8"/>
+  <line x1="502.8" y1="198.0" x2="502.8" y2="210.0" stroke="#3C6E9F" stroke-width="1.4" opacity="0.8"/>
+  <text x="512.8" y="207.5" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">宽 0.28</text>
+  <text x="108.0" y="250.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">200 条</text>
+  <rect x="323.7" y="239.0" width="149.2" height="14.0" rx="7" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.16"/>
+  <line x1="323.7" y1="246.0" x2="472.9" y2="246.0" stroke="#3C6E9F" stroke-width="2.6" opacity="0.55"/>
+  <circle cx="400.0" cy="246.0" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="323.7" y1="240.0" x2="323.7" y2="252.0" stroke="#3C6E9F" stroke-width="1.4" opacity="0.8"/>
+  <line x1="472.9" y1="240.0" x2="472.9" y2="252.0" stroke="#3C6E9F" stroke-width="1.4" opacity="0.8"/>
+  <text x="482.9" y="249.5" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">宽 0.20</text>
+  <line x1="120.0" y1="268.0" x2="600.0" y2="268.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="156.9" y1="268.0" x2="156.9" y2="273.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="156.9" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.4</text>
+  <line x1="230.8" y1="268.0" x2="230.8" y2="273.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="230.8" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.5</text>
+  <line x1="304.6" y1="268.0" x2="304.6" y2="273.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="304.6" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.6</text>
+  <line x1="378.5" y1="268.0" x2="378.5" y2="273.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="378.5" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.7</text>
+  <line x1="452.3" y1="268.0" x2="452.3" y2="273.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="452.3" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.8</text>
+  <line x1="526.2" y1="268.0" x2="526.2" y2="273.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="526.2" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.9</text>
+  <line x1="600.0" y1="268.0" x2="600.0" y2="273.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="600.0" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1.0</text>
+  <text x="360.0" y="304.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">kappa</text>
+  <rect x="24.0" y="318.0" width="712.0" height="34.0" rx="6" fill="#FBF6F3" stroke="#EADFD7" stroke-width="1" opacity="1.0"/>
+  <text x="38.0" y="334.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">30 条的区间 [0.44, 0.93] 同时跨过「返工」和「可信」两条线；</text>
+  <text x="38.0" y="347.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">2000 次重抽里有 28% 判可信、1.6% 判返工——真值是 0.73，两种判读都错。</text>
+</svg>

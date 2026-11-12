@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="380" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">动词熵 2.49 / 3.32 bit，但语言只能解释 62% 的动作信息</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">上面是 3000 条指令的动词分布，下面是三种数据造法下的 I(动作;动词)/H(动作)。</text>
+  <text x="96.0" y="88.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">动词分布（按出现频次）</text>
+  <rect x="96.0" y="96.0" width="244.6" height="26.0" rx="2" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.88"/>
+  <text x="218.8" y="113.0" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">拿起</text>
+  <rect x="341.6" y="96.0" width="117.4" height="26.0" rx="2" fill="#4E7FA8" stroke="none" stroke-width="1.2" opacity="0.88"/>
+  <text x="400.8" y="113.0" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">放下</text>
+  <rect x="460.0" y="96.0" width="87.6" height="26.0" rx="2" fill="#5F90B8" stroke="none" stroke-width="1.2" opacity="0.88"/>
+  <text x="504.3" y="113.0" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">放进</text>
+  <rect x="548.6" y="96.0" width="57.0" height="26.0" rx="2" fill="#C0651A" stroke="none" stroke-width="1.2" opacity="0.88"/>
+  <text x="577.6" y="113.0" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">移到</text>
+  <rect x="606.6" y="96.0" width="30.0" height="26.0" rx="2" fill="#CE7F3C" stroke="none" stroke-width="1.2" opacity="0.88"/>
+  <rect x="637.6" y="96.0" width="22.4" height="26.0" rx="2" fill="#D8945C" stroke="none" stroke-width="1.2" opacity="0.88"/>
+  <rect x="660.9" y="96.0" width="38.1" height="26.0" rx="2" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.45"/>
+  <text x="96.0" y="148.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">前 2 个动词占 60%；后 4 个（打开/关上/翻转/堆叠）合计 6%——长尾真实存在，但头很重。</text>
+  <text x="96.0" y="186.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">语言对动作的信息量：I(动作;动词) / H(动作)</text>
+  <line x1="246.0" y1="196.0" x2="246.0" y2="300.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="216.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">动作 = 动词</text>
+  <rect x="246.0" y="204.0" width="300.0" height="17.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.2" opacity="0.34"/>
+  <text x="555.0" y="216.5" font-size="10" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">1.00</text>
+  <text x="592.0" y="216.5" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">H=2.49 bit</text>
+  <text x="96.0" y="254.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">动作 = 物体</text>
+  <rect x="246.0" y="242.0" width="2.0" height="17.0" rx="3" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.34"/>
+  <text x="257.0" y="254.5" font-size="10" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">0.00</text>
+  <text x="294.0" y="254.5" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">H=2.58 bit</text>
+  <text x="96.0" y="292.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">动词 + 20% 噪声</text>
+  <rect x="246.0" y="280.0" width="186.4" height="17.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.34"/>
+  <text x="441.4" y="292.5" font-size="10" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">0.62</text>
+  <text x="478.4" y="292.5" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">H=3.23 bit</text>
+  <text x="96.0" y="344.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">打乱语言输入，性能掉得接近 62% = 语言条件在起作用；掉得远小于它 = 语言标注基本白标。</text>
+  <text x="96.0" y="360.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">这是半小时能做完、却足以否掉整个采集计划的实验——比换更大的模型便宜三个数量级。</text>
+</svg>

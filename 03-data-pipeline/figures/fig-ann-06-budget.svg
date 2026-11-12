@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 388" width="760" height="388" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="388" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同样 300 条人力：随机抽剩 36 条错，按不确定性挑剩 14 条</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">1000 条里 111 条落在自动判定器的边界区间（错误率 30%），其余 889 条错误率 2%。</text>
+  <line x1="270.2" y1="104.0" x2="270.2" y2="292.0" stroke="#57606A" stroke-width="1" opacity="0.55" stroke-dasharray="4 3"/>
+  <text x="276.2" y="120.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">拐点：边界区间标完（111 条）</text>
+  <path d="M 100.0 117.4 L 138.3 121.8 L 176.7 126.1 L 215.0 130.5 L 253.3 134.9 L 330.0 143.6 L 406.7 152.3 L 483.3 161.0 L 560.0 169.8" fill="none" stroke="#C0651A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <path d="M 100.0 117.4 L 138.3 143.0 L 176.7 168.7 L 215.0 194.3 L 253.3 219.9 L 330.0 233.9 L 406.7 237.3 L 483.3 240.7 L 560.0 244.1" fill="none" stroke="#3C6E9F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="100.0" cy="117.4" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="138.3" cy="121.8" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="176.7" cy="126.1" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="215.0" cy="130.5" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="253.3" cy="134.9" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="330.0" cy="143.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="406.7" cy="152.3" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="483.3" cy="161.0" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="560.0" cy="169.8" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="100.0" cy="117.4" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="138.3" cy="143.0" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="176.7" cy="168.7" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="215.0" cy="194.3" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="253.3" cy="219.9" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="330.0" cy="233.9" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="406.7" cy="237.3" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="483.3" cy="240.7" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="560.0" cy="244.1" r="2.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="568.0" y="173.8" font-size="9.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">36 条</text>
+  <text x="568.0" y="248.1" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">14 条</text>
+  <text x="330.0" y="122.8" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">随机抽</text>
+  <text x="330.0" y="208.3" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">按不确定性挑</text>
+  <line x1="100.0" y1="292.0" x2="560.0" y2="292.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="100.0" y1="104.0" x2="100.0" y2="292.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="100.0" y1="292.0" x2="100.0" y2="296.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="100.0" y="308.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0</text>
+  <line x1="176.7" y1="292.0" x2="176.7" y2="296.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="176.7" y="308.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">50</text>
+  <line x1="253.3" y1="292.0" x2="253.3" y2="296.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="253.3" y="308.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">100</text>
+  <line x1="330.0" y1="292.0" x2="330.0" y2="296.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="330.0" y="308.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">150</text>
+  <line x1="406.7" y1="292.0" x2="406.7" y2="296.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="406.7" y="308.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">200</text>
+  <line x1="483.3" y1="292.0" x2="483.3" y2="296.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="483.3" y="308.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">250</text>
+  <line x1="560.0" y1="292.0" x2="560.0" y2="296.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="560.0" y="308.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">300</text>
+  <line x1="96.0" y1="292.0" x2="100.0" y2="292.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="295.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <line x1="96.0" y1="257.8" x2="100.0" y2="257.8" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="261.3" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">10</text>
+  <line x1="96.0" y1="223.6" x2="100.0" y2="223.6" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="227.1" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">20</text>
+  <line x1="96.0" y1="189.5" x2="100.0" y2="189.5" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="193.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">30</text>
+  <line x1="96.0" y1="155.3" x2="100.0" y2="155.3" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="158.8" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">40</text>
+  <line x1="96.0" y1="121.1" x2="100.0" y2="121.1" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="124.6" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">50</text>
+  <text x="330.0" y="326.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">人工标注预算（条）</text>
+  <text x="100.0" y="92.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">剩余错误数（条）</text>
+  <rect x="24.0" y="336.0" width="712.0" height="40.0" rx="6" fill="#F7F9FA" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="38.0" y="352.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">边际收益（每条人力修掉几条错）：拐点前 0.30，拐点后 0.02，随机抽恒定 0.051。</text>
+  <text x="38.0" y="368.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">拐点之后继续按不确定性挑，反而不如随机抽——该停就停，重训判定器再挑下一轮。</text>
+</svg>

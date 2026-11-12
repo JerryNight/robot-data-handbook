@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 392" width="760" height="392" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="392" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">一致率钉死在 95%，kappa 照样能从 0.90 掉到 -1.53</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">两人边际相同、表面一致率都是 95%，只改阳性率。横轴是阳性率，纵轴是 kappa。</text>
+  <rect x="100.0" y="181.3" width="352.0" height="118.7" rx="0" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.07"/>
+  <line x1="100.0" y1="125.5" x2="452.0" y2="125.5" stroke="#2E7D5B" stroke-width="1" opacity="0.55" stroke-dasharray="4 3"/>
+  <line x1="100.0" y1="153.4" x2="452.0" y2="153.4" stroke="#C0651A" stroke-width="1" opacity="0.55" stroke-dasharray="4 3"/>
+  <line x1="100.0" y1="181.3" x2="452.0" y2="181.3" stroke="#57606A" stroke-width="1" opacity="0.55" stroke-dasharray="4 3"/>
+  <line x1="104.0" y1="78.0" x2="122.0" y2="78.0" stroke="#2E7D5B" stroke-width="1.6" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="128.0" y="81.0" font-size="8.5" fill="#2E7D5B" text-anchor="start" font-weight="400" opacity="1.0">0.80 可信线</text>
+  <line x1="222.0" y1="78.0" x2="240.0" y2="78.0" stroke="#C0651A" stroke-width="1.6" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="246.0" y="81.0" font-size="8.5" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">0.40 勉强线</text>
+  <line x1="340.0" y1="78.0" x2="358.0" y2="78.0" stroke="#57606A" stroke-width="1.6" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="364.0" y="81.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">0 = 瞎猜水平</text>
+  <line x1="100.0" y1="300.0" x2="100.0" y2="108.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="100.0" y1="300.0" x2="452.0" y2="300.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="96.0" y1="286.0" x2="100.0" y2="286.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="289.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">-1.5</text>
+  <line x1="96.0" y1="251.1" x2="100.0" y2="251.1" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="254.6" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">-1.0</text>
+  <line x1="96.0" y1="216.2" x2="100.0" y2="216.2" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="219.7" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">-0.5</text>
+  <line x1="96.0" y1="181.3" x2="100.0" y2="181.3" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="184.8" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.0</text>
+  <line x1="96.0" y1="146.4" x2="100.0" y2="146.4" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="149.9" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.5</text>
+  <line x1="96.0" y1="111.5" x2="100.0" y2="111.5" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="115.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1.0</text>
+  <line x1="100.0" y1="300.0" x2="100.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="100.0" y="317.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">50%</text>
+  <line x1="170.4" y1="300.0" x2="170.4" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="170.4" y="317.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">60%</text>
+  <line x1="240.8" y1="300.0" x2="240.8" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="240.8" y="317.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">70%</text>
+  <line x1="311.2" y1="300.0" x2="311.2" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="311.2" y="317.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">80%</text>
+  <line x1="381.6" y1="300.0" x2="381.6" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="381.6" y="317.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">90%</text>
+  <line x1="452.0" y1="300.0" x2="452.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="452.0" y="317.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">100%</text>
+  <path d="M 100.0 118.5 L 240.8 119.8 L 311.2 122.4 L 381.6 130.9 L 416.8 148.2 L 437.9 200.5 L 445.0 287.8" fill="none" stroke="#3C6E9F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="100.0" cy="118.5" r="2.8" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="240.8" cy="119.8" r="2.8" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="311.2" cy="122.4" r="2.8" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="381.6" cy="130.9" r="2.8" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="416.8" cy="148.2" r="2.8" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="437.9" cy="200.5" r="2.8" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="445.0" cy="287.8" r="2.8" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="114.1" y="106.5" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">0.90</text>
+  <text x="424.4" y="204.6" font-size="9" fill="#3C6E9F" text-anchor="end" font-weight="400" opacity="1.0">-0.28</text>
+  <text x="439.0" y="291.8" font-size="9" fill="#C0392B" text-anchor="end" font-weight="600" opacity="1.0">-1.53</text>
+  <text x="276.0" y="336.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">阳性率（判「成功」的比例）</text>
+  <text x="56.0" y="204.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">kappa</text>
+  <rect x="486.0" y="104.0" width="250.0" height="210.0" rx="8" fill="#F7F9FA" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="500.0" y="128.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同一个 95%，三种结论</text>
+  <text x="500.0" y="150.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">阳性率 50%</text>
+  <text x="500.0" y="165.0" font-size="10.5" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">kappa 0.90</text>
+  <text x="722.0" y="165.0" font-size="8.5" fill="#2E7D5B" text-anchor="end" font-weight="400" opacity="1.0">可信</text>
+  <text x="500.0" y="188.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">阳性率 90%</text>
+  <text x="500.0" y="203.0" font-size="10.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">kappa 0.72</text>
+  <text x="722.0" y="203.0" font-size="8.5" fill="#C0651A" text-anchor="end" font-weight="400" opacity="1.0">勉强可用</text>
+  <text x="500.0" y="226.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">阳性率 95%</text>
+  <text x="500.0" y="241.0" font-size="10.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">kappa 0.47</text>
+  <text x="722.0" y="241.0" font-size="8.5" fill="#C0651A" text-anchor="end" font-weight="400" opacity="1.0">勉强可用</text>
+  <text x="500.0" y="264.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">阳性率 99%</text>
+  <text x="500.0" y="279.0" font-size="10.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">kappa -1.53</text>
+  <text x="722.0" y="279.0" font-size="8.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">比瞎猜还差</text>
+  <line x1="500.0" y1="290.0" x2="722.0" y2="290.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="500.0" y="306.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">一致率一个数都没变</text>
+  <text x="24.0" y="368.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">一致率只看「两人判得一样多不多」，不看「判对没判对」。数据集越好，它越没用：</text>
+  <text x="24.0" y="384.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">成功率 99% 时，两个闭着眼全判「成功」的标注员也能拿到 99% 一致率。</text>
+</svg>

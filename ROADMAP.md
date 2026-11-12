@@ -33,9 +33,9 @@
 - [x] `03-data-pipeline/recording.md` —— rosbag2 的容器结构，metadata 对账，两种静默缺陷
 - [x] `03-data-pipeline/clock-and-trigger.md` —— 漂移/抖动/PTP 天花板/触发链预算
 - [x] `03-data-pipeline/calibration.md` —— 焦距-距离退化、已知尺子的精度、σ_f ∝ 1/(板宽·√N)、残差指纹、6 自由度可观测性、热胀到不了 0.3°、检出天数
-- [x] `03-data-pipeline/formats.md` —— I/O 放大 100 倍、编码取舍、LeRobotDataset 结构
-- [x] `03-data-pipeline/storage-and-versioning.md` —— 去重实测、血缘哈希、manifest 的边界
-- [x] `03-data-pipeline/annotation.md` —— kappa 悖论、阈值敏感性、人工精度上限
+- [x] `03-data-pipeline/formats.md` —— 块大小决定 I/O（100 倍）、GOP 与随机访问、体积估算器、列式读放大、三档保真、巨型 job 失败率
+- [x] `03-data-pipeline/storage-and-versioning.md` —— 去重率是块大小的函数、插入一帧的 25 倍、哈希位数与生日悖论、校验周期、冷热分层
+- [x] `03-data-pipeline/annotation.md` —— 一致率陷阱与 bootstrap 区间、稀有类抽样、阈值扫描与歧义、标注预算的边际收益、人工精度上限、语言互信息
 
 ### 阶段 4 · 公开数据集
 - [x] `04-datasets/open-x-embodiment.md` —— 22 本体 / 7 维动作的代价：冗余自由度、量化、量纲
