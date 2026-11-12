@@ -10,6 +10,9 @@
   2. 不做重力补偿会错多少
   3. 零点漂移有多致命
   4. 触觉阵列的数据规模，以及它为什么碎片化
+  5. 力矩的参考点：同样是 1 N 的力，换个参考点力矩就减半
+  6. 耦合误差：压 x 方向，z 通道也会动
+  7. 接触检测阈值：3σ 在 1 kHz 下每秒误报几次
 
 运行：
     python examples/02_sensor_data/05_force_torque.py
@@ -129,20 +132,30 @@ def part3_with_contact():
     print("    读法② 取 |F| 再减重力模长          <- 看起来聪明，仍然错")
     print("    读法③ 先用姿态把重力转过去再减      <- 正确做法")
     print()
+    contact_n = 5.0                    # <- 改这里可以换任务尺度
     print(f"  {'姿态':>5}{'Fx':>9}{'Fz':>9}{'读法①':>10}{'读法②':>10}{'读法③':>10}")
     print("  " + "-" * 56)
+    rows = []
     for deg in (0, 45, 90, 135, 180):
         gx, _, gz, _, _, _ = gravity_reading(deg)
-        cx, cz = 0.0, -5.0                 # 接触力在传感器系里固定，沿 -z
+        cx, cz = 0.0, -contact_n           # 接触力在传感器系里固定，沿 -z
         fx, fz = gx + cx, gz + cz
         read1 = abs(fz)
         read2 = math.hypot(fx, fz) - M_TOOL * G
-        read3 = 5.0                        # 补偿后还原真值
+        read3 = contact_n                  # 补偿后还原真值
+        rows.append((deg, read1, read2))
         print(f"  {deg:>4}°{fx:>9.2f}{fz:>9.2f}{read1:>10.2f}{read2:>10.2f}{read3:>10.2f}")
 
-    print("\n  真值那一行本该全是 5.00。实际读法①②的跨度：")
-    print("    读法① 从 5.00 到 19.71 N，误差最高 +14.71 N（= 整个重力）")
-    print("    读法② 从 -5.00 到 5.00 N，过了 135° 直接变成负的接触力")
+    r1 = [r[1] for r in rows]
+    r2 = [r[2] for r in rows]
+    print(f"\n  真值那一行本该全是 {contact_n:.2f}。实际读法①②的跨度：")
+    print(f"    读法① 从 {min(r1):.2f} 到 {max(r1):.2f} N，"
+          f"误差最高 {max(r1) - contact_n:+.2f} N（= 整个重力）")
+    neg = [f"{r[0]}° 的 {r[2]:.2f} N" for r in rows if r[2] < 0]
+    if neg:
+        print(f"    读法② 从 {min(r2):.2f} 到 {max(r2):.2f} N，出现负接触力：{'、'.join(neg)}")
+    else:
+        print(f"    读法② 从 {min(r2):.2f} 到 {max(r2):.2f} N")
     print()
     print("  为什么读法②也不行：它假设重力和接触力同向，模长可以直接相减。")
     print("  一旦手腕转到某个角度让两者成直角，这个假设就彻底崩了。")
@@ -207,6 +220,105 @@ def part5_tactile():
     print("  这是 07 章里我认为最值得做的开放问题之一。")
 
 
+def part6_torque_reference():
+    print("\n[6] 力矩的参考点：同一股力，换个原点力矩就变了")
+    print("-" * 72)
+    print("  力矩的定义里有位置：τ = r × F。r 是力作用点相对于**你选的原点**。")
+    print("  所以『力矩是多少』这句话不完整 —— 必须说『相对哪个点』。")
+    print()
+    print(f"  工具重心在传感器系 z = {COM[2]} m，重力 {M_TOOL * G:.2f} N。")
+    print("  传感器出厂标定时选用的是传感器原点。如果有人把它填成了法兰面")
+    print("  （沿 z 偏 0.04 m），r 就变成 0.04，力矩读数整体缩一半：")
+    print()
+    print(f"  {'角度':>6}{'Fx(N)':>10}{'Ty 原点0.08':>14}{'Ty 原点0.04':>14}{'比值':>8}")
+    print("  " + "-" * 56)
+    for deg in (0, 30, 45, 60, 90):
+        fx, _, fz, _, ty, _ = gravity_reading(deg)
+        ty2 = ty * 0.04 / COM[2]
+        ratio_txt = f"{ty2 / ty:.2f}x" if abs(ty) > 1e-12 else "—"
+        print(f"  {deg:>5}°{fx:>10.2f}{ty:>14.3f}{ty2:>14.3f}{ratio_txt:>8}")
+
+    print()
+    print("  看 45° 那一行：-0.832 变成 -0.416。**力和力矩的量级都在正常范围内**，")
+    print("  没有任何一项越界、没有任何报错，只是力矩通道整体偏了一半。")
+    print()
+    print("  这就是力觉数据里最难查的一类错误：它不是噪声，是一个**比例系数**错了。")
+    print("  用这样的数据做力控，机器人会以为自己的力矩只有实际的一半，")
+    print("  于是继续加力 —— 目标 5 N·m，实际会压到 10 N·m 才读数 5。")
+    print()
+    print("  工程做法：")
+    print("  - 力矩数据的元数据里写明参考点（不是“传感器系”，而是“相对传感器原点多远”）")
+    print("  - 参考点变更必须换版本号，不能原地改")
+    print("  - 入库校验：静止时用已知质量块反算力矩，和读数比对")
+
+
+def part7_crosstalk():
+    print("\n[7] 耦合误差：压 x 方向，z 通道也会动")
+    print("-" * 72)
+    print("  六维传感器的六个通道不是正交的。出厂时标定一个 6×6 解耦矩阵，")
+    print("  典型残余耦合 1–2% FSS（FSS = full scale，满量程）。")
+    print()
+    FSS = 200.0        # 力的满量程 N
+    print(f"  假设满量程 {FSS:.0f} N，残余耦合 1.5% → 串扰系数 {0.015:.4f}")
+    print()
+    print(f"  {'施加 Fx':>10}{'Fz 虚读':>12}{'相当于 1 N 判据的':>20}")
+    print("  " + "-" * 46)
+    for fx in (10, 50, 100, 200):
+        ghost = fx * 0.015
+        note = "{:.0f}%".format(ghost / 1.0 * 100)
+        print(f"  {fx:>8.0f}N{ghost:>10.2f}N{note:>18}")
+
+    print()
+    print("  读法：插孔这类任务，接触力判据常在 1 N 量级。")
+    print(f"  只要你同时沿 x 方向推了 100 N（很常见，比如按压的同时在侧向找孔），")
+    print(f"  z 通道就凭空多出 {100 * 0.015:.1f} N —— 足以让控制器误判“已经插到底了”。")
+    print()
+    print("  而且这个系数会随温度漂、随使用老化。所以：")
+    print("  - 数据集要记录解耦矩阵的版本和标定时间")
+    print("  - 只做“减法去重力”是不够的，严格做法是先乘解耦矩阵的逆")
+    print("  - 但注意：解耦矩阵的逆会放大噪声，很多驱动默认不启用，要查文档")
+
+
+def part8_contact_threshold():
+    print("\n[8] 接触检测阈值：3σ 在 1 kHz 下每秒误报一次")
+    print("-" * 72)
+    print("  最常见的接触判据：读数超过 均值 + k·σ 就算“碰到了”。")
+    print("  问题在于，噪声本身就会越过这条线 —— 而且越采越快，越容易撞上。")
+    print()
+    sigma = 0.05       # N，典型噪声
+    fs = 1000.0        # Hz，采样率  <- 改这里可以看采样率对误报率的影响
+    n_confirm = 5      # 连续确认点数 <- 改这里可以看延迟与误报的权衡
+    print(f"  假设静止时噪声 σ = {sigma:.2f} N，采样率 {fs:.0f} Hz。")
+    print()
+    # 单边高斯尾概率
+    def tail(k):
+        # 用 erfc 近似，标准正态上尾
+        return 0.5 * math.erfc(k / math.sqrt(2))
+
+    print(f"  {'阈值':>10}{'单点越界概率':>16}{'每秒误报次数':>16}{'判定':>12}")
+    print("  " + "-" * 56)
+    for k in (2.0, 3.0, 4.0, 5.0):
+        p = tail(k)
+        per_sec = p * fs
+        verdict = "不可用" if per_sec > 0.5 else ("勉强" if per_sec > 0.01 else "可用")
+        print(f"  {k:>8.1f}σ{p:>15.2e}{per_sec:>14.3g}{verdict:>12}")
+
+    print()
+    print("  3σ 看着很保守（99.7% 都在里面），但 1 kHz 下每秒有 1.3 次越界。")
+    print("  如果按『任一通道越界就算接触』，6 个通道加起来还要翻几倍。")
+    print()
+    print("  实际做法是两条：")
+    print("  1. **滞回**：进入阈值 0.15 N，退出阈值 0.10 N。避免在阈值附近反复抖动")
+    print(f"  2. **连续 N 点确认**：要求连续 {n_confirm} 个采样点都越界。")
+    p_conf = tail(3.0) ** n_confirm
+    print(f"     {n_confirm} 点都越界的概率是 {p_conf:.2e}，"
+          f"每秒误报降到 {p_conf * fs:.2e} 次，判定延迟 {n_confirm / fs * 1000:.0f} ms")
+    print()
+    print("  这两条都是**采集端**该做的事：事后从原始数据重算，你没法知道当时")
+    print("  用的是哪个阈值、有没有滞回。所以接触状态应该作为一列独立存下来，")
+    print("  并且把生成它的阈值参数写进数据集元数据。")
+
+
 def main():
     print("=" * 72)
     print("实验 5：六维力/力矩与触觉")
@@ -216,13 +328,17 @@ def main():
     part3_with_contact()
     part4_zero_drift()
     part5_tactile()
+    part6_torque_reference()
+    part7_crosstalk()
+    part8_contact_threshold()
 
     print("\n" + "=" * 72)
     print("结论（数据平台视角）：")
     print("  1. F/T 数据必须和姿态成对存储，否则重力补偿无从下手")
     print("  2. 补偿应该在入库前做好并同时保留原始值，两者都要")
-    print("  3. 零点标定值和温度是元数据，不是调试信息")
+    print("  3. 零点标定值、温度、参考点、解耦矩阵版本都是元数据，不是调试信息")
     print("  4. 触觉的瓶颈是语义不统一，不是带宽 —— 这是聚合数据集缺触觉的根因")
+    print("  5. 接触状态要么作为独立列存下来，要么把判定参数写进元数据")
     print("=" * 72)
 
 
