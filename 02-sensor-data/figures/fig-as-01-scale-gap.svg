@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="430" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">七维动作塞进一个数组：最大的比最小的大 60 倍</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同一段「抓杯子放架子」轨迹的七维运动幅度。左边对数轴看得见全部七维，右边是线性轴上的真实比例。</text>
+  <text x="28.0" y="86.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">维度</text>
+  <text x="150.0" y="86.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">跨度（对数轴：每格 ×10）</text>
+  <text x="510.0" y="86.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同一组数按线性比例画</text>
+  <text x="28.0" y="108.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">j1 肩部旋转</text>
+  <rect x="150.0" y="97.5" width="280.7" height="13.0" rx="3" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.85"/>
+  <text x="438.7" y="108.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">2.40 rad</text>
+  <rect x="510.0" y="99.0" width="228.0" height="10.0" rx="2" fill="#DCE1E7" stroke="#C6CDD5" stroke-width="0.8" opacity="1.0"/>
+  <text x="28.0" y="142.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">j2 肩部俯仰</text>
+  <rect x="150.0" y="131.5" width="258.6" height="13.0" rx="3" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.85"/>
+  <text x="416.6" y="142.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">1.70 rad</text>
+  <rect x="510.0" y="133.0" width="161.5" height="10.0" rx="2" fill="#DCE1E7" stroke="#C6CDD5" stroke-width="0.8" opacity="1.0"/>
+  <text x="28.0" y="176.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">j3 肘部</text>
+  <rect x="150.0" y="165.5" width="236.3" height="13.0" rx="3" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.85"/>
+  <text x="394.3" y="176.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">1.20 rad</text>
+  <rect x="510.0" y="167.0" width="114.0" height="10.0" rx="2" fill="#DCE1E7" stroke="#C6CDD5" stroke-width="0.8" opacity="1.0"/>
+  <text x="28.0" y="210.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">j4 前臂旋转</text>
+  <rect x="150.0" y="199.5" width="191.9" height="13.0" rx="3" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.85"/>
+  <text x="349.9" y="210.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">0.60 rad</text>
+  <rect x="510.0" y="201.0" width="57.0" height="10.0" rx="2" fill="#DCE1E7" stroke="#C6CDD5" stroke-width="0.8" opacity="1.0"/>
+  <text x="28.0" y="244.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">j5 腕部俯仰</text>
+  <rect x="150.0" y="233.5" width="147.5" height="13.0" rx="3" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.85"/>
+  <text x="305.5" y="244.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">0.30 rad</text>
+  <rect x="510.0" y="235.0" width="28.5" height="10.0" rx="2" fill="#DCE1E7" stroke="#C6CDD5" stroke-width="0.8" opacity="1.0"/>
+  <text x="28.0" y="278.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">j6 腕部旋转</text>
+  <rect x="150.0" y="267.5" width="107.2" height="13.0" rx="3" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.85"/>
+  <text x="265.2" y="278.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">0.16 rad</text>
+  <rect x="510.0" y="269.0" width="15.2" height="10.0" rx="2" fill="#DCE1E7" stroke="#C6CDD5" stroke-width="0.8" opacity="1.0"/>
+  <text x="28.0" y="312.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">grip 夹爪</text>
+  <rect x="150.0" y="301.5" width="18.4" height="13.0" rx="3" fill="#C0392B" stroke="#C0392B" stroke-width="0" opacity="0.85"/>
+  <text x="176.4" y="312.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">0.04 m</text>
+  <rect x="510.0" y="303.0" width="3.8" height="10.0" rx="2" fill="#DCE1E7" stroke="#C6CDD5" stroke-width="0.8" opacity="1.0"/>
+  <circle cx="512.0" cy="308.0" r="5.5" fill="none" stroke="#C0392B" stroke-width="1.4" opacity="1.0"/>
+  <text x="524.0" y="312.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">4 px</text>
+  <line x1="150.0" y1="322.0" x2="445.0" y2="322.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="150.0" y1="322.0" x2="150.0" y2="327.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="150.0" y="339.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.03</text>
+  <line x1="297.5" y1="322.0" x2="297.5" y2="327.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="297.5" y="339.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.3</text>
+  <line x1="445.0" y1="322.0" x2="445.0" y2="327.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="445.0" y="339.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">3</text>
+  <line x1="510.0" y1="322.0" x2="738.0" y2="322.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="510.0" y="339.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">0</text>
+  <text x="738.0" y="339.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">2.4 rad</text>
+  <line x1="24.0" y1="358.0" x2="736.0" y2="358.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="380.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">为什么这是问题：归一化默认假设「各维可比」。这里最大一维 2.40 rad、最小一维 0.04 m ——</text>
+  <text x="24.0" y="400.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">差 60 倍，单位还不同。任何「统一范围 + 统一台阶」的做法，都会先让夹爪失效（下一张图）。</text>
+  <text x="24.0" y="420.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">右栏那条 4 像素宽的灰杠，就是你的模型实际能看到的夹爪行程。</text>
+</svg>

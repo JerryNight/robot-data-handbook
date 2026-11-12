@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="460" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同一个 1 cm 的末端位移，两组关节增量完全不同</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">2 连杆臂（大臂 1.0 m、小臂 0.7 m）。逆解有两支，都能到达 A 点，也都能把它右移 1 cm。</text>
+  <line x1="62.0" y1="310.0" x2="430.0" y2="310.0" stroke="#D8DEE4" stroke-width="1.4" opacity="1.0"/>
+  <path d="M 86.0 310.0 L 284.3 337.8 L 384.8 233.3" fill="none" stroke="#C0651A" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <circle cx="86.0" cy="310.0" r="5" fill="#ffffff" stroke="#C0651A" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="284.3" cy="337.8" r="5" fill="#ffffff" stroke="#C0651A" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="384.8" cy="233.3" r="5" fill="#ffffff" stroke="#C0651A" stroke-width="2.2" opacity="1.0"/>
+  <path d="M 86.0 310.0 L 251.1 189.0 L 384.8 233.3" fill="none" stroke="#3C6E9F" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <circle cx="86.0" cy="310.0" r="5" fill="#ffffff" stroke="#3C6E9F" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="251.1" cy="189.0" r="5" fill="#ffffff" stroke="#3C6E9F" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="384.8" cy="233.3" r="5" fill="#ffffff" stroke="#3C6E9F" stroke-width="2.2" opacity="1.0"/>
+  <text x="81.0" y="328.0" font-size="9" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">基座</text>
+  <text x="245.1" y="177.0" font-size="9.5" fill="#3C6E9F" text-anchor="end" font-weight="600" opacity="1.0">肘在连线之上</text>
+  <text x="288.3" y="355.8" font-size="9.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">肘在连线之下</text>
+  <circle cx="384.8" cy="233.3" r="8" fill="none" stroke="#1F2328" stroke-width="1.4" opacity="1.0"/>
+  <text x="396.8" y="227.3" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">A → B</text>
+  <text x="396.8" y="241.3" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">1 cm</text>
+  <text x="468.0" y="116.0" font-size="10.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">θ₂ = −0.90 分支（蓝）</text>
+  <text x="468.0" y="136.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">q  = (0.600, −0.900)</text>
+  <text x="468.0" y="156.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">Δq = (−0.0124, +0.0276)</text>
+  <text x="468.0" y="176.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">|Δq| = 0.0303 rad</text>
+  <text x="468.0" y="212.0" font-size="10.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">θ₂ = +0.90 分支（橙）</text>
+  <text x="468.0" y="232.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">q  = (−0.130, +0.900)</text>
+  <text x="468.0" y="252.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">Δq = (+0.0093, −0.0276)</text>
+  <text x="468.0" y="272.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">|Δq| = 0.0292 rad</text>
+  <line x1="468.0" y1="292.0" x2="736.0" y2="292.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="468.0" y="314.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">末端做的是同一个动作，</text>
+  <text x="468.0" y="332.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">关节增量却几乎反号，模长差 4%。</text>
+  <text x="468.0" y="358.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">7-DoF 臂更极端：多出来的自由度</text>
+  <text x="468.0" y="376.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">构成零空间，同一末端位姿对应</text>
+  <text x="468.0" y="394.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">一个连续解族 —— 取哪一组取决于</text>
+  <text x="468.0" y="412.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">初始构型、限位和「机器人的习惯」。</text>
+  <text x="24.0" y="440.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">推论：关节空间的动作永远跨不了本体（维度、零位、方向、习惯全不同），只能在末端空间对齐 —— 代价是丢掉零空间信息。</text>
+</svg>

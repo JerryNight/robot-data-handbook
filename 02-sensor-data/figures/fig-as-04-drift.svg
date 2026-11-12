@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="430" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">增量表示在开环执行时，误差按 √n 长大</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">策略每步输出带 σ = 0.01 rad 的噪声，机器人开环执行 n 步不看反馈 —— 这正是 action chunk 的常态。</text>
+  <line x1="24.0" y1="84.0" x2="46.0" y2="84.0" stroke="#3C6E9F" stroke-width="2.2" opacity="1.0"/>
+  <text x="52.0" y="88.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">绝对关节角</text>
+  <line x1="140.0" y1="84.0" x2="162.0" y2="84.0" stroke="#C0651A" stroke-width="2.2" opacity="1.0"/>
+  <text x="168.0" y="88.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">关节增量</text>
+  <text x="96.0" y="110.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">关节误差（rad）</text>
+  <line x1="96.0" y1="340.0" x2="384.0" y2="340.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="343.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <line x1="96.0" y1="285.5" x2="384.0" y2="285.5" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="288.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.025</text>
+  <line x1="96.0" y1="231.0" x2="384.0" y2="231.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="234.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.05</text>
+  <line x1="96.0" y1="176.5" x2="384.0" y2="176.5" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="179.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.075</text>
+  <line x1="96.0" y1="122.0" x2="384.0" y2="122.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="125.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.1</text>
+  <line x1="96.0" y1="340.0" x2="384.0" y2="340.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="96.0" y1="118.0" x2="96.0" y2="340.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <text x="96.0" y="358.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1</text>
+  <text x="214.5" y="358.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">5</text>
+  <text x="265.5" y="358.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <text x="333.0" y="358.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">25</text>
+  <text x="384.0" y="358.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">50</text>
+  <text x="240.0" y="378.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">开环执行步数 n（对数）</text>
+  <path d="M 96.0 312.7 L 214.5 312.6 L 265.5 312.4 L 333.0 312.2 L 384.0 312.6" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <path d="M 96.0 312.8 L 214.5 278.9 L 265.5 252.5 L 333.0 204.1 L 384.0 148.0" fill="none" stroke="#C0651A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="312.7" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="214.5" cy="312.6" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="265.5" cy="312.4" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="333.0" cy="312.2" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="384.0" cy="312.6" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="96.0" cy="312.8" r="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="214.5" cy="278.9" r="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="265.5" cy="252.5" r="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="257.5" y="248.5" font-size="8.5" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">0.0402</text>
+  <circle cx="333.0" cy="204.1" r="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="325.0" y="200.1" font-size="8.5" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">0.0623</text>
+  <circle cx="384.0" cy="148.0" r="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="376.0" y="144.0" font-size="8.5" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">0.0881</text>
+  <text x="300.1" y="325.7" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">全程 0.0126 rad，不随步数变</text>
+  <text x="456.0" y="110.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">末端误差（cm）</text>
+  <line x1="456.0" y1="340.0" x2="736.0" y2="340.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="448.0" y="343.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <line x1="456.0" y1="267.3" x2="736.0" y2="267.3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="448.0" y="270.3" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">3</text>
+  <line x1="456.0" y1="194.7" x2="736.0" y2="194.7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="448.0" y="197.7" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">6</text>
+  <line x1="456.0" y1="122.0" x2="736.0" y2="122.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="448.0" y="125.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">9</text>
+  <line x1="456.0" y1="340.0" x2="736.0" y2="340.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="456.0" y1="118.0" x2="456.0" y2="340.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <text x="456.0" y="358.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1</text>
+  <text x="571.2" y="358.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">5</text>
+  <text x="620.8" y="358.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <text x="686.4" y="358.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">25</text>
+  <text x="736.0" y="358.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">50</text>
+  <text x="596.0" y="378.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">开环执行步数 n（对数）</text>
+  <path d="M 456.0 303.5 L 571.2 303.9 L 620.8 304.1 L 686.4 304.6 L 736.0 305.6" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <path d="M 456.0 311.0 L 571.2 275.8 L 620.8 249.1 L 686.4 202.0 L 736.0 150.7" fill="none" stroke="#C0651A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="456.0" cy="303.5" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="571.2" cy="303.9" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="620.8" cy="304.1" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="686.4" cy="304.6" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="736.0" cy="305.6" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="456.0" cy="311.0" r="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="571.2" cy="275.8" r="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="620.8" cy="249.1" r="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="612.8" y="245.1" font-size="8.5" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">3.75</text>
+  <circle cx="686.4" cy="202.0" r="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="678.4" y="198.0" font-size="8.5" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">5.70</text>
+  <circle cx="736.0" cy="150.7" r="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="728.0" y="146.7" font-size="8.5" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">7.81</text>
+  <text x="604.8" y="316.5" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">全程 1.4–1.5 cm，不随步数变</text>
+  <line x1="386.9" y1="152.5" x2="386.9" y2="297.9" stroke="#C0392B" stroke-width="1.1" stroke-dasharray="2 3"/>
+  <polygon points="386.9,302.9 389.6,297.9 384.1,297.9" fill="#C0392B"/>
+  <text x="379.9" y="227.7" font-size="9.5" fill="#C0392B" text-anchor="end" font-weight="600" opacity="1.0">×7.0</text>
+  <line x1="24.0" y1="382.0" x2="736.0" y2="382.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="404.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">绝对表示每步都被参考位置拉住，误差是一条水平线；增量表示每步噪声独立累加，方差 = n·σ²，</text>
+  <text x="24.0" y="424.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">标准差 ∝ √n（n=50 时 √50 = 7.07，实测 7.0）。所以 chunk 越长，开环执行越久，漂得越狠。</text>
+</svg>

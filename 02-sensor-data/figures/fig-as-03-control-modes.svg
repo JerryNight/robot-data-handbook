@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="380" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同一个「末端右移 1 cm」，四种控制层级下发的是四种物理量</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">2 连杆臂在 q=(0.60, −0.90)。末端从 (1.494, 0.358) 到 (1.504, 0.358)。四个数组在数据集里长得一模一样。</text>
+  <rect x="24.0" y="84.0" width="172.0" height="128.0" rx="7" fill="#FAFBFC" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="36.0" y="106.0" font-size="11" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">位置控制</text>
+  <text x="36.0" y="126.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">目标关节角 q*</text>
+  <text x="36.0" y="152.0" font-size="11.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">(0.588, -0.872)</text>
+  <text x="36.0" y="170.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">rad</text>
+  <text x="36.0" y="192.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">corr(q)  +1.00</text>
+  <text x="36.0" y="205.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">corr(Δq) +0.01</text>
+  <rect x="204.0" y="84.0" width="172.0" height="128.0" rx="7" fill="#FAFBFC" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="216.0" y="106.0" font-size="11" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">速度控制</text>
+  <text x="216.0" y="126.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">关节角速度</text>
+  <text x="216.0" y="152.0" font-size="11.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">(-0.371, +0.829)</text>
+  <text x="216.0" y="170.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">rad/s</text>
+  <text x="216.0" y="192.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">corr(q)  +0.01</text>
+  <text x="216.0" y="205.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">corr(Δq) +1.00</text>
+  <rect x="384.0" y="84.0" width="172.0" height="128.0" rx="7" fill="#FAFBFC" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="396.0" y="106.0" font-size="11" fill="#6B5B95" text-anchor="start" font-weight="600" opacity="1.0">力矩控制</text>
+  <text x="396.0" y="126.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">关节力矩</text>
+  <text x="396.0" y="152.0" font-size="11.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">(69.0, 16.4)</text>
+  <text x="396.0" y="170.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">N·m</text>
+  <text x="396.0" y="192.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">corr(q)  -0.99</text>
+  <text x="396.0" y="205.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">corr(Δq) +0.01</text>
+  <rect x="564.0" y="84.0" width="172.0" height="128.0" rx="7" fill="#FAFBFC" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="576.0" y="106.0" font-size="11" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">阻抗控制</text>
+  <text x="576.0" y="126.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">刚度 / 阻尼</text>
+  <text x="576.0" y="152.0" font-size="11.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">(500, 20)</text>
+  <text x="576.0" y="170.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">N/m, N·s/m</text>
+  <text x="576.0" y="192.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">corr(q)  +0.00</text>
+  <text x="576.0" y="205.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">corr(Δq) +0.00</text>
+  <text x="24.0" y="232.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">下发的数值量级（对数轴，跨三个数量级）</text>
+  <line x1="24.0" y1="272.0" x2="736.0" y2="272.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="24.0" y1="272.0" x2="24.0" y2="278.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="292.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.1</text>
+  <line x1="202.0" y1="272.0" x2="202.0" y2="278.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="202.0" y="292.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1</text>
+  <line x1="380.0" y1="272.0" x2="380.0" y2="278.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="380.0" y="292.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <line x1="558.0" y1="272.0" x2="558.0" y2="278.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="558.0" y="292.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">100</text>
+  <line x1="736.0" y1="272.0" x2="736.0" y2="278.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="736.0" y="292.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1000</text>
+  <line x1="108.9" y1="256.0" x2="108.9" y2="272.0" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="108.9" cy="256.0" r="3.4" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="108.9" y="248.0" font-size="9" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">0.3 rad/s</text>
+  <text x="108.9" y="310.0" font-size="8.5" fill="#C0651A" text-anchor="middle" font-weight="400" opacity="1.0">速度控制</text>
+  <line x1="202.0" y1="256.0" x2="202.0" y2="272.0" stroke="#3C6E9F" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="202.0" cy="256.0" r="3.4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="202.0" y="248.0" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">1 rad</text>
+  <text x="202.0" y="310.0" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">位置控制</text>
+  <line x1="530.4" y1="256.0" x2="530.4" y2="272.0" stroke="#6B5B95" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="530.4" cy="256.0" r="3.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="530.4" y="248.0" font-size="9" fill="#6B5B95" text-anchor="middle" font-weight="600" opacity="1.0">70 N·m</text>
+  <text x="530.4" y="310.0" font-size="8.5" fill="#6B5B95" text-anchor="middle" font-weight="400" opacity="1.0">力矩控制</text>
+  <line x1="682.4" y1="256.0" x2="682.4" y2="272.0" stroke="#2E7D5B" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="682.4" cy="256.0" r="3.4" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="682.4" y="248.0" font-size="9" fill="#2E7D5B" text-anchor="middle" font-weight="600" opacity="1.0">500 N/m</text>
+  <text x="682.4" y="310.0" font-size="8.5" fill="#2E7D5B" text-anchor="middle" font-weight="400" opacity="1.0">阻抗控制</text>
+  <line x1="24.0" y1="326.0" x2="736.0" y2="326.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="348.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">四种单位互不通约。如果数据集只存了一个 float 数组，这四行在 parquet 里完全一样 ——</text>
+  <text x="24.0" y="368.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">混在一起训练，loss 正常，效果莫名其妙地差。</text>
+</svg>

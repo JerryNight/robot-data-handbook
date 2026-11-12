@@ -15,7 +15,7 @@
 | [force-torque-tactile.md](force-torque-tactile.md) | [05_force_torque.py](../examples/02_sensor_data/05_force_torque.py) | 六维力的读数里混着什么？触觉为什么无法聚合？ |
 | [lidar-pointcloud.md](lidar-pointcloud.md) | [06_pointcloud.py](../examples/02_sensor_data/06_pointcloud.py) | 点云为什么不能当成图？稀疏到什么程度？ |
 | [time-sync.md](time-sync.md) | [04_time_sync.py](../examples/02_sensor_data/04_time_sync.py) | 不同频率的传感器怎么拼成"同一时刻"？ |
-| [action-and-state.md](action-and-state.md) | [01_action_space.py](../examples/02_sensor_data/01_action_space.py) | ★ 动作空间怎么定义？为什么这是跨本体的卡点？ |
+| [action-and-state.md](action-and-state.md) | [01_action_space.py](../examples/02_sensor_data/01_action_space.py) | ★ 七维动作里混着什么？为什么关节空间的动作数据永远跨不了本体？ |
 
 ## 数据量级参考（典型 30 秒 episode）
 

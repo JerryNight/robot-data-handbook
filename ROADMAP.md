@@ -27,7 +27,7 @@
 - [x] `02-sensor-data/force-torque-tactile.md` —— 六维力、重力补偿、零点漂移、触觉碎片化
 - [x] `02-sensor-data/lidar-pointcloud.md` —— 各向异性网格、空洞率、存储与量化
 - [x] `02-sensor-data/time-sync.md` —— 对齐误差的上限、插值方向、时间戳来源、晶振漂移
-- [x] `02-sensor-data/action-and-state.md` —— ★ 动作空间与状态向量（最容易被忽视）
+- [x] `02-sensor-data/action-and-state.md` —— ★ 动作向量量级差、归一化三个坑、增量漂移 √n、四种控制层级、chunk 上下界、逆解两支
 
 ### 阶段 3 · 数据流水线（核心章节）
 - [x] `03-data-pipeline/recording.md` —— rosbag2 的容器结构，metadata 对账，两种静默缺陷

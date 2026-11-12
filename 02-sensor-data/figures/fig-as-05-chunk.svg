@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 448" width="760" height="448" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="448" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">chunk 长度由推理延迟决定，又被动态跟踪卡住上限</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">控制 30 Hz（33.3 ms/步）。下界 = ⌈推理延迟 ÷ 33.3⌉；上界 = 物体以 0.5 m/s 移动时滞后不超过 100 mm。</text>
+  <rect x="104.0" y="130.0" width="356.0" height="80.0" rx="0" fill="#FBF0EE" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="104.0" y="210.0" width="356.0" height="120.0" rx="0" fill="#EFF6F2" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="104.0" y1="330.0" x2="460.0" y2="330.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="333.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <text x="468.0" y="333.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">0</text>
+  <line x1="104.0" y1="290.0" x2="460.0" y2="290.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="293.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">2</text>
+  <text x="468.0" y="293.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">33</text>
+  <line x1="104.0" y1="250.0" x2="460.0" y2="250.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="253.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">4</text>
+  <text x="468.0" y="253.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">67</text>
+  <line x1="104.0" y1="210.0" x2="460.0" y2="210.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="213.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">6</text>
+  <text x="468.0" y="213.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">100</text>
+  <line x1="104.0" y1="170.0" x2="460.0" y2="170.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="173.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">8</text>
+  <text x="468.0" y="173.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">133</text>
+  <line x1="104.0" y1="130.0" x2="460.0" y2="130.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="133.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">10</text>
+  <text x="468.0" y="133.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">167 mm</text>
+  <line x1="104.0" y1="330.0" x2="460.0" y2="330.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="104.0" y1="126.0" x2="104.0" y2="330.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <text x="96.0" y="118.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">最小 chunk（步）</text>
+  <text x="104.0" y="348.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0</text>
+  <text x="159.6" y="348.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">50</text>
+  <text x="215.2" y="348.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">100</text>
+  <text x="326.5" y="348.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">200</text>
+  <text x="437.8" y="348.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">300</text>
+  <text x="282.0" y="366.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">推理延迟 L（ms）</text>
+  <path d="M 104.0 310.0 L 106.2 310.0 L 108.5 310.0 L 110.7 310.0 L 112.9 310.0 L 115.1 310.0 L 117.3 310.0 L 119.6 310.0 L 121.8 310.0 L 124.0 310.0 L 126.2 310.0 L 128.5 310.0 L 130.7 310.0 L 132.9 310.0 L 135.2 310.0 L 137.4 310.0 L 139.6 310.0 L 141.8 310.0 L 141.8 290.0 L 144.1 290.0 L 146.3 290.0 L 148.5 290.0 L 150.7 290.0 L 152.9 290.0 L 155.2 290.0 L 157.4 290.0 L 159.6 290.0 L 161.8 290.0 L 164.1 290.0 L 166.3 290.0 L 168.5 290.0 L 170.8 290.0 L 173.0 290.0 L 175.2 290.0 L 177.4 290.0 L 179.6 290.0 L 179.6 270.0 L 181.9 270.0 L 184.1 270.0 L 186.3 270.0 L 188.6 270.0 L 190.8 270.0 L 193.0 270.0 L 195.2 270.0 L 197.4 270.0 L 199.7 270.0 L 201.9 270.0 L 204.1 270.0 L 206.3 270.0 L 208.6 270.0 L 210.8 270.0 L 213.0 270.0 L 215.2 270.0 L 217.5 270.0 L 217.5 250.0 L 219.7 250.0 L 221.9 250.0 L 224.2 250.0 L 226.4 250.0 L 228.6 250.0 L 230.8 250.0 L 233.0 250.0 L 235.3 250.0 L 237.5 250.0 L 239.7 250.0 L 242.0 250.0 L 244.2 250.0 L 246.4 250.0 L 248.6 250.0 L 250.8 250.0 L 253.1 250.0 L 253.1 230.0 L 255.3 230.0 L 257.5 230.0 L 259.8 230.0 L 262.0 230.0 L 264.2 230.0 L 266.4 230.0 L 268.6 230.0 L 270.9 230.0 L 273.1 230.0 L 275.3 230.0 L 277.5 230.0 L 279.8 230.0 L 282.0 230.0 L 284.2 230.0 L 286.4 230.0 L 288.7 230.0 L 290.9 230.0 L 290.9 210.0 L 293.1 210.0 L 295.4 210.0 L 297.6 210.0 L 299.8 210.0 L 302.0 210.0 L 304.2 210.0 L 306.5 210.0 L 308.7 210.0 L 310.9 210.0 L 313.1 210.0 L 315.4 210.0 L 317.6 210.0 L 319.8 210.0 L 322.1 210.0 L 324.3 210.0 L 326.5 210.0 L 328.7 210.0 L 328.7 190.0 L 330.9 190.0 L 333.2 190.0 L 335.4 190.0 L 337.6 190.0 L 339.9 190.0 L 342.1 190.0 L 344.3 190.0 L 346.5 190.0 L 348.8 190.0 L 351.0 190.0 L 353.2 190.0 L 355.4 190.0 L 357.6 190.0 L 359.9 190.0 L 362.1 190.0 L 364.3 190.0 L 364.3 170.0 L 366.6 170.0 L 368.8 170.0 L 371.0 170.0 L 373.2 170.0 L 375.4 170.0 L 377.7 170.0 L 379.9 170.0 L 382.1 170.0 L 384.3 170.0 L 386.6 170.0 L 388.8 170.0 L 391.0 170.0 L 393.2 170.0 L 395.5 170.0 L 397.7 170.0 L 399.9 170.0 L 402.2 170.0 L 402.2 150.0 L 404.4 150.0 L 406.6 150.0 L 408.8 150.0 L 411.1 150.0 L 413.3 150.0 L 415.5 150.0 L 417.7 150.0 L 419.9 150.0 L 422.2 150.0 L 424.4 150.0 L 426.6 150.0 L 428.8 150.0 L 431.1 150.0 L 433.3 150.0 L 435.5 150.0 L 437.8 150.0 L 440.0 150.0 L 440.0 130.0 L 442.2 130.0 L 444.4 130.0 L 446.7 130.0 L 448.9 130.0 L 451.1 130.0 L 453.3 130.0 L 455.6 130.0 L 457.8 130.0 L 460.0 130.0" fill="none" stroke="#3C6E9F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <line x1="104.0" y1="210.0" x2="460.0" y2="210.0" stroke="#C0392B" stroke-width="1.6" opacity="1.0" stroke-dasharray="5 4"/>
+  <text x="112.0" y="227.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">chunk = 6 → 滞后 100 mm</text>
+  <text x="223.2" y="288.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">L = 100 ms → 至少 3 步</text>
+  <text x="112.0" y="146.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">滞后超过 100 mm</text>
+  <text x="510.0" y="122.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">两条约束</text>
+  <text x="510.0" y="148.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">下界：跟得上控制频率</text>
+  <text x="510.0" y="167.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">chunk × 33.3 ms ≥ 推理延迟，</text>
+  <text x="510.0" y="186.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">否则每个控制周期都会丢帧。</text>
+  <text x="510.0" y="224.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">上界：跟得上物体</text>
+  <text x="510.0" y="243.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">chunk × 33.3 ms × 0.5 m/s 就是</text>
+  <text x="510.0" y="262.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">反应滞后。超过 100 mm，动态</text>
+  <text x="510.0" y="281.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">任务基本就废了。</text>
+  <text x="510.0" y="319.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">可行解</text>
+  <text x="510.0" y="338.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">chunk 必须同时 ≥ 蓝色阶梯、</text>
+  <text x="510.0" y="357.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">≤ 6。L ≤ 200 ms 时区间非空；</text>
+  <text x="510.0" y="376.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">L = 300 ms 时最小 chunk 已是 9 步，</text>
+  <text x="510.0" y="395.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">越过上限，动态任务无解。</text>
+  <line x1="24.0" y1="392.0" x2="736.0" y2="392.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="414.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">桌面抓取因为物体多半不动，滞后不是问题，所以实践中常见 8–20 步；传送带分拣这类动态任务</text>
+  <text x="24.0" y="434.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">则必须压到 6 步以内 —— 这时候推理延迟就是硬约束。chunk 是延迟的函数，不是超参。</text>
+</svg>
