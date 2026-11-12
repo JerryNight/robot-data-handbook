@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" width="760" height="390" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="390" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">回差：同样的指令，正着走和反着走落在两个不同的状态</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">图上把间隙放大了 150 倍，否则 0.02° 在 90° 的坐标里是一条看不见的线。</text>
+  <line x1="90.0" y1="300.0" x2="470.0" y2="300.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="84.0" y="303.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <line x1="90.0" y1="300.0" x2="90.0" y2="304.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="318.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">0</text>
+  <line x1="90.0" y1="229.3" x2="470.0" y2="229.3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="84.0" y="232.3" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">30</text>
+  <line x1="216.7" y1="300.0" x2="216.7" y2="304.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="216.7" y="318.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">30</text>
+  <line x1="90.0" y1="158.7" x2="470.0" y2="158.7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="84.0" y="161.7" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">60</text>
+  <line x1="343.3" y1="300.0" x2="343.3" y2="304.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="343.3" y="318.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">60</text>
+  <line x1="90.0" y1="88.0" x2="470.0" y2="88.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="84.0" y="91.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">90</text>
+  <line x1="470.0" y1="300.0" x2="470.0" y2="304.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="470.0" y="318.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">90</text>
+  <text x="90.0" y="82.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">实际关节角 (°)</text>
+  <text x="470.0" y="336.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">指令关节角 (°)</text>
+  <path d="M 90.0 292.9 L 94.2 290.6 L 98.4 288.2 L 102.7 285.9 L 106.9 283.5 L 111.1 281.2 L 115.3 278.8 L 119.6 276.4 L 123.8 274.1 L 128.0 271.7 L 132.2 269.4 L 136.4 267.0 L 140.7 264.7 L 144.9 262.3 L 149.1 260.0 L 153.3 257.6 L 157.6 255.2 L 161.8 252.9 L 166.0 250.5 L 170.2 248.2 L 174.4 245.8 L 178.7 243.5 L 182.9 241.1 L 187.1 238.8 L 191.3 236.4 L 195.6 234.0 L 199.8 231.7 L 204.0 229.3 L 208.2 227.0 L 212.4 224.6 L 216.7 222.3 L 220.9 219.9 L 225.1 217.6 L 229.3 215.2 L 233.6 212.8 L 237.8 210.5 L 242.0 208.1 L 246.2 205.8 L 250.4 203.4 L 254.7 201.1 L 258.9 198.7 L 263.1 196.4 L 267.3 194.0 L 271.6 191.6 L 275.8 189.3 L 280.0 186.9 L 284.2 184.6 L 288.4 182.2 L 292.7 179.9 L 296.9 177.5 L 301.1 175.2 L 305.3 172.8 L 309.6 170.4 L 313.8 168.1 L 318.0 165.7 L 322.2 163.4 L 326.4 161.0 L 330.7 158.7 L 334.9 156.3 L 339.1 154.0 L 343.3 151.6 L 347.6 149.2 L 351.8 146.9 L 356.0 144.5 L 360.2 142.2 L 364.4 139.8 L 368.7 137.5 L 372.9 135.1 L 377.1 132.8 L 381.3 130.4 L 385.6 128.0 L 389.8 125.7 L 394.0 123.3 L 398.2 121.0 L 402.4 118.6 L 406.7 116.3 L 410.9 113.9 L 415.1 111.6 L 419.3 109.2 L 423.6 106.8 L 427.8 104.5 L 432.0 102.1 L 436.2 99.8 L 440.4 97.4 L 444.7 95.1 L 448.9 92.7 L 453.1 90.4 L 457.3 88.0 L 461.6 85.6 L 465.8 83.3 L 470.0 80.9" fill="none" stroke="#C0651A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <path d="M 90.0 307.1 L 94.2 304.7 L 98.4 302.4 L 102.7 300.0 L 106.9 297.6 L 111.1 295.3 L 115.3 292.9 L 119.6 290.6 L 123.8 288.2 L 128.0 285.9 L 132.2 283.5 L 136.4 281.2 L 140.7 278.8 L 144.9 276.4 L 149.1 274.1 L 153.3 271.7 L 157.6 269.4 L 161.8 267.0 L 166.0 264.7 L 170.2 262.3 L 174.4 260.0 L 178.7 257.6 L 182.9 255.2 L 187.1 252.9 L 191.3 250.5 L 195.6 248.2 L 199.8 245.8 L 204.0 243.5 L 208.2 241.1 L 212.4 238.8 L 216.7 236.4 L 220.9 234.0 L 225.1 231.7 L 229.3 229.3 L 233.6 227.0 L 237.8 224.6 L 242.0 222.3 L 246.2 219.9 L 250.4 217.6 L 254.7 215.2 L 258.9 212.8 L 263.1 210.5 L 267.3 208.1 L 271.6 205.8 L 275.8 203.4 L 280.0 201.1 L 284.2 198.7 L 288.4 196.4 L 292.7 194.0 L 296.9 191.6 L 301.1 189.3 L 305.3 186.9 L 309.6 184.6 L 313.8 182.2 L 318.0 179.9 L 322.2 177.5 L 326.4 175.2 L 330.7 172.8 L 334.9 170.4 L 339.1 168.1 L 343.3 165.7 L 347.6 163.4 L 351.8 161.0 L 356.0 158.7 L 360.2 156.3 L 364.4 154.0 L 368.7 151.6 L 372.9 149.2 L 377.1 146.9 L 381.3 144.5 L 385.6 142.2 L 389.8 139.8 L 394.0 137.5 L 398.2 135.1 L 402.4 132.8 L 406.7 130.4 L 410.9 128.0 L 415.1 125.7 L 419.3 123.3 L 423.6 121.0 L 427.8 118.6 L 432.0 116.3 L 436.2 113.9 L 440.4 111.6 L 444.7 109.2 L 448.9 106.8 L 453.1 104.5 L 457.3 102.1 L 461.6 99.8 L 465.8 97.4 L 470.0 95.1" fill="none" stroke="#3C6E9F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <line x1="96.0" y1="112.0" x2="116.0" y2="112.0" stroke="#C0651A" stroke-width="2.6" opacity="1.0"/>
+  <text x="122.0" y="115.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">正着走（上行）</text>
+  <line x1="96.0" y1="130.0" x2="116.0" y2="130.0" stroke="#3C6E9F" stroke-width="2.6" opacity="1.0"/>
+  <text x="122.0" y="133.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">反着走（下行）</text>
+  <line x1="284.2" y1="198.7" x2="284.2" y2="184.6" stroke="#C0392B" stroke-width="1.6" opacity="1.0"/>
+  <line x1="279.2" y1="198.7" x2="289.2" y2="198.7" stroke="#C0392B" stroke-width="1.2" opacity="1.0"/>
+  <line x1="279.2" y1="184.6" x2="289.2" y2="184.6" stroke="#C0392B" stroke-width="1.2" opacity="1.0"/>
+  <line x1="284.2" y1="198.7" x2="360.2" y2="243.5" stroke="#B9C2CB" stroke-width="1" opacity="1.0" stroke-dasharray="3 3"/>
+  <text x="364.2" y="243.5" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">同一指令，两个状态</text>
+  <text x="364.2" y="258.5" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">真实 0.02°，图上 3°</text>
+  <rect x="510.0" y="96.0" width="226.0" height="92.0" rx="7" fill="#F7F9FB" stroke="#D6DDE4" stroke-width="1.1" opacity="1.0"/>
+  <text x="524.0" y="118.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">真实回差 72″ ≈ 0.02°</text>
+  <text x="524.0" y="138.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">在 0.5 m 臂展处</text>
+  <text x="524.0" y="154.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">= 0.175 mm 的位置差</text>
+  <text x="524.0" y="174.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">而编码器能分辨 0.00007°</text>
+  <text x="510.0" y="216.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">这对数据意味着什么</text>
+  <text x="510.0" y="236.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同一段动作重复两次，</text>
+  <text x="510.0" y="252.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">状态轨迹不完全重合 ——</text>
+  <text x="510.0" y="268.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">取决于上次运动的方向。</text>
+  <text x="510.0" y="290.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">它不随机，但也不可预测：</text>
+  <text x="510.0" y="306.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">是模仿学习里最难受的</text>
+  <text x="510.0" y="322.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">一类噪声。</text>
+  <line x1="24.0" y1="344.0" x2="736.0" y2="344.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="366.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">缓解办法：采集时记录运动方向，事后做回差补偿。工业机器人常这么做，但开源数据集基本不记。</text>
+</svg>

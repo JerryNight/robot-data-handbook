@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 372" width="760" height="372" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="372" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">混叠：100 Hz 采样下，40 Hz 和 60 Hz 是同一组数字</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">两条余弦曲线看起来完全不同，但只在每 10 ms 取一个点时，采样值一模一样。</text>
+  <line x1="78.0" y1="177.0" x2="470.0" y2="177.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="78.0" y="274.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">0</text>
+  <text x="274.0" y="274.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">50</text>
+  <text x="470.0" y="274.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">100</text>
+  <text x="470.0" y="292.0" font-size="8" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">毫秒</text>
+  <path d="M 78.0 112.2 L 82.9 115.4 L 87.8 124.6 L 92.7 138.9 L 97.6 157.0 L 102.5 177.0 L 107.4 197.0 L 112.3 215.1 L 117.2 229.4 L 122.1 238.6 L 127.0 241.8 L 131.9 238.6 L 136.8 229.4 L 141.7 215.1 L 146.6 197.0 L 151.5 177.0 L 156.4 157.0 L 161.3 138.9 L 166.2 124.6 L 171.1 115.4 L 176.0 112.2 L 180.9 115.4 L 185.8 124.6 L 190.7 138.9 L 195.6 157.0 L 200.5 177.0 L 205.4 197.0 L 210.3 215.1 L 215.2 229.4 L 220.1 238.6 L 225.0 241.8 L 229.9 238.6 L 234.8 229.4 L 239.7 215.1 L 244.6 197.0 L 249.5 177.0 L 254.4 157.0 L 259.3 138.9 L 264.2 124.6 L 269.1 115.4 L 274.0 112.2 L 278.9 115.4 L 283.8 124.6 L 288.7 138.9 L 293.6 157.0 L 298.5 177.0 L 303.4 197.0 L 308.3 215.1 L 313.2 229.4 L 318.1 238.6 L 323.0 241.8 L 327.9 238.6 L 332.8 229.4 L 337.7 215.1 L 342.6 197.0 L 347.5 177.0 L 352.4 157.0 L 357.3 138.9 L 362.2 124.6 L 367.1 115.4 L 372.0 112.2 L 376.9 115.4 L 381.8 124.6 L 386.7 138.9 L 391.6 157.0 L 396.5 177.0 L 401.4 197.0 L 406.3 215.1 L 411.2 229.4 L 416.1 238.6 L 421.0 241.8 L 425.9 238.6 L 430.8 229.4 L 435.7 215.1 L 440.6 197.0 L 445.5 177.0 L 450.4 157.0 L 455.3 138.9 L 460.2 124.6 L 465.1 115.4 L 470.0 112.2" fill="none" stroke="#3C6E9F" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <path d="M 78.0 112.2 L 82.9 119.3 L 87.8 138.9 L 92.7 166.9 L 97.6 197.0 L 102.5 222.8 L 107.4 238.6 L 112.3 241.0 L 117.2 229.4 L 122.1 206.4 L 127.0 177.0 L 131.9 147.6 L 136.8 124.6 L 141.7 113.0 L 146.6 115.4 L 151.5 131.2 L 156.4 157.0 L 161.3 187.1 L 166.2 215.1 L 171.1 234.7 L 176.0 241.8 L 180.9 234.7 L 185.8 215.1 L 190.7 187.1 L 195.6 157.0 L 200.5 131.2 L 205.4 115.4 L 210.3 113.0 L 215.2 124.6 L 220.1 147.6 L 225.0 177.0 L 229.9 206.4 L 234.8 229.4 L 239.7 241.0 L 244.6 238.6 L 249.5 222.8 L 254.4 197.0 L 259.3 166.9 L 264.2 138.9 L 269.1 119.3 L 274.0 112.2 L 278.9 119.3 L 283.8 138.9 L 288.7 166.9 L 293.6 197.0 L 298.5 222.8 L 303.4 238.6 L 308.3 241.0 L 313.2 229.4 L 318.1 206.4 L 323.0 177.0 L 327.9 147.6 L 332.8 124.6 L 337.7 113.0 L 342.6 115.4 L 347.5 131.2 L 352.4 157.0 L 357.3 187.1 L 362.2 215.1 L 367.1 234.7 L 372.0 241.8 L 376.9 234.7 L 381.8 215.1 L 386.7 187.1 L 391.6 157.0 L 396.5 131.2 L 401.4 115.4 L 406.3 113.0 L 411.2 124.6 L 416.1 147.6 L 421.0 177.0 L 425.9 206.4 L 430.8 229.4 L 435.7 241.0 L 440.6 238.6 L 445.5 222.8 L 450.4 197.0 L 455.3 166.9 L 460.2 138.9 L 465.1 119.3 L 470.0 112.2" fill="none" stroke="#C0651A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" stroke-dasharray="5 3"/>
+  <line x1="78.0" y1="96.0" x2="78.0" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="78.0" cy="112.2" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="117.2" y1="96.0" x2="117.2" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="117.2" cy="229.4" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="156.4" y1="96.0" x2="156.4" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="156.4" cy="157.0" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="195.6" y1="96.0" x2="195.6" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="195.6" cy="157.0" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="234.8" y1="96.0" x2="234.8" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="234.8" cy="229.4" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="274.0" y1="96.0" x2="274.0" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="274.0" cy="112.2" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="313.2" y1="96.0" x2="313.2" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="313.2" cy="229.4" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="352.4" y1="96.0" x2="352.4" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="352.4" cy="157.0" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="391.6" y1="96.0" x2="391.6" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="391.6" cy="157.0" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="430.8" y1="96.0" x2="430.8" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="430.8" cy="229.4" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="470.0" y1="96.0" x2="470.0" y2="258.0" stroke="#EDEFF2" stroke-width="1" opacity="1.0"/>
+  <circle cx="470.0" cy="112.2" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <line x1="78.0" y1="306.0" x2="104.0" y2="306.0" stroke="#3C6E9F" stroke-width="2.2" opacity="1.0"/>
+  <text x="110.0" y="309.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">真实的 40 Hz</text>
+  <line x1="196.0" y1="306.0" x2="222.0" y2="306.0" stroke="#C0651A" stroke-width="1.8" opacity="1.0" stroke-dasharray="5 3"/>
+  <text x="228.0" y="309.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">真实的 60 Hz</text>
+  <circle cx="320.0" cy="306.0" r="4.0" fill="#ffffff" stroke="#1F2328" stroke-width="1.6" opacity="1.0"/>
+  <text x="330.0" y="309.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">100 Hz 采样点（两条线共用）</text>
+  <rect x="500.0" y="96.0" width="236.0" height="100.0" rx="7" fill="#F7F9FB" stroke="#D6DDE4" stroke-width="1.1" opacity="1.0"/>
+  <text x="514.0" y="118.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">折叠规则</text>
+  <text x="514.0" y="140.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">真实频率 f 被采样率 fs</text>
+  <text x="514.0" y="156.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">折到 |f − fs| 上。</text>
+  <text x="514.0" y="178.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">60 → |60 − 100| = 40</text>
+  <text x="500.0" y="224.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">危险的地方不是 60 Hz 丢了，</text>
+  <text x="500.0" y="242.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">而是它伪装成了 40 Hz ——</text>
+  <text x="500.0" y="258.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">一个看起来完全正常的频率。</text>
+  <text x="500.0" y="282.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">齿轮啮合、电机换向、碰撞，</text>
+  <text x="500.0" y="298.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">大量能量就在 60–90 Hz。</text>
+  <text x="500.0" y="322.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">记录用 1 kHz，才能保住</text>
+  <text x="500.0" y="338.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">这一段的细节。</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 414" width="760" height="414" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="414" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">ZUPT 把误差压小了 17 倍，但它把姿态错误也一起“校准”进去了</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">静止时做零速更新，同时在线估计零偏。曲线的终点是 0.155，而真实零偏只有 0.010。</text>
+  <line x1="84.0" y1="306.0" x2="466.0" y2="306.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="78.0" y="309.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">0.00</text>
+  <line x1="84.0" y1="251.0" x2="466.0" y2="251.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="78.0" y="254.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">0.05</text>
+  <line x1="84.0" y1="196.0" x2="466.0" y2="196.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="78.0" y="199.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">0.10</text>
+  <line x1="84.0" y1="141.0" x2="466.0" y2="141.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="78.0" y="144.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">0.15</text>
+  <line x1="84.0" y1="86.0" x2="466.0" y2="86.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="78.0" y="89.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">0.20</text>
+  <line x1="84.0" y1="306.0" x2="84.0" y2="310.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="84.0" y="324.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">0</text>
+  <line x1="175.0" y1="306.0" x2="175.0" y2="310.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="175.0" y="324.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">2</text>
+  <line x1="265.9" y1="306.0" x2="265.9" y2="310.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="265.9" y="324.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">4</text>
+  <line x1="356.9" y1="306.0" x2="356.9" y2="310.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="356.9" y="324.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">6</text>
+  <line x1="447.8" y1="306.0" x2="447.8" y2="310.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="447.8" y="324.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">8</text>
+  <text x="84.0" y="76.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">零偏估计 b_est (m/s²)</text>
+  <text x="466.0" y="342.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">时间 (s)</text>
+  <line x1="84.0" y1="295.0" x2="466.0" y2="295.0" stroke="#3C6E9F" stroke-width="1.6" opacity="1.0" stroke-dasharray="5 4"/>
+  <text x="462.0" y="287.0" font-size="8.5" fill="#3C6E9F" text-anchor="end" font-weight="400" opacity="1.0">真实零偏 0.010</text>
+  <line x1="84.0" y1="106.9" x2="466.0" y2="106.9" stroke="#C0392B" stroke-width="1.6" opacity="1.0" stroke-dasharray="5 4"/>
+  <text x="462.0" y="99.9" font-size="8.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">零偏 + 重力泄漏 = 0.181</text>
+  <path d="M 84.0 306.0 L 129.5 260.6 L 175.0 223.3 L 220.4 198.6 L 265.9 176.9 L 311.4 160.6 L 356.9 140.7 L 402.3 136.0" fill="none" stroke="#1F2328" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="129.5" cy="260.6" r="2.8" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="175.0" cy="223.3" r="2.8" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="220.4" cy="198.6" r="2.8" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="265.9" cy="176.9" r="2.8" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="311.4" cy="160.6" r="2.8" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="356.9" cy="140.7" r="2.8" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="402.3" cy="136.0" r="2.8" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="408.3" y="128.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">0.155</text>
+  <line x1="84.0" y1="348.0" x2="466.0" y2="348.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="84.0" y="368.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">多出来的 0.171，正是 g·sin(1°) = 0.171。</text>
+  <text x="84.0" y="386.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">校准看起来成功了，实际上姿态仍然错着。</text>
+  <rect x="496.0" y="86.0" width="240.0" height="118.0" rx="7" fill="#F7F9FB" stroke="#D6DDE4" stroke-width="1.1" opacity="1.0"/>
+  <text x="510.0" y="110.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">为什么分不出来</text>
+  <text x="510.0" y="132.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">静止时，这两种东西</text>
+  <text x="510.0" y="148.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">给出完全相同的读数：</text>
+  <text x="510.0" y="172.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">· 加速度计零偏 0.010</text>
+  <text x="510.0" y="188.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">· 姿态错 1° 的泄漏 0.171</text>
+  <text x="496.0" y="232.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">结果是：机器人一动</text>
+  <text x="496.0" y="250.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">姿态变化，泄漏项就</text>
+  <text x="496.0" y="266.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">跟着变化，而 b_est</text>
+  <text x="496.0" y="282.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">还停在旧值上 ——</text>
+  <text x="496.0" y="298.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">误差立刻回来。</text>
+  <rect x="496.0" y="316.0" width="240.0" height="70.0" rx="7" fill="#FDF3F1" stroke="#E8C4BC" stroke-width="1.2" opacity="1.0"/>
+  <text x="510.0" y="338.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">所以 ZUPT 真正的用途是：</text>
+  <text x="510.0" y="356.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">在姿态已被外部锁住时，</text>
+  <text x="510.0" y="372.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">把零偏标出来。</text>
+</svg>

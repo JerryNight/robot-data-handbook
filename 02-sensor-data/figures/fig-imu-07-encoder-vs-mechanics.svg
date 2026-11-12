@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 396" width="760" height="396" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="396" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">编码器比机械精确三个数量级 —— 花钱买的那部分被机械吃掉了</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">横轴对数刻度，单位是角秒（1° = 3600″）。同一条轴上才看得出差距有多大。</text>
+  <line x1="210.0" y1="86.0" x2="640.0" y2="86.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <line x1="210.0" y1="82.0" x2="210.0" y2="90.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="210.0" y="78.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">0.01″</text>
+  <line x1="382.0" y1="82.0" x2="382.0" y2="90.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="382.0" y="78.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">1″</text>
+  <line x1="554.0" y1="82.0" x2="554.0" y2="90.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="554.0" y="78.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">100″</text>
+  <line x1="640.0" y1="82.0" x2="640.0" y2="90.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="640.0" y="78.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">1000″</text>
+  <text x="200.0" y="124.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">编码器分辨率</text>
+  <rect x="210.0" y="112.0" width="25.9" height="16.0" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.82"/>
+  <text x="243.9" y="124.0" font-size="8.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">0.02″ = 末端 0.05 μm</text>
+  <text x="200.0" y="162.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">谐波减速器回差</text>
+  <rect x="210.0" y="150.0" width="331.7" height="16.0" rx="2" fill="#C0651A" stroke="none" stroke-width="0" opacity="0.82"/>
+  <text x="549.7" y="162.0" font-size="8.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">0.175 mm</text>
+  <text x="200.0" y="200.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">谐波减速器传动误差</text>
+  <rect x="210.0" y="188.0" width="366.0" height="16.0" rx="2" fill="#C0651A" stroke="none" stroke-width="0" opacity="0.82"/>
+  <text x="584.0" y="200.0" font-size="8.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">0.436 mm</text>
+  <text x="200.0" y="238.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">连杆加工 + 装配</text>
+  <rect x="210.0" y="226.0" width="391.8" height="16.0" rx="2" fill="#C0392B" stroke="none" stroke-width="0" opacity="0.82"/>
+  <text x="609.8" y="238.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">0.873 mm</text>
+  <text x="200.0" y="276.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">整臂重复定位精度</text>
+  <rect x="210.0" y="264.0" width="391.8" height="16.0" rx="2" fill="#C0392B" stroke="none" stroke-width="0" opacity="0.82"/>
+  <text x="609.8" y="276.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">0.873 mm</text>
+  <line x1="235.9" y1="100.0" x2="235.9" y2="320.0" stroke="#3C6E9F" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <line x1="541.7" y1="100.0" x2="541.7" y2="320.0" stroke="#C0651A" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <line x1="235.9" y1="330.0" x2="535.2" y2="330.0" stroke="#57606A" stroke-width="1.4"/>
+  <polygon points="541.7,330.0 535.2,326.4 535.2,333.6" fill="#57606A"/>
+  <line x1="541.7" y1="330.0" x2="242.4" y2="330.0" stroke="#57606A" stroke-width="1.4"/>
+  <polygon points="235.9,330.0 242.4,333.6 242.4,326.4" fill="#57606A"/>
+  <text x="388.8" y="322.0" font-size="10" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">2900 倍</text>
+  <line x1="24.0" y1="350.0" x2="736.0" y2="350.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="372.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">所以数据集写“关节精度 0.001°”没有意义：整机重复定位精度是 0.873 mm，由机械决定，不由传感器决定。</text>
+</svg>

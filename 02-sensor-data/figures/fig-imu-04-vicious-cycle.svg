@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 384" width="760" height="384" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="384" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">死循环：想修姿态要先知道重力方向，想知道重力方向又要先有姿态</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">IMU 内部的所有量互相一致，但这个环没有出口。</text>
+  <rect x="60.0" y="100.0" width="190.0" height="66.0" rx="7" fill="#F7F9FB" stroke="#D6DDE4" stroke-width="1.1" opacity="1.0"/>
+  <text x="155.0" y="128.0" font-size="11" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">陀螺零偏</text>
+  <text x="155.0" y="148.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">0.01°/s，慢慢偏</text>
+  <rect x="300.0" y="100.0" width="190.0" height="66.0" rx="7" fill="#F7F9FB" stroke="#D6DDE4" stroke-width="1.1" opacity="1.0"/>
+  <text x="395.0" y="128.0" font-size="11" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">姿态越偏越大</text>
+  <text x="395.0" y="148.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">60 秒偏 0.6°</text>
+  <rect x="300.0" y="216.0" width="190.0" height="66.0" rx="7" fill="#F7F9FB" stroke="#D6DDE4" stroke-width="1.1" opacity="1.0"/>
+  <text x="395.0" y="244.0" font-size="11" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">重力分错了方向</text>
+  <text x="395.0" y="264.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">水平方向多了 0.1 m/s²</text>
+  <rect x="60.0" y="216.0" width="190.0" height="66.0" rx="7" fill="#F7F9FB" stroke="#D6DDE4" stroke-width="1.1" opacity="1.0"/>
+  <text x="155.0" y="244.0" font-size="11" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">位置以 t² 飞走</text>
+  <text x="155.0" y="264.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">并且这个“加速度”看着很真</text>
+  <line x1="252.0" y1="133.0" x2="289.5" y2="133.0" stroke="#C0392B" stroke-width="1.8"/>
+  <polygon points="296.0,133.0 289.5,129.4 289.5,136.6" fill="#C0392B"/>
+  <line x1="395.0" y1="168.0" x2="395.0" y2="205.5" stroke="#C0392B" stroke-width="1.8"/>
+  <polygon points="395.0,212.0 398.6,205.5 391.4,205.5" fill="#C0392B"/>
+  <line x1="296.0" y1="249.0" x2="260.5" y2="249.0" stroke="#C0392B" stroke-width="1.8"/>
+  <polygon points="254.0,249.0 260.5,252.6 260.5,245.4" fill="#C0392B"/>
+  <line x1="155.0" y1="214.0" x2="155.0" y2="176.5" stroke="#C0392B" stroke-width="1.8"/>
+  <polygon points="155.0,170.0 151.4,176.5 158.6,176.5" fill="#C0392B"/>
+  <text x="560.0" y="128.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">每一步都成立。</text>
+  <text x="560.0" y="146.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">但四步连起来，</text>
+  <text x="560.0" y="164.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">没有任何一步能</text>
+  <text x="560.0" y="182.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">自己把自己拉回来。</text>
+  <rect x="540.0" y="210.0" width="196.0" height="76.0" rx="7" fill="#FDF3F1" stroke="#E8C4BC" stroke-width="1.2" opacity="1.0"/>
+  <text x="552.0" y="232.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">唯一的出口</text>
+  <text x="552.0" y="252.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">一个不参与积分的</text>
+  <text x="552.0" y="268.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">绝对参考</text>
+  <line x1="24.0" y1="316.0" x2="736.0" y2="316.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="340.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">这就是 VIO（视觉惯性里程计）存在的全部理由。不是“多传感器融合听起来更靠谱”，</text>
+  <text x="24.0" y="358.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">而是这个环在数学上没有别的出口 —— 必须有一个量是“测出来”的，不是“积出来”的。</text>
+</svg>

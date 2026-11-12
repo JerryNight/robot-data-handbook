@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 392" width="760" height="392" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="392" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">加速度计测的不是加速度，是“支撑力 ÷ 质量”</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">三个场景里，读数完全不同 —— 但你无法只凭一个读数判断自己是哪一种。</text>
+  <text x="40.0" y="92.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">静止放在桌上</text>
+  <rect x="40.0" y="102.0" width="204.0" height="132.0" rx="7" fill="#FAFBFC" stroke="#DCE2E8" stroke-width="1.1" opacity="1.0"/>
+  <rect x="120.0" y="154.0" width="44.0" height="28.0" rx="3" fill="#E3E0F0" stroke="#7A6A9E" stroke-width="1.4" opacity="1.0"/>
+  <text x="142.0" y="172.0" font-size="8" fill="#5D4F80" text-anchor="middle" font-weight="600" opacity="1.0">IMU</text>
+  <line x1="50.0" y1="182.0" x2="234.0" y2="182.0" stroke="#C9B49A" stroke-width="3" opacity="1.0"/>
+  <line x1="142.0" y1="208.0" x2="142.0" y2="192.5" stroke="#3C6E9F" stroke-width="1.8"/>
+  <polygon points="142.0,186.0 138.4,192.5 145.6,192.5" fill="#3C6E9F"/>
+  <text x="150.0" y="212.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">9.81</text>
+  <text x="40.0" y="256.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">真实加速度 0</text>
+  <text x="40.0" y="274.0" font-size="10.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">读数 (0, 0, +9.81)</text>
+  <text x="40.0" y="292.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">桌子在托着它</text>
+  <text x="278.0" y="92.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">自由落体</text>
+  <rect x="278.0" y="102.0" width="204.0" height="132.0" rx="7" fill="#FAFBFC" stroke="#DCE2E8" stroke-width="1.1" opacity="1.0"/>
+  <rect x="358.0" y="154.0" width="44.0" height="28.0" rx="3" fill="#E3E0F0" stroke="#7A6A9E" stroke-width="1.4" opacity="1.0"/>
+  <text x="380.0" y="172.0" font-size="8" fill="#5D4F80" text-anchor="middle" font-weight="600" opacity="1.0">IMU</text>
+  <line x1="310.0" y1="168.0" x2="333.5" y2="168.0" stroke="#C0651A" stroke-width="1.8"/>
+  <polygon points="340.0,168.0 333.5,164.4 333.5,171.6" fill="#C0651A"/>
+  <line x1="450.0" y1="168.0" x2="426.5" y2="168.0" stroke="#C0651A" stroke-width="1.8"/>
+  <polygon points="420.0,168.0 426.5,171.6 426.5,164.4" fill="#C0651A"/>
+  <text x="380.0" y="208.0" font-size="9" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">读数 0</text>
+  <text x="278.0" y="256.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">真实加速度 −9.81</text>
+  <text x="278.0" y="274.0" font-size="10.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">读数 (0, 0, 0)</text>
+  <text x="278.0" y="292.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">没有任何东西托它</text>
+  <text x="516.0" y="92.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">斜着放，静止</text>
+  <rect x="516.0" y="102.0" width="204.0" height="132.0" rx="7" fill="#FAFBFC" stroke="#DCE2E8" stroke-width="1.1" opacity="1.0"/>
+  <g transform="rotate(-30 618 168)">
+  <rect x="596.0" y="154.0" width="44.0" height="28.0" rx="3" fill="#E3E0F0" stroke="#7A6A9E" stroke-width="1.4" opacity="1.0"/>
+  <text x="618.0" y="172.0" font-size="8" fill="#5D4F80" text-anchor="middle" font-weight="600" opacity="1.0">IMU</text>
+  </g>
+  <line x1="618.0" y1="220.0" x2="618.0" y2="200.5" stroke="#2E7D5B" stroke-width="1.8"/>
+  <polygon points="618.0,194.0 614.4,200.5 621.6,200.5" fill="#2E7D5B"/>
+  <line x1="618.0" y1="194.0" x2="618.0" y2="176.0" stroke="#ffffff" stroke-width="0" opacity="1.0"/>
+  <text x="625.0" y="220.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">9.81</text>
+  <line x1="662.0" y1="178.0" x2="662.0" y2="220.0" stroke="#DDE2E7" stroke-width="1" opacity="1.0" stroke-dasharray="3 3"/>
+  <text x="516.0" y="256.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">真实加速度 0</text>
+  <text x="516.0" y="274.0" font-size="10.5" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">读数 (0, 7.07, +7.07)</text>
+  <text x="516.0" y="292.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">支撑力被劈成两份</text>
+  <line x1="24.0" y1="312.0" x2="736.0" y2="312.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="336.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">三行读数里，“斜着放”和“朝着斜下方加速”给出的向量完全一样。</text>
+  <text x="24.0" y="356.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">这就是为什么姿态必须由外部参考（重力方向、相机、磁力计）锁住 —— 单帧读数不可区分。</text>
+</svg>
