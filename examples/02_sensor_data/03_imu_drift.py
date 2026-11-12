@@ -7,8 +7,11 @@ IMU 是机器人上最便宜的传感器，也是数据里最难用的一个。�
 
   1. 加速度计零偏一次积分变速度误差、二次积分变位置误差
   2. 陀螺仪零偏造成的姿态误差，会通过"重力投影"放大成巨大的加速度误差
-  3. 零速检测（ZUPT）为什么能把漂移压下来
+  3. 零速检测（ZUPT）为什么能把漂移压下来 —— 以及它为什么救不了姿态
   4. 关节编码器的分辨率根本不是瓶颈 —— 机械回差才是
+  5. 陀螺量程：一次撞击削顶，积分出来的角度直接少一截
+  6. 采样率与混叠：100 Hz 采样看到的 60 Hz 振动，真实是 40 Hz
+  7. 温度：零偏慢慢爬，比噪声更顽固
 
 运行：
     python examples/02_sensor_data/03_imu_drift.py
@@ -166,8 +169,8 @@ def part3_noise_and_zupt():
     for t, b in hb:
         print(f"      t={t:>4.1f}s   b_est={b:>7.4f} m/s²")
 
-    print(f"\n  注意 b_est 收敛到 {hb[-1][1]:.3f}，而真实零偏只有 0.010。")
-    print(f"  它还会继续往 0.181 爬（EMA 系数 0.2，8 次只走了 79%）。")
+    print(f"\n  注意 b_est 在 t={hb[-1][0]:.0f}s 时是 {hb[-1][1]:.3f}，最终会爬到 0.181，而真实零偏只有 0.010。")
+    print(f"  它还会继续往 0.181 爬（EMA 系数 0.2，7 次只走了 79%）。")
     print(f"  多出来的约 0.17 正是姿态误差造成的重力泄漏 G·sin(1°) = 0.171。")
     print("  静止时『加速度计零偏』和『姿态误差造成的重力投影』在数学上完全等价，")
     print("  传感器分不出来。所以它把两者一起吸收进了零偏估计 —— 校准看起来成功了，")
@@ -217,6 +220,119 @@ def part4_encoder_vs_backlash():
     print("  主流做法是存弧度 + 把标定文件（减速比/零位/方向/回差）作为数据集元数据一起版本化。")
 
 
+def part5_gyro_saturation():
+    print("\n[5] 陀螺量程：一次撞击把波形削掉一截，角度就少了一块")
+    print("-" * 72)
+    print("  场景：机械臂撞到桌子，手腕在 20ms 内被弹开 8°。")
+    print("  真实角速度是三角形脉冲，峰值 800°/s；而这只陀螺的量程是 ±300°/s。")
+    print()
+
+    dt = 1e-5
+    dur = 0.020
+    peak = 800.0
+    limit = 300.0
+
+    def rate(t):
+        if t <= 0 or t >= dur:
+            return 0.0
+        if t < dur / 2:
+            return peak * (t / (dur / 2))
+        return peak * (1 - (t - dur / 2) / (dur / 2))
+
+    ang_true = ang_meas = 0.0
+    n = int(dur / dt)
+    clipped_rows = 0
+    for i in range(n):
+        t = i * dt
+        r = rate(t)
+        rc = max(-limit, min(limit, r))
+        if r != rc:
+            clipped_rows += 1
+        ang_true += r * dt
+        ang_meas += rc * dt
+
+    print(f"  真实转角      {ang_true:>6.2f}°")
+    print(f"  削顶后积分    {ang_meas:>6.2f}°")
+    print(f"  丢失          {ang_true - ang_meas:>6.2f}°（{(1 - ang_meas / ang_true) * 100:.0f}%）")
+    print(f"  脉冲本身只占 1 秒窗口的 {dur / 1.0 * 100:.0f}%，")
+    print(f"  但这 {dur * 1000:.0f}ms 里有 {clipped_rows / n * 100:.0f}% 的采样点顶在量程上。")
+
+    print()
+    print("  注意：在整段曲线上，它看起来只是『尖角变钝了』——")
+    print("  形状还在，起点终点都对，只有中间那一小段被压平。")
+    print("  但积分算的是**面积**，尖顶被压平，面积就少了一大块。")
+    print()
+    err = ang_true - ang_meas
+    leak = G * math.sin(math.radians(err))
+    print(f"  后果：姿态永久少转 {err:.2f}°，于是重力水平泄漏 {leak:.3f} m/s²。")
+    print(f"  这个假加速度如果进入位置积分：1 秒偏 {0.5 * leak:.2f} 米，10 秒偏 {0.5 * leak * 100:.0f} 米。")
+    print("  真机上当然不会真的走那么远（手臂会先撞到别的东西），")
+    print("  但这说明 3° 的姿态误差在位置层面已经完全不可用了。")
+    print()
+    print("  工程做法：")
+    print("  - 选量程时按『最坏情况』而不是按『正常运动』：正常运动 50°/s，")
+    print("    但撞击瞬间可能是它的 20 倍")
+    print("  - 数据里记录量程设置（range），否则事后无法判断有没有削顶")
+    print("  - 入库校验：角速度序列里出现连续多个恰好等于 ±量程 的采样点，就是削顶了")
+
+
+def part6_aliasing():
+    print("\n[6] 采样率与混叠：你看到的频率可能不是真的")
+    print("-" * 72)
+    print("  奈奎斯特：采样率 fs 只能无歧义地表示低于 fs/2 的频率。")
+    print("  高于 fs/2 的成分不会消失，它会『折叠』成一个更低的假频率。")
+    print()
+
+    fs = 100.0
+    print(f"  fs = {fs:.0f} Hz（很多机器人只在控制周期里顺手记一份 IMU）")
+    print(f"  可无歧义表示的上限 = fs/2 = {fs / 2:.0f} Hz")
+    print()
+    print(f"  {'真实频率':<8}{'观测到的频率':<14}说明")
+    print("  " + "-" * 52)
+    for f in (10, 40, 60, 90):
+        alias = abs(f - fs * round(f / fs))
+        if f < fs / 2:
+            note = "正常，但注意它也可能是折叠来的"
+        else:
+            note = f"折叠：|{fs:.0f} − {f:.0f}| = {alias:.0f} Hz"
+        print(f"  {f:<10.0f}{alias:<16.0f}{note}")
+
+    print()
+    print("  看 40 这一行：它本身没问题。问题在于 60 Hz 也会变成 40 Hz ——")
+    print("  所以你看到一条 40 Hz 的振动时，无法判断它真实是 40 还是 60。")
+    print("  齿轮啮合、电机换向、碰撞冲击，很多都落在 60–90 这个区间，")
+    print("  折叠之后正好掉进看起来完全正常的地方。")
+    print()
+    print("  同一个 60 Hz 振动，换 1 kHz 采样：观测 60 Hz，还原了真相。")
+    print("  所以『控制用 100 Hz 就够』和『记录用 100 Hz 就够』是两件事 ——")
+    print("  控制关心的是低频跟随，记录要保住高频细节，后者需要高得多的采样率。")
+
+
+def part7_temperature():
+    print("\n[7] 温度：零偏慢慢爬，比噪声更顽固")
+    print("-" * 72)
+    print("  加速度计零偏的温漂典型值约 0.15 mg/°C = 0.0015 m/s²/°C。")
+    print("  开机 25°C，跑 10 分钟后电机把 IMU 烤到 45°C。")
+    print()
+
+    tempco = 0.0015
+    b0 = 0.010
+    print(f"  {'时刻':>10}{'温度':>8}{'零偏':>12}{'相对开机':>10}{'10s 位置误差':>14}")
+    print("  " + "-" * 58)
+    for minute, temp in ((0, 25), (2, 29), (5, 35), (10, 45)):
+        b = b0 + tempco * (temp - 25)
+        print(f"  {minute:>8}min{temp:>6}°C{b:>10.4f}m/s²{b / b0:>9.1f}x"
+              f"{0.5 * b * 100:>12.1f}m")
+
+    b_hot = b0 + tempco * 20
+    print()
+    print(f"  十分钟后零偏是开机的 {b_hot / b0:.0f} 倍。它不抖、不跳、不报错，")
+    print("  只是稳定地偏大 —— 比噪声难发现得多，因为它在频谱上几乎看不见（频率接近 0）。")
+    print()
+    print("  这也是为什么『静止段』如此重要：只有在静止段里，你才能把当时的零偏量出来。")
+    print("  但注意：静止段量到的是『此刻温度下』的零偏，不是永远有效的常数。")
+
+
 def main():
     print("=" * 72)
     print("实验 3：IMU 漂移与编码器精度上限")
@@ -225,13 +341,17 @@ def main():
     part2_gravity_leak()
     part3_noise_and_zupt()
     part4_encoder_vs_backlash()
+    part5_gyro_saturation()
+    part6_aliasing()
+    part7_temperature()
 
     print("\n" + "=" * 72)
     print("结论（数据平台视角）：")
-    print("  1. IMU 的原始数据必须原样保留（含零偏、温度），事后才有补偿的余地")
+    print("  1. IMU 的原始数据必须原样保留（含零偏、温度、量程），事后才有补偿的余地")
     print("  2. 姿态估计误差比零偏更致命，所以 IMU 数据要配绝对参考一起存")
     print("  3. 静止段是宝贵的数据 —— 它是唯一能在线估计零偏的窗口，别裁掉")
     print("  4. 关节精度的瓶颈在机械，数据集标注精度时要按真实瓶颈写，别按传感器写")
+    print("  5. 记录频率要高于『控制的频率』：100 Hz 的控制够用，100 Hz 的记录不够")
     print("=" * 72)
 
 
