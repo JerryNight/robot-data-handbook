@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 410" width="760" height="410" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="410" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">漂移可以事后拟合，但窗口要够长：10 秒连 40 ppm 都测不出来</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">30 Hz 共同事件、抖动 σ = 2.5 ms。斜率估计误差 ≈ σ/(T·√(N/12))，随窗口按 T^1.5 下降。</text>
+  <line x1="100.0" y1="295.7" x2="620.0" y2="295.7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="298.7" font-size="8" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.1</text>
+  <line x1="100.0" y1="251.1" x2="620.0" y2="251.1" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="254.1" font-size="8" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1</text>
+  <line x1="100.0" y1="206.5" x2="620.0" y2="206.5" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="209.5" font-size="8" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">10</text>
+  <line x1="100.0" y1="161.9" x2="620.0" y2="161.9" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="164.9" font-size="8" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">100</text>
+  <line x1="100.0" y1="117.3" x2="620.0" y2="117.3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="92.0" y="120.3" font-size="8" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1000</text>
+  <text x="100.0" y="319.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1 s</text>
+  <text x="287.2" y="319.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10 s</text>
+  <text x="432.8" y="319.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1 min</text>
+  <text x="620.0" y="319.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10 min</text>
+  <line x1="100.0" y1="300.0" x2="620.0" y2="300.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="100.0" y1="90.0" x2="100.0" y2="300.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <text x="360.0" y="338.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">观测窗口（对数）</text>
+  <text x="24.0" y="80.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">斜率估计误差（ppm，对数）</text>
+  <path d="M 100.0 108.7 L 287.2 174.5 L 432.8 227.4 L 620.0 293.8" fill="none" stroke="#3C6E9F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="100.0" cy="108.7" r="3.4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="107.0" y="122.7" font-size="8.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">±1554</text>
+  <circle cx="287.2" cy="174.5" r="3.4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="293.2" y="166.5" font-size="8.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">±52</text>
+  <circle cx="432.8" cy="227.4" r="3.4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="432.8" y="217.4" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">±3.4</text>
+  <circle cx="620.0" cy="293.8" r="3.4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="620.0" y="283.8" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">±0.11</text>
+  <line x1="100.0" y1="179.6" x2="620.0" y2="179.6" stroke="#C0392B" stroke-width="1.6" opacity="1.0" stroke-dasharray="5 4"/>
+  <text x="626.0" y="182.6" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">真实漂移 40 ppm</text>
+  <text x="127.4" y="171.6" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">误差大于漂移：测不出来</text>
+  <line x1="298.5" y1="300.0" x2="298.5" y2="179.6" stroke="#2E7D5B" stroke-width="1.2" opacity="1.0" stroke-dasharray="3 3"/>
+  <circle cx="298.5" cy="179.6" r="3.2" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="290.5" y="195.6" font-size="8.5" fill="#2E7D5B" text-anchor="end" font-weight="600" opacity="1.0">≈ 11.5 s</text>
+  <text x="290.5" y="209.6" font-size="8" fill="#2E7D5B" text-anchor="end" font-weight="400" opacity="1.0">最小可用窗口</text>
+  <line x1="24.0" y1="340.0" x2="736.0" y2="340.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="362.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">两个后果。第一：「跑一小段验证一下」永远发现不了时钟问题 —— 短窗口里漂移被抖动淹没。</text>
+  <text x="24.0" y="382.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">第二：想事后校准，就得牺牲至少十几秒的数据去建立参考，而且抖动越大窗口越长。</text>
+  <text x="24.0" y="402.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">这也是为什么工程上更愿意事前解决：共触发一次，后面每一秒都省了。</text>
+</svg>

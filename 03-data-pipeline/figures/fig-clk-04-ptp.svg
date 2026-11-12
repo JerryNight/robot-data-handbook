@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 410" width="760" height="410" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="410" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">PTP 用四次时间戳估偏移，公式里藏着一个「路径对称」的假设</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">offset = ((t2−t1) − (t4−t3)) / 2。上下行等长时它是对的；不等长时，差值的一半永久留在结果里。</text>
+  <text x="24.0" y="118.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">master</text>
+  <text x="24.0" y="198.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">slave</text>
+  <line x1="90.0" y1="130.0" x2="700.0" y2="130.0" stroke="#C9D2DB" stroke-width="1.4" opacity="1.0"/>
+  <line x1="90.0" y1="210.0" x2="700.0" y2="210.0" stroke="#C9D2DB" stroke-width="1.4" opacity="1.0"/>
+  <line x1="140.0" y1="130.0" x2="324.5" y2="207.7" stroke="#3C6E9F" stroke-width="1.6"/>
+  <polygon points="330.0,210.0 325.8,204.6 323.2,210.7" fill="#3C6E9F"/>
+  <text x="150.0" y="124.0" font-size="8.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">t1</text>
+  <text x="322.0" y="226.0" font-size="8.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">t2</text>
+  <line x1="420.0" y1="210.0" x2="604.5" y2="132.3" stroke="#C0651A" stroke-width="1.6"/>
+  <polygon points="610.0,130.0 603.2,129.3 605.8,135.4" fill="#C0651A"/>
+  <text x="414.0" y="226.0" font-size="8.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">t3</text>
+  <text x="604.0" y="124.0" font-size="8.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">t4</text>
+  <line x1="90.0" y1="96.0" x2="106.0" y2="96.0" stroke="#3C6E9F" stroke-width="2" opacity="1.0"/>
+  <text x="112.0" y="100.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">下行（master → slave）</text>
+  <line x1="280.0" y1="96.0" x2="296.0" y2="96.0" stroke="#C0651A" stroke-width="2" opacity="1.0"/>
+  <text x="302.0" y="100.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">上行（slave → master）</text>
+  <text x="238.0" y="180.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">d_ms</text>
+  <text x="516.0" y="232.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">d_sm</text>
+  <rect x="24.0" y="262.0" width="712.0" height="56.0" rx="6" fill="#FBF0EE" stroke="#E7C9C4" stroke-width="1" opacity="1.0"/>
+  <text x="40.0" y="282.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">当下行比上行慢 δ：(t2−t1) 里多了 δ，(t4−t3) 里少了 δ</text>
+  <text x="40.0" y="302.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">两式相减再除以 2 —— 残余偏移正好是 δ/2，而且与采样次数无关</text>
+  <text x="24.0" y="344.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">实测（真实 offset 3.000 ms）：</text>
+  <text x="40.0" y="364.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">δ = 0（理想对称）</text>
+  <text x="246.0" y="364.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">+3.0494 ms</text>
+  <text x="360.0" y="364.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">标准差 0.0217，可随 √N 收敛</text>
+  <text x="40.0" y="384.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">δ = 100 µs</text>
+  <text x="246.0" y="384.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">+3.0494 ms</text>
+  <text x="360.0" y="384.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">仍然 +49 µs 残差，不随 N 收敛</text>
+  <text x="24.0" y="406.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">所以 PTP 的天花板不是时钟精度，是链路对称性 —— 交换机排队、光模块收发差，全在 δ 里，且测不出来。</text>
+</svg>

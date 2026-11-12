@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 442" width="760" height="442" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="442" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">一条触发链的预算：A 到 C 差 73 倍，靠的是删掉两项</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">端到端不确定性 = √(Σ 各项²)。三条链的差别不在「哪项更准」，在「哪些项根本不存在」。</text>
+  <line x1="235.9" y1="92.0" x2="235.9" y2="232.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="235.9" y="248.0" font-size="8" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.1</text>
+  <line x1="321.9" y1="92.0" x2="321.9" y2="232.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="321.9" y="248.0" font-size="8" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1</text>
+  <line x1="407.9" y1="92.0" x2="407.9" y2="232.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="407.9" y="248.0" font-size="8" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <line x1="493.9" y1="92.0" x2="493.9" y2="232.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="493.9" y="248.0" font-size="8" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">100</text>
+  <line x1="579.9" y1="92.0" x2="579.9" y2="232.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="579.9" y="248.0" font-size="8" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1000</text>
+  <text x="425.0" y="266.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">端到端不确定度（µs，对数）</text>
+  <text x="24.0" y="124.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">A 全软件打戳</text>
+  <rect x="210.0" y="110.0" width="421.1" height="20.0" rx="3" fill="#C0392B" stroke="#C0392B" stroke-width="0" opacity="0.75"/>
+  <text x="639.1" y="124.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">3.94 ms</text>
+  <text x="24.0" y="138.0" font-size="7.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">曝光 + USB 排队 + 驱动 + 用户态</text>
+  <text x="24.0" y="166.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">B 驱动 SOF 打戳</text>
+  <rect x="210.0" y="152.0" width="397.1" height="20.0" rx="3" fill="#C0651A" stroke="#C0651A" stroke-width="0" opacity="0.75"/>
+  <text x="615.1" y="166.0" font-size="10" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">2.07 ms</text>
+  <text x="24.0" y="180.0" font-size="7.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">还有 2000 µs 的相机自抖</text>
+  <text x="24.0" y="208.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">C 硬件触发 + PTP</text>
+  <rect x="210.0" y="194.0" width="260.9" height="20.0" rx="3" fill="#2E7D5B" stroke="#2E7D5B" stroke-width="0" opacity="0.75"/>
+  <text x="478.9" y="208.0" font-size="10" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">0.05 ms</text>
+  <text x="24.0" y="222.0" font-size="7.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">共触发，曝光抖动被消掉</text>
+  <line x1="24.0" y1="288.0" x2="736.0" y2="288.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="308.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">A 为什么是 3.94 ms：四项里没有一项小到可以忽略</text>
+  <text x="24.0" y="331.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">相机曝光抖动</text>
+  <rect x="210.0" y="321.0" width="395.8" height="12.0" rx="2" fill="#C0392B" stroke="#C0392B" stroke-width="0" opacity="0.6"/>
+  <text x="611.8" y="331.0" font-size="8.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">2000 µs</text>
+  <text x="24.0" y="355.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">USB 传输排队</text>
+  <rect x="210.0" y="345.0" width="410.9" height="12.0" rx="2" fill="#C0392B" stroke="#C0392B" stroke-width="0" opacity="0.6"/>
+  <text x="626.9" y="355.0" font-size="8.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">3000 µs</text>
+  <text x="24.0" y="379.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">驱动到用户态</text>
+  <rect x="210.0" y="369.0" width="385.0" height="12.0" rx="2" fill="#C0392B" stroke="#C0392B" stroke-width="0" opacity="0.6"/>
+  <text x="601.0" y="379.0" font-size="8.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">1500 µs</text>
+  <text x="24.0" y="403.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">用户态处理</text>
+  <rect x="210.0" y="393.0" width="344.0" height="12.0" rx="2" fill="#C0392B" stroke="#C0392B" stroke-width="0" opacity="0.6"/>
+  <text x="560.0" y="403.0" font-size="8.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">500 µs</text>
+  <text x="24.0" y="432.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">B 省掉两项，但那个 2000 µs 是相机自由运行的帧率抖动 —— 只有改成外部触发才消失，这就是 C 必须动硬件的原因。</text>
+</svg>

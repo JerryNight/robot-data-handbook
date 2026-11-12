@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 424" width="760" height="424" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="424" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">软件打戳的误差不是「有点大」，是「一致地晚，偶尔特别晚」</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">3000 帧、30 Hz。硬件触发戳和软件接收戳的误差分布，横轴单位 ms。</text>
+  <line x1="60.0" y1="300.0" x2="60.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="60.0" y="319.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0</text>
+  <line x1="190.0" y1="300.0" x2="190.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="190.0" y="319.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">5</text>
+  <line x1="320.0" y1="300.0" x2="320.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="320.0" y="319.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <line x1="450.0" y1="300.0" x2="450.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="450.0" y="319.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">15</text>
+  <line x1="580.0" y1="300.0" x2="580.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="580.0" y="319.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">20</text>
+  <line x1="710.0" y1="300.0" x2="710.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="710.0" y="319.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">25</text>
+  <line x1="60.0" y1="300.0" x2="736.0" y2="300.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="60.0" y1="90.0" x2="60.0" y2="300.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <text x="398.0" y="340.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">打戳误差（ms）</text>
+  <text x="52.0" y="82.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">帧数</text>
+  <rect x="113.0" y="298.8" width="24.0" height="1.2" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="139.0" y="285.1" width="24.0" height="14.9" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="165.0" y="222.8" width="24.0" height="77.2" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="191.0" y="110.0" width="24.0" height="190.0" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="217.0" y="18.8" width="24.0" height="281.2" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="243.0" y="97.2" width="24.0" height="202.8" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="269.0" y="223.4" width="24.0" height="76.6" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="295.0" y="288.6" width="24.0" height="11.4" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="321.0" y="298.8" width="24.0" height="1.2" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="399.0" y="299.4" width="24.0" height="0.6" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="425.0" y="299.7" width="24.0" height="0.3" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="451.0" y="299.1" width="24.0" height="0.9" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="477.0" y="299.7" width="24.0" height="0.3" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="503.0" y="296.8" width="24.0" height="3.2" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="529.0" y="298.0" width="24.0" height="2.0" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="555.0" y="298.3" width="24.0" height="1.7" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="581.0" y="299.4" width="24.0" height="0.6" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="607.0" y="299.4" width="24.0" height="0.6" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="633.0" y="298.3" width="24.0" height="1.7" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="659.0" y="298.0" width="24.0" height="2.0" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="685.0" y="298.5" width="24.0" height="1.5" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="711.0" y="298.3" width="24.0" height="1.7" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <rect x="737.0" y="299.4" width="24.0" height="0.6" rx="1" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="0.35"/>
+  <line x1="61.0" y1="300.0" x2="61.0" y2="107.7" stroke="#C0651A" stroke-width="3" opacity="1.0"/>
+  <text x="67.0" y="111.7" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">硬件触发戳</text>
+  <text x="67.0" y="125.7" font-size="8" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">3000 帧全在这条线上</text>
+  <line x1="237.6" y1="96.0" x2="237.6" y2="300.0" stroke="#C0392B" stroke-width="1.4" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="242.6" y="110.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">均值 6.83 ms</text>
+  <text x="629.4" y="290.0" font-size="8.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">P99 = 21.9</text>
+  <text x="24.0" y="352.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">两个毛病必须分开处理（硬件戳：均值 +0.040 ms，P99 0.09 ms）：</text>
+  <text x="24.0" y="374.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">① 整条分布右移 6.8 ms —— 系统性滞后。不补偿，模型会把「观测晚于动作」当因果结构学进去。</text>
+  <text x="24.0" y="396.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">② 右侧的尾巴 —— 2% 的帧被调度器卡到 10–20 ms。均值完全看不出来，但它是最难处理的离群点。</text>
+</svg>
