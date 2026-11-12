@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 448" width="760" height="448" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="448" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同一个 bag，只换了 ORDER BY：一条 -45 ms 的负间隔变成了十处 0.0 ms</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">场景：imu 的时钟在 t=45 s 被 NTP 拨回 50 ms。周期 5 ms，回退 50 ms 正好退回 10 条。</text>
+  <text x="24.0" y="112.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">ORDER BY id（写入顺序）</text>
+  <line x1="24.0" y1="153.6" x2="346.0" y2="153.6" stroke="#D6DEE6" stroke-width="1" opacity="1.0"/>
+  <text x="346.0" y="146.6" font-size="7.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">5 ms 基线</text>
+  <line x1="24.0" y1="165.6" x2="346.0" y2="165.6" stroke="#E7C9C4" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="26.0" y="178.6" font-size="7.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">0 —— 两条消息落在同一时刻</text>
+  <text x="16.0" y="288.6" font-size="8" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">-50</text>
+  <text x="16.0" y="156.6" font-size="8" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">5</text>
+  <line x1="22.6" y1="153.6" x2="25.4" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="35.5" y1="153.6" x2="38.3" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="48.4" y1="153.6" x2="51.2" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="61.2" y1="153.6" x2="64.0" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="74.1" y1="153.6" x2="76.9" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="87.0" y1="153.6" x2="89.8" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="99.9" y1="153.6" x2="102.7" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="112.8" y1="153.6" x2="115.6" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="125.6" y1="153.6" x2="128.4" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="138.5" y1="153.6" x2="141.3" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="151.4" y1="153.6" x2="154.2" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="164.3" y1="153.6" x2="167.1" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="177.2" y1="153.6" x2="180.0" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="190.0" y1="153.6" x2="192.8" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="215.8" y1="153.6" x2="218.6" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="228.7" y1="153.6" x2="231.5" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="241.6" y1="153.6" x2="244.4" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="254.4" y1="153.6" x2="257.2" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="267.3" y1="153.6" x2="270.1" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="280.2" y1="153.6" x2="283.0" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="293.1" y1="153.6" x2="295.9" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="306.0" y1="153.6" x2="308.8" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="318.8" y1="153.6" x2="321.6" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="331.7" y1="153.6" x2="334.5" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="344.6" y1="153.6" x2="347.4" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="204.3" y1="153.6" x2="204.3" y2="273.6" stroke="#C0392B" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="204.3" cy="273.6" r="2.6" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="185.0" y="324.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">消息序号（8985 → 9010）</text>
+  <text x="24.0" y="348.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">1 处异常：-45.0 ms</text>
+  <text x="24.0" y="368.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">负间隔 = 时间倒流。一次事件，一个尖峰，形状可读。</text>
+  <text x="414.0" y="112.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">ORDER BY timestamp</text>
+  <line x1="414.0" y1="153.6" x2="736.0" y2="153.6" stroke="#D6DEE6" stroke-width="1" opacity="1.0"/>
+  <text x="736.0" y="146.6" font-size="7.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">5 ms 基线</text>
+  <line x1="414.0" y1="165.6" x2="736.0" y2="165.6" stroke="#E7C9C4" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="416.0" y="178.6" font-size="7.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">0 —— 两条消息落在同一时刻</text>
+  <text x="406.0" y="288.6" font-size="8" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">-50</text>
+  <text x="406.0" y="156.6" font-size="8" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">5</text>
+  <line x1="412.6" y1="153.6" x2="415.4" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="425.5" y1="153.6" x2="428.3" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="438.4" y1="153.6" x2="441.2" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="451.2" y1="153.6" x2="454.0" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="464.1" y1="153.6" x2="466.9" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="477.0" y1="153.6" x2="479.8" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="489.9" y1="153.6" x2="492.7" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="502.8" y1="153.6" x2="505.6" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="515.6" y1="153.6" x2="518.4" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="528.5" y1="153.6" x2="531.3" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="670.2" y1="153.6" x2="673.0" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="683.1" y1="153.6" x2="685.9" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="696.0" y1="153.6" x2="698.8" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="708.8" y1="153.6" x2="711.6" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="721.7" y1="153.6" x2="724.5" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="734.6" y1="153.6" x2="737.4" y2="153.6" stroke="#9FB6C9" stroke-width="1.6" opacity="1.0"/>
+  <line x1="542.8" y1="153.6" x2="542.8" y2="165.6" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="542.8" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="555.7" y1="153.6" x2="555.7" y2="165.6" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="555.7" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="568.6" y1="153.6" x2="568.6" y2="165.6" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="568.6" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="581.4" y1="153.6" x2="581.4" y2="165.6" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="581.4" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="594.3" y1="153.6" x2="594.3" y2="165.6" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="594.3" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="607.2" y1="153.6" x2="607.2" y2="165.6" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="607.2" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="620.1" y1="153.6" x2="620.1" y2="165.6" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="620.1" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="633.0" y1="153.6" x2="633.0" y2="165.6" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="633.0" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="645.8" y1="153.6" x2="645.8" y2="165.6" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="645.8" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="658.7" y1="153.6" x2="658.7" y2="165.6" stroke="#C0651A" stroke-width="1.8" opacity="1.0"/>
+  <circle cx="658.7" cy="165.6" r="2.6" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="575.0" y="324.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">消息序号（8985 → 9010）</text>
+  <text x="414.0" y="348.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">10 处异常：0.0 ms</text>
+  <text x="414.0" y="368.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">排序把回退摊平：十根柱都落在 0 线上，看不出是一次事件。</text>
+  <line x1="24.0" y1="390.0" x2="736.0" y2="390.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="412.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">左边能读出「钟被拨回 45 + 5 = 50 ms」。右边只能看出「这一段有点挤」—— 任何基于「间隔离群」的</text>
+  <text x="24.0" y="432.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">检测器都会漏掉它。用被怀疑的时间戳去排序，等于让证据自己决定顺序。</text>
+</svg>

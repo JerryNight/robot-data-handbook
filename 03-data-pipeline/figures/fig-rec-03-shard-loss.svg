@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 410" width="760" height="410" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="410" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">metadata 说 19 800 条，实际只有 9 900 —— 而 bag_0 自己完全正常</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">按 30 秒分片后，目录里是两个文件。上传脚本只传了第一个。</text>
+  <line x1="60.0" y1="110.0" x2="700.0" y2="110.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="60.0" y1="110.0" x2="60.0" y2="115.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="60.0" y="129.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0s</text>
+  <line x1="220.0" y1="110.0" x2="220.0" y2="115.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="220.0" y="129.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">15s</text>
+  <line x1="380.0" y1="110.0" x2="380.0" y2="115.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="380.0" y="129.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">30s</text>
+  <line x1="540.0" y1="110.0" x2="540.0" y2="115.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="540.0" y="129.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">45s</text>
+  <line x1="700.0" y1="110.0" x2="700.0" y2="115.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="700.0" y="129.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">60s</text>
+  <rect x="60.0" y="64.0" width="320.0" height="46.0" rx="4" fill="#DCE9F4" stroke="#3C6E9F" stroke-width="1.2" opacity="1.0"/>
+  <text x="220.0" y="84.0" font-size="10" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">bag_0.db3</text>
+  <text x="220.0" y="100.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">9 900 条 · 已上传</text>
+  <rect x="380.0" y="64.0" width="320.0" height="46.0" rx="4" fill="#F4F6F8" stroke="#8A94A0" stroke-width="1.2" opacity="1.0" stroke-dasharray="5 4"/>
+  <text x="540.0" y="84.0" font-size="10" fill="#8A94A0" text-anchor="middle" font-weight="600" opacity="1.0">bag_1.db3</text>
+  <text x="540.0" y="100.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">9 900 条 · 没上传</text>
+  <line x1="380.0" y1="52.0" x2="380.0" y2="112.0" stroke="#C0392B" stroke-width="1" opacity="0.7" stroke-dasharray="3 3"/>
+  <text x="386.0" y="48.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">切口在 30 s，两半各自都连续</text>
+  <text x="24.0" y="168.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">为什么三层都不报错</text>
+  <text x="30.0" y="190.0" font-size="11" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">✓</text>
+  <text x="46.0" y="190.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">表结构完整（topics + messages 都在）</text>
+  <text x="30.0" y="212.0" font-size="11" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">✓</text>
+  <text x="46.0" y="212.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">时间戳连续（0–30 s 没有空洞）</text>
+  <text x="30.0" y="234.0" font-size="11" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">✓</text>
+  <text x="46.0" y="234.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">能正常回放（rosbag2 info 正常）</text>
+  <text x="30.0" y="268.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">它只是安静地少了 30 秒。</text>
+  <rect x="400.0" y="152.0" width="336.0" height="124.0" rx="6" fill="#FCFDFE" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="414.0" y="172.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">唯一可靠的校验：对账</text>
+  <text x="414.0" y="196.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">metadata.message_count</text>
+  <text x="722.0" y="196.0" font-size="9" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">19 800</text>
+  <line x1="414.0" y1="204.0" x2="722.0" y2="204.0" stroke="#E4E8EC" stroke-width="0.8" opacity="1.0"/>
+  <text x="414.0" y="220.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">SELECT COUNT(*) FROM messages</text>
+  <text x="722.0" y="220.0" font-size="9" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">9 900</text>
+  <line x1="414.0" y1="228.0" x2="722.0" y2="228.0" stroke="#E4E8EC" stroke-width="0.8" opacity="1.0"/>
+  <text x="414.0" y="244.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">差值</text>
+  <text x="722.0" y="244.0" font-size="9" fill="#C0392B" text-anchor="end" font-weight="600" opacity="1.0">9 900</text>
+  <text x="414.0" y="268.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">不相等 -&gt; 拒绝入库，不要「先存着以后修」</text>
+  <line x1="24.0" y1="300.0" x2="736.0" y2="300.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="322.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">「录制成功」的判据是「文件写完了」，不是「数据完整」。这两件事在正常的系统里几乎总是同时成立，</text>
+  <text x="24.0" y="342.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">所以它们被当成了一件事 —— 直到有一次文件写完了、数据却少了一半，而没有任何一层报错。</text>
+  <text x="24.0" y="366.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">对账的三行代码，就是把这个隐含假设变成显式断言。它不是「优化」，是「唯一的证据」。</text>
+</svg>

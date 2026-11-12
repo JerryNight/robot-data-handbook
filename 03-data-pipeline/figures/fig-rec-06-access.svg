@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412" width="760" height="412" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="412" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">想取一个关节角，却要把整行 196 字节读出来</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">rosbag2 的一行 = 表头 24 B + payload 172 B。你要的值只占其中 8 字节，但它和另外 20 个 float 挤在一起。</text>
+  <text x="24.0" y="92.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">一行 joint_states（196 B）</text>
+  <rect x="24.0" y="100.0" width="63.7" height="28.0" rx="3" fill="#E3E8EE" stroke="#CBD4DE" stroke-width="1" opacity="1.0"/>
+  <text x="55.8" y="118.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">表头 24 B</text>
+  <rect x="87.7" y="100.0" width="456.3" height="28.0" rx="3" fill="#F2F5F8" stroke="#CBD4DE" stroke-width="1" opacity="1.0"/>
+  <text x="315.8" y="140.0" font-size="8" fill="#41505E" text-anchor="middle" font-weight="400" opacity="1.0">21 个 float64 = 168 B（payload）</text>
+  <rect x="279.3" y="100.0" width="21.2" height="28.0" rx="2" fill="#3C6E9F" stroke="#3C6E9F" stroke-width="0" opacity="1.0"/>
+  <line x1="281.3" y1="94.0" x2="281.3" y2="95.0" stroke="#3C6E9F" stroke-width="1.2"/>
+  <polygon points="281.3,99.0 283.5,95.0 279.1,95.0" fill="#3C6E9F"/>
+  <text x="281.3" y="88.0" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">你要的 8 B</text>
+  <text x="560.0" y="118.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">读整行 = 196 / 8 = 24.5 倍</text>
+  <text x="24.0" y="168.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">换成图像更极端：一帧是 33.1 KB 的 BLOB，要算平均亮度，就得把这 33.1 KB 全解出来。</text>
+  <text x="24.0" y="200.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">1 万个 episode、每个 60 s、100 Hz 的关节角，拉一条时间序列：</text>
+  <text x="24.0" y="232.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">行式（现状）</text>
+  <rect x="210.0" y="220.0" width="437.2" height="18.0" rx="3" fill="#C0392B" stroke="#C0392B" stroke-width="0" opacity="0.85"/>
+  <text x="653.2" y="233.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">11.80 GB</text>
+  <text x="210.0" y="256.0" font-size="8" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">60 000 000 行 × 196 B</text>
+  <text x="24.0" y="284.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">列式（只读那一列）</text>
+  <rect x="210.0" y="272.0" width="56.0" height="18.0" rx="3" fill="#2E7D5B" stroke="#2E7D5B" stroke-width="0" opacity="0.85"/>
+  <text x="272.0" y="285.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">0.48 GB</text>
+  <text x="210.0" y="308.0" font-size="8" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">60 000 000 行 × 8 B</text>
+  <text x="24.0" y="330.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">读放大 24.5 倍。这不是「慢一点」，是同一个查询从几分钟变成几小时 —— 换图像更极端：</text>
+  <text x="24.0" y="350.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">33.1 KB ÷ 16 B = 2121 倍。所以数据集必须把 mean/std 预先算好（第四章的 stats.json），</text>
+  <text x="24.0" y="370.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">不是因为「顺手优化」，而是行式存储下这个查询根本跑不完。</text>
+  <line x1="24.0" y1="384.0" x2="736.0" y2="384.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+</svg>
