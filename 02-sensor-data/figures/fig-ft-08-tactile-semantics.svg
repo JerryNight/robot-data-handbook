@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 396" width="760" height="396" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="396" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">为什么图像能跨数据集聚合，触觉不能</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">不是数据量的问题（触觉小两三个数量级），是“坐标系”和“语义”这两件事。</text>
+  <rect x="24.0" y="76.0" width="336.0" height="232.0" rx="8" fill="#FAFBFC" stroke="#DCE2E8" stroke-width="1.1" opacity="1.0"/>
+  <text x="40.0" y="102.0" font-size="11" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">图像</text>
+  <circle cx="46.0" cy="130.0" r="9" fill="#E8F1F9" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="46.0" y="134.0" font-size="11" fill="#1F5B45" text-anchor="middle" font-weight="700" opacity="1.0">✓</text>
+  <text x="64.0" y="134.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">有没有统一的坐标系</text>
+  <text x="64.0" y="150.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">640×480 像素网格，三十年没变</text>
+  <circle cx="46.0" cy="186.0" r="9" fill="#E8F1F9" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="46.0" y="190.0" font-size="11" fill="#1F5B45" text-anchor="middle" font-weight="700" opacity="1.0">✓</text>
+  <text x="64.0" y="190.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">有没有统一的物理语义</text>
+  <text x="64.0" y="206.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">每个像素 = 那个方向射来的光的颜色</text>
+  <rect x="400.0" y="76.0" width="336.0" height="232.0" rx="8" fill="#FAFBFC" stroke="#DCE2E8" stroke-width="1.1" opacity="1.0"/>
+  <text x="416.0" y="102.0" font-size="11" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">触觉</text>
+  <circle cx="422.0" cy="130.0" r="9" fill="#FBEFEC" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="422.0" y="134.0" font-size="11" fill="#C0392B" text-anchor="middle" font-weight="700" opacity="1.0">✗</text>
+  <text x="440.0" y="134.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">有没有统一的坐标系</text>
+  <text x="440.0" y="150.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">16×16 贴哪儿？多大面积？每格对应哪块皮肤？</text>
+  <circle cx="422.0" cy="186.0" r="9" fill="#FBEFEC" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="422.0" y="190.0" font-size="11" fill="#C0392B" text-anchor="middle" font-weight="700" opacity="1.0">✗</text>
+  <text x="440.0" y="190.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">有没有统一的物理语义</text>
+  <text x="440.0" y="206.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">压阻测静态压力，压电测压力变化率</text>
+  <line x1="24.0" y1="326.0" x2="736.0" y2="326.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="348.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">两个勾都打上，数据才能跨本体、跨任务拼起来 —— 这是 Open X-Embodiment 能聚合图像的原因。</text>
+  <text x="24.0" y="368.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">触觉一个都没有，所以它在那些大规模数据集里基本缺席。</text>
+  <text x="24.0" y="388.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">这不是“再等等模型变大”能解决的：模型连输入格式都还统一不了。</text>
+</svg>

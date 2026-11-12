@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="400" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">六维力传感器：三个力 + 三个力矩，全部在它自己的坐标系里</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同一台机器人，传感器装的方向不同，这六个数字就完全不同。</text>
+  <ellipse cx="210" cy="236" rx="72" ry="20" fill="#EDF0F3" stroke="#B0B9C2" stroke-width="1.2"/>
+  <rect x="138.0" y="184.0" width="144.0" height="52.0" rx="0" fill="#E6EBF0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <ellipse cx="210" cy="184" rx="72" ry="20" fill="#F3F6F9" stroke="#B0B9C2" stroke-width="1.2"/>
+  <text x="210.0" y="214.0" font-size="10" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">F/T 传感器</text>
+  <line x1="210.0" y1="184.0" x2="270.3" y2="151.1" stroke="#C0392B" stroke-width="2.2"/>
+  <polygon points="276.0,148.0 268.6,148.0 272.0,154.3" fill="#C0392B"/>
+  <text x="282.0" y="144.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">Fx</text>
+  <line x1="210.0" y1="184.0" x2="237.4" y2="120.0" stroke="#2E7D5B" stroke-width="2.2"/>
+  <polygon points="240.0,114.0 234.2,118.6 240.7,121.4" fill="#2E7D5B"/>
+  <text x="244.0" y="110.0" font-size="10" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">Fy</text>
+  <line x1="210.0" y1="184.0" x2="210.0" y2="104.5" stroke="#3C6E9F" stroke-width="2.2"/>
+  <polygon points="210.0,98.0 206.4,104.5 213.6,104.5" fill="#3C6E9F"/>
+  <text x="216.0" y="94.0" font-size="10" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">Fz</text>
+  <path d="M 268 204 A 26 26 0 1 1 230 224" fill="none" stroke="#C0651A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="284.0" y="216.0" font-size="9.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">Tx</text>
+  <path d="M 152 204 A 26 26 0 1 0 190 224" fill="none" stroke="#6B5B95" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="124.0" y="216.0" font-size="9.5" fill="#6B5B95" text-anchor="start" font-weight="600" opacity="1.0">Ty</text>
+  <path d="M 170 244 A 22 22 0 0 0 250 244" fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <text x="210.0" y="272.0" font-size="9.5" fill="#8A94A0" text-anchor="middle" font-weight="600" opacity="1.0">Tz</text>
+  <line x1="400.0" y1="100.0" x2="420.0" y2="100.0" stroke="#C0392B" stroke-width="3" opacity="1.0"/>
+  <text x="428.0" y="104.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">Fx, Fy, Fz</text>
+  <text x="428.0" y="122.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">沿三个轴的推 / 拉</text>
+  <text x="700.0" y="104.0" font-size="9.5" fill="#C0392B" text-anchor="end" font-weight="600" opacity="1.0">N</text>
+  <line x1="400.0" y1="156.0" x2="420.0" y2="156.0" stroke="#C0651A" stroke-width="3" opacity="1.0"/>
+  <text x="428.0" y="160.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">Tx, Ty, Tz</text>
+  <text x="428.0" y="178.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">绕三个轴的扭转</text>
+  <text x="700.0" y="160.0" font-size="9.5" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">N·m</text>
+  <line x1="400.0" y1="210.0" x2="736.0" y2="210.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="400.0" y="234.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">为什么必须强调“传感器坐标系”</text>
+  <text x="400.0" y="254.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同一个动作，传感器转 90° 装，</text>
+  <text x="400.0" y="270.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">原来的 Fx 就跑到 Fy 上去了。</text>
+  <text x="400.0" y="292.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">数据里不记安装位姿，</text>
+  <text x="400.0" y="308.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">这六个数没法用。</text>
+  <line x1="24.0" y1="344.0" x2="736.0" y2="344.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="366.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">力和力矩不是独立的两组数：力矩依赖你选的参考点（τ = r × F），这一点第 4 节会专门讲。</text>
+</svg>

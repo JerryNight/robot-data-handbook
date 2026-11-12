@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" width="760" height="390" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="390" fill="#ffffff"/>
+  <text x="24.0" y="32.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">零点漂移：同一个 0.1 N，对粗操作无所谓，对精操作是 10%</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">误差的“大不大”永远是相对的 —— 相对任务本身的力尺度。</text>
+  <line x1="96.0" y1="296.0" x2="460.0" y2="296.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="299.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <line x1="96.0" y1="260.4" x2="460.0" y2="260.4" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="263.4" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">10</text>
+  <line x1="96.0" y1="224.7" x2="460.0" y2="224.7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="227.7" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">20</text>
+  <line x1="96.0" y1="189.1" x2="460.0" y2="189.1" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="192.1" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">30</text>
+  <line x1="96.0" y1="153.5" x2="460.0" y2="153.5" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="156.5" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">40</text>
+  <line x1="96.0" y1="117.8" x2="460.0" y2="117.8" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="120.8" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">50</text>
+  <text x="90.0" y="94.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">相对误差 (%)</text>
+  <text x="100.0" y="254.4" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">10%</text>
+  <rect x="118.0" y="278.2" width="26.0" height="17.8" rx="2" fill="#C0651A" stroke="none" stroke-width="0" opacity="0.85"/>
+  <text x="131.0" y="273.2" font-size="8.5" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">5%</text>
+  <rect x="150.0" y="292.4" width="26.0" height="3.6" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.85"/>
+  <text x="146.0" y="312.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">0.05</text>
+  <rect x="206.0" y="260.4" width="26.0" height="35.6" rx="2" fill="#C0651A" stroke="none" stroke-width="0" opacity="0.85"/>
+  <text x="219.0" y="255.4" font-size="8.5" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">10%</text>
+  <rect x="238.0" y="288.9" width="26.0" height="7.1" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.85"/>
+  <text x="234.0" y="312.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">0.1</text>
+  <rect x="294.0" y="224.7" width="26.0" height="71.3" rx="2" fill="#C0651A" stroke="none" stroke-width="0" opacity="0.85"/>
+  <text x="307.0" y="219.7" font-size="8.5" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">20%</text>
+  <rect x="326.0" y="281.7" width="26.0" height="14.3" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.85"/>
+  <text x="339.0" y="276.7" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">4%</text>
+  <text x="322.0" y="312.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">0.2</text>
+  <rect x="382.0" y="117.8" width="26.0" height="178.2" rx="2" fill="#C0651A" stroke="none" stroke-width="0" opacity="0.85"/>
+  <text x="395.0" y="112.8" font-size="8.5" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">50%</text>
+  <rect x="414.0" y="260.4" width="26.0" height="35.6" rx="2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="0.85"/>
+  <text x="427.0" y="255.4" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">10%</text>
+  <text x="410.0" y="312.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">0.5</text>
+  <text x="96.0" y="334.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">零点误差 (N)</text>
+  <line x1="112.0" y1="116.0" x2="132.0" y2="116.0" stroke="#C0651A" stroke-width="2.6" opacity="1.0"/>
+  <text x="138.0" y="119.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">1 N 精细任务（插孔、拧螺丝）</text>
+  <line x1="112.0" y1="134.0" x2="132.0" y2="134.0" stroke="#3C6E9F" stroke-width="2.6" opacity="1.0"/>
+  <text x="138.0" y="137.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">5 N 粗操作</text>
+  <rect x="492.0" y="100.0" width="244.0" height="106.0" rx="7" fill="#F7F9FB" stroke="#D6DDE4" stroke-width="1.1" opacity="1.0"/>
+  <text x="506.0" y="122.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">零点从哪来</text>
+  <text x="506.0" y="144.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">每次上电都不一样（几十 mN 起）</text>
+  <text x="506.0" y="160.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">温度变一次，零点就再变一次</text>
+  <text x="506.0" y="176.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">它还随安装应力、线缆拉扯变</text>
+  <text x="506.0" y="196.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">所以它是“每段数据各自不同”的量</text>
+  <text x="492.0" y="232.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">精细力控数据集要记</text>
+  <text x="492.0" y="252.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">· 每次零点的标定值和时刻</text>
+  <text x="492.0" y="268.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">· 传感器温度</text>
+  <text x="492.0" y="284.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">· 静止段（事后重估零点）</text>
+  <rect x="492.0" y="302.0" width="244.0" height="56.0" rx="7" fill="#F3F9F5" stroke="#BFD8CA" stroke-width="1.2" opacity="1.0"/>
+  <text x="506.0" y="322.0" font-size="9" fill="#1F5B45" text-anchor="start" font-weight="400" opacity="1.0">和 IMU 的结论一模一样：</text>
+  <text x="506.0" y="340.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">静止段是校准的黄金数据，别裁掉。</text>
+  <line x1="24.0" y1="352.0" x2="736.0" y2="352.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="374.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">注意看 0.1 N 那一组：同样的硬件、同样的误差，在两种任务里的“严重程度”差 5 倍。</text>
+</svg>
