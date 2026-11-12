@@ -23,6 +23,18 @@ INLINE = re.compile(r"\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 REF_DEF = re.compile(r"^\[[^\]]+\]:\s*(\S+)", re.MULTILINE)
 SKIP_PREFIX = ("http://", "https://", "mailto:", "#", "ftp:")
 
+# 围栏代码块。里面的 [文本](路径) 是**示例**，不是真链接，必须跳过。
+# 例：CONTRIBUTING.md 教人怎么写图引用，代码块里就有一个
+# `![](figures/fig-xx.svg)` —— 它不该被当成断链来查。
+FENCE = re.compile(r"^(```|~~~).*?^\1[^\n]*$", re.MULTILINE | re.DOTALL)
+
+
+def strip_code_fences(text):
+    """把围栏代码块整体抹掉（保留行数，方便报错时对得上行号）。"""
+    def blank(m):
+        return "\n" * m.group(0).count("\n")
+    return FENCE.sub(blank, text)
+
 
 def iter_md_files():
     return sorted(p for p in ROOT.rglob("*.md") if ".git" not in p.parts)
@@ -61,7 +73,7 @@ def main():
     broken = []
 
     for md in files:
-        text = md.read_text(encoding="utf-8", errors="replace")
+        text = strip_code_fences(md.read_text(encoding="utf-8", errors="replace"))
         for target in extract_links(text):
             dest = resolve(md, target)
             if dest is None:
