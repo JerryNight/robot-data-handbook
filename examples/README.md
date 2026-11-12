@@ -31,7 +31,7 @@ python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 | 脚本 | 对应文章 | 演示什么 |
 |---|---|---|
 | `02_sensor_data/01_action_space.py` | [动作与状态](../02-sensor-data/action-and-state.md) | 三种动作表示、归一化的三个坑、开环误差累积 |
-| `02_sensor_data/02_camera_model.py` | [RGB 与深度](../02-sensor-data/camera-rgbd.md) | 针孔模型、GSD、外参误差、深度量化、卷帘快门 |
+| `02_sensor_data/02_camera_model.py` | [RGB 与深度](../02-sensor-data/camera-rgbd.md) | 针孔模型、内参缩放、畸变、视差精度、深度量化、外参误差、卷帘快门、存储体积 |
 | `02_sensor_data/03_imu_drift.py` | [IMU 与本体感知](../02-sensor-data/imu-and-proprioception.md) | 零偏双积分、重力泄漏、ZUPT、编码器 vs 回差 |
 | `02_sensor_data/04_time_sync.py` | [时间同步](../02-sensor-data/time-sync.md) | 最近邻两个方向、插值、时间戳来源、晶振漂移 |
 | `02_sensor_data/05_force_torque.py` | [力/力矩与触觉](../02-sensor-data/force-torque-tactile.md) | 重力补偿、三种错误读法、零点漂移、触觉带宽 |
