@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412" width="760" height="412" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="412" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">省的是空间，赔的是粒度：只有 PNG 同时占住「无损」和「O(1)」</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同一份 10 万帧。横轴总存储体积，纵轴抽一帧要解码多少字节。双对数刻度。</text>
+  <line x1="112.8" y1="104.0" x2="112.8" y2="300.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="112.8" y="317.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1</text>
+  <line x1="286.3" y1="104.0" x2="286.3" y2="300.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="286.3" y="317.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <line x1="459.8" y1="104.0" x2="459.8" y2="300.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="459.8" y="317.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">100</text>
+  <line x1="96.0" y1="271.6" x2="512.0" y2="271.6" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="274.6" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1</text>
+  <line x1="96.0" y1="177.4" x2="512.0" y2="177.4" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="180.4" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">10</text>
+  <line x1="96.0" y1="300.0" x2="512.0" y2="300.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="96.0" y1="300.0" x2="96.0" y2="104.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <text x="304.0" y="335.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">总存储体积（GB，对数轴）</text>
+  <text x="96.0" y="92.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">抽一帧要解（MB，对数轴）</text>
+  <circle cx="453.6" cy="275.0" r="4.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="379.7" cy="275.0" r="9.5" fill="none" stroke="#2E7D5B" stroke-width="1.6" opacity="0.6"/>
+  <circle cx="379.7" cy="275.0" r="4.2" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="249.6" cy="275.0" r="4.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="135.1" cy="135.7" r="4.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="453.6" y="296.9" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">原始 RGB 92.2 GB</text>
+  <text x="379.7" y="260.9" font-size="9" fill="#2E7D5B" text-anchor="middle" font-weight="600" opacity="1.0">PNG 34.6 GB（无损）</text>
+  <text x="249.6" y="260.9" font-size="9" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">JPEG q90 6.1 GB</text>
+  <text x="146.1" y="139.8" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">H.264 1.3 GB / 抽一帧 27.6 MB</text>
+  <text x="100.0" y="279.9" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">O(1)：帧内编码</text>
+  <text x="100.0" y="125.8" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">O(GOP)：取一帧要解 30 帧</text>
+  <rect x="536.0" y="104.0" width="200.0" height="196.0" rx="6" fill="#F7F9FB" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="550.0" y="126.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">四种取法</text>
+  <text x="550.0" y="150.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">原始</text>
+  <text x="550.0" y="164.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">最贵，但什么都能改</text>
+  <text x="550.0" y="186.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">PNG</text>
+  <text x="550.0" y="200.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">无损 + O(1)，体积 38%</text>
+  <text x="550.0" y="222.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">JPEG</text>
+  <text x="550.0" y="236.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">无损没了，访问仍 O(1)</text>
+  <text x="550.0" y="258.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">H.264</text>
+  <text x="550.0" y="272.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">省 69 倍，访问贵 30 倍</text>
+  <text x="550.0" y="284.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">→ 结论是分层，不是选一个</text>
+  <text x="24.0" y="356.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">训练用 H.264 顺序解码；回放/复核/标注用 PNG；标定、深度、力觉绝不走视频。</text>
+  <text x="24.0" y="374.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">分层的成本是存储翻倍。值不值取决于第 4 节：480p@30×1 翻倍是 19.9 TB，</text>
+  <text x="24.0" y="392.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">1080p@60×3 翻倍是 806 TB——分辨率决定你有没有资格谈分层。</text>
+</svg>

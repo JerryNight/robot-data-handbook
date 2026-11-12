@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="380" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">一行低维数据 72 B，旁边躺着一帧 900 KB：所有查询按最大的那个付费</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">两行的比例尺不同（相差 12,800 倍），所以只能看形状，不能比宽度。</text>
+  <text x="24.0" y="92.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">① 只存低维：一行 72 B</text>
+  <rect x="24.0" y="104.0" width="270.2" height="34.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="159.1" y="126.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600" opacity="1.0">observation.state（7 维 float32）28 B</text>
+  <rect x="296.2" y="104.0" width="270.2" height="34.0" rx="3" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="431.3" y="126.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600" opacity="1.0">action（7 维 float32）28 B</text>
+  <rect x="568.4" y="104.0" width="153.6" height="34.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="645.2" y="126.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600" opacity="1.0">索引 16 B</text>
+  <text x="24.0" y="156.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">timestamp / frame_index / episode_index / index 各 4 B</text>
+  <text x="24.0" y="196.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">② 把那一帧 640×480 RGB 也塞进同一行：一行 921,672 B</text>
+  <rect x="24.0" y="208.0" width="700.0" height="40.0" rx="3" fill="#F6DEDB" stroke="#C0392B" stroke-width="1.2" opacity="1.0"/>
+  <text x="374.0" y="233.0" font-size="10" fill="#C0392B" text-anchor="middle" font-weight="600" opacity="1.0">640 × 480 × 3 = 921,600 B</text>
+  <line x1="50.0" y1="268.0" x2="29.1" y2="252.9" stroke="#C0392B" stroke-width="1.2"/>
+  <polygon points="25.0,250.0 27.5,255.2 30.7,250.7" fill="#C0392B"/>
+  <text x="56.0" y="272.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">72 B 的 state 在这里——宽 0.05 px，画不出来</text>
+  <rect x="24.0" y="292.0" width="346.0" height="68.0" rx="6" fill="#F7F9FB" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="40.0" y="314.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">低维表里，列式 vs 行式</text>
+  <text x="40.0" y="332.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">读 action 一列：列式只碰 39% 的字节，行式放大 2.6 倍。</text>
+  <text x="40.0" y="350.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="400" opacity="1.0">→ 这个量级上，行式/列式根本不是重点。</text>
+  <rect x="386.0" y="292.0" width="346.0" height="68.0" rx="6" fill="#F7F9FB" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="402.0" y="314.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">图像混进同一张表之后</text>
+  <text x="402.0" y="332.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">读 state 只要 28 B，却要为 921,672 B 的行付费。</text>
+  <text x="402.0" y="350.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">→ 放大 32,917 倍，三个数量级。</text>
+</svg>
