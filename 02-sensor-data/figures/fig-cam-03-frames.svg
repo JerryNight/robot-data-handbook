@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 424" width="760" height="424" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="424" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">相机坐标系与图像坐标系：两个“y 朝下”的约定</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">这是新手最容易被坑的地方 —— 数学课的 y 朝上，图像的 v 朝下。</text>
+  <text x="46.0" y="92.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">(a) 侧视图</text>
+  <rect x="46.0" y="132.0" width="62.0" height="74.0" rx="4" fill="#EDF1F5" stroke="#9AA5B1" stroke-width="1.3" opacity="1.0"/>
+  <rect x="108.0" y="156.0" width="12.0" height="26.0" rx="2" fill="#C9D2DB" stroke="#9AA5B1" stroke-width="1.2" opacity="1.0"/>
+  <circle cx="142.0" cy="169.0" r="3" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="146.0" y1="169.0" x2="255.5" y2="169.0" stroke="#3C6E9F" stroke-width="1.8"/>
+  <polygon points="262.0,169.0 255.5,165.4 255.5,172.6" fill="#3C6E9F"/>
+  <text x="268.0" y="173.0" font-size="11.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">Z</text>
+  <text x="268.0" y="188.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">朝前</text>
+  <line x1="240.0" y1="169.0" x2="240.0" y2="243.5" stroke="#C0392B" stroke-width="1.8"/>
+  <polygon points="240.0,250.0 243.6,243.5 236.4,243.5" fill="#C0392B"/>
+  <text x="248.0" y="254.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">Y 朝下</text>
+  <text x="146.0" y="78.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">镜头朝右看</text>
+  <text x="330.0" y="92.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">(b) 从相机背后看</text>
+  <circle cx="405.0" cy="172.0" r="50" fill="#EDF1F5" stroke="#B0B9C2" stroke-width="1.3" opacity="1.0"/>
+  <circle cx="405.0" cy="172.0" r="27" fill="#DCE4EC" stroke="#9AA5B1" stroke-width="1.2" opacity="1.0"/>
+  <circle cx="405.0" cy="172.0" r="6" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="405.0" y1="172.0" x2="493.5" y2="172.0" stroke="#2E7D5B" stroke-width="1.8"/>
+  <polygon points="500.0,172.0 493.5,168.4 493.5,175.6" fill="#2E7D5B"/>
+  <text x="506.0" y="176.0" font-size="11.5" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">X</text>
+  <line x1="405.0" y1="172.0" x2="405.0" y2="233.5" stroke="#C0392B" stroke-width="1.8"/>
+  <polygon points="405.0,240.0 408.6,233.5 401.4,233.5" fill="#C0392B"/>
+  <text x="413.0" y="238.0" font-size="11.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">Y</text>
+  <text x="336.0" y="262.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">⊙ Z 从屏幕里出来</text>
+  <text x="590.0" y="92.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="600" opacity="1.0">(c) 图像坐标</text>
+  <rect x="590.0" y="108.0" width="130.0" height="98.0" rx="2" fill="#F4F6F8" stroke="#9AA5B1" stroke-width="1.3" opacity="1.0"/>
+  <text x="596.0" y="122.0" font-size="8" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">原点 (0,0)</text>
+  <line x1="590.0" y1="108.0" x2="695.0" y2="108.0" stroke="#2E7D5B" stroke-width="1.4"/>
+  <polygon points="700.0,108.0 695.0,105.2 695.0,110.8" fill="#2E7D5B"/>
+  <text x="704.0" y="112.0" font-size="10" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">u</text>
+  <line x1="590.0" y1="108.0" x2="590.0" y2="201.0" stroke="#C0392B" stroke-width="1.4"/>
+  <polygon points="590.0,206.0 592.8,201.0 587.2,201.0" fill="#C0392B"/>
+  <text x="582.0" y="206.0" font-size="10" fill="#C0392B" text-anchor="end" font-weight="600" opacity="1.0">v</text>
+  <line x1="656.0" y1="158.0" x2="668.0" y2="158.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <line x1="662.0" y1="152.0" x2="662.0" y2="164.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="676.0" y="152.0" font-size="8" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">(cx, cy)</text>
+  <text x="590.0" y="222.0" font-size="8.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">原点在左上角</text>
+  <text x="590.0" y="236.0" font-size="8.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">v 往下增大</text>
+  <line x1="24.0" y1="274.0" x2="736.0" y2="274.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="26.0" y="300.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">① v 朝下，u 朝右。</text>
+  <text x="26.0" y="317.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同一个点在图像里往上走，v 变小；在数学坐标里 y 变大。转换错一次，整幅图上下翻。</text>
+  <text x="26.0" y="344.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">② Z 是“深度”，不是高度。</text>
+  <text x="26.0" y="361.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">相机系里的 Z 是沿光轴往前的距离。机器人的“高度”通常在基座系的 z 轴上，两者毫无关系。</text>
+  <text x="26.0" y="388.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">③ 主点 (cx, cy) 一般在中心附近，但不是正中心。</text>
+  <text x="26.0" y="405.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">镜头装配有公差，而且传感器窗口不一定严格居中。当成 320/240 会引入 1–5 像素的系统偏差。</text>
+</svg>

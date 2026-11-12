@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 408" width="760" height="408" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="408" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">视差 → 深度：为什么误差是“距离的平方”</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同一个点，在左眼和右眼里横向位置差了一点。这个差值（视差）反比于距离。</text>
+  <rect x="40.0" y="116.0" width="110.0" height="84.0" rx="4" fill="#EDF1F5" stroke="#B0B9C2" stroke-width="1.2" opacity="1.0"/>
+  <text x="95.0" y="108.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">真实场景</text>
+  <circle cx="122.0" cy="148.0" r="3.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="128.0" y="143.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">P</text>
+  <rect x="190.0" y="108.0" width="150.0" height="118.0" rx="4" fill="#FBFBFC" stroke="#B0B9C2" stroke-width="1.2" opacity="1.0"/>
+  <text x="196.0" y="122.0" font-size="8" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">相机拍到的（左、右两帧叠在一起）</text>
+  <circle cx="283.0" cy="160.0" r="3.6" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="290.0" y="164.0" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">左</text>
+  <circle cx="247.0" cy="160.0" r="3.6" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="240.0" y="164.0" font-size="8.5" fill="#3C6E9F" text-anchor="end" font-weight="600" opacity="1.0">右</text>
+  <line x1="247.0" y1="190.0" x2="283.0" y2="190.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="247.0" y1="186.0" x2="247.0" y2="194.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="283.0" y1="186.0" x2="283.0" y2="194.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <text x="265.0" y="206.0" font-size="8.5" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">d 视差</text>
+  <line x1="152.0" y1="150.0" x2="181.0" y2="150.0" stroke="#B0B9C2" stroke-width="1.2"/>
+  <polygon points="186.0,150.0 181.0,147.2 181.0,152.8" fill="#B0B9C2"/>
+  <text x="40.0" y="254.0" font-size="13" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">Z = fx · B / d</text>
+  <text x="40.0" y="274.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">B = 两相机间距（基线）　fx = 焦距</text>
+  <text x="40.0" y="292.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">d 越小 → 越远；d → 0 就是无穷远</text>
+  <text x="40.0" y="320.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">视差不是“量”出来的，是“搜”出来的：</text>
+  <text x="40.0" y="336.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">在一片区域里找长得最像的块。所以</text>
+  <text x="40.0" y="352.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">只能精确到 0.1 像素左右。</text>
+  <text x="400.0" y="90.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">深度误差 vs 距离（基线 50 mm，匹配精度 0.1 像素）</text>
+  <line x1="400.0" y1="300.0" x2="716.0" y2="300.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="394.0" y="303.0" font-size="8" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <line x1="400.0" y1="254.5" x2="716.0" y2="254.5" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="394.0" y="257.5" font-size="8" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">25</text>
+  <line x1="400.0" y1="209.1" x2="716.0" y2="209.1" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="394.0" y="212.1" font-size="8" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">50</text>
+  <line x1="400.0" y1="163.6" x2="716.0" y2="163.6" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="394.0" y="166.6" font-size="8" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">75</text>
+  <line x1="400.0" y1="118.2" x2="716.0" y2="118.2" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="394.0" y="121.2" font-size="8" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">100</text>
+  <text x="394.0" y="92.0" font-size="8" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">mm</text>
+  <line x1="428.7" y1="300.0" x2="428.7" y2="304.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="428.7" y="316.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">1</text>
+  <line x1="486.2" y1="300.0" x2="486.2" y2="304.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="486.2" y="316.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">2</text>
+  <line x1="543.6" y1="300.0" x2="543.6" y2="304.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="543.6" y="316.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">3</text>
+  <line x1="601.1" y1="300.0" x2="601.1" y2="304.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="601.1" y="316.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">4</text>
+  <line x1="658.5" y1="300.0" x2="658.5" y2="304.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="658.5" y="316.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">5</text>
+  <line x1="716.0" y1="300.0" x2="716.0" y2="304.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0"/>
+  <text x="716.0" y="316.0" font-size="8" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">6</text>
+  <text x="722.0" y="316.0" font-size="8" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">m</text>
+  <path d="M 400.0 298.3 L 402.9 297.9 L 405.7 297.5 L 408.6 297.1 L 411.5 296.6 L 414.4 296.1 L 417.2 295.6 L 420.1 295.0 L 423.0 294.4 L 425.9 293.7 L 428.7 293.1 L 431.6 292.4 L 434.5 291.6 L 437.3 290.8 L 440.2 290.0 L 443.1 289.2 L 446.0 288.3 L 448.8 287.4 L 451.7 286.4 L 454.6 285.4 L 457.5 284.4 L 460.3 283.4 L 463.2 282.3 L 466.1 281.1" fill="none" stroke="#3C6E9F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <path d="M 428.7 281.8 L 543.6 263.6 L 658.5 227.3 L 716.0 216.4" fill="none" stroke="#2E7D5B" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" stroke-dasharray="5 4"/>
+  <circle cx="428.7" cy="293.1" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="436.7" y="307.1" font-size="8.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">1m：4mm</text>
+  <circle cx="543.6" cy="237.6" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="537.6" y="227.6" font-size="8.5" fill="#3C6E9F" text-anchor="end" font-weight="600" opacity="1.0">3m：34mm</text>
+  <circle cx="658.5" cy="126.9" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="664.5" y="118.9" font-size="8.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">5m：95mm</text>
+  <circle cx="486.2" cy="272.4" r="4.2" fill="none" stroke="#C0392B" stroke-width="1.8" opacity="1.0"/>
+  <text x="494.2" y="290.4" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">交点 2 m</text>
+  <text x="400.0" y="330.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">蓝：双目深度相机（∝ z²）　　绿：16 线激光雷达（∝ z，量级参考）</text>
+  <text x="400.0" y="350.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">同样是“测距”，一个越远越糊得厉害，一个几乎不变 —— 这不是调参能改的。</text>
+</svg>

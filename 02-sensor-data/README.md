@@ -10,7 +10,7 @@
 
 | 文章 | 配套实验 | 要回答的问题 |
 |---|---|---|
-| [camera-rgbd.md](camera-rgbd.md) | [02_camera_model.py](../examples/02_sensor_data/02_camera_model.py) | 一张图里必须带哪些参数？缺了会怎样？ |
+| [camera-rgbd.md](camera-rgbd.md) | [02_camera_model.py](../examples/02_sensor_data/02_camera_model.py) | 像素怎么变成三维点？深度是怎么测的、精度为什么随距离平方变差？ |
 | [imu-and-proprioception.md](imu-and-proprioception.md) | [03_imu_drift.py](../examples/02_sensor_data/03_imu_drift.py) | IMU 为什么不能用？编码器精度到底卡在哪？ |
 | [force-torque-tactile.md](force-torque-tactile.md) | [05_force_torque.py](../examples/02_sensor_data/05_force_torque.py) | 六维力的读数里混着什么？触觉为什么无法聚合？ |
 | [lidar-pointcloud.md](lidar-pointcloud.md) | [06_pointcloud.py](../examples/02_sensor_data/06_pointcloud.py) | 点云为什么不能当成图？稀疏到什么程度？ |
@@ -29,7 +29,7 @@
 
 结论：**图像/深度占 95% 以上的体积**。这是为什么主流格式都选择把视频单独编码，而不是塞进列式存储。
 
-详细的推导在 [camera-rgbd.md §7](camera-rgbd.md) —— 原始 RGB 和 H.264 差 147 倍。
+详细的推导在 [camera-rgbd.md §11](camera-rgbd.md) —— 原始 RGB 和 H.264 差 147 倍。
 
 ## 这一章的四条主线
 

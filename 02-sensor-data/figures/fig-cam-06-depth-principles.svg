@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="470" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">深度不是“拍到的”，是“算出来或测出来的”：三条技术路线</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">它们都能给出一张深度图，但失效的场景完全不同 —— 这才是选型的关键。</text>
+  <rect x="40.0" y="74.0" width="200.0" height="102.0" rx="6" fill="#F7F9FB" stroke="#DDE3E9" stroke-width="1.1" opacity="1.0"/>
+  <rect x="75.0" y="111.0" width="22.0" height="18.0" rx="2" fill="#DCE4EC" stroke="#8A94A0" stroke-width="1.2" opacity="1.0"/>
+  <circle cx="86.0" cy="120.0" r="3.4" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="137.0" y="111.0" width="22.0" height="18.0" rx="2" fill="#DCE4EC" stroke="#8A94A0" stroke-width="1.2" opacity="1.0"/>
+  <circle cx="148.0" cy="120.0" r="3.4" fill="#1F2328" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="86.0" y1="136.0" x2="148.0" y2="136.0" stroke="#57606A" stroke-width="1" opacity="1.0"/>
+  <line x1="86.0" y1="133.0" x2="86.0" y2="139.0" stroke="#57606A" stroke-width="1" opacity="1.0"/>
+  <line x1="148.0" y1="133.0" x2="148.0" y2="139.0" stroke="#57606A" stroke-width="1" opacity="1.0"/>
+  <text x="117.0" y="150.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">B</text>
+  <circle cx="212.0" cy="94.0" r="2.6" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="218.0" y="98.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">P</text>
+  <line x1="212.0" y1="94.0" x2="148.0" y2="120.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <line x1="212.0" y1="94.0" x2="86.0" y2="120.0" stroke="#B0B9C2" stroke-width="1" opacity="1.0" stroke-dasharray="3 2"/>
+  <text x="56.0" y="170.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">基线 50 mm</text>
+  <rect x="40.0" y="200.0" width="200.0" height="102.0" rx="6" fill="#F7F9FB" stroke="#DDE3E9" stroke-width="1.1" opacity="1.0"/>
+  <rect x="60.0" y="216.0" width="24.0" height="18.0" rx="2" fill="#E3E0F0" stroke="#7A6A9E" stroke-width="1.2" opacity="1.0"/>
+  <text x="72.0" y="229.0" font-size="7.5" fill="#5D4F80" text-anchor="middle" font-weight="400" opacity="1.0">投</text>
+  <rect x="60.0" y="260.0" width="24.0" height="18.0" rx="2" fill="#DCE4EC" stroke="#8A94A0" stroke-width="1.2" opacity="1.0"/>
+  <text x="72.0" y="273.0" font-size="7.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">拍</text>
+  <line x1="84.0" y1="225.0" x2="190.0" y2="216.0" stroke="#8E7FB0" stroke-width="0.8" opacity="0.7" stroke-dasharray="2 3"/>
+  <line x1="84.0" y1="225.0" x2="190.0" y2="224.0" stroke="#8E7FB0" stroke-width="0.8" opacity="0.7" stroke-dasharray="2 3"/>
+  <line x1="84.0" y1="225.0" x2="190.0" y2="232.0" stroke="#8E7FB0" stroke-width="0.8" opacity="0.7" stroke-dasharray="2 3"/>
+  <line x1="84.0" y1="225.0" x2="190.0" y2="240.0" stroke="#8E7FB0" stroke-width="0.8" opacity="0.7" stroke-dasharray="2 3"/>
+  <line x1="84.0" y1="225.0" x2="190.0" y2="248.0" stroke="#8E7FB0" stroke-width="0.8" opacity="0.7" stroke-dasharray="2 3"/>
+  <line x1="84.0" y1="225.0" x2="190.0" y2="256.0" stroke="#8E7FB0" stroke-width="0.8" opacity="0.7" stroke-dasharray="2 3"/>
+  <line x1="84.0" y1="225.0" x2="190.0" y2="264.0" stroke="#8E7FB0" stroke-width="0.8" opacity="0.7" stroke-dasharray="2 3"/>
+  <rect x="190.0" y="212.0" width="8.0" height="92.0" rx="1" fill="#E9E4F2" stroke="#8E7FB0" stroke-width="1" opacity="1.0"/>
+  <circle cx="194.0" cy="220.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="220.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="220.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="220.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="230.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="230.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="230.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="230.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="240.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="240.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="240.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="240.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="250.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="250.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="250.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="250.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="260.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="260.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="260.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="260.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="270.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="270.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="270.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="270.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="280.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="280.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="280.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="280.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="290.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="290.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="290.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="290.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="300.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="300.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="300.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="194.0" cy="300.0" r="1.4" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="88.0" y1="225.0" x2="190.0" y2="230.0" stroke="#8E7FB0" stroke-width="0.9" opacity="0.6" stroke-dasharray="2 3"/>
+  <rect x="40.0" y="326.0" width="200.0" height="102.0" rx="6" fill="#F7F9FB" stroke="#DDE3E9" stroke-width="1.1" opacity="1.0"/>
+  <rect x="58.0" y="360.0" width="26.0" height="24.0" rx="3" fill="#DCEEE6" stroke="#3E8E6E" stroke-width="1.2" opacity="1.0"/>
+  <text x="71.0" y="376.0" font-size="8.5" fill="#2E7D5B" text-anchor="middle" font-weight="600" opacity="1.0">T</text>
+  <rect x="196.0" y="328.0" width="8.0" height="88.0" rx="1" fill="#E8E8E8" stroke="#B0B9C2" stroke-width="1.2" opacity="1.0"/>
+  <line x1="84.0" y1="366.0" x2="185.0" y2="366.0" stroke="#C0651A" stroke-width="1.4"/>
+  <polygon points="190.0,366.0 185.0,363.2 185.0,368.8" fill="#C0651A"/>
+  <line x1="190.0" y1="380.0" x2="89.0" y2="380.0" stroke="#2E7D5B" stroke-width="1.4"/>
+  <polygon points="84.0,380.0 89.0,382.8 89.0,377.2" fill="#2E7D5B"/>
+  <text x="120.0" y="360.0" font-size="8" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">发</text>
+  <text x="120.0" y="394.0" font-size="8" fill="#2E7D5B" text-anchor="start" font-weight="400" opacity="1.0">收</text>
+  <text x="56.0" y="424.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">t = 2Z / c</text>
+  <text x="258.0" y="94.0" font-size="11" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">双目三角测量</text>
+  <text x="345.6" y="94.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">Z = fx · B / d</text>
+  <text x="258.0" y="116.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1">左右两个相机看同一个点，横坐标差 d。d 越大越近。</text>
+  <text x="258.0" y="136.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1">不需要发光，所以不怕阳光；但要“有东西可匹配”。</text>
+  <text x="258.0" y="156.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="0.9">失效：白墙、纯色桌面、重复纹理、透明与镜面。</text>
+  <text x="258.0" y="220.0" font-size="11" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">结构光</text>
+  <text x="307.8" y="220.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">相当于给场景“打上纹理”</text>
+  <text x="258.0" y="242.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1">投影一个已知的散斑图案，看它落在物体上被扭曲成什么样。</text>
+  <text x="258.0" y="262.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1">本质是“自己造纹理”，所以对白墙有效。</text>
+  <text x="258.0" y="282.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="0.9">失效：强阳光下图案看不见；两台同类设备会互相干扰。</text>
+  <text x="258.0" y="346.0" font-size="11" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">飞行时间 ToF</text>
+  <text x="370.8" y="346.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">Z = c · Δt / 2</text>
+  <text x="258.0" y="368.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1">直接给每个像素计时：光飞出去再飞回来用了多久。</text>
+  <text x="258.0" y="388.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1">1 cm 的距离只对应 67 皮秒 —— 所以对计时电路要求极高。</text>
+  <text x="258.0" y="408.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="0.9">失效：多路径反射（墙角、桌面）、阳光、近距离饱和。</text>
+  <text x="24.0" y="456.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">选型的判断依据不是“哪个更准”，而是“你的场景里，哪一种物理前提会先失效”。</text>
+</svg>

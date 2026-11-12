@@ -22,7 +22,7 @@
 ### 阶段 2 · 传感器数据
 每种传感器：输出什么张量、多高频率、噪声特性、数据量级。
 
-- [x] `02-sensor-data/camera-rgbd.md` —— RGB / 深度 / 内参外参、GSD、深度量化、卷帘快门
+- [x] `02-sensor-data/camera-rgbd.md` —— 针孔与坐标系、内参与畸变、三种深度原理、视差精度、三种假点、外参、卷帘快门、存储
 - [x] `02-sensor-data/imu-and-proprioception.md` —— IMU 漂移、重力泄漏、ZUPT、编码器 vs 机械回差
 - [x] `02-sensor-data/force-torque-tactile.md` —— 六维力、重力补偿、零点漂移、触觉碎片化
 - [x] `02-sensor-data/lidar-pointcloud.md` —— 各向异性网格、空洞率、存储与量化

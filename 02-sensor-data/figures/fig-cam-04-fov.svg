@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 392" width="760" height="392" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="392" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同一个 640×480 传感器，焦距决定“看得宽”还是“看得细”</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">三张图拍的是同一个场景、同一个位置 —— 只是镜头焦距不同。</text>
+<clipPath id="f440"><rect x="40" y="96" width="210" height="158" rx="3"/></clipPath>
+  <g clip-path="url(#f440)">
+  <rect x="40.0" y="96.0" width="210.0" height="158.0" rx="0" fill="#DCE4EC" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="40.0" y="224.4" width="210.0" height="29.6" rx="0" fill="#C9B49A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="40.0" y1="224.4" x2="250.0" y2="224.4" stroke="#B39B7E" stroke-width="1.2" opacity="1.0"/>
+  <rect x="44.1" y="115.8" width="34.5" height="59.2" rx="2" fill="#E6E9EE" stroke="#A9B2BC" stroke-width="1" opacity="1.0"/>
+  <line x1="44.1" y1="154.3" x2="78.6" y2="154.3" stroke="#A9B2BC" stroke-width="1" opacity="1.0"/>
+  <line x1="44.1" y1="134.5" x2="78.6" y2="134.5" stroke="#A9B2BC" stroke-width="1" opacity="1.0"/>
+  <rect x="48.0" y="155.2" width="5.9" height="16.8" rx="1" fill="#7B8FA3" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="56.9" y="155.2" width="5.9" height="16.8" rx="1" fill="#B0806A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="65.8" y="155.2" width="5.9" height="16.8" rx="1" fill="#6E8C7B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="108.1" y="178.9" width="68.9" height="45.4" rx="2" fill="#D9C3A5" stroke="#B39B7E" stroke-width="1" opacity="1.0"/>
+  <rect x="140.1" y="172.0" width="6.9" height="6.9" rx="1" fill="#3F6E8C" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="157.3" y="161.2" width="14.8" height="17.8" rx="1.5" fill="#9BA8B5" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="234.6" y="135.5" width="4.9" height="88.9" rx="1" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  </g>
+  <rect x="40.0" y="96.0" width="210.0" height="158.0" rx="3" fill="none" stroke="#B0B9C2" stroke-width="1.2" opacity="1.0"/>
+  <text x="40.0" y="274.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">fx = 300 px</text>
+  <text x="118.0" y="274.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">视场 94°</text>
+  <text x="40.0" y="292.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">2 m 处看得见 4.27 m 宽</text>
+  <text x="40.0" y="308.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">1 像素 = 6.7 mm</text>
+<clipPath id="f4275"><rect x="275" y="96" width="210" height="158" rx="3"/></clipPath>
+  <g clip-path="url(#f4275)">
+  <rect x="275.0" y="96.0" width="210.0" height="158.0" rx="0" fill="#DCE4EC" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="275.0" y="261.4" width="210.0" height="-7.4" rx="0" fill="#C9B49A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="275.0" y1="261.4" x2="485.0" y2="261.4" stroke="#B39B7E" stroke-width="1.2" opacity="1.0"/>
+  <rect x="203.4" y="71.3" width="60.3" height="103.7" rx="2" fill="#E6E9EE" stroke="#A9B2BC" stroke-width="1" opacity="1.0"/>
+  <line x1="203.4" y1="138.7" x2="263.7" y2="138.7" stroke="#A9B2BC" stroke-width="1" opacity="1.0"/>
+  <line x1="203.4" y1="104.1" x2="263.7" y2="104.1" stroke="#A9B2BC" stroke-width="1" opacity="1.0"/>
+  <rect x="210.3" y="140.4" width="10.3" height="29.4" rx="1" fill="#7B8FA3" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="225.8" y="140.4" width="10.3" height="29.4" rx="1" fill="#B0806A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="241.3" y="140.4" width="10.3" height="29.4" rx="1" fill="#6E8C7B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="315.4" y="181.9" width="120.6" height="79.5" rx="2" fill="#D9C3A5" stroke="#B39B7E" stroke-width="1" opacity="1.0"/>
+  <rect x="371.4" y="169.8" width="12.1" height="12.1" rx="1" fill="#3F6E8C" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="401.5" y="150.8" width="25.8" height="31.1" rx="1.5" fill="#9BA8B5" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="536.8" y="105.9" width="8.6" height="155.5" rx="1" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  </g>
+  <rect x="275.0" y="96.0" width="210.0" height="158.0" rx="3" fill="none" stroke="#B0B9C2" stroke-width="1.2" opacity="1.0"/>
+  <text x="275.0" y="274.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">fx = 525 px</text>
+  <text x="353.0" y="274.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">视场 63°</text>
+  <text x="275.0" y="292.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">2 m 处看得见 2.44 m 宽</text>
+  <text x="275.0" y="308.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">1 像素 = 3.8 mm</text>
+<clipPath id="f4510"><rect x="510" y="96" width="210" height="158" rx="3"/></clipPath>
+  <g clip-path="url(#f4510)">
+  <rect x="510.0" y="96.0" width="210.0" height="158.0" rx="0" fill="#DCE4EC" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="510.0" y="339.6" width="210.0" height="-85.6" rx="0" fill="#C9B49A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="510.0" y1="339.6" x2="720.0" y2="339.6" stroke="#B39B7E" stroke-width="1.2" opacity="1.0"/>
+  <rect x="278.7" y="-22.5" width="114.8" height="197.5" rx="2" fill="#E6E9EE" stroke="#A9B2BC" stroke-width="1" opacity="1.0"/>
+  <line x1="278.7" y1="105.9" x2="393.5" y2="105.9" stroke="#A9B2BC" stroke-width="1" opacity="1.0"/>
+  <line x1="278.7" y1="40.0" x2="393.5" y2="40.0" stroke="#A9B2BC" stroke-width="1" opacity="1.0"/>
+  <rect x="291.8" y="109.2" width="19.7" height="56.0" rx="1" fill="#7B8FA3" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="321.3" y="109.2" width="19.7" height="56.0" rx="1" fill="#B0806A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="350.9" y="109.2" width="19.7" height="56.0" rx="1" fill="#6E8C7B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="492.0" y="188.2" width="229.7" height="151.4" rx="2" fill="#D9C3A5" stroke="#B39B7E" stroke-width="1" opacity="1.0"/>
+  <rect x="598.6" y="165.1" width="23.0" height="23.0" rx="1" fill="#3F6E8C" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="656.0" y="128.9" width="49.2" height="59.2" rx="1.5" fill="#9BA8B5" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="913.6" y="43.3" width="16.4" height="296.3" rx="1" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  </g>
+  <rect x="510.0" y="96.0" width="210.0" height="158.0" rx="3" fill="none" stroke="#B0B9C2" stroke-width="1.2" opacity="1.0"/>
+  <text x="510.0" y="274.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">fx = 1000 px</text>
+  <text x="588.0" y="274.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">视场 35°</text>
+  <text x="510.0" y="292.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">2 m 处看得见 1.28 m 宽</text>
+  <text x="510.0" y="308.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">1 像素 = 2.0 mm</text>
+  <line x1="24.0" y1="326.0" x2="736.0" y2="326.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="350.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">焦距越长，看得越窄，但每个像素代表的物理尺寸越细。这两件事是同一个除法的两面。</text>
+  <text x="24.0" y="370.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">想要又宽又细，只有两条路：提高分辨率，或者换更大的传感器（同样焦距下能装下更大的像场）。</text>
+</svg>

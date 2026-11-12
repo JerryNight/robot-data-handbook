@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 376" width="760" height="376" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="376" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">一台 RGB-D 相机，一次吐出两张对齐的二维数组</text>
+  <text x="24.0" y="54.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">彩色图每个像素是三个 0–255 的数；深度图每个像素是一个 0–65535 的数（毫米）。</text>
+  <text x="40.0" y="76.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">彩色图</text>
+  <text x="102.0" y="76.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">H × W × 3, uint8, 900 KB/帧</text>
+<clipPath id="c40_86"><rect x="40.0" y="86.0" width="300.0" height="210.0" rx="4"/></clipPath>
+  <g clip-path="url(#c40_86)">
+  <rect x="40.0" y="86.0" width="300.0" height="210.0" rx="0" fill="#DCE4EC" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="40.0" y="212.0" width="300.0" height="84.0" rx="0" fill="#B08A62" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="40.0" y="212.0" width="300.0" height="4.0" rx="0" fill="#9A7550" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="88.0" y="191.0" width="66.0" height="21.0" rx="0" fill="#7B8FA3" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="205.0" y="159.5" width="45.0" height="52.5" rx="2" fill="#3F6E8C" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="205.0" y="159.5" width="45.0" height="3.0" rx="0" fill="#5A8CA8" stroke="none" stroke-width="0" opacity="1.0"/>
+  </g>
+  <rect x="40.0" y="86.0" width="300.0" height="210.0" rx="4" fill="none" stroke="#C4CDD6" stroke-width="1.2" opacity="1.0"/>
+  <circle cx="229.0" cy="191.0" r="6.5" fill="none" stroke="#ffffff" stroke-width="2.4" opacity="1.0"/>
+  <circle cx="229.0" cy="191.0" r="6.5" fill="none" stroke="#C0392B" stroke-width="1.2" opacity="1.0"/>
+  <rect x="228.0" y="190.0" width="2.0" height="2.0" rx="0" fill="#ffffff" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="420.0" y="76.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">深度图</text>
+  <text x="472.0" y="76.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">H × W, uint16, 600 KB/帧</text>
+  <rect x="420.0" y="86.0" width="300.0" height="210.0" rx="4" fill="#8E8E8E" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="420.0" y="212.0" width="300.0" height="84.0" rx="0" fill="#EDEDED" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="468.0" y="191.0" width="66.0" height="21.0" rx="0" fill="#E2E2E2" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="585.0" y="159.5" width="45.0" height="52.5" rx="2" fill="#F7F7F7" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="420.0" y="86.0" width="300.0" height="210.0" rx="4" fill="none" stroke="#C4CDD6" stroke-width="1.2" opacity="1.0"/>
+  <circle cx="609.0" cy="191.0" r="6.5" fill="none" stroke="#ffffff" stroke-width="2.4" opacity="1.0"/>
+  <circle cx="609.0" cy="191.0" r="6.5" fill="none" stroke="#C0392B" stroke-width="1.2" opacity="1.0"/>
+  <line x1="340.0" y1="191.0" x2="420.0" y2="191.0" stroke="#B9C2CB" stroke-width="1.2" opacity="1.0" stroke-dasharray="3 3"/>
+  <text x="380.0" y="181.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">同一个</text>
+  <text x="380.0" y="211.0" font-size="9" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">(u, v)</text>
+  <text x="40.0" y="316.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">这个像素 = </text>
+  <rect x="96.0" y="305.0" width="26.0" height="12.0" rx="2" fill="#3F6E8C" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="109.0" y="315.0" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="400" opacity="1.0">63</text>
+  <rect x="130.0" y="305.0" width="26.0" height="12.0" rx="2" fill="#5C7F92" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="143.0" y="315.0" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="400" opacity="1.0">110</text>
+  <rect x="164.0" y="305.0" width="26.0" height="12.0" rx="2" fill="#32566E" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="177.0" y="315.0" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="400" opacity="1.0">140</text>
+  <text x="200.0" y="316.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">…… 三个数，8 bit</text>
+  <text x="420.0" y="316.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">这个像素 = </text>
+  <text x="486.0" y="316.0" font-size="10" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">742 毫米</text>
+  <text x="548.0" y="316.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">（最近 = 最亮）</text>
+  <text x="24.0" y="350.0" font-size="10.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">两张图逐像素对齐：同一点 (u, v)，在两张图里指的都是空间中的同一个方向。</text>
+  <text x="24.0" y="368.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">这就是 “RGB-D” 三个字的全部含义 —— 缺了任何一张，另一张都没有坐标系。</text>
+</svg>
