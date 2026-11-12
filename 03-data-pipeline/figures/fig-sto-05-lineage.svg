@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="420" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">改一个参数，只有下游变：CRF 要重跑 6 小时，子集只要 12 分钟</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">括号里是这一步的耗时。箭头方向是数据流，也是重算传播的方向。</text>
+  <rect x="60.0" y="96.0" width="130.0" height="54.0" rx="6" fill="#F7F9FB" stroke="#8A94A0" stroke-width="1.2" opacity="1.0"/>
+  <text x="125.0" y="118.0" font-size="9.5" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">raw_bag</text>
+  <text x="125.0" y="136.0" font-size="9" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">不计</text>
+  <line x1="196.0" y1="123.0" x2="216.0" y2="123.0" stroke="#57606A" stroke-width="1.4"/>
+  <polygon points="222.0,123.0 216.0,119.7 216.0,126.3" fill="#57606A"/>
+  <rect x="228.0" y="96.0" width="130.0" height="54.0" rx="6" fill="#F7F9FB" stroke="#3C6E9F" stroke-width="1.2" opacity="1.0"/>
+  <text x="293.0" y="118.0" font-size="9.5" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">calibrated</text>
+  <text x="293.0" y="136.0" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">3.0 h</text>
+  <line x1="364.0" y1="123.0" x2="384.0" y2="123.0" stroke="#57606A" stroke-width="1.4"/>
+  <polygon points="390.0,123.0 384.0,119.7 384.0,126.3" fill="#57606A"/>
+  <rect x="396.0" y="96.0" width="130.0" height="54.0" rx="6" fill="#F7F9FB" stroke="#3C6E9F" stroke-width="1.2" opacity="1.0"/>
+  <text x="461.0" y="118.0" font-size="9.5" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">converted</text>
+  <text x="461.0" y="136.0" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">5.8 h</text>
+  <line x1="532.0" y1="123.0" x2="552.0" y2="123.0" stroke="#57606A" stroke-width="1.4"/>
+  <polygon points="558.0,123.0 552.0,119.7 552.0,126.3" fill="#57606A"/>
+  <rect x="564.0" y="96.0" width="130.0" height="54.0" rx="6" fill="#F7F9FB" stroke="#3C6E9F" stroke-width="1.2" opacity="1.0"/>
+  <text x="629.0" y="118.0" font-size="9.5" fill="#1F2328" text-anchor="middle" font-weight="600" opacity="1.0">subset</text>
+  <text x="629.0" y="136.0" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">0.2 h</text>
+  <text x="24.0" y="176.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">必须重跑的时长（同一把尺子，最长 9.0 h）</text>
+  <line x1="574.0" y1="184.0" x2="574.0" y2="312.0" stroke="#8A94A0" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="579.0" y="180.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">全量 9 h</text>
+  <text x="200.0" y="215.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">标定换内参</text>
+  <rect x="210.0" y="204.0" width="360.0" height="16.0" rx="3" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="564.0" y="216.0" font-size="9" fill="#ffffff" text-anchor="end" font-weight="600" opacity="1.0">9.0 h</text>
+  <text x="200.0" y="239.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">重新采集原始数据</text>
+  <rect x="210.0" y="228.0" width="360.0" height="16.0" rx="3" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="564.0" y="240.0" font-size="9" fill="#ffffff" text-anchor="end" font-weight="600" opacity="1.0">9.0 h</text>
+  <text x="200.0" y="263.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">CRF 23 → 18</text>
+  <rect x="210.0" y="252.0" width="240.0" height="16.0" rx="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="456.0" y="264.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">6.0 h</text>
+  <text x="200.0" y="287.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">GOP 30 → 5</text>
+  <rect x="210.0" y="276.0" width="240.0" height="16.0" rx="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="456.0" y="288.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">6.0 h</text>
+  <text x="200.0" y="311.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">子集 100 → 120 条</text>
+  <rect x="210.0" y="300.0" width="8.0" height="16.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="224.0" y="312.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">0.2 h</text>
+  <text x="24.0" y="356.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">关键不是省了多少小时，是知道哪一步不用跑：改 CRF 不影响 calibrated，</text>
+  <text x="24.0" y="374.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">3.0 h 的标定可以直接复用；换内参则必须从 calibrated 起全部重来。</text>
+  <text x="24.0" y="396.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">没有血缘时这两件事在界面上长得一样，于是默认操作是全部重跑——一天只够跑一次。</text>
+</svg>

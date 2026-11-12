@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412" width="760" height="412" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="412" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">块大小决定去重能抓到多少：块一接近静止段长度就归零</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">12 个 episode × 60 帧，静止帧连续成段、起点随机。横轴对数刻度。</text>
+  <line x1="96.0" y1="300.0" x2="520.0" y2="300.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="303.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0</text>
+  <line x1="96.0" y1="233.3" x2="520.0" y2="233.3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="236.3" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">20</text>
+  <line x1="96.0" y1="166.7" x2="520.0" y2="166.7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="169.7" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">40</text>
+  <line x1="96.0" y1="100.0" x2="520.0" y2="100.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="103.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">60</text>
+  <text x="96.0" y="88.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">去重省下的字节（%）</text>
+  <line x1="96.0" y1="300.0" x2="520.0" y2="300.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="96.0" y1="300.0" x2="96.0" y2="100.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="96.0" y1="300.0" x2="96.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">4 KB</text>
+  <line x1="202.0" y1="300.0" x2="202.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="202.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">16 KB</text>
+  <line x1="308.0" y1="300.0" x2="308.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="308.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">64 KB</text>
+  <line x1="414.0" y1="300.0" x2="414.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="414.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">256 KB</text>
+  <line x1="520.0" y1="300.0" x2="520.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="520.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1024 KB</text>
+  <path d="M 96.0 300.0 L 202.0 300.0 L 308.0 300.0 L 414.0 300.0 L 520.0 300.0" fill="none" stroke="#8A94A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="300.0" r="3.2" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="202.0" cy="300.0" r="3.2" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="308.0" cy="300.0" r="3.2" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="414.0" cy="300.0" r="3.2" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="520.0" cy="300.0" r="3.2" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <path d="M 96.0 266.8 L 202.0 298.6 L 308.0 300.0 L 414.0 300.0 L 520.0 300.0" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="266.8" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="202.0" cy="298.6" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="308.0" cy="300.0" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="414.0" cy="300.0" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="520.0" cy="300.0" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <path d="M 96.0 199.2 L 202.0 233.1 L 308.0 300.0 L 414.0 300.0 L 520.0 300.0" fill="none" stroke="#C0651A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="199.2" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="202.0" cy="233.1" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="308.0" cy="300.0" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="414.0" cy="300.0" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="520.0" cy="300.0" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <path d="M 96.0 134.7 L 202.0 164.8 L 308.0 294.5 L 414.0 300.0 L 520.0 300.0" fill="none" stroke="#6B5B95" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="134.7" r="3.2" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="202.0" cy="164.8" r="3.2" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="308.0" cy="294.5" r="3.2" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="414.0" cy="300.0" r="3.2" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="520.0" cy="300.0" r="3.2" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="536.0" y="100.0" width="202.0" height="96.0" rx="6" fill="#F7F9FB" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="552.0" y1="122.0" x2="574.0" y2="122.0" stroke="#8A94A0" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="563.0" cy="122.0" r="3.2" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="578.0" y="126.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">静止帧 0%</text>
+  <line x1="552.0" y1="142.0" x2="574.0" y2="142.0" stroke="#3C6E9F" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="563.0" cy="142.0" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="578.0" y="146.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">静止帧 20%</text>
+  <line x1="552.0" y1="162.0" x2="574.0" y2="162.0" stroke="#C0651A" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="563.0" cy="162.0" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="578.0" y="166.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">静止帧 40%</text>
+  <line x1="552.0" y1="182.0" x2="574.0" y2="182.0" stroke="#6B5B95" stroke-width="2.2" opacity="1.0"/>
+  <circle cx="563.0" cy="182.0" r="3.2" fill="#6B5B95" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="578.0" y="186.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">静止帧 60%</text>
+  <text x="540.0" y="226.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">40% 静止帧时：</text>
+  <text x="540.0" y="244.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">4 KB 省 30%</text>
+  <text x="540.0" y="262.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">16 KB 省 20%</text>
+  <text x="540.0" y="280.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">64 KB 省 0%</text>
+  <text x="24.0" y="348.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">静止段只有几十 KB。块一旦接近这个长度，整块里只要有一帧在动就独一无二，</text>
+  <text x="24.0" y="366.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">那些静止帧一个都抓不到——这就是「我们的数据重复很多，去重一定有效」的漏洞。</text>
+  <text x="24.0" y="390.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">粗线在 0% 处重叠：256 KB 和 1 MB 的所有档位都省 0%。</text>
+</svg>

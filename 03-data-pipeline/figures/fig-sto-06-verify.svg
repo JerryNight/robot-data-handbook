@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 414" width="760" height="414" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="414" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">全量校验 2.3 小时，增量只要 1.4 分钟；而校验越稀，坏数据用得越久</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">4.15 TB，sha256 1.5 GB/s、磁盘 500 MB/s。上面是单次耗时，下面是校验周期。</text>
+  <text x="24.0" y="100.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">一次校验要多久（对数刻度，单位小时）</text>
+  <text x="140.0" y="129.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">全量（受磁盘限制）</text>
+  <rect x="150.0" y="116.0" width="363.2" height="18.0" rx="3" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="519.2" y="130.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">2.31 h</text>
+  <text x="140.0" y="159.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">全量（受 CPU 限制）</text>
+  <rect x="150.0" y="146.0" width="289.9" height="18.0" rx="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="445.9" y="160.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">0.77 h</text>
+  <text x="140.0" y="189.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">增量（只算变了的 1%）</text>
+  <rect x="150.0" y="176.0" width="55.8" height="18.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="211.8" y="190.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">1.4 min</text>
+  <text x="24.0" y="232.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">多久校验一次 → 坏数据会被用多久</text>
+  <text x="150.0" y="248.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">平均暴露时长（小时）</text>
+  <text x="510.0" y="248.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">暴露期内的训练次数</text>
+  <text x="140.0" y="278.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">每次训练前</text>
+  <rect x="150.0" y="264.0" width="2.0" height="18.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="158.0" y="278.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="400" opacity="1.0">0 h</text>
+  <text x="510.0" y="278.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">0 次</text>
+  <text x="140.0" y="304.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">每天</text>
+  <rect x="150.0" y="290.0" width="10.0" height="18.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="166.0" y="304.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="400" opacity="1.0">12 h</text>
+  <text x="510.0" y="304.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">2 次</text>
+  <text x="140.0" y="330.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">每周</text>
+  <rect x="150.0" y="316.0" width="70.0" height="18.0" rx="3" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="226.0" y="330.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="400" opacity="1.0">84 h</text>
+  <text x="510.0" y="330.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">10 次</text>
+  <text x="140.0" y="356.0" font-size="9" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">每月</text>
+  <rect x="150.0" y="342.0" width="300.0" height="18.0" rx="3" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="456.0" y="356.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">360 h</text>
+  <text x="510.0" y="356.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">45 次</text>
+  <text x="24.0" y="386.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">每月校验一次，平均 45 次训练用的是坏数据，而你不知道是哪几次——</text>
+  <text x="24.0" y="402.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">那 45 次实验的结论全部作废，且无法辨认。校验频率不是运维参数。</text>
+</svg>

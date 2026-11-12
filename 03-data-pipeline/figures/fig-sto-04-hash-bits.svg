@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412" width="760" height="412" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="412" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">短哈希能截多短：8 位在 1 万条就有 1.2%，12 位够用到 10 万</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">生日悖论：n 个对象至少一对碰撞的概率 ≈ n² / (2 · 2^(4b))。纵轴对数刻度。</text>
+  <line x1="96.0" y1="104.0" x2="520.0" y2="104.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="107.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">100%</text>
+  <line x1="96.0" y1="153.0" x2="520.0" y2="153.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="156.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">0.1%</text>
+  <line x1="96.0" y1="202.0" x2="520.0" y2="202.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="205.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-6</text>
+  <line x1="96.0" y1="251.0" x2="520.0" y2="251.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="254.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-9</text>
+  <line x1="96.0" y1="300.0" x2="520.0" y2="300.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="303.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-12</text>
+  <line x1="96.0" y1="300.0" x2="520.0" y2="300.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <line x1="96.0" y1="300.0" x2="96.0" y2="104.0" stroke="#1F2328" stroke-width="1.2" opacity="1.0"/>
+  <text x="96.0" y="94.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">碰撞概率</text>
+  <text x="308.0" y="332.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">截断长度（十六进制字符）</text>
+  <line x1="96.0" y1="300.0" x2="96.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="96.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">8</text>
+  <line x1="149.0" y1="300.0" x2="149.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="149.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">9</text>
+  <line x1="202.0" y1="300.0" x2="202.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="202.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <line x1="255.0" y1="300.0" x2="255.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="255.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">11</text>
+  <line x1="308.0" y1="300.0" x2="308.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="308.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">12</text>
+  <line x1="361.0" y1="300.0" x2="361.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="361.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">13</text>
+  <line x1="414.0" y1="300.0" x2="414.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="414.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">14</text>
+  <line x1="467.0" y1="300.0" x2="467.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="467.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">15</text>
+  <line x1="520.0" y1="300.0" x2="520.0" y2="305.0" stroke="#1F2328" stroke-width="1" opacity="1.0"/>
+  <text x="520.0" y="318.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">16</text>
+  <path d="M 96.0 135.6 L 149.0 155.3 L 202.0 174.9 L 255.0 194.6 L 308.0 214.3 L 361.0 233.9 L 414.0 253.6 L 467.0 273.3 L 520.0 292.9" fill="none" stroke="#2E7D5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="135.6" r="2.8" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="149.0" cy="155.3" r="2.8" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="202.0" cy="174.9" r="2.8" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="255.0" cy="194.6" r="2.8" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="308.0" cy="214.3" r="2.8" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="361.0" cy="233.9" r="2.8" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="414.0" cy="253.6" r="2.8" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="467.0" cy="273.3" r="2.8" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="520.0" cy="292.9" r="2.8" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <path d="M 96.0 104.0 L 149.0 122.6 L 202.0 142.3 L 255.0 161.9 L 308.0 181.6 L 361.0 201.3 L 414.0 220.9 L 467.0 240.6 L 520.0 260.3" fill="none" stroke="#C0651A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="104.0" r="2.8" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="149.0" cy="122.6" r="2.8" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="202.0" cy="142.3" r="2.8" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="255.0" cy="161.9" r="2.8" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="308.0" cy="181.6" r="2.8" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="361.0" cy="201.3" r="2.8" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="414.0" cy="220.9" r="2.8" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="467.0" cy="240.6" r="2.8" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="520.0" cy="260.3" r="2.8" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <path d="M 96.0 104.0 L 149.0 104.0 L 202.0 109.6 L 255.0 129.3 L 308.0 148.9 L 361.0 168.6 L 414.0 188.3 L 467.0 207.9 L 520.0 227.6" fill="none" stroke="#C0392B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="104.0" r="2.8" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="149.0" cy="104.0" r="2.8" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="202.0" cy="109.6" r="2.8" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="255.0" cy="129.3" r="2.8" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="308.0" cy="148.9" r="2.8" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="361.0" cy="168.6" r="2.8" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="414.0" cy="188.3" r="2.8" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="467.0" cy="207.9" r="2.8" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="520.0" cy="227.6" r="2.8" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="96.0" y1="202.0" x2="520.0" y2="202.0" stroke="#6B5B95" stroke-width="1" opacity="1.0" stroke-dasharray="4 3"/>
+  <text x="102.0" y="195.0" font-size="8.5" fill="#6B5B95" text-anchor="start" font-weight="400" opacity="1.0">1e-6：可接受的上限</text>
+  <rect x="540.0" y="104.0" width="196.0" height="100.0" rx="6" fill="#F7F9FB" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="552.0" y1="126.0" x2="574.0" y2="126.0" stroke="#2E7D5B" stroke-width="2.2" opacity="1.0"/>
+  <text x="582.0" y="130.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">1 万条</text>
+  <line x1="552.0" y1="148.0" x2="574.0" y2="148.0" stroke="#C0651A" stroke-width="2.2" opacity="1.0"/>
+  <text x="582.0" y="152.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">10 万条</text>
+  <line x1="552.0" y1="170.0" x2="574.0" y2="170.0" stroke="#C0392B" stroke-width="2.2" opacity="1.0"/>
+  <text x="582.0" y="174.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">100 万条</text>
+  <text x="540.0" y="224.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">做到 &lt; 1e-6 需要：</text>
+  <text x="540.0" y="244.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">1 万条 → 12 位（48 bit）</text>
+  <text x="540.0" y="262.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">10 万条 → 14 位（56 bit）</text>
+  <text x="540.0" y="280.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">100 万条 → 15 位（60 bit）</text>
+  <text x="24.0" y="358.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">8 位（32 bit）在 10 万条直接 100%——必然撞。这是 git 短哈希冲突的翻版，</text>
+  <text x="24.0" y="376.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">只是数据集的条目数比代码仓库大三个数量级。</text>
+  <text x="24.0" y="398.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="400" opacity="1.0">所以短哈希只能当标签用，不能当身份证：清单里存 12 位给人看，全长 64 位给校验用。</text>
+</svg>

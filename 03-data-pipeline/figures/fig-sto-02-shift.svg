@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 392" width="760" height="392" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="392" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">插入 19 KB，固定分块的 87% 变成新块；CDC 只丢 1 个</text>
+  <text x="24.0" y="52.0" font-size="10.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">横条代表整个 episode，色段按块数分割。绿色 = 与 A 重合，橙色 = 新增，红色 = 插入的那一帧。</text>
+  <text x="24.0" y="84.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">A（原文件）</text>
+  <rect x="118.0" y="74.0" width="470.0" height="22.0" rx="2" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="0.4"/>
+  <text x="596.0" y="89.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">60 块</text>
+  <text x="110.0" y="125.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="600" opacity="1.0">B 固定 16 KB</text>
+  <text x="110.0" y="140.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">61 块 / 重合 8</text>
+  <rect x="118.0" y="110.0" width="62.7" height="22.0" rx="2" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="0.85"/>
+  <rect x="196.3" y="110.0" width="7.8" height="22.0" rx="1" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="180.7" y="110.0" width="407.3" height="22.0" rx="2" fill="#C0651A" stroke="none" stroke-width="0" opacity="0.85"/>
+  <text x="596.0" y="125.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">多存 0.76 MB</text>
+  <text x="110.0" y="165.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="600" opacity="1.0">B 用 CDC</text>
+  <text x="110.0" y="180.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">137 块 / 重合 130</text>
+  <rect x="118.0" y="150.0" width="466.4" height="22.0" rx="2" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="0.85"/>
+  <rect x="153.9" y="150.0" width="3.6" height="22.0" rx="1" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <rect x="584.4" y="150.0" width="3.6" height="22.0" rx="2" fill="#C0651A" stroke="none" stroke-width="0" opacity="0.85"/>
+  <text x="596.0" y="165.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">多存 0.03 MB</text>
+  <line x1="196.3" y1="100.0" x2="196.3" y2="78.0" stroke="#C0392B" stroke-width="1" opacity="1.0" stroke-dasharray="3 3"/>
+  <text x="192.3" y="70.0" font-size="8.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">插入点</text>
+  <rect x="24.0" y="206.0" width="330.0" height="84.0" rx="6" fill="#F7F9FB" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="40.0" y="228.0" font-size="9.5" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">固定分块</text>
+  <text x="40.0" y="248.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">切口全部右移 16 KB，后面 87% 的块</text>
+  <text x="40.0" y="264.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">和原来完全不同——虽然只差 1 帧。</text>
+  <text x="40.0" y="282.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">多存 0.76 MB</text>
+  <rect x="374.0" y="206.0" width="330.0" height="84.0" rx="6" fill="#F7F9FB" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="390.0" y="228.0" font-size="9.5" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">内容定义分块（CDC）</text>
+  <text x="390.0" y="248.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">切口由内容决定，插入点之后很快重新对齐。</text>
+  <text x="390.0" y="264.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">131 个块里保住 130 个。</text>
+  <text x="390.0" y="282.0" font-size="10" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">多存 0.03 MB</text>
+  <text x="24.0" y="322.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">25 倍差距：分母只有 19 KB，但它污染了整个后缀——编辑一次就白省。</text>
+  <text x="24.0" y="348.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">机器人数据从采集到训练要经过标定、转换、筛选至少三轮编辑，</text>
+  <text x="24.0" y="366.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">所以固定分块的去重率一定会在第一次编辑后腰斩。</text>
+</svg>
