@@ -6,12 +6,16 @@
 数据平台最容易被忽略、后果最严重的一件事：把不同频率、不同时钟的传感器
 拼成"同一时刻"的一行。
 
-这个脚本量化四个误差源：
+这个脚本量化六个误差源，并给出两种可操作的检查手段：
 
   1. 采样率差 -> 最近邻对齐的固有误差（半周期）
   2. 插值 vs 最近邻，差多少
-  3. 时间戳取"采集时刻"还是"接收时刻"，差多少
-  4. 晶振频率偏差，一小时后累积成多少毫秒
+  3. 时间误差换算成空间误差（速度 × 时间）
+  4. 时间戳取"曝光开始"还是"应用层收到"，差多少
+  5. 晶振频率偏差，一小时后累积成多少毫秒
+  6. 对齐精度如何限制"能学什么任务"
+  7. 四种同步方案的残余误差（差三个数量级）
+  8. 埋一个事件 + 互相关，事后测出真实滞后
 
 运行：
     python examples/02_sensor_data/04_time_sync.py
@@ -88,10 +92,11 @@ def part1_nearest_neighbor():
     print("\n[1] 最近邻对齐：误差上限由『被取值的那个信号』决定")
     print("-" * 74)
     t_end = 10.0
+    rate = 100.0      # 关节采样率 <- 改这里看方向 A 的上限怎么变
     cam = camera_timestamps(t_end)
-    jnt = joint_timestamps(t_end)
+    jnt = joint_timestamps(t_end, rate)
     print(f"  相机 {len(cam)} 帧 @ 30Hz（半周期 {1000 / 30 / 2:.2f} ms）")
-    print(f"  关节 {len(jnt)} 帧 @ 100Hz（半周期 {1000 / 100 / 2:.2f} ms）")
+    print(f"  关节 {len(jnt)} 帧 @ {rate:.0f}Hz（半周期 {1000 / rate / 2:.2f} ms）")
     print()
 
     e_a = nearest_err(cam, jnt)
@@ -109,7 +114,7 @@ def part1_nearest_neighbor():
 
     print("\n  关键在于：误差上限不是看『两个信号里谁更稀疏』，而是看")
     print("  『你去取值的那一方有多稀疏』。")
-    print("  方向 A 取的是关节值，所以受关节 100Hz 限制（±5ms）；")
+    print(f"  方向 A 取的是关节值，所以受关节 {rate:.0f}Hz 限制（±{1000 / rate / 2:.1f}ms）；")
     print("  方向 B 取的是图像，所以受相机 30Hz 限制（±16.7ms）。")
     print()
     print("  这就是为什么对齐只有一个正确方向：**把高频信号搬到低频时刻，")
@@ -276,6 +281,93 @@ def part6_what_can_you_learn():
     print("  差距往往不在训练配置，在你花在时间戳上的功夫。")
 
 
+def part7_sync_methods():
+    print("\n[7] 四种同步方案：误差差三个数量级")
+    print("-" * 74)
+    print("  『时间戳准不准』不是一个是/否问题，而是看你在哪一层打的点：")
+    print()
+    rows = [
+        ("驱动里软件打点（收到即记）", "5–20 ms", "免费"),
+        ("主机收到数据时打点", "2–8 ms", "免费"),
+        ("触发线 + 硬件打点", "10–100 µs", "几百元"),
+        ("PTP / gPTP 全网同钟", "1–10 µs", "几千元"),
+    ]
+    for a, b, c in rows:
+        print(f"  {a:<14}{b:>10}{c:>10}")
+
+    print()
+    print("  注意最后两行的量级：微秒。这不是『好一点』，是换了一个数量级。")
+    print("  前面两行的毫秒级误差，正好落在第 6 节那张表最糟糕的区间里。")
+    print()
+    print("  为什么软件打点救不回来：")
+    print("  - 从『传感器产生数据』到『你的代码拿到数据』之间，有内核缓冲、")
+    print("    驱动队列、调度延迟，三者的延迟都随负载波动，不是常数。")
+    print("  - 你能测的是『我收到它的时刻』，不是『它发生的时刻』。")
+    print("  - 补偿一个常数延迟是可以的（标定一次），但补偿抖动不行 ——")
+    print("    抖动是随机的，你没法从数据本身知道这一帧到底晚了几毫秒。")
+    print()
+    print("  所以唯一可靠的做法是：让时间戳由硬件在『事件发生的那一刻』生成。")
+    print("  相机用触发信号（strobe out）记曝光开始，雷达用 PPS 对齐角度起始，")
+    print("  力传感器用同步采样时钟 —— 三者接同一个源，误差就只剩传播延迟。")
+
+
+def part8_cross_correlation():
+    print("\n[8] 事后怎么测出滞后：埋一个事件，然后做互相关")
+    print("-" * 74)
+    print("  前面说『系统性滞后你无法从数据本身发现』—— 这句话有个前提：")
+    print("  数据里没有可用于对齐的共同事件。如果采的时候埋了，事后就能测。")
+    print()
+
+    fs = 1000.0          # Hz
+    dur = 2.0
+    n = int(fs * dur)
+    delay_ms = 8.0       # 真实滞后
+    rng = random.Random(3)
+
+    # 事件：t=0.5s 开始的一段持续接触（阶跃），叠加噪声
+    def signal(shift_ms):
+        out = []
+        for i in range(n):
+            t = i / fs - shift_ms / 1000.0
+            v = 1.0 if t >= 0.5 else 0.0
+            out.append(v + rng.gauss(0, 0.04))
+        return out
+
+    a = signal(0.0)
+    b = signal(delay_ms)     # 真实滞后 8 ms
+    print(f"  两路信号：1 kHz 采 2 秒，t=0.5 s 处一个阶跃事件，σ=0.04 的噪声。")
+    print(f"  真实滞后：{delay_ms:.1f} ms（B 比 A 晚）")
+    print()
+
+    # 归一化互相关
+    def corr(lag):
+        s = 0.0
+        cnt = 0
+        for i in range(max(0, -lag), min(n, n - lag)):
+            s += (a[i] - 0.5) * (b[i + lag] - 0.5)
+            cnt += 1
+        return s / cnt if cnt else 0.0
+
+    best_lag, best_val = 0, -1e18
+    lags = range(-40, 41)
+    for lag in lags:
+        v = corr(lag)
+        if v > best_val:
+            best_val, best_lag = v, lag
+    print(f"  互相关峰在 lag = {best_lag} 个采样点 = {best_lag / fs * 1000:.1f} ms")
+    print(f"  分辨率 = 1 个采样 = {1000 / fs:.1f} ms")
+    print()
+    print("  三件事值得注意：")
+    print(f"  1. 结果精度受采样率限制：1 kHz 只能给到 1 ms 分辨率。")
+    print("     要更细，要么提高采样率，要么在峰附近做抛物线插值（能到 0.1 ms）。")
+    print("  2. 事件必须『两路都看得见』。相机和关节没有共同的物理事件，")
+    print("     所以工程上常埋一个可见/可测的同步信号：闪一下 LED、敲一下桌面。")
+    print("  3. 每一段录制都要重新测。延迟会随温度、负载、USB 拓扑变。")
+    print()
+    print("  这就是数据平台该做的事：把『同步质量自检』做成采集流程的一部分，")
+    print("  每次录制自动跑一遍互相关，把测出来的偏移写进这段数据的元数据。")
+
+
 def main():
     print("=" * 74)
     print("实验 4：多传感器时间对齐")
@@ -286,6 +378,8 @@ def main():
     part4_timestamp_source()
     part5_clock_drift()
     part6_what_can_you_learn()
+    part7_sync_methods()
+    part8_cross_correlation()
 
     print("\n" + "=" * 74)
     print("结论（数据平台视角）：")
@@ -294,6 +388,7 @@ def main():
     print("  3. 时间戳必须在采集端硬件打点，软件打点会引入系统性滞后")
     print("  4. 长时采集要做时钟同步，否则 ppm 级偏差会累积成秒级错位")
     print("  5. 数据集应该公布自己的时间对齐精度 —— 它比数据量更能预测可用性")
+    print("  6. 每段数据都该自带一个同步质量指标，而不是靠用户去猜")
     print("=" * 74)
 
 
