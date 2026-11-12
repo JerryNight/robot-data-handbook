@@ -12,15 +12,22 @@ permissions:
 jobs:
   examples:
     name: run examples (py${{ matrix.python }})
-    runs-on: ubuntu-latest
+    # 钉死到 Ubuntu 24.04，不用 ubuntu-latest。
+    # 原因：ubuntu-latest 在 2026-11 悄悄升到了 26.04，而 setup-python 的
+    # 预编译清单里没有 26.04 的 Python 3.9（3.9 已于 2025-10 EOL），
+    # 于是 py3.9 那个 job 在 "setup python" 这一步就红了，跟代码无关。
+    # 钉死镜像后，升级镜像变成一件需要主动做的事，不会半夜自己炸。
+    runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
       matrix:
+        # 3.9 是仓库声明支持的最低版本（README 里有这句话），保留它，
+        # 否则"最低版本"这个承诺就没有任何东西在守着了。
         python: ["3.9", "3.12"]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
 
@@ -31,10 +38,10 @@ jobs:
 
   links:
     name: check markdown links
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Check relative links in markdown
