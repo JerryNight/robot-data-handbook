@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="400" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同一个缺陷、同一行代码：快动作一眼看出，慢动作看不出来</text>
+  <text x="24.0" y="52.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">纵轴 = 把动作平移 offset 帧之后，动作与状态增量的中位残差（rad，对数）。</text>
+  <line x1="96.0" y1="288.0" x2="512.0" y2="288.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="291.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-4</text>
+  <line x1="96.0" y1="213.2" x2="512.0" y2="213.2" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="216.7" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-3</text>
+  <line x1="96.0" y1="138.3" x2="512.0" y2="138.3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="141.8" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-2</text>
+  <text x="96.0" y="304.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">-2</text>
+  <text x="200.0" y="304.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">-1</text>
+  <text x="304.0" y="304.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">+0</text>
+  <text x="408.0" y="304.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">+1</text>
+  <text x="512.0" y="304.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">+2</text>
+  <text x="304.0" y="322.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">动作平移的帧数 offset</text>
+  <text x="96.0" y="74.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">中位残差（rad）</text>
+  <path d="M 96.0 198.2 L 200.0 219.3 L 304.0 259.0 L 408.0 219.7 L 512.0 197.9" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="198.2" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="200.0" cy="219.3" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="304.0" cy="259.0" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="408.0" cy="219.7" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="512.0" cy="197.9" r="3.2" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <path d="M 96.0 145.6 L 200.0 158.4 L 304.0 180.4 L 408.0 258.6 L 512.0 181.3" fill="none" stroke="#C0651A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="145.6" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="200.0" cy="158.4" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="304.0" cy="180.4" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="408.0" cy="258.6" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="512.0" cy="181.3" r="3.2" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <path d="M 96.0 251.6 L 200.0 255.2 L 304.0 249.5 L 408.0 260.9 L 512.0 251.9" fill="none" stroke="#C0392B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="96.0" cy="251.6" r="3.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="200.0" cy="255.2" r="3.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="304.0" cy="249.5" r="3.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="408.0" cy="260.9" r="3.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="512.0" cy="251.9" r="3.2" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="304.0" y1="172.4" x2="304.0" y2="164.9" stroke="#C0651A" stroke-width="1.2"/>
+  <polygon points="304.0,158.4 300.4,164.9 307.6,164.9" fill="#C0651A"/>
+  <text x="249.0" y="154.4" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">offset=0 高 11 倍</text>
+  <line x1="536.0" y1="100.0" x2="552.0" y2="100.0" stroke="#3C6E9F" stroke-width="2.2" opacity="1.0"/>
+  <text x="558.0" y="104.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">ep_000 无缺陷</text>
+  <line x1="536.0" y1="120.0" x2="552.0" y2="120.0" stroke="#C0651A" stroke-width="2.2" opacity="1.0"/>
+  <text x="558.0" y="124.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">ep_012 错位·快</text>
+  <line x1="536.0" y1="140.0" x2="552.0" y2="140.0" stroke="#C0392B" stroke-width="2.2" opacity="1.0"/>
+  <text x="558.0" y="144.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">ep_010 错位·慢</text>
+  <text x="536.0" y="170.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">纵轴最小值落在 +1，</text>
+  <text x="536.0" y="186.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">指的是动作被记晚了一帧。</text>
+  <line x1="536.0" y1="200.0" x2="712.0" y2="200.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="536.0" y="216.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">offset=0 相对谷底的倍数</text>
+  <text x="536.0" y="236.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">ep_000</text>
+  <text x="628.0" y="236.0" font-size="9" fill="#3C6E9F" text-anchor="end" font-weight="600" opacity="1.0">1.0×</text>
+  <text x="644.0" y="236.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">不过线</text>
+  <text x="536.0" y="254.0" font-size="9" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">ep_012</text>
+  <text x="628.0" y="254.0" font-size="9" fill="#C0651A" text-anchor="end" font-weight="600" opacity="1.0">11.1×</text>
+  <text x="644.0" y="254.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="400" opacity="1.0">过线</text>
+  <text x="536.0" y="272.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">ep_010</text>
+  <text x="628.0" y="272.0" font-size="9" fill="#C0392B" text-anchor="end" font-weight="600" opacity="1.0">1.4×</text>
+  <text x="644.0" y="272.0" font-size="9" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">不过线</text>
+  <line x1="24.0" y1="344.0" x2="736.0" y2="344.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="364.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">蓝线最小值在 0、两侧对称上翘，是干净的 U 形；橙线谷底在 +1，offset=0 高 11 倍，一眼看出。</text>
+  <text x="24.0" y="382.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">红线谷底也在 +1，形状同样是 U，只是被压平到 1.4 倍 —— 判定线要 2 倍，于是它被判成正常。差别的唯一来源是动作速度。</text>
+</svg>

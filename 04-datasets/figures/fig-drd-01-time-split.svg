@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="360" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">100,800 人时里，真正变成数据的只有 350 小时</text>
+  <text x="24.0" y="52.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">对数轴。中间两根是「时间去哪了」的拆分（假设每条 episode 连复位 60 秒）。</text>
+  <line x1="190.0" y1="288.0" x2="660.0" y2="288.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="182.0" y="291.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">100</text>
+  <line x1="190.0" y1="228.6" x2="660.0" y2="228.6" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="182.0" y="232.1" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1,000</text>
+  <line x1="190.0" y1="169.2" x2="660.0" y2="169.2" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="182.0" y="172.7" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">10,000</text>
+  <line x1="190.0" y1="109.9" x2="660.0" y2="109.9" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="182.0" y="113.4" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">100,000</text>
+  <text x="24.0" y="122.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">名义投入</text>
+  <rect x="190.0" y="104.0" width="427.6" height="26.0" rx="3" fill="#1F2328" stroke="none" stroke-width="1.2" opacity="0.2"/>
+  <text x="625.6" y="122.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">100,800 h</text>
+  <text x="24.0" y="138.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">50 人 × 12 个月 × 21 天 × 8 小时</text>
+  <text x="24.0" y="172.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">场景级开销</text>
+  <rect x="190.0" y="154.0" width="426.9" height="26.0" rx="3" fill="#C0651A" stroke="none" stroke-width="1.2" opacity="0.35"/>
+  <text x="624.9" y="172.0" font-size="9.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">99,533 h</text>
+  <text x="24.0" y="188.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">564 个场景的搬运、标定、复位</text>
+  <text x="24.0" y="222.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">每条 episode 的边际</text>
+  <rect x="190.0" y="204.0" width="157.0" height="26.0" rx="3" fill="#C0651A" stroke="none" stroke-width="1.2" opacity="0.35"/>
+  <text x="355.0" y="222.0" font-size="9.5" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">1,266 h</text>
+  <text x="24.0" y="238.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">76k 条 × 60 秒</text>
+  <text x="24.0" y="272.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">真正录到的数据</text>
+  <rect x="190.0" y="254.0" width="77.5" height="26.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.35"/>
+  <text x="275.5" y="272.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">350 h</text>
+  <text x="24.0" y="288.0" font-size="8.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">350 小时交互数据</text>
+  <line x1="24.0" y1="316.0" x2="736.0" y2="316.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="338.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">这是对数轴：换回线性轴，最后那根条只有 0.35% 宽，等于看不见。</text>
+</svg>

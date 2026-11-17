@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 386" width="760" height="386" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="386" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">七个量纲塞进一个向量：夹爪一维吃掉 99.4% 的标量损失</text>
+  <text x="24.0" y="52.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">xyz 幅度 1.0 cm，rpy 0.02 rad，gripper 0.5。全局归一化乘的是同一个常数，</text>
+  <text x="24.0" y="70.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">所以它不改变各维的占比 —— 归一化救不了这件事。</text>
+  <text x="40.0" y="120.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">现在的做法：一个标量 MSE</text>
+  <rect x="40.0" y="130.0" width="3.9" height="46.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.45"/>
+  <rect x="43.9" y="130.0" width="656.1" height="46.0" rx="3" fill="#C0651A" stroke="none" stroke-width="1.2" opacity="0.35"/>
+  <text x="55.9" y="158.0" font-size="12" fill="#C0651A" text-anchor="start" font-weight="600" opacity="1.0">gripper 99.4%</text>
+  <line x1="42.0" y1="176.0" x2="42.0" y2="196.0" stroke="#3C6E9F" stroke-width="1.2" opacity="1.0"/>
+  <text x="48.0" y="208.0" font-size="9.5" fill="#3C6E9F" text-anchor="start" font-weight="400" opacity="1.0">六维（xyz + rpy）合起来只有 0.6% —— 细到看不出宽度</text>
+  <text x="40.0" y="240.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">按维归一化：七维各 14.3%</text>
+  <rect x="41.0" y="250.0" width="92.3" height="46.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.16"/>
+  <text x="87.1" y="278.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">x</text>
+  <rect x="135.3" y="250.0" width="92.3" height="46.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.18"/>
+  <text x="181.4" y="278.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">y</text>
+  <rect x="229.6" y="250.0" width="92.3" height="46.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.2"/>
+  <text x="275.7" y="278.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">z</text>
+  <rect x="323.9" y="250.0" width="92.3" height="46.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.22"/>
+  <text x="370.0" y="278.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">roll</text>
+  <rect x="418.1" y="250.0" width="92.3" height="46.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.24"/>
+  <text x="464.3" y="278.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">pitch</text>
+  <rect x="512.4" y="250.0" width="92.3" height="46.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.26"/>
+  <text x="558.6" y="278.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">yaw</text>
+  <rect x="606.7" y="250.0" width="92.3" height="46.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.28"/>
+  <text x="652.9" y="278.0" font-size="9.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">grip</text>
+  <line x1="24.0" y1="322.0" x2="736.0" y2="322.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="344.0" font-size="10" fill="#C0392B" text-anchor="start" font-weight="600" opacity="1.0">一个完全放弃 xyz、只学夹爪的模型，损失只比最优解高 0.60%。</text>
+  <text x="24.0" y="364.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">训练照样收敛、曲线照样好看，误差全在没人看的那六维里。</text>
+</svg>

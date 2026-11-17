@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 368" width="760" height="368" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="368" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">分布越集中，达到同样覆盖要多采 12 倍</text>
+  <text x="24.0" y="52.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">覆盖 90% 的 564 个场景所需的 episode 数，随 Zipf 指数 α 变化。</text>
+  <line x1="90.0" y1="268.0" x2="640.0" y2="268.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="82.0" y="271.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">2,000</text>
+  <line x1="90.0" y1="222.7" x2="640.0" y2="222.7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="82.0" y="226.2" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">5,000</text>
+  <line x1="90.0" y1="188.5" x2="640.0" y2="188.5" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="82.0" y="192.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">10,000</text>
+  <line x1="90.0" y1="154.3" x2="640.0" y2="154.3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="82.0" y="157.8" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">20,000</text>
+  <line x1="90.0" y1="109.0" x2="640.0" y2="109.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="82.0" y="112.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">50,000</text>
+  <line x1="151.1" y1="100.0" x2="151.1" y2="268.0" stroke="#E4E8EC" stroke-width="1" opacity="0.8" stroke-dasharray="2 4"/>
+  <text x="151.1" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">0.8</text>
+  <line x1="273.3" y1="100.0" x2="273.3" y2="268.0" stroke="#E4E8EC" stroke-width="1" opacity="0.8" stroke-dasharray="2 4"/>
+  <text x="273.3" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1.0</text>
+  <line x1="395.6" y1="100.0" x2="395.6" y2="268.0" stroke="#E4E8EC" stroke-width="1" opacity="0.8" stroke-dasharray="2 4"/>
+  <text x="395.6" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1.2</text>
+  <line x1="578.9" y1="100.0" x2="578.9" y2="268.0" stroke="#E4E8EC" stroke-width="1" opacity="0.8" stroke-dasharray="2 4"/>
+  <text x="578.9" y="286.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">1.5</text>
+  <path d="M 151.1 249.2 L 273.3 223.0 L 395.6 188.8 L 578.9 124.8" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="151.1" cy="249.2" r="4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="151.1" y="237.2" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">2,929</text>
+  <circle cx="273.3" cy="223.0" r="4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="273.3" y="211.0" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">4,975</text>
+  <circle cx="395.6" cy="188.8" r="4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="395.6" y="176.8" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">9,930</text>
+  <circle cx="578.9" cy="124.8" r="4" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="578.9" y="112.8" font-size="9" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">36,349</text>
+  <text x="90.0" y="92.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">覆盖 90% 所需 episode 数（对数轴）</text>
+  <text x="90.0" y="306.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">Zipf 指数 α（越大越集中）</text>
+  <line x1="24.0" y1="322.0" x2="736.0" y2="322.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="344.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">α 从 0.8 到 1.5，所需数量从 2,929 涨到 36,349。</text>
+  <text x="24.0" y="362.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">采之前先摸清自己的场景分布有多长尾 —— 这个数决定是 1 万条还是 10 万条。</text>
+</svg>

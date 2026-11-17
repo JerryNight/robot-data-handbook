@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 392" width="760" height="392" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="392" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同一份数据，中位数说正常，最大值说坏了</text>
+  <text x="24.0" y="52.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">纵轴 = 每一帧的残差（rad，对数）。虚线是中位数，红点是最大值。</text>
+  <line x1="96.0" y1="190.0" x2="700.0" y2="190.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="193.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-4</text>
+  <line x1="96.0" y1="154.7" x2="700.0" y2="154.7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="158.2" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-3</text>
+  <line x1="96.0" y1="119.3" x2="700.0" y2="119.3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="122.8" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-2</text>
+  <text x="96.0" y="74.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">整体错位（动作被记晚一帧）</text>
+  <text x="700.0" y="74.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">中位 2.7e-03   最大 3.0e-02</text>
+  <path d="M 96.0 138.9 L 102.2 138.5 L 108.3 140.2 L 114.5 140.3 L 120.7 138.8 L 126.8 139.3 L 133.0 140.5 L 139.1 140.3 L 145.3 138.8 L 151.5 140.6 L 157.6 140.4 L 163.8 139.1 L 170.0 139.3 L 176.1 140.2 L 182.3 139.0 L 188.4 140.2 L 194.6 138.7 L 200.8 138.9 L 206.9 138.2 L 213.1 139.9 L 219.3 139.1 L 225.4 138.7 L 231.6 137.7 L 237.8 137.3 L 243.9 136.0 L 250.1 136.5 L 256.2 136.8 L 262.4 137.2 L 268.6 136.9 L 274.7 136.8 L 280.9 137.3 L 287.1 137.1 L 293.2 139.2 L 299.4 136.9 L 305.6 138.0 L 311.7 139.1 L 317.9 140.2 L 324.0 138.8 L 330.2 142.1 L 336.4 139.5 L 342.5 140.5 L 348.7 141.0 L 354.9 139.4 L 361.0 140.4 L 367.2 139.8 L 373.3 139.9 L 379.5 138.6 L 385.7 139.3 L 391.8 137.6 L 398.0 139.1 L 404.2 139.7 L 410.3 138.4 L 416.5 138.8 L 422.7 139.3 L 428.8 138.7 L 435.0 137.3 L 441.1 136.5 L 447.3 137.1 L 453.5 135.2 L 459.6 138.1 L 465.8 135.5 L 472.0 137.3 L 478.1 136.4 L 484.3 136.7 L 490.4 137.9 L 496.6 138.3 L 502.8 137.5 L 508.9 138.7 L 515.1 139.8 L 521.3 139.0 L 527.4 140.6 L 533.6 139.0 L 539.8 140.4 L 545.9 140.7 L 552.1 139.3 L 558.2 140.1 L 564.4 140.5 L 570.6 140.5 L 576.7 139.5 L 582.9 140.8 L 589.1 139.8 L 595.2 139.5 L 601.4 138.7 L 607.6 138.4 L 613.7 102.7 L 619.9 174.4 L 626.0 169.5 L 632.2 171.3 L 638.4 174.3 L 644.5 179.5 L 650.7 178.8 L 656.9 168.9 L 663.0 180.3 L 669.2 168.8 L 675.3 178.2 L 681.5 169.5 L 687.7 171.2 L 693.8 178.1 L 700.0 173.4" fill="none" stroke="#3C6E9F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <line x1="96.0" y1="139.2" x2="700.0" y2="139.2" stroke="#C0651A" stroke-width="1.2" opacity="1.0" stroke-dasharray="5 4"/>
+  <circle cx="613.7" cy="102.7" r="4" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="603.7" y="94.7" font-size="8.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">最大值</text>
+  <line x1="96.0" y1="338.0" x2="700.0" y2="338.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="341.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-4</text>
+  <line x1="96.0" y1="302.7" x2="700.0" y2="302.7" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="306.2" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-3</text>
+  <line x1="96.0" y1="267.3" x2="700.0" y2="267.3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="270.8" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-2</text>
+  <text x="96.0" y="222.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">散点损坏（丢了 8 帧，接缝处对不上）</text>
+  <text x="700.0" y="222.0" font-size="8.5" fill="#57606A" text-anchor="end" font-weight="400" opacity="1.0">中位 2.5e-04   最大 7.7e-02</text>
+  <path d="M 96.0 324.0 L 106.6 322.4 L 117.2 327.7 L 127.8 327.6 L 138.4 318.9 L 149.0 321.6 L 159.6 322.2 L 170.2 328.5 L 180.8 329.2 L 191.4 320.5 L 202.0 324.1 L 212.6 325.2 L 223.2 324.0 L 233.8 319.9 L 244.4 327.2 L 254.9 323.0 L 265.5 331.2 L 276.1 326.7 L 286.7 327.3 L 297.3 236.1 L 307.9 319.3 L 318.5 331.0 L 329.1 318.0 L 339.7 325.4 L 350.3 327.1 L 360.9 317.7 L 371.5 325.7 L 382.1 324.1 L 392.7 327.7 L 403.3 321.7 L 413.9 321.7 L 424.5 325.8 L 435.1 321.7 L 445.7 324.0 L 456.3 335.2 L 466.9 319.9 L 477.5 331.4 L 488.1 332.3 L 498.7 325.7 L 509.3 320.5 L 519.9 318.7 L 530.5 322.3 L 541.1 324.6 L 551.6 325.0 L 562.2 338.2 L 572.8 323.8 L 583.4 317.4 L 594.0 322.4 L 604.6 325.6 L 615.2 322.6 L 625.8 324.2 L 636.4 323.4 L 647.0 325.3 L 657.6 325.1 L 668.2 337.3 L 678.8 316.7 L 689.4 323.8 L 700.0 325.3" fill="none" stroke="#3C6E9F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <line x1="96.0" y1="324.1" x2="700.0" y2="324.1" stroke="#C0651A" stroke-width="1.2" opacity="1.0" stroke-dasharray="5 4"/>
+  <circle cx="297.3" cy="236.1" r="4" fill="#C0392B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="307.3" y="228.1" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">最大值</text>
+  <line x1="24.0" y1="356.0" x2="736.0" y2="356.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="378.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">上面那条：残差整体抬高，中位数 2.7e-03，报警。下面那条：中位数 2.5e-04，和健康数据一模一样，只有一帧的 7.7e-02 露了馅。</text>
+</svg>

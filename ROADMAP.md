@@ -38,9 +38,9 @@
 - [x] `03-data-pipeline/annotation.md` —— 一致率陷阱与 bootstrap 区间、稀有类抽样、阈值扫描与歧义、标注预算的边际收益、人工精度上限、语言互信息
 
 ### 阶段 4 · 公开数据集
-- [x] `04-datasets/open-x-embodiment.md` —— 22 本体 / 7 维动作的代价：冗余自由度、量化、量纲
-- [x] `04-datasets/droid.md` —— 564 场景的采集成本：0.35% 人力效率、覆盖饱和曲线
-- [x] `04-datasets/self-collected.md` —— 七项自检：动作-状态一致性、时间戳、去重、饱和、收尾、标注、元数据
+- [x] `04-datasets/open-x-embodiment.md` —— 22 本体 / 7 维动作的代价：字段交集 3/13、零空间、两条解差 172°、量化 160×、量纲、损失份额、41% 能装下
+- [x] `04-datasets/droid.md` —— 564 场景的采集成本：0.35% 人力效率、场景级开销 ≥96%、信息饱和 β、覆盖曲线、长尾 α、失败与售后
+- [x] `04-datasets/self-collected.md` —— 七项自检：可检测下限 0.2 rad、检查粒度、指纹门槛、饱和两数、截断、标注、元数据
 
 ### 阶段 5 · 从数据学策略
 - [x] `05-learning-from-data/imitation-learning.md` —— BC / DAgger / ACT / Diffusion Policy

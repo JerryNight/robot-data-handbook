@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 534" width="760" height="534" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="534" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">九类缺陷、七项检查：没有一项能替代另一项</text>
+  <text x="24.0" y="52.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">格子里是「抓到几条 / 埋了几条」。空白 = 一条都没抓到。</text>
+  <text x="200.0" y="108.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">一致性</text>
+  <text x="200.0" y="122.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">整体错位</text>
+  <text x="252.0" y="108.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">一致性</text>
+  <text x="252.0" y="122.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">散点</text>
+  <text x="304.0" y="108.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">时间戳</text>
+  <text x="304.0" y="122.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">间隔</text>
+  <text x="356.0" y="108.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">哈希</text>
+  <text x="356.0" y="122.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">精确</text>
+  <text x="408.0" y="108.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">指纹</text>
+  <text x="408.0" y="122.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">近似</text>
+  <text x="460.0" y="108.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">饱和</text>
+  <text x="460.0" y="122.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">限位</text>
+  <text x="512.0" y="108.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">截断</text>
+  <text x="512.0" y="122.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">末速度</text>
+  <text x="564.0" y="108.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">标注</text>
+  <text x="564.0" y="122.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">成功率</text>
+  <text x="616.0" y="108.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">元数据</text>
+  <text x="616.0" y="122.0" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">字段</text>
+  <text x="168.0" y="154.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">重复（换 id）</text>
+  <rect x="176.0" y="138.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="196.0" y1="150.0" x2="204.0" y2="150.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="228.0" y="138.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="248.0" y1="150.0" x2="256.0" y2="150.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="280.0" y="138.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="300.0" y1="150.0" x2="308.0" y2="150.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="332.0" y="138.0" width="48.0" height="24.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="356.0" y="153.5" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">4/4</text>
+  <rect x="384.0" y="138.0" width="48.0" height="24.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="408.0" y="153.5" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">4/4</text>
+  <rect x="436.0" y="138.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="456.0" y1="150.0" x2="464.0" y2="150.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="488.0" y="138.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="508.0" y1="150.0" x2="516.0" y2="150.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="540.0" y="138.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="560.0" y1="150.0" x2="568.0" y2="150.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="592.0" y="138.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="612.0" y1="150.0" x2="620.0" y2="150.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <text x="168.0" y="186.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">重采（掐头）</text>
+  <rect x="176.0" y="170.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="196.0" y1="182.0" x2="204.0" y2="182.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="228.0" y="170.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="248.0" y1="182.0" x2="256.0" y2="182.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="280.0" y="170.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="300.0" y1="182.0" x2="308.0" y2="182.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="332.0" y="170.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="352.0" y1="182.0" x2="360.0" y2="182.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="384.0" y="170.0" width="48.0" height="24.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="408.0" y="185.5" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">3/3</text>
+  <rect x="436.0" y="170.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="456.0" y1="182.0" x2="464.0" y2="182.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="488.0" y="170.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="508.0" y1="182.0" x2="516.0" y2="182.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="540.0" y="170.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="560.0" y1="182.0" x2="568.0" y2="182.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="592.0" y="170.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="612.0" y1="182.0" x2="620.0" y2="182.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <text x="168.0" y="218.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">动作错位 1 帧</text>
+  <rect x="176.0" y="202.0" width="48.0" height="24.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="200.0" y="217.5" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">3/3</text>
+  <rect x="228.0" y="202.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="248.0" y1="214.0" x2="256.0" y2="214.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="280.0" y="202.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="300.0" y1="214.0" x2="308.0" y2="214.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="332.0" y="202.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="352.0" y1="214.0" x2="360.0" y2="214.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="384.0" y="202.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="404.0" y1="214.0" x2="412.0" y2="214.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="436.0" y="202.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="456.0" y1="214.0" x2="464.0" y2="214.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="488.0" y="202.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="508.0" y1="214.0" x2="516.0" y2="214.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="540.0" y="202.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="560.0" y1="214.0" x2="568.0" y2="214.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="592.0" y="202.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="612.0" y1="214.0" x2="620.0" y2="214.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <text x="168.0" y="250.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="600" opacity="1.0">丢帧</text>
+  <rect x="176.0" y="234.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="196.0" y1="246.0" x2="204.0" y2="246.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="228.0" y="234.0" width="48.0" height="24.0" rx="3" fill="#C0651A" stroke="none" stroke-width="1.2" opacity="0.18"/>
+  <text x="252.0" y="249.5" font-size="8" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">5/7</text>
+  <rect x="280.0" y="234.0" width="48.0" height="24.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="304.0" y="249.5" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">7/7</text>
+  <rect x="332.0" y="234.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="352.0" y1="246.0" x2="360.0" y2="246.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="384.0" y="234.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="404.0" y1="246.0" x2="412.0" y2="246.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="436.0" y="234.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="456.0" y1="246.0" x2="464.0" y2="246.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="488.0" y="234.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="508.0" y1="246.0" x2="516.0" y2="246.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="540.0" y="234.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="560.0" y1="246.0" x2="568.0" y2="246.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="592.0" y="234.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="612.0" y1="246.0" x2="620.0" y2="246.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <text x="168.0" y="282.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">时钟倒退</text>
+  <rect x="176.0" y="266.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="196.0" y1="278.0" x2="204.0" y2="278.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="228.0" y="266.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="248.0" y1="278.0" x2="256.0" y2="278.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="280.0" y="266.0" width="48.0" height="24.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="304.0" y="281.5" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">2/2</text>
+  <rect x="332.0" y="266.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="352.0" y1="278.0" x2="360.0" y2="278.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="384.0" y="266.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="404.0" y1="278.0" x2="412.0" y2="278.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="436.0" y="266.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="456.0" y1="278.0" x2="464.0" y2="278.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="488.0" y="266.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="508.0" y1="278.0" x2="516.0" y2="278.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="540.0" y="266.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="560.0" y1="278.0" x2="568.0" y2="278.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="592.0" y="266.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="612.0" y1="278.0" x2="620.0" y2="278.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <text x="168.0" y="314.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">动作饱和</text>
+  <rect x="176.0" y="298.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="196.0" y1="310.0" x2="204.0" y2="310.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="228.0" y="298.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="248.0" y1="310.0" x2="256.0" y2="310.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="280.0" y="298.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="300.0" y1="310.0" x2="308.0" y2="310.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="332.0" y="298.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="352.0" y1="310.0" x2="360.0" y2="310.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="384.0" y="298.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="404.0" y1="310.0" x2="412.0" y2="310.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="436.0" y="298.0" width="48.0" height="24.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="460.0" y="313.5" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">1/1</text>
+  <rect x="488.0" y="298.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="508.0" y1="310.0" x2="516.0" y2="310.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="540.0" y="298.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="560.0" y1="310.0" x2="568.0" y2="310.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="592.0" y="298.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="612.0" y1="310.0" x2="620.0" y2="310.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <text x="168.0" y="346.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">演示截断</text>
+  <rect x="176.0" y="330.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="196.0" y1="342.0" x2="204.0" y2="342.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="228.0" y="330.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="248.0" y1="342.0" x2="256.0" y2="342.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="280.0" y="330.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="300.0" y1="342.0" x2="308.0" y2="342.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="332.0" y="330.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="352.0" y1="342.0" x2="360.0" y2="342.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="384.0" y="330.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="404.0" y1="342.0" x2="412.0" y2="342.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="436.0" y="330.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="456.0" y1="342.0" x2="464.0" y2="342.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="488.0" y="330.0" width="48.0" height="24.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="512.0" y="345.5" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">5/5</text>
+  <rect x="540.0" y="330.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="560.0" y1="342.0" x2="568.0" y2="342.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="592.0" y="330.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="612.0" y1="342.0" x2="620.0" y2="342.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <text x="168.0" y="378.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">全部标成功</text>
+  <rect x="176.0" y="362.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="196.0" y1="374.0" x2="204.0" y2="374.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="228.0" y="362.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="248.0" y1="374.0" x2="256.0" y2="374.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="280.0" y="362.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="300.0" y1="374.0" x2="308.0" y2="374.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="332.0" y="362.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="352.0" y1="374.0" x2="360.0" y2="374.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="384.0" y="362.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="404.0" y1="374.0" x2="412.0" y2="374.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="436.0" y="362.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="456.0" y1="374.0" x2="464.0" y2="374.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="488.0" y="362.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="508.0" y1="374.0" x2="516.0" y2="374.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="540.0" y="362.0" width="48.0" height="24.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="564.0" y="377.5" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">127/127</text>
+  <rect x="592.0" y="362.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="612.0" y1="374.0" x2="620.0" y2="374.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <text x="168.0" y="410.0" font-size="9.5" fill="#1F2328" text-anchor="end" font-weight="400" opacity="1.0">元数据缺失</text>
+  <rect x="176.0" y="394.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="196.0" y1="406.0" x2="204.0" y2="406.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="228.0" y="394.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="248.0" y1="406.0" x2="256.0" y2="406.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="280.0" y="394.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="300.0" y1="406.0" x2="308.0" y2="406.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="332.0" y="394.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="352.0" y1="406.0" x2="360.0" y2="406.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="384.0" y="394.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="404.0" y1="406.0" x2="412.0" y2="406.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="436.0" y="394.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="456.0" y1="406.0" x2="464.0" y2="406.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="488.0" y="394.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="508.0" y1="406.0" x2="516.0" y2="406.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="540.0" y="394.0" width="48.0" height="24.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <line x1="560.0" y1="406.0" x2="568.0" y2="406.0" stroke="#8A94A0" stroke-width="1" opacity="0.45"/>
+  <rect x="592.0" y="394.0" width="48.0" height="24.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="616.0" y="409.5" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="600" opacity="1.0">127/127</text>
+  <rect x="176.0" y="431.0" width="12.0" height="12.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.92"/>
+  <text x="194.0" y="441.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">全部抓到</text>
+  <rect x="252.0" y="431.0" width="12.0" height="12.0" rx="3" fill="#C0651A" stroke="none" stroke-width="1.2" opacity="0.18"/>
+  <text x="270.0" y="441.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">抓到一部分</text>
+  <rect x="337.0" y="431.0" width="12.0" height="12.0" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="355.0" y="441.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">一条没抓到</text>
+  <line x1="24.0" y1="460.0" x2="736.0" y2="460.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="478.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">第 4 行是唯一「一格填不满」的地方：一致性只看到 5 条丢帧，另 2 条丢在静止段，残差根本没变大。</text>
+  <text x="24.0" y="496.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">这两条只有时间戳能证 —— 所以两项检查不是冗余，是互补。</text>
+  <text x="24.0" y="514.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">第 2 行是另一头：哈希对 3 条重采一条都抓不到，换粗指纹才全中。手段换了，抓得到的东西就变了。</text>
+</svg>

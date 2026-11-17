@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="360" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">同一个 10 cm/s，动作数值差 10 倍；插值误差占掉一整个步长</text>
+  <text x="24.0" y="52.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">左：每步位移。右：把该频率线性插值到 10 Hz 时的最大误差，占该频率步长的比例。</text>
+  <rect x="103.0" y="134.0" width="28.1" height="136.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="117.0" y="128.0" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">33.3</text>
+  <text x="117.0" y="288.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">3</text>
+  <rect x="157.0" y="188.4" width="28.1" height="81.6" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="171.0" y="182.4" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">20.0</text>
+  <text x="171.0" y="288.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">5</text>
+  <rect x="211.0" y="229.2" width="28.1" height="40.8" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="225.0" y="223.2" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">10.0</text>
+  <text x="225.0" y="288.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <rect x="265.0" y="242.8" width="28.1" height="27.2" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="279.0" y="236.8" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">6.7</text>
+  <text x="279.0" y="288.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">15</text>
+  <rect x="319.0" y="256.4" width="28.1" height="13.6" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="333.0" y="250.4" font-size="8.5" fill="#3C6E9F" text-anchor="middle" font-weight="400" opacity="1.0">3.3</text>
+  <text x="333.0" y="288.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">30</text>
+  <line x1="90.0" y1="270.0" x2="360.0" y2="270.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="90.0" y="92.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">每步位移（mm），横轴 = 控制频率（Hz）</text>
+  <rect x="479.0" y="128.3" width="28.1" height="141.7" rx="3" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.32"/>
+  <text x="493.0" y="122.3" font-size="8.5" fill="#C0392B" text-anchor="middle" font-weight="600" opacity="1.0">83%</text>
+  <text x="493.0" y="288.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">3</text>
+  <rect x="525.0" y="185.0" width="28.1" height="85.0" rx="3" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.32"/>
+  <text x="539.0" y="179.0" font-size="8.5" fill="#C0392B" text-anchor="middle" font-weight="600" opacity="1.0">50%</text>
+  <text x="539.0" y="288.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">5</text>
+  <rect x="571.0" y="227.5" width="28.1" height="42.5" rx="3" fill="#C0651A" stroke="none" stroke-width="1.2" opacity="0.32"/>
+  <text x="585.0" y="221.5" font-size="8.5" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">25%</text>
+  <text x="585.0" y="288.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">10</text>
+  <rect x="617.0" y="241.7" width="28.1" height="28.3" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.32"/>
+  <text x="631.0" y="235.7" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="600" opacity="1.0">17%</text>
+  <text x="631.0" y="288.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">15</text>
+  <rect x="663.0" y="255.8" width="28.1" height="14.2" rx="3" fill="#8A94A0" stroke="none" stroke-width="1.2" opacity="0.32"/>
+  <text x="677.0" y="249.8" font-size="8.5" fill="#8A94A0" text-anchor="middle" font-weight="600" opacity="1.0">8%</text>
+  <text x="677.0" y="288.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">30</text>
+  <line x1="470.0" y1="270.0" x2="700.0" y2="270.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="470.0" y="92.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">插值误差 / 步长，横轴 = 原始频率（Hz）</text>
+  <line x1="400.0" y1="100.0" x2="400.0" y2="288.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <line x1="24.0" y1="306.0" x2="736.0" y2="306.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="328.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">3 Hz 的数据插值到 10 Hz：误差 27.8 mm，它本身每步只有 33.3 mm。</text>
+  <text x="24.0" y="346.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">上采样不产生信息 —— 这条通道已经被采样率限死了。</text>
+</svg>

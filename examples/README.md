@@ -52,9 +52,9 @@ python examples/01_robotics_primer/01_joint_space_vs_cartesian.py
 
 | 脚本 | 对应文章 | 演示什么 |
 |---|---|---|
-| `04_datasets/01_schema_alignment.py` | [多本体聚合](../04-datasets/open-x-embodiment.md) | 四种 schema 的字段矩阵、零空间占比、量化放大、频率与量纲、装不下的本体 |
-| `04_datasets/02_collection_cost.py` | [DROID](../04-datasets/droid.md) | 公开数字对账、人力效率 0.35%、场景覆盖饱和曲线、每场景预算取舍 |
-| `04_datasets/03_dataset_linter.py` | [自采数据](../04-datasets/self-collected.md) | 七项检查，在埋了缺陷的合成数据上验证召回率 |
+| `04_datasets/01_schema_alignment.py` | [多本体聚合](../04-datasets/open-x-embodiment.md) | 四种 schema 的字段矩阵、零空间、两条 IK 解差 172°、量化放大 160×、频率与量纲、损失份额、维度阶梯 |
+| `04_datasets/02_collection_cost.py` | [DROID](../04-datasets/droid.md) | 公开数字对账、人力效率 0.35%、固定/边际拆分 ≥96%、场景内饱和、覆盖曲线、长尾敏感度、预算取舍、失败与售后 |
+| `04_datasets/03_dataset_linter.py` | [自采数据](../04-datasets/self-collected.md) | 在埋了九类缺陷的合成数据上跑七项检查：可检测下限 0.2 rad、全身 vs 逐关节、指纹门槛、饱和两种严重度 |
 
 ### 阶段 5 · 从数据学策略
 

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 454" width="760" height="454" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="454" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">四个数据集共有的字段只有 3 个，决定能否复用的 4 个全都不齐</text>
+  <text x="24.0" y="52.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">13 个字段 × 4 套 schema。✓ 机器可读　△ 只在文档里　· 没有</text>
+  <text x="235.0" y="70.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="600" opacity="1.0">OXE / RLDS</text>
+  <text x="353.0" y="70.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="600" opacity="1.0">DROID</text>
+  <text x="471.0" y="70.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="600" opacity="1.0">LeRobot v2</text>
+  <text x="589.0" y="70.0" font-size="9.5" fill="#57606A" text-anchor="middle" font-weight="600" opacity="1.0">自采</text>
+  <text x="26.0" y="90.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">外视相机</text>
+  <rect x="213.0" y="78.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="235.0" y="91.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="331.0" y="78.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="353.0" y="91.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="449.0" y="78.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="471.0" y="91.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="567.0" y="78.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="589.0" y="91.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <text x="26.0" y="114.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">腕部相机</text>
+  <text x="235.0" y="115.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <rect x="331.0" y="102.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="353.0" y="115.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="449.0" y="102.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="471.0" y="115.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <text x="589.0" y="115.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <text x="26.0" y="138.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">关节位置</text>
+  <rect x="213.0" y="126.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="235.0" y="139.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="331.0" y="126.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="353.0" y="139.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="449.0" y="126.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="471.0" y="139.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="567.0" y="126.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="589.0" y="139.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <text x="26.0" y="162.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">末端位姿</text>
+  <text x="235.0" y="163.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <rect x="331.0" y="150.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="353.0" y="163.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <text x="471.0" y="163.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <rect x="567.0" y="150.0" width="44.0" height="16.0" rx="4" fill="none" stroke="#C0651A" stroke-width="0.9" opacity="1.0" stroke-dasharray="2.5 2"/>
+  <text x="589.0" y="163.0" font-size="9.5" fill="#C0651A" text-anchor="middle" font-weight="400" opacity="1.0">△</text>
+  <text x="26.0" y="186.0" font-size="9.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">动作</text>
+  <rect x="213.0" y="174.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="235.0" y="187.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="331.0" y="174.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="353.0" y="187.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="449.0" y="174.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="471.0" y="187.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="567.0" y="174.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="589.0" y="187.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <text x="26.0" y="210.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">语言指令</text>
+  <rect x="213.0" y="198.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="235.0" y="211.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="331.0" y="198.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="353.0" y="211.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="449.0" y="198.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="471.0" y="211.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="567.0" y="198.0" width="44.0" height="16.0" rx="4" fill="none" stroke="#C0651A" stroke-width="0.9" opacity="1.0" stroke-dasharray="2.5 2"/>
+  <text x="589.0" y="211.0" font-size="9.5" fill="#C0651A" text-anchor="middle" font-weight="400" opacity="1.0">△</text>
+  <text x="26.0" y="234.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">首末帧标记</text>
+  <rect x="213.0" y="222.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="235.0" y="235.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="331.0" y="222.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="353.0" y="235.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="449.0" y="222.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="471.0" y="235.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <text x="589.0" y="235.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <text x="26.0" y="258.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">reward/terminal</text>
+  <rect x="213.0" y="246.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="235.0" y="259.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="331.0" y="246.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="353.0" y="259.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <text x="471.0" y="259.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <text x="589.0" y="259.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <text x="26.0" y="282.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">相机内参</text>
+  <text x="235.0" y="283.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <rect x="331.0" y="270.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="353.0" y="283.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <text x="471.0" y="283.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <text x="589.0" y="283.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <rect x="16.0" y="291.0" width="3.0" height="20.0" rx="1.5" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.75"/>
+  <text x="26.0" y="306.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">相机外参</text>
+  <text x="235.0" y="307.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <rect x="331.0" y="294.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="353.0" y="307.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <text x="471.0" y="307.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <text x="589.0" y="307.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <rect x="16.0" y="315.0" width="3.0" height="20.0" rx="1.5" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.75"/>
+  <text x="26.0" y="330.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">本体标识</text>
+  <rect x="213.0" y="318.0" width="44.0" height="16.0" rx="4" fill="none" stroke="#C0651A" stroke-width="0.9" opacity="1.0" stroke-dasharray="2.5 2"/>
+  <text x="235.0" y="331.0" font-size="9.5" fill="#C0651A" text-anchor="middle" font-weight="400" opacity="1.0">△</text>
+  <rect x="331.0" y="318.0" width="44.0" height="16.0" rx="4" fill="none" stroke="#C0651A" stroke-width="0.9" opacity="1.0" stroke-dasharray="2.5 2"/>
+  <text x="353.0" y="331.0" font-size="9.5" fill="#C0651A" text-anchor="middle" font-weight="400" opacity="1.0">△</text>
+  <rect x="449.0" y="318.0" width="44.0" height="16.0" rx="4" fill="none" stroke="#C0651A" stroke-width="0.9" opacity="1.0" stroke-dasharray="2.5 2"/>
+  <text x="471.0" y="331.0" font-size="9.5" fill="#C0651A" text-anchor="middle" font-weight="400" opacity="1.0">△</text>
+  <text x="589.0" y="331.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <rect x="16.0" y="339.0" width="3.0" height="20.0" rx="1.5" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.75"/>
+  <text x="26.0" y="354.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">控制频率</text>
+  <rect x="213.0" y="342.0" width="44.0" height="16.0" rx="4" fill="none" stroke="#C0651A" stroke-width="0.9" opacity="1.0" stroke-dasharray="2.5 2"/>
+  <text x="235.0" y="355.0" font-size="9.5" fill="#C0651A" text-anchor="middle" font-weight="400" opacity="1.0">△</text>
+  <rect x="331.0" y="342.0" width="44.0" height="16.0" rx="4" fill="none" stroke="#C0651A" stroke-width="0.9" opacity="1.0" stroke-dasharray="2.5 2"/>
+  <text x="353.0" y="355.0" font-size="9.5" fill="#C0651A" text-anchor="middle" font-weight="400" opacity="1.0">△</text>
+  <rect x="449.0" y="342.0" width="44.0" height="16.0" rx="4" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.13"/>
+  <text x="471.0" y="355.0" font-size="10.5" fill="#3C6E9F" text-anchor="middle" font-weight="600" opacity="1.0">✓</text>
+  <rect x="567.0" y="342.0" width="44.0" height="16.0" rx="4" fill="none" stroke="#C0651A" stroke-width="0.9" opacity="1.0" stroke-dasharray="2.5 2"/>
+  <text x="589.0" y="355.0" font-size="9.5" fill="#C0651A" text-anchor="middle" font-weight="400" opacity="1.0">△</text>
+  <rect x="16.0" y="363.0" width="3.0" height="20.0" rx="1.5" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.75"/>
+  <text x="26.0" y="378.0" font-size="9.5" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">成败标注</text>
+  <text x="235.0" y="379.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <rect x="331.0" y="366.0" width="44.0" height="16.0" rx="4" fill="none" stroke="#C0651A" stroke-width="0.9" opacity="1.0" stroke-dasharray="2.5 2"/>
+  <text x="353.0" y="379.0" font-size="9.5" fill="#C0651A" text-anchor="middle" font-weight="400" opacity="1.0">△</text>
+  <text x="471.0" y="379.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <text x="589.0" y="379.0" font-size="11" fill="#8A94A0" text-anchor="middle" font-weight="400" opacity="1.0">·</text>
+  <line x1="24.0" y1="394.0" x2="736.0" y2="394.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="414.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">蓝底 3 行 = 四个数据集都有；左侧红线 4 行 = 决定能不能复用的字段。</text>
+  <text x="24.0" y="432.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">转换只能保留下游 schema 里有的字段 —— 聚合是剪枝，不是搬运。</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="380" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">固定 76,000 条：预算集中在少数场景，会砍掉整个尾部</text>
+  <text x="24.0" y="52.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">左：能去的场景数。右：覆盖的「数据比例」（按出现频率加权）。</text>
+  <text x="128.0" y="96.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">能去多少个场景</text>
+  <text x="470.0" y="96.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">覆盖的数据比例</text>
+  <text x="24.0" y="119.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">50 条/场景</text>
+  <rect x="128.0" y="104.0" width="247.6" height="20.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="381.6" y="118.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">564</text>
+  <rect x="470.0" y="104.0" width="203.7" height="20.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="667.7" y="118.0" font-size="9" fill="#FFFFFF" text-anchor="end" font-weight="600" opacity="1.0">100%</text>
+  <text x="24.0" y="149.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">100 条/场景</text>
+  <rect x="128.0" y="134.0" width="247.6" height="20.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="381.6" y="148.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">564</text>
+  <rect x="470.0" y="134.0" width="203.7" height="20.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="667.7" y="148.0" font-size="9" fill="#FFFFFF" text-anchor="end" font-weight="600" opacity="1.0">100%</text>
+  <text x="24.0" y="179.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">200 条/场景</text>
+  <rect x="128.0" y="164.0" width="166.8" height="20.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="300.8" y="178.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">380</text>
+  <rect x="470.0" y="164.0" width="192.1" height="20.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="656.1" y="178.0" font-size="9" fill="#FFFFFF" text-anchor="end" font-weight="600" opacity="1.0">94%</text>
+  <text x="24.0" y="209.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">500 条/场景</text>
+  <rect x="128.0" y="194.0" width="66.7" height="20.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="200.7" y="208.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">152</text>
+  <rect x="470.0" y="194.0" width="165.1" height="20.0" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="629.1" y="208.0" font-size="9" fill="#FFFFFF" text-anchor="end" font-weight="600" opacity="1.0">81%</text>
+  <text x="24.0" y="239.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">1000 条/场景</text>
+  <rect x="128.0" y="224.0" width="33.4" height="20.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="167.4" y="238.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">76</text>
+  <rect x="470.0" y="224.0" width="144.8" height="20.0" rx="3" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="608.8" y="238.0" font-size="9" fill="#FFFFFF" text-anchor="end" font-weight="600" opacity="1.0">71%</text>
+  <text x="24.0" y="269.0" font-size="9" fill="#1F2328" text-anchor="start" font-weight="400" opacity="1.0">2000 条/场景</text>
+  <rect x="128.0" y="254.0" width="16.7" height="20.0" rx="3" fill="#3C6E9F" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="150.7" y="268.0" font-size="9" fill="#3C6E9F" text-anchor="start" font-weight="600" opacity="1.0">38</text>
+  <rect x="470.0" y="254.0" width="124.6" height="20.0" rx="3" fill="#C0392B" stroke="none" stroke-width="1.2" opacity="0.3"/>
+  <text x="588.6" y="268.0" font-size="9" fill="#FFFFFF" text-anchor="end" font-weight="600" opacity="1.0">61%</text>
+  <line x1="24.0" y1="306.0" x2="736.0" y2="306.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="328.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">100 条/场景 → 564 个场景；1000 条/场景 → 76 个场景，覆盖的数据比例掉到 71%。</text>
+  <text x="24.0" y="348.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">但尾部那 400 个场景按数据量算不足 10%，按信息量算却最重要 —— 那些行为只存在于那里。</text>
+</svg>

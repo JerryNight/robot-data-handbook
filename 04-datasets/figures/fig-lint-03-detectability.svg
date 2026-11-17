@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 414" width="760" height="414" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="760" height="414" fill="#ffffff"/>
+  <text x="24.0" y="30.0" font-size="12.5" fill="#1F2328" text-anchor="start" font-weight="600" opacity="1.0">跨过噪声不等于能判定：两条线差 2.6 倍</text>
+  <text x="24.0" y="52.0" font-size="10" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">横轴 = 动作幅值（rad，对数）。上：错一帧造成的二阶差分；下：offset=0 的残差倍数。</text>
+  <text x="96.0" y="78.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">二阶差分峰值（rad）</text>
+  <line x1="96.0" y1="186.0" x2="700.0" y2="186.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="189.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-6</text>
+  <line x1="96.0" y1="159.5" x2="700.0" y2="159.5" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="163.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-5</text>
+  <line x1="96.0" y1="133.0" x2="700.0" y2="133.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="136.5" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-4</text>
+  <line x1="96.0" y1="106.5" x2="700.0" y2="106.5" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="110.0" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1e-3</text>
+  <path d="M 115.9 170.2 L 177.7 162.2 L 259.4 151.7 L 321.2 143.7 L 383.0 135.7 L 464.7 125.2 L 526.5 117.2 L 588.3 109.2 L 670.0 98.7" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="115.9" cy="170.2" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="177.7" cy="162.2" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="259.4" cy="151.7" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="321.2" cy="143.7" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="383.0" cy="135.7" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="464.7" cy="125.2" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="526.5" cy="117.2" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="588.3" cy="109.2" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="670.0" cy="98.7" r="3" fill="#3C6E9F" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="96.0" y1="120.4" x2="700.0" y2="120.4" stroke="#C0392B" stroke-width="1.4" opacity="1.0" stroke-dasharray="5 4"/>
+  <text x="100.0" y="113.4" font-size="8.5" fill="#C0392B" text-anchor="start" font-weight="400" opacity="1.0">跟踪噪声 3e-04（数据的地板）</text>
+  <line x1="502.0" y1="88.0" x2="502.0" y2="186.0" stroke="#C0651A" stroke-width="1" opacity="1.0" stroke-dasharray="3 3"/>
+  <circle cx="502.0" cy="120.4" r="4" fill="#C0651A" stroke="none" stroke-width="0" opacity="1.0"/>
+  <text x="96.0" y="222.0" font-size="8.5" fill="#8A94A0" text-anchor="start" font-weight="400" opacity="1.0">offset=0 的残差倍数</text>
+  <line x1="96.0" y1="325.3" x2="700.0" y2="325.3" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="328.8" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">1×</text>
+  <line x1="96.0" y1="294.2" x2="700.0" y2="294.2" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="297.7" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">2×</text>
+  <line x1="96.0" y1="253.1" x2="700.0" y2="253.1" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="88.0" y="256.6" font-size="8.5" fill="#8A94A0" text-anchor="end" font-weight="400" opacity="1.0">5×</text>
+  <line x1="96.0" y1="294.2" x2="700.0" y2="294.2" stroke="#C0392B" stroke-width="1.4" opacity="1.0" stroke-dasharray="5 4"/>
+  <text x="696.0" y="287.2" font-size="8.5" fill="#C0392B" text-anchor="end" font-weight="400" opacity="1.0">判定线：2 倍</text>
+  <path d="M 115.9 316.8 L 177.7 316.8 L 259.4 316.3 L 321.2 316.1 L 383.0 315.2 L 464.7 312.8 L 526.5 306.9 L 588.3 289.7 L 670.0 253.5" fill="none" stroke="#3C6E9F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+  <circle cx="115.9" cy="316.8" r="3.4" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="177.7" cy="316.8" r="3.4" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="259.4" cy="316.3" r="3.4" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="321.2" cy="316.1" r="3.4" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="383.0" cy="315.2" r="3.4" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="464.7" cy="312.8" r="3.4" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="526.5" cy="306.9" r="3.4" fill="#8A94A0" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="588.3" cy="289.7" r="3.4" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <circle cx="670.0" cy="253.5" r="3.4" fill="#2E7D5B" stroke="none" stroke-width="0" opacity="1.0"/>
+  <line x1="588.3" y1="232.0" x2="588.3" y2="330.0" stroke="#2E7D5B" stroke-width="1" opacity="1.0" stroke-dasharray="3 3"/>
+  <text x="595.3" y="246.0" font-size="9" fill="#2E7D5B" text-anchor="start" font-weight="600" opacity="1.0">0.20 rad：到这里才判得出</text>
+  <line x1="502.0" y1="206.0" x2="581.8" y2="206.0" stroke="#C0651A" stroke-width="1.4"/>
+  <polygon points="588.3,206.0 581.8,202.4 581.8,209.6" fill="#C0651A"/>
+  <text x="545.2" y="200.0" font-size="9" fill="#C0651A" text-anchor="middle" font-weight="600" opacity="1.0">2.6×</text>
+  <text x="115.9" y="346.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">0.001</text>
+  <text x="321.2" y="346.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">0.01</text>
+  <text x="526.5" y="346.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">0.1</text>
+  <text x="670.0" y="346.0" font-size="8.5" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">0.5</text>
+  <text x="398.0" y="364.0" font-size="9" fill="#57606A" text-anchor="middle" font-weight="400" opacity="1.0">动作幅值（rad）</text>
+  <line x1="24.0" y1="372.0" x2="736.0" y2="372.0" stroke="#E4E8EC" stroke-width="1" opacity="1.0"/>
+  <text x="24.0" y="398.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0">二阶差分 ∝ 幅值 ×(2πf·dt)²，随速度平方增长；噪声是固定的。两者在 0.076 rad 交叉，但判定要 2 倍余量 —— 2.6 倍就是这么来的。</text>
+  <text x="24.0" y="216.0" font-size="9" fill="#57606A" text-anchor="start" font-weight="400" opacity="1.0"></text>
+</svg>
