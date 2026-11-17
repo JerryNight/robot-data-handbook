@@ -347,7 +347,7 @@ def part6_alpha(n_scenes=SCENES, alphas=(0.8, 1.0, 1.2, 1.5), target=0.9):
     print("-" * 74)
     print("  α 越大，分布越集中（少数场景吃掉更多数据）。")
     print()
-    print("  %s%s%s" % (pad("α", 8), pad("覆盖 90% 所需", 18), "含义"))
+    print("  %s%s%s" % (pad("α", 8), pad("覆盖 %.0f%% 所需" % (target * 100), 18), "含义"))
     print("  " + "-" * 58)
 
     rows = []
